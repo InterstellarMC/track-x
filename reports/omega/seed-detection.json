@@ -1,0 +1,18 @@
+{
+  "event": "event000001002",
+  "n": 5261,
+  "mixed_prevalence": 0.35848697966166126,
+  "residual_auc": 0.9544102745375279,
+  "residual_ap": 0.928046931281504,
+  "changes": {
+    "unchanged": 4653,
+    "alternative_available": 5261,
+    "mixed_with_alternative": 1886,
+    "changed_mixed_0_to_0": 312,
+    "changed_mixed_1_to_0": 52,
+    "changed_mixed_0_to_1": 8,
+    "changed_mixed_1_to_1": 236
+  },
+  "official_score": 0.23399958389974201,
+  "scoring_s": 0.25015766599972267
+}

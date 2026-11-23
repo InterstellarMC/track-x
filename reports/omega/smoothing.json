@@ -1,0 +1,8 @@
+{
+  "event": "event000001002",
+  "count": 2774,
+  "filter_median_abs_error": 0.01105272803525248,
+  "smooth_median_abs_error": 0.017349741313369083,
+  "smooth_one_sigma": 0.7501802451333814,
+  "fit_s": 0.07383808400118141
+}

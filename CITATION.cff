@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the software revision and the Omega experiment manifest when using TRACK-X results."
+title: "TRACK-X: geometry-constrained and uncertainty-aware particle tracking"
+type: software
+authors:
+  - name: "TRACK-X contributors"
+repository-code: "https://github.com/InterstellarMC/track-x"
+license: MIT
+keywords:
+  - particle tracking
+  - TrackML
+  - Kalman filtering
+  - scientific reproducibility
+
