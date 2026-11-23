@@ -82,6 +82,55 @@ def main():
         .mean()
         .reset_index()
     )
+    confirmation = pd.DataFrame(read("confirmation.json"))
+    confirmed = (
+        confirmation.groupby(["method", "passes"])[
+            [
+                "official_score",
+                "efficiency",
+                "fake",
+                "duplicate",
+                "purity",
+                "completeness",
+                "reconstruction_s",
+            ]
+        ]
+        .mean()
+        .reset_index()
+    )
+    comparable = confirmation.query('method=="geometry"').pivot(
+        index="event", columns="passes", values=["official_score", "efficiency", "fake"]
+    )
+    delta = comparable.xs(2, level="passes", axis=1) - comparable.xs(
+        1, level="passes", axis=1
+    )
+    write(
+        "CONFIRMATION",
+        "Prospective three-event confirmation",
+        [
+            "The protocol was committed before the three additional event files were fetched. Both passes and both ranking methods used the same previously frozen weights and geometric settings. Scores are official complete-event scores; efficiency and fake fractions are restricted to volume 8. Times exclude CSV loading and truth evaluation.",
+            table(confirmed),
+            "Paired two-pass minus one-pass changes for geometry-only reconstruction, by event.",
+            table(delta.reset_index()),
+            "Every event improved on both prespecified primary endpoints. The small differences between two-pass geometry and GNN-weighted ranking do not establish a learned advantage. The three non-random consecutive archive events limit external validity. [Frozen protocol](CONFIRMATION_PROTOCOL.md) · [Exact file identities](confirmation-manifest.json) · [Individual records](confirmation.json)",
+        ],
+    )
+    volume = (
+        pd.DataFrame(read("volumes.json"))
+        .groupby("volume")[
+            [
+                "hits",
+                "paths",
+                "efficiency",
+                "fake",
+                "official_score",
+                "median_abs_curvature_delta_per_m",
+            ]
+        ]
+        .mean()
+        .reset_index()
+    )
+    surface = read("surfaces.json")
     graph = pd.DataFrame(
         [dict(event=e["event"], **g) for e in events for g in e["graphs"]]
     )
@@ -131,6 +180,9 @@ def main():
         [
             f"The official geometry table contains {geom['modules']} modules. The reconstruction covers all azimuths in volume 8, divided into disjoint sectors. Module centres describe sensor placement; the minimum and maximum centre radii below do not describe complete sensor outlines.",
             table(pd.DataFrame(geom["layers"]).query("volume_id==8")),
+            f"Maximum elementwise rotation orthogonality error |RᵀR−I| was {surface['orthogonality_max']:.3g}; the determinant range was {surface['determinant_range']}. Projecting hit-minus-centre onto the local axes gives normal distances and in-plane extent diagnostics. [Per-volume surface checks](surfaces.json)",
+            table(volume),
+            "The same single-pass geometric assembler was evaluated separately on each barrel volume. Volume 17 has only two nominal layers; this three-distinct-layer method cannot form candidates there. Curvature error compares fitted signed curvature with twice the sine of half the truth transverse momentum-direction change divided by truth transverse chord length. Both endpoints must belong to the matched particle. Material and field variation limit this local effective-curvature reference.",
             "TrackML has overlapping modules, unequal radial steps and disks at different z. A true particle may produce multiple hits on the same nominal layer. The Phase I generator permits at most one hit per layer. Radial ordering alone is unsuitable for endcaps. Geometry and occupancy for every volume are in [the detector figure](geometry.html) and [machine-readable inventory](geometry.json).",
         ],
     )
@@ -214,14 +266,34 @@ def main():
                     event=r.event,
                     group=k,
                     **v,
-                    efficiency=v["matched"] / max(1, v["eligible"]),
+                    efficiency=v["matched"] / v["eligible"]
+                    if v["eligible"]
+                    else np.nan,
                 )
             )
+    natural_noise = pd.DataFrame([r for sectors in base.occupancy for r in sectors])
+    natural_noise["noise_quartile"] = pd.qcut(
+        natural_noise.noise_fraction, 4, labels=["Q1", "Q2", "Q3", "Q4"]
+    )
+    noise = (
+        natural_noise.groupby("noise_quartile", observed=True)
+        .agg(
+            sectors=("nodes", "size"),
+            mean_noise_fraction=("noise_fraction", "mean"),
+            mean_nodes=("nodes", "mean"),
+            fakes=("sector_fakes", "sum"),
+            candidates=("tracks", "sum"),
+        )
+        .reset_index()
+    )
+    noise["sector_fake_rate"] = noise.fakes / noise.candidates
     write(
         "FAILURE_ANALYSIS",
         "Failure modes",
         [
             table(fail),
+            table(noise),
+            "Noise quartiles stratify the observed fraction of particle_id-zero hits after reconstruction. Rates pool unmatched candidates within each sector, using sector-local matching. Occupancy covaries with natural noise; this is descriptive, not a controlled injection study. The local failure display selects the first missed cross-sector particle in integer-ID order on the first test event and draws touching candidates. Run scripts/phase2_display.py to generate it.",
             "Sparse denotes exactly three retained barrel hits. Crowded means at least one hit whose nearest same-layer sector neighbor is from a different truth association within 2 mm. Boundary particles occupy more than one sector. Groups overlap. No truth is used to create candidates or resolve ownership. Figures and per-sector fake counts expose occupancy dependence. Zero denominator is undefined.",
             "Four layers limit completeness under the official full-detector score. Fixed angular sectors split viable tracks. The 16/32/64 sector sweep measures the cost of boundaries together with changes in candidate competition. Exclusivity can suppress duplicates while assigning a hit to the wrong candidate. Fragment counts in stress.json count truth particles represented by two or more hits on multiple output paths. They differ from duplicate counts under the majority matching rule.",
         ],
@@ -315,6 +387,20 @@ def main():
         row=2,
         col=1,
     )
+    for method, sub in confirmation.query("passes==2").groupby("method"):
+        b = (
+            pd.DataFrame([row for group in sub.pt for row in group])
+            .groupby("lower")
+            .sum()
+        )
+        fig.add_scatter(
+            x=b.index,
+            y=b.matched / b.eligible,
+            mode="lines+markers",
+            name="Confirmation: " + method,
+            row=1,
+            col=1,
+        )
     for dev, g in pd.DataFrame(read("devices.json")).groupby("device"):
         fig.add_scatter(
             x=g.edges, y=g.peak_rss_bytes / 1e6, mode="markers", name=dev, row=3, col=1
@@ -343,7 +429,7 @@ def main():
         "FINAL_RESEARCH_REPORT",
         "TRACK-X: Physics-Constrained Graph Neural Networks for Charged-Particle Track Reconstruction",
         [
-            "## Abstract\n\nWe tested graph construction, edge classification and ambiguity resolution on six official TrackML simulated events. Two events trained the compact networks, one selected checkpoints, and three supplied the paired evaluation. All tracked hits belong to the four-layer pixel barrel. A geometry-only whole-path ranker performed similarly to its GNN-weighted counterpart. The experiment gives stronger evidence for a change in candidate generation and assembly than for a learned advantage.",
+            "## Abstract\n\nWe studied nine official TrackML simulated events. Two events trained the compact networks, one selected checkpoints, three supplied the initial paired evaluation, and three newly acquired events tested a prespecified sector-boundary change. The primary reconstruction uses the four-layer pixel barrel. A separate transfer check examines other barrel volumes. A geometry-only whole-path ranker performed similarly to its GNN-weighted counterpart. The experiment gives stronger evidence for a change in candidate generation and assembly than for a learned advantage.",
             "## Physics, data and methods\n\nPrompt charged trajectories in a uniform axial field bend transversely while advancing longitudinally with arc length. Locally, azimuth and z can be extrapolated in radius. We score triplets by extrapolation residuals scaled by 0.010 rad and 3 mm. A norm below three retains a hypothesis. These are engineering tolerances; they are not a detector covariance or a calibrated chi-square. Ranking before hit ownership resolves conflicts that greedy edge selection makes irreversible. Indexed sparse neighborhoods and bounded out-degree limit hypothesis enumeration. [Detector geometry](DETECTOR_GEOMETRY.md) · [Input provenance](TRACKML_DATA_VALIDATION.md)",
             "## Results on official simulation\n\n"
             + table(gs[["builder", "recall", "edges", "false_candidates"]]),
@@ -361,9 +447,13 @@ def main():
             "## Sector boundary follow-up\n\nA second tiling is shifted by half a sector. Geometry-only paths from both passes compete globally by length, then triplet residual, then deterministic hit index. Both rows use the same final ownership resolver. This follow-up used the original test events after diagnosing boundary losses; the result is exploratory.",
             table(boundary),
             "The official score is small because full truth and weights include outer layers and disks that the reconstruction leaves unassigned. Custom barrel efficiency also remains far below one. These measures answer different questions. The table gives event means and between-event sample SD for efficiency. Three events from the start of one archive and one model seed cannot establish general-population precision. The path-assembly follow-up was motivated by initial transfer results and is exploratory on this test split. An independent untouched sample is needed for confirmation.",
+            "## Independent confirmation\n\nAfter freezing the boundary protocol in Git, three further official events were acquired. Two passes improved full-event score and barrel efficiency in every confirmation event. Adding a learned edge weight to triplet ranking had little effect. [Paired event results](CONFIRMATION.md)",
+            table(
+                confirmed[["method", "passes", "official_score", "efficiency", "fake"]]
+            ),
             "## Synthetic comparison\n\nThe original synthetic results remain separate. The audit reproduced every stored non-timing metric for nine Phase I experiments. Detector overlap, multiple hits per layer, high occupancy and abrupt sector boundaries expose failure modes absent from the ideal eight-cylinder model. [Phase I audit](BASELINE_AUDIT.md) · [Synthetic results](../RESULTS.md)",
             "## Related work and comparison limits\n\nThe TrackML accuracy challenge supplies weighted truth associations and an official scoring implementation. Graph-based seeding and labeling motivated the learned comparison. ACTS uses geometry-aware propagation, measurement selection, seeding, combinatorial Kalman branching, fitting and ambiguity resolution. TRACK-X tests local compatibility and shared-hit resolution with fixed tolerances. A matched ACTS execution would require the same digitization, source-link geometry, seeding, field, uncertainties and selection denominators. No such setup was executed. A useful first upstream discussion would concern a small seam/overlap regression fixture with known geometry and licensing. [TrackML paper](https://arxiv.org/abs/1904.06778) · [Graph seeding](https://arxiv.org/abs/2007.00149) · [ACTS tracking](https://acts.readthedocs.io/en/latest/tracking.html) · [Official scorer](https://github.com/LAL/trackml-library/blob/53a165e15a2c885f54c2bef1bd1ed53db6ed9648/trackml/score.py)",
-            "## Validation, limitations and next experiment\n\n[Matched baselines](REAL_DATA_BENCHMARKS.md) · [Model and physics ablations](MODEL_ABLATIONS.md) · [Failure strata](FAILURE_ANALYSIS.md) · [Measured performance](PERFORMANCE.md) · [Figures](measurements.html) · [Reproduction](REPRODUCIBILITY.md). Freeze the two-pass geometry-only baseline and the GNN-weighted alternative, then test them on new complete event IDs. Compare outer-barrel extension under the same official full-event score. Endcap and outer-barrel reconstruction, independent seed uncertainty, material transport and a matched ACTS performance comparison remain open.",
+            "## Validation, limitations and next experiment\n\n[Matched baselines](REAL_DATA_BENCHMARKS.md) · [Model and physics ablations](MODEL_ABLATIONS.md) · [Failure strata](FAILURE_ANALYSIS.md) · [Measured performance](PERFORMANCE.md) · [Figures](measurements.html) · [Reproduction](REPRODUCIBILITY.md). Use the confirmed two-pass geometry-only baseline to test extension across barrel volumes under the same full-event score. Compare added detector coverage, false merges and CPU cost on new events. Endcap and outer-barrel reconstruction, independent seed uncertainty, material transport and a matched ACTS performance comparison remain open.",
         ],
     )
 

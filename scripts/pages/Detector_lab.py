@@ -25,9 +25,18 @@ if not (root / "detectors.csv").exists() or not (out / "training.json").exists()
         "Prepare the official sample and run the Phase II experiment. See reports/phase2/REPRODUCIBILITY.md."
     )
     st.stop()
-doc = json.loads((out / "manifest.json").read_text())
+samples = {"Exploratory test": ("manifest.json", "test", root)}
+if (Path("data/trackml-confirmation") / "event000001006-hits.csv").is_file():
+    samples["Prospective confirmation"] = (
+        "confirmation-manifest.json",
+        "confirmation",
+        Path("data/trackml-confirmation"),
+    )
+sample = st.sidebar.selectbox("Frozen sample", list(samples))
+manifest, split, root = samples[sample]
+doc = json.loads((out / manifest).read_text())
 training = json.loads((out / "training.json").read_text())
-eid = st.sidebar.selectbox("Held-out TrackML event", doc["split"]["test"])
+eid = st.sidebar.selectbox("Held-out TrackML event", doc["split"][split])
 st.caption(
     f"Official TrackML detector simulation · train_sample.zip · {eid} · run {training['config_id']}"
 )
@@ -40,7 +49,8 @@ def event_data(event, manifest):
 
 
 ev = event_data(eid, json.dumps(doc))
-parts = list(sector_indices(ev.hits))
+shifted = st.sidebar.checkbox("Inspect half-sector shifted tiling")
+parts = list(sector_indices(ev.hits, offset=np.pi / 32 if shifted else 0.0))
 sector = st.sidebar.slider("Azimuth sector", 0, len(parts) - 1, 0)
 ix, h = parts[sector]
 pid = ev.truth.particle_id.to_numpy()[ix]
@@ -190,9 +200,21 @@ with detector:
         width="stretch",
     )
 with benchmark:
-    result = json.loads((out / (eid + ".json")).read_text())
-    st.dataframe(
-        pd.DataFrame(result["rows"])[
+    if split == "confirmation":
+        records = pd.DataFrame(json.loads((out / "confirmation.json").read_text()))
+        summary = records[records.event == eid][
+            [
+                "method",
+                "passes",
+                "official_score",
+                "efficiency",
+                "fake",
+                "reconstruction_s",
+            ]
+        ]
+    else:
+        result = json.loads((out / (eid + ".json")).read_text())
+        summary = pd.DataFrame(result["rows"])[
             [
                 "builder",
                 "method",
@@ -201,9 +223,8 @@ with benchmark:
                 "fake_rate",
                 "edge_ap",
             ]
-        ],
-        hide_index=True,
-    )
+        ]
+    st.dataframe(summary, hide_index=True)
     st.caption(
         "Official scores include every event hit. Reconstruction covers volume 8. The other metrics use the documented candidate or barrel denominator."
     )

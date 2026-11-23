@@ -1,0 +1,878 @@
+[
+  {
+    "event": "event000001006",
+    "method": "geometry",
+    "passes": 1,
+    "load_s": 0.427009208000527,
+    "reconstruction_s": 1.2871836249996704,
+    "full_hits": 118534,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 5237,
+    "matched": 2709,
+    "tracks": 5031,
+    "efficiency": 0.5172808860034371,
+    "fake": 0.4611409262572053,
+    "duplicate": 0.0003975352812562115,
+    "purity": 0.9758828596037897,
+    "completeness": 0.8124989013693332,
+    "official_score": 0.019237172535850743,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2795,
+        "matched": 873
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1522,
+        "matched": 1080
+      },
+      {
+        "lower": 1,
+        "eligible": 693,
+        "matched": 557
+      },
+      {
+        "lower": 2,
+        "eligible": 205,
+        "matched": 180
+      },
+      {
+        "lower": 5,
+        "eligible": 22,
+        "matched": 19
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2274,
+        "matched": 1177
+      },
+      {
+        "lower": 1,
+        "eligible": 2257,
+        "matched": 1340
+      },
+      {
+        "lower": 2,
+        "eligible": 706,
+        "matched": 192
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.2993230306152708e-05,
+      0.00011497681779328743,
+      0.0012399388627902179
+    ]
+  },
+  {
+    "event": "event000001006",
+    "method": "geometry",
+    "passes": 2,
+    "load_s": 0.427009208000527,
+    "reconstruction_s": 2.176941125000667,
+    "full_hits": 118534,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 5237,
+    "matched": 3356,
+    "tracks": 4965,
+    "efficiency": 0.6408248997517663,
+    "fake": 0.3228600201409869,
+    "duplicate": 0.0012084592145015106,
+    "purity": 0.9841080651569328,
+    "completeness": 0.8130633123332767,
+    "official_score": 0.022294531792051493,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2795,
+        "matched": 1233
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1522,
+        "matched": 1303
+      },
+      {
+        "lower": 1,
+        "eligible": 693,
+        "matched": 614
+      },
+      {
+        "lower": 2,
+        "eligible": 205,
+        "matched": 189
+      },
+      {
+        "lower": 5,
+        "eligible": 22,
+        "matched": 17
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2274,
+        "matched": 1448
+      },
+      {
+        "lower": 1,
+        "eligible": 2257,
+        "matched": 1676
+      },
+      {
+        "lower": 2,
+        "eligible": 706,
+        "matched": 232
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.2714522500034366e-05,
+      7.558841087497586e-05,
+      0.000993055981329505
+    ]
+  },
+  {
+    "event": "event000001006",
+    "method": "gnn_weighted",
+    "passes": 1,
+    "load_s": 0.427009208000527,
+    "reconstruction_s": 1.1594135420000384,
+    "full_hits": 118534,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 5237,
+    "matched": 2707,
+    "tracks": 5027,
+    "efficiency": 0.5168989879702119,
+    "fake": 0.461110005967774,
+    "duplicate": 0.00039785160135269546,
+    "purity": 0.9758650412510774,
+    "completeness": 0.8124034689605433,
+    "official_score": 0.019023625017478823,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2795,
+        "matched": 872
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1522,
+        "matched": 1079
+      },
+      {
+        "lower": 1,
+        "eligible": 693,
+        "matched": 557
+      },
+      {
+        "lower": 2,
+        "eligible": 205,
+        "matched": 180
+      },
+      {
+        "lower": 5,
+        "eligible": 22,
+        "matched": 19
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2274,
+        "matched": 1178
+      },
+      {
+        "lower": 1,
+        "eligible": 2257,
+        "matched": 1337
+      },
+      {
+        "lower": 2,
+        "eligible": 706,
+        "matched": 192
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.2955404360184368e-05,
+      0.00011365726467580493,
+      0.0012437545697947816
+    ]
+  },
+  {
+    "event": "event000001006",
+    "method": "gnn_weighted",
+    "passes": 2,
+    "load_s": 0.427009208000527,
+    "reconstruction_s": 2.2361922090003645,
+    "full_hits": 118534,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 5237,
+    "matched": 3354,
+    "tracks": 4962,
+    "efficiency": 0.6404430017185412,
+    "fake": 0.32305521966948814,
+    "duplicate": 0.001007658202337767,
+    "purity": 0.9838749751540449,
+    "completeness": 0.8128922111480251,
+    "official_score": 0.022233378713926697,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2795,
+        "matched": 1230
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1522,
+        "matched": 1304
+      },
+      {
+        "lower": 1,
+        "eligible": 693,
+        "matched": 614
+      },
+      {
+        "lower": 2,
+        "eligible": 205,
+        "matched": 189
+      },
+      {
+        "lower": 5,
+        "eligible": 22,
+        "matched": 17
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2274,
+        "matched": 1447
+      },
+      {
+        "lower": 1,
+        "eligible": 2257,
+        "matched": 1674
+      },
+      {
+        "lower": 2,
+        "eligible": 706,
+        "matched": 233
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.2654184000750745e-05,
+      7.53216110613328e-05,
+      0.0009967078127047508
+    ]
+  },
+  {
+    "event": "event000001007",
+    "method": "geometry",
+    "passes": 1,
+    "load_s": 0.9298129580001842,
+    "reconstruction_s": 0.8647334170009344,
+    "full_hits": 111321,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 4834,
+    "matched": 2396,
+    "tracks": 4566,
+    "efficiency": 0.4956557716177079,
+    "fake": 0.47503285151116953,
+    "duplicate": 0.0002190100744634253,
+    "purity": 0.9762799109627157,
+    "completeness": 0.8095009539709038,
+    "official_score": 0.016216233436160795,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2760,
+        "matched": 842
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1382,
+        "matched": 981
+      },
+      {
+        "lower": 1,
+        "eligible": 547,
+        "matched": 451
+      },
+      {
+        "lower": 2,
+        "eligible": 133,
+        "matched": 112
+      },
+      {
+        "lower": 5,
+        "eligible": 12,
+        "matched": 10
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2199,
+        "matched": 1047
+      },
+      {
+        "lower": 1,
+        "eligible": 1990,
+        "matched": 1165
+      },
+      {
+        "lower": 2,
+        "eligible": 645,
+        "matched": 184
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.471710207811415e-05,
+      0.0001271212597750442,
+      0.0012343836136811922
+    ]
+  },
+  {
+    "event": "event000001007",
+    "method": "geometry",
+    "passes": 2,
+    "load_s": 0.9298129580001842,
+    "reconstruction_s": 1.9878849570004604,
+    "full_hits": 111321,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 4834,
+    "matched": 3070,
+    "tracks": 4577,
+    "efficiency": 0.6350848158874638,
+    "fake": 0.32750710072099626,
+    "duplicate": 0.0017478697837011142,
+    "purity": 0.9850162866449511,
+    "completeness": 0.8093632697378625,
+    "official_score": 0.01978909346329747,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2760,
+        "matched": 1247
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1382,
+        "matched": 1191
+      },
+      {
+        "lower": 1,
+        "eligible": 547,
+        "matched": 498
+      },
+      {
+        "lower": 2,
+        "eligible": 133,
+        "matched": 123
+      },
+      {
+        "lower": 5,
+        "eligible": 12,
+        "matched": 11
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2199,
+        "matched": 1331
+      },
+      {
+        "lower": 1,
+        "eligible": 1990,
+        "matched": 1503
+      },
+      {
+        "lower": 2,
+        "eligible": 645,
+        "matched": 236
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.4411158006184738e-05,
+      8.315731742668786e-05,
+      0.0009781346524672609
+    ]
+  },
+  {
+    "event": "event000001007",
+    "method": "gnn_weighted",
+    "passes": 1,
+    "load_s": 0.9298129580001842,
+    "reconstruction_s": 0.916287499999271,
+    "full_hits": 111321,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 4834,
+    "matched": 2396,
+    "tracks": 4560,
+    "efficiency": 0.4956557716177079,
+    "fake": 0.4743421052631579,
+    "duplicate": 0.0002192982456140351,
+    "purity": 0.975862548692265,
+    "completeness": 0.8085618888623897,
+    "official_score": 0.016242172214107224,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2760,
+        "matched": 844
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1382,
+        "matched": 980
+      },
+      {
+        "lower": 1,
+        "eligible": 547,
+        "matched": 450
+      },
+      {
+        "lower": 2,
+        "eligible": 133,
+        "matched": 112
+      },
+      {
+        "lower": 5,
+        "eligible": 12,
+        "matched": 10
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2199,
+        "matched": 1048
+      },
+      {
+        "lower": 1,
+        "eligible": 1990,
+        "matched": 1163
+      },
+      {
+        "lower": 2,
+        "eligible": 645,
+        "matched": 185
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.4803703959127868e-05,
+      0.00012580492354310023,
+      0.0012303991790381817
+    ]
+  },
+  {
+    "event": "event000001007",
+    "method": "gnn_weighted",
+    "passes": 2,
+    "load_s": 0.9298129580001842,
+    "reconstruction_s": 1.932143542000631,
+    "full_hits": 111321,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 4834,
+    "matched": 3073,
+    "tracks": 4581,
+    "efficiency": 0.635705419942077,
+    "fake": 0.327657716655752,
+    "duplicate": 0.0015280506439641999,
+    "purity": 0.9846512636945438,
+    "completeness": 0.8089202423566237,
+    "official_score": 0.019757520045797134,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2760,
+        "matched": 1251
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1382,
+        "matched": 1191
+      },
+      {
+        "lower": 1,
+        "eligible": 547,
+        "matched": 498
+      },
+      {
+        "lower": 2,
+        "eligible": 133,
+        "matched": 123
+      },
+      {
+        "lower": 5,
+        "eligible": 12,
+        "matched": 10
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2199,
+        "matched": 1333
+      },
+      {
+        "lower": 1,
+        "eligible": 1990,
+        "matched": 1502
+      },
+      {
+        "lower": 2,
+        "eligible": 645,
+        "matched": 238
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.4480168320274692e-05,
+      8.316374534635829e-05,
+      0.0009872597126010746
+    ]
+  },
+  {
+    "event": "event000001008",
+    "method": "geometry",
+    "passes": 1,
+    "load_s": 0.2616472090003299,
+    "reconstruction_s": 0.5928549170002952,
+    "full_hits": 111867,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 4777,
+    "matched": 2365,
+    "tracks": 4535,
+    "efficiency": 0.4950805945153862,
+    "fake": 0.4780595369349504,
+    "duplicate": 0.0004410143329658214,
+    "purity": 0.9745595489781537,
+    "completeness": 0.8047488170743984,
+    "official_score": 0.013544464542441645,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2646,
+        "matched": 785
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1415,
+        "matched": 993
+      },
+      {
+        "lower": 1,
+        "eligible": 550,
+        "matched": 446
+      },
+      {
+        "lower": 2,
+        "eligible": 139,
+        "matched": 116
+      },
+      {
+        "lower": 5,
+        "eligible": 27,
+        "matched": 25
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2203,
+        "matched": 1036
+      },
+      {
+        "lower": 1,
+        "eligible": 1928,
+        "matched": 1134
+      },
+      {
+        "lower": 2,
+        "eligible": 646,
+        "matched": 195
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.5606378408505356e-05,
+      0.00013627780152583845,
+      0.0013190541403827853
+    ]
+  },
+  {
+    "event": "event000001008",
+    "method": "geometry",
+    "passes": 2,
+    "load_s": 0.2616472090003299,
+    "reconstruction_s": 1.3523765420004565,
+    "full_hits": 111867,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": null,
+    "eligible": 4777,
+    "matched": 2993,
+    "tracks": 4525,
+    "efficiency": 0.6265438559765544,
+    "fake": 0.33679558011049726,
+    "duplicate": 0.0017679558011049724,
+    "purity": 0.9842966922819913,
+    "completeness": 0.8081197397101172,
+    "official_score": 0.016674790855055858,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2646,
+        "matched": 1135
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1415,
+        "matched": 1217
+      },
+      {
+        "lower": 1,
+        "eligible": 550,
+        "matched": 491
+      },
+      {
+        "lower": 2,
+        "eligible": 139,
+        "matched": 125
+      },
+      {
+        "lower": 5,
+        "eligible": 27,
+        "matched": 25
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2203,
+        "matched": 1319
+      },
+      {
+        "lower": 1,
+        "eligible": 1928,
+        "matched": 1430
+      },
+      {
+        "lower": 2,
+        "eligible": 646,
+        "matched": 244
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.4917934482893037e-05,
+      8.316890042305558e-05,
+      0.0009660192693228504
+    ]
+  },
+  {
+    "event": "event000001008",
+    "method": "gnn_weighted",
+    "passes": 1,
+    "load_s": 0.2616472090003299,
+    "reconstruction_s": 1.3158188329998666,
+    "full_hits": 111867,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 4777,
+    "matched": 2372,
+    "tracks": 4531,
+    "efficiency": 0.4965459493405903,
+    "fake": 0.47605385124696536,
+    "duplicate": 0.0004414036636504083,
+    "purity": 0.9744940978077572,
+    "completeness": 0.8043975347305871,
+    "official_score": 0.013543031582284808,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2646,
+        "matched": 789
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1415,
+        "matched": 995
+      },
+      {
+        "lower": 1,
+        "eligible": 550,
+        "matched": 447
+      },
+      {
+        "lower": 2,
+        "eligible": 139,
+        "matched": 116
+      },
+      {
+        "lower": 5,
+        "eligible": 27,
+        "matched": 25
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2203,
+        "matched": 1037
+      },
+      {
+        "lower": 1,
+        "eligible": 1928,
+        "matched": 1139
+      },
+      {
+        "lower": 2,
+        "eligible": 646,
+        "matched": 196
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.5771261366028018e-05,
+      0.00013561093262590457,
+      0.0012989819563296624
+    ]
+  },
+  {
+    "event": "event000001008",
+    "method": "gnn_weighted",
+    "passes": 2,
+    "load_s": 0.2616472090003299,
+    "reconstruction_s": 3.264361125000505,
+    "full_hits": 111867,
+    "config_id": "3bcc0e660f314bd6",
+    "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "eligible": 4777,
+    "matched": 2992,
+    "tracks": 4518,
+    "efficiency": 0.6263345195729537,
+    "fake": 0.33598937583001326,
+    "duplicate": 0.0017706949977866313,
+    "purity": 0.9843192959001782,
+    "completeness": 0.8083508403361345,
+    "official_score": 0.01667487249506479,
+    "pt": [
+      {
+        "lower": 0,
+        "eligible": 2646,
+        "matched": 1134
+      },
+      {
+        "lower": 0.5,
+        "eligible": 1415,
+        "matched": 1216
+      },
+      {
+        "lower": 1,
+        "eligible": 550,
+        "matched": 492
+      },
+      {
+        "lower": 2,
+        "eligible": 139,
+        "matched": 125
+      },
+      {
+        "lower": 5,
+        "eligible": 27,
+        "matched": 25
+      }
+    ],
+    "abs_eta": [
+      {
+        "lower": 0,
+        "eligible": 2203,
+        "matched": 1316
+      },
+      {
+        "lower": 1,
+        "eligible": 1928,
+        "matched": 1430
+      },
+      {
+        "lower": 2,
+        "eligible": 646,
+        "matched": 246
+      },
+      {
+        "lower": 3,
+        "eligible": 0,
+        "matched": 0
+      }
+    ],
+    "z_rms_m": [
+      1.4838273461670295e-05,
+      8.354372155306431e-05,
+      0.0009602983052318482
+    ]
+  }
+]

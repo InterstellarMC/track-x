@@ -2,7 +2,7 @@
 
 ## Abstract
 
-We tested graph construction, edge classification and ambiguity resolution on six official TrackML simulated events. Two events trained the compact networks, one selected checkpoints, and three supplied the paired evaluation. All tracked hits belong to the four-layer pixel barrel. A geometry-only whole-path ranker performed similarly to its GNN-weighted counterpart. The experiment gives stronger evidence for a change in candidate generation and assembly than for a learned advantage.
+We studied nine official TrackML simulated events. Two events trained the compact networks, one selected checkpoints, three supplied the initial paired evaluation, and three newly acquired events tested a prespecified sector-boundary change. The primary reconstruction uses the four-layer pixel barrel. A separate transfer check examines other barrel volumes. A geometry-only whole-path ranker performed similarly to its GNN-weighted counterpart. The experiment gives stronger evidence for a change in candidate generation and assembly than for a learned advantage.
 
 ## Physics, data and methods
 
@@ -32,6 +32,17 @@ A second tiling is shifted by half a sector. Geometry-only paths from both passe
 
 The official score is small because full truth and weights include outer layers and disks that the reconstruction leaves unassigned. Custom barrel efficiency also remains far below one. These measures answer different questions. The table gives event means and between-event sample SD for efficiency. Three events from the start of one archive and one model seed cannot establish general-population precision. The path-assembly follow-up was motivated by initial transfer results and is exploratory on this test split. An independent untouched sample is needed for confirmation.
 
+## Independent confirmation
+
+After freezing the boundary protocol in Git, three further official events were acquired. Two passes improved full-event score and barrel efficiency in every confirmation event. Adding a learned edge weight to triplet ranking had little effect. [Paired event results](CONFIRMATION.md)
+
+| method | passes | official_score | efficiency | fake |
+|---|---|---|---|---|
+| geometry | 1 | 0.01633 | 0.50267 | 0.47141 |
+| geometry | 2 | 0.01959 | 0.63415 | 0.32905 |
+| gnn_weighted | 1 | 0.01627 | 0.50303 | 0.47050 |
+| gnn_weighted | 2 | 0.01956 | 0.63416 | 0.32890 |
+
 ## Synthetic comparison
 
 The original synthetic results remain separate. The audit reproduced every stored non-timing metric for nine Phase I experiments. Detector overlap, multiple hits per layer, high occupancy and abrupt sector boundaries expose failure modes absent from the ideal eight-cylinder model. [Phase I audit](BASELINE_AUDIT.md) · [Synthetic results](../RESULTS.md)
@@ -42,4 +53,4 @@ The TrackML accuracy challenge supplies weighted truth associations and an offic
 
 ## Validation, limitations and next experiment
 
-[Matched baselines](REAL_DATA_BENCHMARKS.md) · [Model and physics ablations](MODEL_ABLATIONS.md) · [Failure strata](FAILURE_ANALYSIS.md) · [Measured performance](PERFORMANCE.md) · [Figures](measurements.html) · [Reproduction](REPRODUCIBILITY.md). Freeze the two-pass geometry-only baseline and the GNN-weighted alternative, then test them on new complete event IDs. Compare outer-barrel extension under the same official full-event score. Endcap and outer-barrel reconstruction, independent seed uncertainty, material transport and a matched ACTS performance comparison remain open.
+[Matched baselines](REAL_DATA_BENCHMARKS.md) · [Model and physics ablations](MODEL_ABLATIONS.md) · [Failure strata](FAILURE_ANALYSIS.md) · [Measured performance](PERFORMANCE.md) · [Figures](measurements.html) · [Reproduction](REPRODUCIBILITY.md). Use the confirmed two-pass geometry-only baseline to test extension across barrel volumes under the same full-event score. Compare added detector coverage, false merges and CPU cost on new events. Endcap and outer-barrel reconstruction, independent seed uncertainty, material transport and a matched ACTS performance comparison remain open.

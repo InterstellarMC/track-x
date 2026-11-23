@@ -1,0 +1,86 @@
+{
+  "source": "https://www.kaggle.com/competitions/trackml-particle-identification/data",
+  "archive": "train_sample.zip",
+  "version": 1,
+  "geometry": {
+    "path": "detectors.csv",
+    "sha256": "e01684d65c088794618b916655f989dae6f099de4ecc7a462987e97b4037639a",
+    "bytes": 1942066
+  },
+  "events": {
+    "event000001006": {
+      "cells": {
+        "path": "event000001006-cells.csv",
+        "sha256": "90fdba57cd722a18fe3468e93bc6b7e96c2ee8d7210f8df95c43a0e6e20d343f",
+        "bytes": 13613426
+      },
+      "hits": {
+        "path": "event000001006-hits.csv",
+        "sha256": "f793c0385ca3e40f793bd6da5444c15be782d5a0f67f4a7700c1c642f011d956",
+        "bytes": 4493848
+      },
+      "particles": {
+        "path": "event000001006-particles.csv",
+        "sha256": "88c2fecd386267f628509546daa62c52505a44ce5c38a33b376ca0b89d3a8986",
+        "bytes": 951759
+      },
+      "truth": {
+        "path": "event000001006-truth.csv",
+        "sha256": "27df931bafaeb46073c0893e4e5d025e5891d8675a622734284aff8f932b7ae8",
+        "bytes": 10105967
+      }
+    },
+    "event000001007": {
+      "cells": {
+        "path": "event000001007-cells.csv",
+        "sha256": "16c024336e42db1f86107ed4582730ceb9d6a17f1ceae248c7461d7c31b4b956",
+        "bytes": 12715579
+      },
+      "hits": {
+        "path": "event000001007-hits.csv",
+        "sha256": "75a1eff9f766f4a13fecb91108ce469be3427c5e60b486daf2e9213f6d58bc6e",
+        "bytes": 4214633
+      },
+      "particles": {
+        "path": "event000001007-particles.csv",
+        "sha256": "c89811f1e3ae5fca13b50f27697e5c4012d8b92241c7c55ee91f261aeb1ab11f",
+        "bytes": 885978
+      },
+      "truth": {
+        "path": "event000001007-truth.csv",
+        "sha256": "71e72c8091d9f9ee726e955e10bd677ece0fdc5e42233899e6916899fbfe80ce",
+        "bytes": 9471660
+      }
+    },
+    "event000001008": {
+      "cells": {
+        "path": "event000001008-cells.csv",
+        "sha256": "668949734025c5bbbe02863f41fffdd58fdcea1546483b33dbaeb852a6410d29",
+        "bytes": 12763100
+      },
+      "hits": {
+        "path": "event000001008-hits.csv",
+        "sha256": "591a90025e9abd1e5e84d1a42c7feaf99ea63c324d6707f1a92af1dffc916825",
+        "bytes": 4234281
+      },
+      "particles": {
+        "path": "event000001008-particles.csv",
+        "sha256": "a0883c113ce1a97ec4613f936f3ae1d524e8aabf5f5ba285bf2f69b5df40ba90",
+        "bytes": 900620
+      },
+      "truth": {
+        "path": "event000001008-truth.csv",
+        "sha256": "2550b043036f372b0a64539e519d25103efdf0a799d2faba87c6f04503fd4ed1",
+        "bytes": 9509021
+      }
+    }
+  },
+  "split": {
+    "confirmation": [
+      "event000001006",
+      "event000001007",
+      "event000001008"
+    ]
+  },
+  "protocol_commit": "aeb2d15"
+}

@@ -1,0 +1,603 @@
+{
+  "orthogonality_max": 1.2654150000068753e-06,
+  "determinant_range": [
+    0.999998734585,
+    1.000001246885
+  ],
+  "records": [
+    {
+      "event": "event000001000",
+      "volume": 7,
+      "hits": 16873,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 8,
+      "hits": 29172,
+      "normal_abs_mm_quantiles": [
+        4.7335149995399016e-05,
+        0.0007656268244013785,
+        0.0012356919999916692
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 9,
+      "hits": 17186,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 12,
+      "hits": 7931,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 13,
+      "hits": 25990,
+      "normal_abs_mm_quantiles": [
+        0.0002907467150054238,
+        0.0009528678850035167,
+        0.0012646359999982353
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 14,
+      "hits": 7585,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 16,
+      "hits": 2915,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 17,
+      "hits": 10356,
+      "normal_abs_mm_quantiles": [
+        0.0003405035000048365,
+        0.006410947600041572,
+        0.008641439600054528
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001000",
+      "volume": 18,
+      "hits": 2931,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 7,
+      "hits": 13899,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 8,
+      "hits": 21941,
+      "normal_abs_mm_quantiles": [
+        4.768044800006688e-05,
+        0.0007623277999989944,
+        0.0011826969999852778
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 9,
+      "hits": 12166,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 12,
+      "hits": 6525,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 13,
+      "hits": 19895,
+      "normal_abs_mm_quantiles": [
+        0.00029452447397547866,
+        0.0009578604300028671,
+        0.0011759439999795638
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 14,
+      "hits": 6019,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 16,
+      "hits": 2396,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 17,
+      "hits": 8688,
+      "normal_abs_mm_quantiles": [
+        0.00034509150002924203,
+        0.006531200000071033,
+        0.008696762000104262
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001001",
+      "volume": 18,
+      "hits": 2151,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 7,
+      "hits": 17898,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 8,
+      "hits": 30459,
+      "normal_abs_mm_quantiles": [
+        4.8694599998483316e-05,
+        0.0007694877999905322,
+        0.0012568529999916996
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 9,
+      "hits": 17067,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 12,
+      "hits": 8252,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 13,
+      "hits": 27278,
+      "normal_abs_mm_quantiles": [
+        0.0002894178900211605,
+        0.0009595162799983831,
+        0.0012111820000344502
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 14,
+      "hits": 7774,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 16,
+      "hits": 2959,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 17,
+      "hits": 10797,
+      "normal_abs_mm_quantiles": [
+        0.00034111800001099257,
+        0.006479553136000227,
+        0.008632758400004372
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001002",
+      "volume": 18,
+      "hits": 3020,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 7,
+      "hits": 14504,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 8,
+      "hits": 24979,
+      "normal_abs_mm_quantiles": [
+        4.8576900000902245e-05,
+        0.0007788092671985146,
+        0.0011639389999977495
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 9,
+      "hits": 14175,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 12,
+      "hits": 6792,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 13,
+      "hits": 22724,
+      "normal_abs_mm_quantiles": [
+        0.00029463999997835855,
+        0.0009491743200256324,
+        0.0012323479999775122
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 14,
+      "hits": 6570,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 16,
+      "hits": 2519,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 17,
+      "hits": 9553,
+      "normal_abs_mm_quantiles": [
+        0.00034121399994447237,
+        0.006342139300040677,
+        0.008491949120031646
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001003",
+      "volume": 18,
+      "hits": 2635,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 7,
+      "hits": 18921,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 8,
+      "hits": 33799,
+      "normal_abs_mm_quantiles": [
+        4.778339999987405e-05,
+        0.0007698622880042092,
+        0.001222345999985161
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 9,
+      "hits": 20465,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 12,
+      "hits": 8697,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 13,
+      "hits": 29602,
+      "normal_abs_mm_quantiles": [
+        0.00029099371000059366,
+        0.0009407738657931124,
+        0.0012308790000199528
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 14,
+      "hits": 9182,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 16,
+      "hits": 3282,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 17,
+      "hits": 11278,
+      "normal_abs_mm_quantiles": [
+        0.0003443055000464229,
+        0.00639054463998627,
+        0.008491155600031513
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001004",
+      "volume": 18,
+      "hits": 3342,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 7,
+      "hits": 15213,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 8,
+      "hits": 26241,
+      "normal_abs_mm_quantiles": [
+        4.811929999796586e-05,
+        0.0007611485199947258,
+        0.0011794689999867147
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 9,
+      "hits": 14836,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 12,
+      "hits": 7150,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 13,
+      "hits": 23966,
+      "normal_abs_mm_quantiles": [
+        0.00029012362000242797,
+        0.000929695500019159,
+        0.0012456389999812155
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 14,
+      "hits": 7355,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 16,
+      "hits": 2701,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 17,
+      "hits": 9812,
+      "normal_abs_mm_quantiles": [
+        0.0003355458200420303,
+        0.006352968465755643,
+        0.008641439600054514
+      ],
+      "in_plane_excess_over_1mm": 0
+    },
+    {
+      "event": "event000001005",
+      "volume": 18,
+      "hits": 2749,
+      "normal_abs_mm_quantiles": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "in_plane_excess_over_1mm": 0
+    }
+  ]
+}

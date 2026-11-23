@@ -98,3 +98,25 @@ def test_real_smoke():
     g = directional_graph(h)
     paths = assemble(h, g[1].numpy(), predict("classical", {}, g, "cpu"), True)
     assert paths and 0 <= official_score(ev, [ix[p].tolist() for p in paths]) <= 1
+
+
+def test_shifted_sectors_cover_each_hit_once(tmp_path):
+    doc = fixture(tmp_path)
+    ev = load(tmp_path, doc, doc["split"]["train"][0])
+    for offset in (0, np.pi / 32):
+        sets = [ix for ix, _ in sector_indices(ev.hits, 32, offset)]
+        np.testing.assert_array_equal(np.sort(np.concatenate(sets)), np.arange(3))
+    with pytest.raises(ValueError, match="barrel volume"):
+        list(sector_indices(ev.hits, volume=9))
+
+
+def test_bad_particle_count(tmp_path):
+    doc = fixture(tmp_path)
+    event = doc["split"]["train"][0]
+    path = tmp_path / doc["events"][event]["particles"]["path"]
+    particles = pd.read_csv(path)
+    particles["nhits"] = 0
+    particles.to_csv(path, index=False)
+    doc = freeze(tmp_path, tmp_path / "modified.json")
+    with pytest.raises(ValueError, match="nhits"):
+        load(tmp_path, doc, event)

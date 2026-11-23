@@ -1,0 +1,110 @@
+[
+  {
+    "event": "event000001003",
+    "volume": 8,
+    "hits": 24979,
+    "eligible": 4521,
+    "paths": 4276,
+    "efficiency": 0.5009953550099535,
+    "fake": 0.47029934518241345,
+    "official_score": 0.016187366449447682,
+    "curvature_comparisons": 2067,
+    "median_abs_curvature_delta_per_m": 0.006808524302650332
+  },
+  {
+    "event": "event000001003",
+    "volume": 13,
+    "hits": 22724,
+    "eligible": 3537,
+    "paths": 2993,
+    "efficiency": 0.20582414475544247,
+    "fake": 0.7567657868359505,
+    "official_score": 0.00039370692892958507,
+    "curvature_comparisons": 695,
+    "median_abs_curvature_delta_per_m": 0.006789739662551364
+  },
+  {
+    "event": "event000001003",
+    "volume": 17,
+    "hits": 9553,
+    "eligible": 453,
+    "paths": 0,
+    "efficiency": 0.0,
+    "fake": null,
+    "official_score": 0.0,
+    "curvature_comparisons": 0,
+    "median_abs_curvature_delta_per_m": null
+  },
+  {
+    "event": "event000001004",
+    "volume": 8,
+    "hits": 33799,
+    "eligible": 6231,
+    "paths": 5883,
+    "efficiency": 0.4634890065800032,
+    "fake": 0.5085840557538671,
+    "official_score": 0.013457186309923732,
+    "curvature_comparisons": 2596,
+    "median_abs_curvature_delta_per_m": 0.006490964605921246
+  },
+  {
+    "event": "event000001004",
+    "volume": 13,
+    "hits": 29602,
+    "eligible": 4871,
+    "paths": 4204,
+    "efficiency": 0.19359474440566618,
+    "fake": 0.7754519505233112,
+    "official_score": 0.00020695623368601574,
+    "curvature_comparisons": 890,
+    "median_abs_curvature_delta_per_m": 0.0068234390167611625
+  },
+  {
+    "event": "event000001004",
+    "volume": 17,
+    "hits": 11278,
+    "eligible": 669,
+    "paths": 0,
+    "efficiency": 0.0,
+    "fake": null,
+    "official_score": 0.0,
+    "curvature_comparisons": 0,
+    "median_abs_curvature_delta_per_m": null
+  },
+  {
+    "event": "event000001005",
+    "volume": 8,
+    "hits": 26241,
+    "eligible": 4743,
+    "paths": 4491,
+    "efficiency": 0.49441281889099725,
+    "fake": 0.47762191048764197,
+    "official_score": 0.016920705817161163,
+    "curvature_comparisons": 2143,
+    "median_abs_curvature_delta_per_m": 0.006940269804178056
+  },
+  {
+    "event": "event000001005",
+    "volume": 13,
+    "hits": 23966,
+    "eligible": 3706,
+    "paths": 3241,
+    "efficiency": 0.211548839719374,
+    "fake": 0.7574822585621722,
+    "official_score": 0.0006875231112616285,
+    "curvature_comparisons": 743,
+    "median_abs_curvature_delta_per_m": 0.00664977078681267
+  },
+  {
+    "event": "event000001005",
+    "volume": 17,
+    "hits": 9812,
+    "eligible": 470,
+    "paths": 0,
+    "efficiency": 0.0,
+    "fake": null,
+    "official_score": 0.0,
+    "curvature_comparisons": 0,
+    "median_abs_curvature_delta_per_m": null
+  }
+]

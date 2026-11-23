@@ -1,5 +1,6 @@
 """Fetch six complete official events via bounded authenticated ZIP range reads."""
 
+import argparse
 import base64
 import io
 import json
@@ -64,7 +65,16 @@ class RemoteZip(io.RawIOBase):
 
 
 def main():
-    DEST.mkdir(parents=True, exist_ok=True)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--confirmation",
+        action="store_true",
+        help="only events 1006–1008, in data/trackml-confirmation",
+    )
+    args = parser.parse_args()
+    dest_root = Path("data/trackml-confirmation") if args.confirmation else DEST
+    selection = slice(6, 9) if args.confirmation else slice(0, 6)
+    dest_root.mkdir(parents=True, exist_ok=True)
     settings = json.loads(
         (
             Path(os.environ.get("KAGGLE_CONFIG_DIR", Path.home() / ".kaggle"))
@@ -88,8 +98,8 @@ def main():
                         for f in names
                         if (m := re.search(r"(event\d{9})-hits\.csv$", f))
                     }
-                )[:6]
-                if len(events) != 6:
+                )[selection]
+                if len(events) != selection.stop - selection.start:
                     raise ValueError("unexpected event archive")
                 names = [
                     f
@@ -100,12 +110,12 @@ def main():
                         for p in ("hits", "cells", "particles", "truth")
                     )
                 ]
-                if len(names) != 24:
+                if len(names) != len(events) * 4:
                     raise ValueError("incomplete archive")
             else:
                 names = ["detectors.csv"]
             for member in names:
-                dest = DEST / Path(member).name
+                dest = dest_root / Path(member).name
                 info = z.getinfo(member)
                 if info.file_size > 40_000_000:
                     raise ValueError("member exceeds output budget")
@@ -117,6 +127,10 @@ def main():
                     and zlib.crc32(dest.read_bytes()) == info.CRC
                 ):
                     continue
+                if dest.exists():
+                    raise ValueError(
+                        f"existing file differs from official archive: {dest.name}"
+                    )
                 temp = dest.with_suffix(".partial")
                 temp.write_bytes(z.read(member))
                 temp.replace(dest)

@@ -22,6 +22,11 @@ uv run python scripts/phase2_stress.py
 uv run python scripts/phase2_diagnostics.py
 uv run python scripts/phase2_boundaries.py
 uv run python scripts/phase2_devices.py
+uv run python scripts/phase2_volumes.py
+uv run python scripts/phase2_surfaces.py
+uv run python scripts/phase2_display.py
+uv run python scripts/fetch_trackml.py --confirmation
+uv run python scripts/phase2_confirm.py
 uv run python scripts/phase2_report.py
 uv run pytest -q
 uv run ruff check .
@@ -38,3 +43,11 @@ The main runner uses configs/phase2.yaml and writes checkpoint state under exper
 - devices.json measures warmed forward passes on identical observed sectors with independent processes. process-time.txt contains the cold main experiment's wall time and peak process RSS; secondary studies have their own timing scopes.
 - Run the standalone Phase I smoke to generate its interactive synthetic HTML. The separate Phase II Streamlit page loads a complete official event and visualizes a bounded sector. geometry.html and measurements.html use the checked-in Plotly runtime in the parent reports directory.
 - CI is configured for public code and fixtures without credentials. The official-file smoke test skips when its licensed input is absent. Hosted CI execution was not performed. No raw data or reconstructed per-hit submission is published.
+
+The confirmation acquisition fetched an additional 28216223 sample ZIP range bytes plus a second detector table. These events live in data/trackml-confirmation. The protocol commit precedes acquisition. To replay the initial evaluation in a separate directory run `uv run python -m trackx.phase2 --output /tmp/trackx-independent` followed by `uv run python scripts/verify_phase2_replay.py /tmp/trackx-independent`. The replay uses existing checkpoints.
+
+## Release verification
+
+The local suite finished with 23 tests passed, zero skipped and six pandas deprecation warnings from the pinned upstream scorer. Ruff lint and formatting passed. The Streamlit application test loaded an official exploratory event, switched to confirmation event 1006 and rendered the RZ projection. A local failure-case HTML display was generated in experiments/phase2-failure/.
+
+Two independent output directories reproduced the frozen manifest, validation histories, model hashes, all non-timing event metrics and graph diagnostics. The first reused the checkpoints. The second started with no Phase II optimizer or model state and retrained all four Phase II models, retaining only the fixed Phase I transfer weights. Cold replay took 115.20 s wall time and reached 426016768 bytes maximum RSS. [Replay comparison](replay.json) · [Cold process measurements](cold-replay-process-time.txt)

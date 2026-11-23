@@ -146,6 +146,11 @@ def load(root, doc, event_id):
         or truth.weight.sum() <= 0
     ):
         raise ValueError("invalid truth associations")
+    truth_counts = truth.particle_id.value_counts().reindex(
+        particles.particle_id, fill_value=0
+    )
+    if not np.array_equal(particles.nhits.to_numpy(), truth_counts.to_numpy()):
+        raise ValueError("particle nhits disagrees with truth")
     n = 0
     known = pd.Index(hits.hit_id)
     for cells in chunks(paths["cells"], "cells"):
@@ -159,12 +164,14 @@ def load(root, doc, event_id):
     return Event(hits, aligned, particles, n)
 
 
-def sector_indices(hits, nsectors=32, offset=0.0):
-    """Volume 8 only. Partition by measured phi, including the seam."""
+def sector_indices(hits, nsectors=32, offset=0.0, volume=8):
+    """Partition a cylindrical barrel volume by measured phi, including the seam."""
     if not 1 <= nsectors <= 128:
         raise ValueError("sector count outside budget")
     layers = hits.layer_id.to_numpy()
-    barrel = hits.volume_id.to_numpy() == 8
+    if volume not in (8, 13, 17):
+        raise ValueError("radial sectoring requires a barrel volume")
+    barrel = hits.volume_id.to_numpy() == volume
     if not np.isin(layers[barrel], [2, 4, 6, 8]).all():
         raise ValueError("unmapped pixel barrel layer")
     phi = np.arctan2(hits.y, hits.x).to_numpy()

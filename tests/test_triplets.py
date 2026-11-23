@@ -25,3 +25,18 @@ def test_whole_path_and_competing_noise():
 
 def test_no_candidate_triplet():
     assert hypotheses(np.empty((0, 4)), np.empty((2, 0), dtype=int)) == []
+
+
+def test_branched_triplets_resolve_ownership():
+    h = np.array(
+        [
+            [0.03, 0, 0, 0],
+            [0.07, 0, 0, 1],
+            [0.11, 0, 0, 2],
+            [0.11, 0, 0.001, 2],
+            [0.17, 0, 0, 3],
+        ]
+    )
+    g = directional_graph(h)
+    paths = hypotheses(h, g[1].numpy())
+    assert paths == [[0, 1, 2, 4]]

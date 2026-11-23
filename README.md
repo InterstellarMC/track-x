@@ -6,7 +6,7 @@ TRACK-X reconstructs prompt charged-particle trajectories in a simulated cylindr
 
 ## Official TrackML validation
 
-Phase II evaluated six official TrackML simulated events with a frozen two-event training, one-event validation and three-event test split. Reconstruction covers the four pixel-barrel layers of volume 8. The official scorer evaluates every hit in each complete event. Geometry-aware candidates improved acceptance, and whole-path assembly provided the largest reconstruction gain. The classical triplet ranker and its GNN-weighted variant performed similarly on this small test sample. [Phase II research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [M1 setup, data and reproduction](reports/phase2/REPRODUCIBILITY.md) · [Figures](reports/phase2/measurements.html)
+Phase II evaluated nine official TrackML simulated events. Two trained the networks, one selected checkpoints, three supported exploratory evaluation, and three independently tested a prespecified sector-boundary change. The main reconstruction covers the four pixel-barrel layers of volume 8. The official scorer evaluates every hit in each complete event. Geometry-aware candidates improved acceptance, and whole-path assembly provided the largest reconstruction gain. The classical triplet ranker and its GNN-weighted variant performed similarly on this small test sample. [Phase II research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [M1 setup, data and reproduction](reports/phase2/REPRODUCIBILITY.md) · [Figures](reports/phase2/measurements.html)
 
 ## Reproduce locally
 
