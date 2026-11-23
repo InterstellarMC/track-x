@@ -1,0 +1,10 @@
+# Outward radial extended Kalman filter
+
+At measured radius r in metres the state is (position azimuth φ, z in metres, signed half-curvature h in inverse metres, longitudinal slope t). A prompt circle through the beam axis and a uniform axial field imply a(r)=asin(hr) and L(r)=a(r)/h. Propagation adds a(r1)−a(r0) to φ and t[L(r1)−L(r0)] to z. h and t are constant in the mean. Turning points |hr|≥0.999 and inward intersections are rejected. This four-parameter model does not describe displaced tracks or a nonuniform field. No absolute momentum calibration was performed.
+
+The transition Jacobian starts at identity. The extra entries are Fφh=Δ[r/sqrt(1−h²r²)], Fzh=tΔ[(hr/sqrt(1−h²r²)−asin(hr))/h²], Fzt=ΔL. The code uses sinc for arc length and a series through cubic order for the derivative near zero. Effective diffusion Q=|Δr| diag(0.004²,0.003²,0.025²,0.012²), in the squared units of each state per metre. It approximates unresolved changes. It omits material-specific scattering and energy loss.
+
+Seed initialization fits the Phase III robust prompt trajectory and evaluates it at the last pixel hit. For radial lever arm d (floor 0.015 m), the initial diagonal standard deviations are 0.00065/r, 0.0012, 0.002/(rd), 0.0025/d. The measurement is (φ,z), H selects the first two coordinates and R=diag[(0.0015/r)²,0.003²]. These are effective error scales chosen before final testing. They include extrapolation and model error. The implementation wraps azimuth, whitens innovations with Cholesky, solves for the gain, and uses a symmetrized Joseph update. Positive measurement variances keep the innovation system regular even for a singular state prior. Missing measurements terminate the strict continuation, preserving its last state and assigned prefix.
+
+The implementation targets ten outward barrel layers. ACTS describes a broader surface-based parameterization, measurement selection and fitting. No matched ACTS reconstruction was executed. [ACTS tracking documentation](https://acts.readthedocs.io/en/stable/tracking.html)
+
