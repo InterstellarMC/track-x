@@ -1,0 +1,9 @@
+# Is the EKF covariance calibrated?
+
+On validation event 1002, 12,624 evaluable seed–surface intersections had a reachable next measurement from the seed's majority signal particle. Before applying the hit gate, 98.82% were inside χ² < 9. A two-dimensional Gaussian with the stated covariance predicts 98.89%. The agreement at this single threshold masks a large discrepancy in shape. The observed median squared innovation was 0.0701, versus 1.386 under that Gaussian. Thus the statistical distance is useful for ranking, but its nominal probabilities are unreliable.
+
+The diagnostic follows the actual M3 assignments up to the preceding surface. For a module overlap it takes the lowest-radius matching truth hit independently of residual size. Tracks terminated earlier are excluded from subsequent surfaces. Selection, prompt assumptions and the validation-event sample affect this comparison.
+
+For 2,774 pure, extended signal paths, the 10th/50th/90th percentiles of signed EKF curvature error were −0.01232, −0.0000264 and +0.01308 per metre. The reference is an effective signed curvature derived from the change of simulated truth momentum direction across the endpoint chord. In material it may differ from instantaneous local curvature. The corresponding normalized errors were −0.300, −0.00089 and +0.325; 98.74% were within one estimated standard deviation. This selected sample suggests conservative errors. It cannot establish detector-calibrated momentum resolution.
+
+Finite-difference tests cover zero curvature and both signs including near-turning propagation. The covariance tests check symmetry and positivity, a singular prior and a nominal Gaussian gate-coverage experiment. Machine-readable results, sample sizes and per-surface coverage appear in [calibration.json](calibration.json). [Validation distributions](calibration.html)

@@ -1,0 +1,27 @@
+{
+  "machine": "arm64",
+  "os": "27.0.1",
+  "cpu": "Apple M1",
+  "physical_memory_bytes": 8589934592,
+  "python": "3.12.14 (main, Sep  1 2026, 14:09:38) [Clang 22.1.3 ]",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "torch": "2.15.0",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "trackml": "3",
+    "streamlit": "1.67.0",
+    "pytest": "9.2.0",
+    "ruff": "0.17.6",
+    "plotly": "7.1.0"
+  },
+  "lock_sha256": "593f493bf39178907b51ee898d754118895026b764a9b4de3295b7edb0b5fbdd",
+  "selection_sha256": "cbd4d50b3148968a10a5fba797032001de84a26a7446160e808410f18d997dae",
+  "protocol_sha256": "1abe11fbfdd911b585d8fd5032806c852b3b88aa1a1f73ee509a153093e5155d",
+  "evaluation_revision": "4cdccf3",
+  "bootstrap_seed": 1729,
+  "checkpoint_file_sha256": "a7dbc5cd7982daf70dd02554afe819d12227d5738c5a0c2e0099e7d63993f3a8",
+  "model_tensor_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+  "estimator_source_sha256": "e78c66956a0e3f3a51264663b663cf333f7f0e59a51a75d5b8c64ddf40532996"
+}

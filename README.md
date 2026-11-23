@@ -8,6 +8,10 @@ TRACK-X links detector hits into trajectories using sparse candidate graphs, com
 
 [Research paper](reports/TRACK_X.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
 
+## Precision tracking on five new simulated events
+
+A locally assigned extended Kalman filter improved the official full-event score on all five frozen confirmation events. Mean score rose from 0.221185 to 0.224457 and mixed-particle tracks fell from 43.24% to 39.46% against the matched Phase III tracker. Peak process RSS was 351 MiB. A whole-path ambiguity resolver reduced contamination further at a cost in score. GNN seed ranking added runtime without a resolved score benefit. The validation uncertainty study found conservative curvature errors on pure validation tracks. [Phase IV research report](reports/phase4/FINAL_RESEARCH_REPORT.md) · [Event-level results](reports/phase4/CONFIRMATION_RESULTS.md) · [Reproduce and inspect](reports/phase4/REPRODUCIBILITY.md)
+
 ## Multi-layer barrel reconstruction
 
 Phase III extends the confirmed pixel seeds to six additional detector layers in volumes 13 and 17. A protocol frozen before data acquisition compares the pixel baseline, geometry-only extension and learned pixel-seed weighting on three new complete TrackML events. The score improved on each event, alongside increased mixed-particle contamination. [Phase III results](reports/phase3/FINAL_REPORT.md) · [Confirmation scores](reports/phase3/CONFIRMATION_RESULTS.md) · [Run the detector lab](reports/phase3/REPRODUCIBILITY.md)

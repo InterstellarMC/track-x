@@ -69,6 +69,16 @@ def main():
         ds = sets[stage]
         if not ds:
             continue
+        expected = {
+            "gap": range(1012, 1022),
+            "development": range(1003, 1006),
+            "final": range(1022, 1027),
+        }[stage]
+        if [d["event"] for d in ds] != [f"event{i:09}" for i in expected]:
+            raise ValueError(
+                f"Incomplete {stage} cohort; finish the event runs before reporting"
+            )
+
         lines = [
             f"# {stage.capitalize()} event results",
             f"{len(ds)} complete official TrackML simulated events. Fractions are unitless. Runtime is reconstructed wall time per event including geometry indexing and both seed passes.",
@@ -178,6 +188,26 @@ def main():
             ],
         )
     )
+    receipt = OUT / "replay.json"
+    if receipt.exists():
+        repeated = [
+            r
+            for r in json.loads(receipt.read_text())["replays"].values()
+            if r["stage"] == "final"
+        ]
+        lines.append("## Fresh-directory replay")
+        lines.append(
+            table(
+                ["method", "confirmation wall s/event", "replay wall s/event"],
+                [
+                    [m, avg(m, "wall_s"), np.mean([r["wall_s"][m] for r in repeated])]
+                    for m in modes
+                ],
+            )
+        )
+        lines.append(
+            f"Replay peak process RSS was {max(r['peak_rss_bytes'] for r in repeated) / 2**20:.1f} MiB. Session load varied and no exclusive-core or thermal controls were used. These two measurements show the variation in absolute timing."
+        )
     (OUT / "PERFORMANCE.md").write_text("\n\n".join(lines) + "\n")
     captions = [
         "Full-event score",
@@ -244,6 +274,37 @@ def main():
     )
     fig.write_html(
         OUT / "measurements.html", include_plotlyjs="../plotly.min.js", div_id="phase4"
+    )
+    cal = json.loads((OUT / "calibration.json").read_text())
+    panels = [
+        ("true_innovations", "True-hit innovation χ²"),
+        ("curvature_error_per_m", "Signed curvature error (1/m)"),
+        ("curvature_pull", "Curvature pull"),
+    ]
+    hist = make_subplots(rows=1, cols=3, subplot_titles=[label for _, label in panels])
+    for i, (key, label) in enumerate(panels, 1):
+        counts = cal[key]["histogram"]
+        edges = np.array(counts["edges"])
+        hist.add_trace(
+            go.Bar(
+                x=(edges[1:] + edges[:-1]) / 2,
+                y=counts["counts"],
+                width=np.diff(edges),
+                name=label,
+            ),
+            row=1,
+            col=i,
+        )
+        hist.update_xaxes(
+            title_text=f"Below / above range: {counts['underflow']} / {counts['overflow']}",
+            row=1,
+            col=i,
+        )
+    hist.update_layout(showlegend=False, title="Validation event 1002 · counts per bin")
+    hist.write_html(
+        OUT / "calibration.html",
+        include_plotlyjs="../plotly.min.js",
+        div_id="phase4-calibration",
     )
     keys = [
         "mixed",

@@ -1,6 +1,7 @@
 """Paired, event-checkpointed Phase IV experiments on official TrackML simulation."""
 
 import argparse
+import hashlib
 import json
 import resource
 import sys
@@ -54,6 +55,9 @@ def inputs(stage):
     dest = OUT / (stage + "-manifest.json")
     if dest.exists() and json.loads(dest.read_text()) != doc:
         raise ValueError("input hashes changed")
+    released = Path("reports/phase4") / dest.name
+    if released.is_file() and json.loads(released.read_text()) != doc:
+        raise ValueError("input hashes differ from released cohort")
     save(dest, doc)
     return root, doc, expected
 
@@ -179,6 +183,13 @@ def main():
                         / "local_gnn.pt"
                     )
                 )
+                weight_hash = hashlib.sha256(
+                    b"".join(t.numpy().tobytes() for t in net.state_dict().values())
+                ).hexdigest()
+                if weight_hash != meta["model_sha256"]["local_gnn"]:
+                    raise ValueError(
+                        "GNN checkpoint differs from frozen Phase II weights"
+                    )
                 cpu = time.process_time()
                 seed, gs, ss = seeds(ev.hits, b.xyz, net.eval())[1]
                 seed_cpu = time.process_time() - cpu

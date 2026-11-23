@@ -75,3 +75,34 @@ def test_bounded_multilayer_filter(mode):
         assert reconstruct(b, [[0, 1, 2]], mode)[0] == expected
     b.layers[1] = (13, 1, 0.55, np.array([], int), None)
     assert reconstruct(b, [[0, 1, 2]], mode)[0] == [[0, 1, 2, 3]]
+
+
+def test_hit_labels_invariant_and_phi_seam():
+    import pandas as pd
+
+    from trackx.extension import Barrel
+
+    radius = np.array([0.04, 0.08, 0.12, 0.3, 0.55])
+    phi = np.pi - 0.04 + np.arcsin(radius * 0.25)
+    hits = pd.DataFrame(
+        {
+            "x": 1000 * radius * np.cos(phi),
+            "y": 1000 * radius * np.sin(phi),
+            "z": 1000 * np.arcsin(radius * 0.25) / 0.25 * 0.1,
+            "volume_id": [8, 8, 8, 13, 17],
+            "layer_id": [2, 4, 6, 2, 2],
+        }
+    )
+    modules = hits.rename(columns={"x": "cx", "y": "cy"})
+    rng = np.random.default_rng(72)
+    base = Barrel(hits, modules)
+    shuffled = Barrel(
+        hits.assign(
+            particle_id=rng.integers(0, 10, len(hits)), weight=rng.random(len(hits))
+        ),
+        modules,
+    )
+    for mode in ("M2", "M3", "M4", "M5"):
+        expect = reconstruct(base, [[0, 1, 2]], mode)[0]
+        assert expect == [[0, 1, 2, 3, 4]]
+        assert reconstruct(shuffled, [[0, 1, 2]], mode)[0] == expect
