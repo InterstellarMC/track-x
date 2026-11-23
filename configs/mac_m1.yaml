@@ -1,0 +1,13 @@
+seed: 1729
+train: 60
+validation: 10
+test: 15
+tracks: 32
+noise: 80
+epochs: 10
+missing: 0.10
+field: 2.0
+depth: 2
+width: 32
+device: cpu
+max_events: 85

@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "track-x"
+version = "0.1.0"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy", "scipy", "torch", "pyyaml", "plotly", "scikit-learn"]
+
+[project.optional-dependencies]
+demo = [
+    "streamlit>=1.67.0",
+]
+[dependency-groups]
+dev = ["pytest", "ruff"]
