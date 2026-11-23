@@ -74,6 +74,7 @@ def main():
     parser.add_argument(
         "--phase3", action="store_true", help="only frozen Phase III events 1009–1011"
     )
+    parser.add_argument("--phase4", choices=["gap-a", "gap-b", "final"])
     args = parser.parse_args()
     dest_root = Path("data/trackml-confirmation") if args.confirmation else DEST
     selection = slice(6, 9) if args.confirmation else slice(0, 6)
@@ -82,6 +83,12 @@ def main():
             parser.error("choose one sample")
         dest_root = Path("data/trackml-phase3")
         selection = slice(9, 12)
+    if args.phase4:
+        if args.confirmation or args.phase3:
+            parser.error("choose one sample")
+        start = {"gap-a": 12, "gap-b": 17, "final": 22}[args.phase4]
+        selection = slice(start, start + 5)
+        dest_root = Path("data") / ("trackml4-" + args.phase4)
     dest_root.mkdir(parents=True, exist_ok=True)
     settings = json.loads(
         (
