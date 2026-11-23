@@ -1,0 +1,22 @@
+device cpu
+mlp best validation BCE 0.1261
+gnn best validation BCE 0.10175
+elapsed seconds 9.392
+       12.14 real        11.11 user         0.68 sys
+           374538240  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               38440  page reclaims
+                1189  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                1780  voluntary context switches
+                4362  involuntary context switches
+         76409504718  instructions retired
+         22815996795  cycles elapsed
+           297370608  peak memory footprint

@@ -1,0 +1,28 @@
+device cpu
+mlp best validation BCE 0.3289
+gnn best validation BCE 0.15421
+experiments/771777601a1fa6dc/metrics.json peak RSS bytes 328974336
+mlp mean event efficiency 1.0
+hybrid mean event efficiency 1.0
+gnn mean event efficiency 1.0
+classical mean event efficiency 1.0
+experiments/771777601a1fa6dc/event.html
+elapsed seconds 5.319
+       39.07 real        10.92 user         2.19 sys
+           390987776  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               86309  page reclaims
+                6029  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                3388  voluntary context switches
+               21505  involuntary context switches
+         66384930166  instructions retired
+         23976061812  cycles elapsed
+           374981712  peak memory footprint

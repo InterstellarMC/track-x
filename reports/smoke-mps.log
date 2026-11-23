@@ -1,0 +1,10 @@
+device mps
+mlp best validation BCE 0.3289
+gnn best validation BCE 0.15421
+experiments/dbf48c23145e7777/metrics.json peak RSS bytes 620478464
+hybrid mean event efficiency 1.0
+mlp mean event efficiency 1.0
+gnn mean event efficiency 1.0
+classical mean event efficiency 1.0
+experiments/dbf48c23145e7777/event.html
+elapsed seconds 3.684

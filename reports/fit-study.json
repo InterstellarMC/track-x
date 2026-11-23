@@ -1,0 +1,3355 @@
+[
+  {
+    "event": 70,
+    "pid": 5,
+    "algebraic_error": -0.0162325908990969,
+    "robust_error": -0.014942640200465762,
+    "robust_rms_m": 0.0001576494855016422
+  },
+  {
+    "event": 70,
+    "pid": 9,
+    "algebraic_error": -0.005603080712671238,
+    "robust_error": -0.00566980252447169,
+    "robust_rms_m": 0.00015529684009376018
+  },
+  {
+    "event": 70,
+    "pid": 8,
+    "algebraic_error": -0.0029858480971769463,
+    "robust_error": -0.0037427414023538663,
+    "robust_rms_m": 0.00020412759745045924
+  },
+  {
+    "event": 70,
+    "pid": 2,
+    "algebraic_error": 0.013493922477404913,
+    "robust_error": 0.010299587748641065,
+    "robust_rms_m": 0.0001509505500352181
+  },
+  {
+    "event": 70,
+    "pid": 11,
+    "algebraic_error": -0.0026971417400102893,
+    "robust_error": -0.0022385083311309284,
+    "robust_rms_m": 0.000172651660121883
+  },
+  {
+    "event": 70,
+    "pid": 30,
+    "algebraic_error": 0.0018521907124223747,
+    "robust_error": 0.0045282262547275964,
+    "robust_rms_m": 0.00018936426464875907
+  },
+  {
+    "event": 70,
+    "pid": 18,
+    "algebraic_error": -0.019888883103786115,
+    "robust_error": -0.014804954089126188,
+    "robust_rms_m": 0.00015989944482635343
+  },
+  {
+    "event": 70,
+    "pid": 6,
+    "algebraic_error": -0.009287288844200159,
+    "robust_error": -0.014775847552058685,
+    "robust_rms_m": 0.00015021151082084968
+  },
+  {
+    "event": 70,
+    "pid": 29,
+    "algebraic_error": -0.0062119306804810925,
+    "robust_error": 0.00026202990815915594,
+    "robust_rms_m": 0.00019707341454918502
+  },
+  {
+    "event": 70,
+    "pid": 17,
+    "algebraic_error": -0.0021303975556072607,
+    "robust_error": 0.00536729533553143,
+    "robust_rms_m": 0.0002477545432742017
+  },
+  {
+    "event": 70,
+    "pid": 14,
+    "algebraic_error": 0.01280681083452817,
+    "robust_error": 0.008817943095553171,
+    "robust_rms_m": 0.00022010975590355412
+  },
+  {
+    "event": 70,
+    "pid": 1,
+    "algebraic_error": 0.001224264665388386,
+    "robust_error": 0.0011307650968249705,
+    "robust_rms_m": 0.0001480466214321534
+  },
+  {
+    "event": 70,
+    "pid": 32,
+    "algebraic_error": 0.013569737570869767,
+    "robust_error": 0.002637377573659394,
+    "robust_rms_m": 0.00019931040311359246
+  },
+  {
+    "event": 70,
+    "pid": 4,
+    "algebraic_error": 0.0070077318870699346,
+    "robust_error": 0.01098787736943474,
+    "robust_rms_m": 0.00021441491873855077
+  },
+  {
+    "event": 70,
+    "pid": 21,
+    "algebraic_error": 0.00316627787992374,
+    "robust_error": 0.0029373313527412126,
+    "robust_rms_m": 0.00014950705937510081
+  },
+  {
+    "event": 70,
+    "pid": 28,
+    "algebraic_error": -0.003708016126022784,
+    "robust_error": -0.005208767284828442,
+    "robust_rms_m": 0.00011839343464235084
+  },
+  {
+    "event": 70,
+    "pid": 7,
+    "algebraic_error": 0.0044033514174458555,
+    "robust_error": 0.005341652772979044,
+    "robust_rms_m": 0.00015975074623469354
+  },
+  {
+    "event": 70,
+    "pid": 26,
+    "algebraic_error": -0.0029503417874762183,
+    "robust_error": 0.004252765660802849,
+    "robust_rms_m": 0.00019399659564114965
+  },
+  {
+    "event": 70,
+    "pid": 13,
+    "algebraic_error": -0.010400177801339838,
+    "robust_error": -0.010121769832808214,
+    "robust_rms_m": 0.00016706019161511588
+  },
+  {
+    "event": 70,
+    "pid": 27,
+    "algebraic_error": 0.006253226639585774,
+    "robust_error": 0.008484904433171236,
+    "robust_rms_m": 0.0001826299996906709
+  },
+  {
+    "event": 70,
+    "pid": 23,
+    "algebraic_error": -0.012615176961191799,
+    "robust_error": -0.0015621807733625093,
+    "robust_rms_m": 0.0002152964398312325
+  },
+  {
+    "event": 70,
+    "pid": 19,
+    "algebraic_error": 0.0886803567507578,
+    "robust_error": 0.02799584417444978,
+    "robust_rms_m": 0.0019997435443152856
+  },
+  {
+    "event": 70,
+    "pid": 20,
+    "algebraic_error": 0.00797140400284524,
+    "robust_error": 0.010590241927133315,
+    "robust_rms_m": 0.00011372058255064461
+  },
+  {
+    "event": 70,
+    "pid": 22,
+    "algebraic_error": 0.000792510639357924,
+    "robust_error": -0.006232990865816218,
+    "robust_rms_m": 0.00018925797452158484
+  },
+  {
+    "event": 70,
+    "pid": 25,
+    "algebraic_error": -0.0053688168397559854,
+    "robust_error": -0.0008729777715926201,
+    "robust_rms_m": 0.00012784564978075207
+  },
+  {
+    "event": 70,
+    "pid": 24,
+    "algebraic_error": -0.007201144024151063,
+    "robust_error": -0.0033457178598798043,
+    "robust_rms_m": 0.0001458457500316793
+  },
+  {
+    "event": 70,
+    "pid": 10,
+    "algebraic_error": -0.0010270184470570765,
+    "robust_error": -0.008054636920176106,
+    "robust_rms_m": 0.00019561956757003325
+  },
+  {
+    "event": 70,
+    "pid": 15,
+    "algebraic_error": -0.010753728480820235,
+    "robust_error": -0.009555638954322099,
+    "robust_rms_m": 0.0002336443754748461
+  },
+  {
+    "event": 70,
+    "pid": 31,
+    "algebraic_error": -0.0019399472177360488,
+    "robust_error": -0.0006015559881812349,
+    "robust_rms_m": 0.00011913015298126505
+  },
+  {
+    "event": 70,
+    "pid": 16,
+    "algebraic_error": 0.020219629072359524,
+    "robust_error": 0.019919441610017685,
+    "robust_rms_m": 0.00013511444110884466
+  },
+  {
+    "event": 70,
+    "pid": 12,
+    "algebraic_error": -0.0025694588959889186,
+    "robust_error": -0.0012967059407472115,
+    "robust_rms_m": 0.00014057864614913318
+  },
+  {
+    "event": 70,
+    "pid": 3,
+    "algebraic_error": 0.009394809511272306,
+    "robust_error": 0.010226392634265113,
+    "robust_rms_m": 0.00013646918494903605
+  },
+  {
+    "event": 71,
+    "pid": 16,
+    "algebraic_error": -0.0003201125697481766,
+    "robust_error": 0.006301023018647156,
+    "robust_rms_m": 0.00016724805142700764
+  },
+  {
+    "event": 71,
+    "pid": 19,
+    "algebraic_error": -0.014584662598697229,
+    "robust_error": -0.012395458328025633,
+    "robust_rms_m": 0.00016919599788659987
+  },
+  {
+    "event": 71,
+    "pid": 8,
+    "algebraic_error": -0.015984810817732675,
+    "robust_error": -0.016507988165535725,
+    "robust_rms_m": 0.00015216580830757507
+  },
+  {
+    "event": 71,
+    "pid": 6,
+    "algebraic_error": 0.003754876768044091,
+    "robust_error": 0.003798970194131557,
+    "robust_rms_m": 0.00018702137978554795
+  },
+  {
+    "event": 71,
+    "pid": 14,
+    "algebraic_error": 0.012433284742139117,
+    "robust_error": 0.005701842231738086,
+    "robust_rms_m": 0.0002499406455494242
+  },
+  {
+    "event": 71,
+    "pid": 23,
+    "algebraic_error": -0.0028942448151176303,
+    "robust_error": -0.004020069669152082,
+    "robust_rms_m": 0.00020582665506416016
+  },
+  {
+    "event": 71,
+    "pid": 18,
+    "algebraic_error": 0.0017442002271212398,
+    "robust_error": 0.01038447738728454,
+    "robust_rms_m": 0.00017517840555009783
+  },
+  {
+    "event": 71,
+    "pid": 17,
+    "algebraic_error": -0.0018607796556177614,
+    "robust_error": -0.007725746470676892,
+    "robust_rms_m": 0.00016270244631815756
+  },
+  {
+    "event": 71,
+    "pid": 3,
+    "algebraic_error": 0.002299842538472041,
+    "robust_error": -0.001971427445247753,
+    "robust_rms_m": 0.00021057773111380064
+  },
+  {
+    "event": 71,
+    "pid": 4,
+    "algebraic_error": 0.019585997385866416,
+    "robust_error": 0.02319504181876919,
+    "robust_rms_m": 0.0001923892576703294
+  },
+  {
+    "event": 71,
+    "pid": 27,
+    "algebraic_error": 0.0072154319671765554,
+    "robust_error": 0.005487225686399699,
+    "robust_rms_m": 0.00010881148222376309
+  },
+  {
+    "event": 71,
+    "pid": 26,
+    "algebraic_error": -0.0009451821776479963,
+    "robust_error": 0.007276258762815013,
+    "robust_rms_m": 0.0002068470635927278
+  },
+  {
+    "event": 71,
+    "pid": 9,
+    "algebraic_error": 0.005056712133565455,
+    "robust_error": 0.004960602591433272,
+    "robust_rms_m": 0.00013457822987429955
+  },
+  {
+    "event": 71,
+    "pid": 24,
+    "algebraic_error": 0.008041572887466653,
+    "robust_error": 0.007225722059643558,
+    "robust_rms_m": 0.00019206685669886982
+  },
+  {
+    "event": 71,
+    "pid": 13,
+    "algebraic_error": -0.0012695268524213765,
+    "robust_error": -0.0008824522089469489,
+    "robust_rms_m": 0.00017843560753803467
+  },
+  {
+    "event": 71,
+    "pid": 22,
+    "algebraic_error": 0.0011576091690994605,
+    "robust_error": 0.004894425342285125,
+    "robust_rms_m": 0.00020573013189566808
+  },
+  {
+    "event": 71,
+    "pid": 31,
+    "algebraic_error": 0.005231198890951916,
+    "robust_error": 0.0038175145837735514,
+    "robust_rms_m": 0.00016414402711486934
+  },
+  {
+    "event": 71,
+    "pid": 15,
+    "algebraic_error": -0.00783533749571319,
+    "robust_error": -0.008276541946125482,
+    "robust_rms_m": 0.00010660328866381283
+  },
+  {
+    "event": 71,
+    "pid": 12,
+    "algebraic_error": 0.0028044740214145936,
+    "robust_error": 0.0018879781362521886,
+    "robust_rms_m": 0.00013035800426915584
+  },
+  {
+    "event": 71,
+    "pid": 11,
+    "algebraic_error": 0.008123859426414637,
+    "robust_error": 0.00854925705330864,
+    "robust_rms_m": 0.00010783284931976192
+  },
+  {
+    "event": 71,
+    "pid": 20,
+    "algebraic_error": 0.012025888984659061,
+    "robust_error": 0.0046315760164817865,
+    "robust_rms_m": 0.00023012994530148423
+  },
+  {
+    "event": 71,
+    "pid": 2,
+    "algebraic_error": -0.009138838747668687,
+    "robust_error": -0.011081441252436375,
+    "robust_rms_m": 0.0001275455614659301
+  },
+  {
+    "event": 71,
+    "pid": 5,
+    "algebraic_error": 0.00921186393050677,
+    "robust_error": 0.013544889595838827,
+    "robust_rms_m": 0.00018939194799611007
+  },
+  {
+    "event": 71,
+    "pid": 7,
+    "algebraic_error": -0.010476865301475236,
+    "robust_error": -0.009067754135192618,
+    "robust_rms_m": 0.0001947737315756923
+  },
+  {
+    "event": 71,
+    "pid": 21,
+    "algebraic_error": -0.0018431628723716287,
+    "robust_error": 0.003279596757799319,
+    "robust_rms_m": 0.0001784166316334539
+  },
+  {
+    "event": 71,
+    "pid": 30,
+    "algebraic_error": 0.010592022539572143,
+    "robust_error": 0.00812057427419488,
+    "robust_rms_m": 0.0002027662640887143
+  },
+  {
+    "event": 71,
+    "pid": 10,
+    "algebraic_error": -0.006784245081944529,
+    "robust_error": -0.009397492895327764,
+    "robust_rms_m": 0.00014478677676365057
+  },
+  {
+    "event": 71,
+    "pid": 32,
+    "algebraic_error": -0.01382135392391698,
+    "robust_error": -0.015160743517174502,
+    "robust_rms_m": 0.00023611473427153056
+  },
+  {
+    "event": 71,
+    "pid": 25,
+    "algebraic_error": -0.0010925978449923823,
+    "robust_error": 0.0006762554981212254,
+    "robust_rms_m": 0.00017393027330109653
+  },
+  {
+    "event": 71,
+    "pid": 1,
+    "algebraic_error": 0.009348416015368954,
+    "robust_error": 0.0065330862006105495,
+    "robust_rms_m": 0.00014811304949217784
+  },
+  {
+    "event": 71,
+    "pid": 29,
+    "algebraic_error": 0.002963483213740181,
+    "robust_error": -0.0013420754562323278,
+    "robust_rms_m": 0.00016866575050911392
+  },
+  {
+    "event": 71,
+    "pid": 28,
+    "algebraic_error": -0.004087971823408532,
+    "robust_error": -0.003786971602471323,
+    "robust_rms_m": 0.00010810118309214751
+  },
+  {
+    "event": 72,
+    "pid": 22,
+    "algebraic_error": 0.005940095077550445,
+    "robust_error": 0.007881633476990668,
+    "robust_rms_m": 0.00012367833446931466
+  },
+  {
+    "event": 72,
+    "pid": 11,
+    "algebraic_error": 0.0047597019457032985,
+    "robust_error": 0.00807696049838591,
+    "robust_rms_m": 0.0014481642266764344
+  },
+  {
+    "event": 72,
+    "pid": 18,
+    "algebraic_error": -0.004251578554766572,
+    "robust_error": -0.0027969391945575073,
+    "robust_rms_m": 0.00020861740218228931
+  },
+  {
+    "event": 72,
+    "pid": 4,
+    "algebraic_error": 0.009226055977856529,
+    "robust_error": 0.012690669511313146,
+    "robust_rms_m": 0.00016954813155788757
+  },
+  {
+    "event": 72,
+    "pid": 1,
+    "algebraic_error": -0.0005395235004104215,
+    "robust_error": -0.003141088672506287,
+    "robust_rms_m": 0.00019546189747057758
+  },
+  {
+    "event": 72,
+    "pid": 15,
+    "algebraic_error": -0.0013538049965398646,
+    "robust_error": 0.0001066672370366728,
+    "robust_rms_m": 0.0002202436882059311
+  },
+  {
+    "event": 72,
+    "pid": 5,
+    "algebraic_error": -0.03973747183259324,
+    "robust_error": -0.03963210807201856,
+    "robust_rms_m": 0.000166972821099489
+  },
+  {
+    "event": 72,
+    "pid": 6,
+    "algebraic_error": -0.013253345159523366,
+    "robust_error": -0.014383780078520592,
+    "robust_rms_m": 0.00011408272981497366
+  },
+  {
+    "event": 72,
+    "pid": 2,
+    "algebraic_error": -0.021362084969839157,
+    "robust_error": -0.02386926871636441,
+    "robust_rms_m": 0.00019684538744722238
+  },
+  {
+    "event": 72,
+    "pid": 3,
+    "algebraic_error": 0.008503383561105915,
+    "robust_error": 0.011778741830678618,
+    "robust_rms_m": 0.00021715552625343326
+  },
+  {
+    "event": 72,
+    "pid": 21,
+    "algebraic_error": -0.0024894439680186453,
+    "robust_error": -0.007796909954642273,
+    "robust_rms_m": 0.0001772581605222877
+  },
+  {
+    "event": 72,
+    "pid": 17,
+    "algebraic_error": 0.008551407753995655,
+    "robust_error": 0.009788560827800774,
+    "robust_rms_m": 0.00013089776429782242
+  },
+  {
+    "event": 72,
+    "pid": 29,
+    "algebraic_error": -0.01751887442208916,
+    "robust_error": -0.020065250879282792,
+    "robust_rms_m": 0.00017643706826043915
+  },
+  {
+    "event": 72,
+    "pid": 12,
+    "algebraic_error": -0.006377950777995467,
+    "robust_error": -0.005956534702450056,
+    "robust_rms_m": 9.443305920682058e-05
+  },
+  {
+    "event": 72,
+    "pid": 13,
+    "algebraic_error": -0.007053732634792309,
+    "robust_error": -0.019944664768383524,
+    "robust_rms_m": 0.00020947422532162805
+  },
+  {
+    "event": 72,
+    "pid": 19,
+    "algebraic_error": -0.007397036462409967,
+    "robust_error": -0.0063033266176288905,
+    "robust_rms_m": 0.000230190611847272
+  },
+  {
+    "event": 72,
+    "pid": 23,
+    "algebraic_error": 0.0013102829623865553,
+    "robust_error": -1.3391741587875927e-06,
+    "robust_rms_m": 0.0001369024843050583
+  },
+  {
+    "event": 72,
+    "pid": 9,
+    "algebraic_error": 0.013418928153552279,
+    "robust_error": 0.009911665914473122,
+    "robust_rms_m": 0.00017602132062132495
+  },
+  {
+    "event": 72,
+    "pid": 10,
+    "algebraic_error": -0.0035846313492592374,
+    "robust_error": -0.0015678690109354187,
+    "robust_rms_m": 0.00012373713552417704
+  },
+  {
+    "event": 72,
+    "pid": 7,
+    "algebraic_error": -0.016883462595659426,
+    "robust_error": -0.016808026661850994,
+    "robust_rms_m": 0.00010229693695162732
+  },
+  {
+    "event": 72,
+    "pid": 32,
+    "algebraic_error": -0.005838138363116974,
+    "robust_error": -0.01028456957748064,
+    "robust_rms_m": 0.00021952470962384674
+  },
+  {
+    "event": 72,
+    "pid": 20,
+    "algebraic_error": -0.013090585311016256,
+    "robust_error": -0.015034422357519395,
+    "robust_rms_m": 0.00016369078518665934
+  },
+  {
+    "event": 72,
+    "pid": 25,
+    "algebraic_error": -0.01315532227212901,
+    "robust_error": -0.016204844849579292,
+    "robust_rms_m": 0.0002286912947890559
+  },
+  {
+    "event": 72,
+    "pid": 24,
+    "algebraic_error": -0.006568779130865288,
+    "robust_error": -0.006047001353459036,
+    "robust_rms_m": 0.00013390860653558152
+  },
+  {
+    "event": 72,
+    "pid": 30,
+    "algebraic_error": -0.0011570905061065728,
+    "robust_error": 0.0017592941230204495,
+    "robust_rms_m": 0.00017165158259092376
+  },
+  {
+    "event": 72,
+    "pid": 26,
+    "algebraic_error": -0.005766939399378168,
+    "robust_error": -0.005193766149328594,
+    "robust_rms_m": 0.0001538130785723444
+  },
+  {
+    "event": 72,
+    "pid": 14,
+    "algebraic_error": 0.012588585731104995,
+    "robust_error": 0.008543726580520161,
+    "robust_rms_m": 0.00021069953987222734
+  },
+  {
+    "event": 72,
+    "pid": 31,
+    "algebraic_error": 0.011303095239710348,
+    "robust_error": 0.011957710936085775,
+    "robust_rms_m": 0.00026459901297734334
+  },
+  {
+    "event": 72,
+    "pid": 27,
+    "algebraic_error": -0.0019275824602158487,
+    "robust_error": 0.0031111449788024936,
+    "robust_rms_m": 0.0015104860724695032
+  },
+  {
+    "event": 72,
+    "pid": 16,
+    "algebraic_error": 0.0017155191008811355,
+    "robust_error": -0.0007391076034048427,
+    "robust_rms_m": 0.0001370547388918831
+  },
+  {
+    "event": 72,
+    "pid": 28,
+    "algebraic_error": 0.0028071820076202014,
+    "robust_error": 0.004058629942510494,
+    "robust_rms_m": 0.00015455285271707007
+  },
+  {
+    "event": 72,
+    "pid": 8,
+    "algebraic_error": -0.03354598654750607,
+    "robust_error": -0.00945364638961288,
+    "robust_rms_m": 0.001148831525475767
+  },
+  {
+    "event": 73,
+    "pid": 29,
+    "algebraic_error": 0.006127197197885459,
+    "robust_error": 0.005322538560453838,
+    "robust_rms_m": 0.00018249301056934592
+  },
+  {
+    "event": 73,
+    "pid": 26,
+    "algebraic_error": 0.001753494203563355,
+    "robust_error": 0.007138395897482497,
+    "robust_rms_m": 0.00019496155330074442
+  },
+  {
+    "event": 73,
+    "pid": 28,
+    "algebraic_error": -0.01655777444050871,
+    "robust_error": -0.016157638905839933,
+    "robust_rms_m": 0.0002501478462190206
+  },
+  {
+    "event": 73,
+    "pid": 30,
+    "algebraic_error": -0.0012331584679756147,
+    "robust_error": -0.00030962484724028627,
+    "robust_rms_m": 0.0001734738331963004
+  },
+  {
+    "event": 73,
+    "pid": 10,
+    "algebraic_error": -0.0014872831012479049,
+    "robust_error": -0.0018553915213898042,
+    "robust_rms_m": 0.00023896250722365515
+  },
+  {
+    "event": 73,
+    "pid": 20,
+    "algebraic_error": 0.002166375371198792,
+    "robust_error": -0.0014614496722367143,
+    "robust_rms_m": 0.0001414238199607606
+  },
+  {
+    "event": 73,
+    "pid": 3,
+    "algebraic_error": -0.002821033532974304,
+    "robust_error": -0.006138024833028888,
+    "robust_rms_m": 0.00019008883806672852
+  },
+  {
+    "event": 73,
+    "pid": 24,
+    "algebraic_error": -0.014227644668719897,
+    "robust_error": -0.01422529547995982,
+    "robust_rms_m": 0.00015983272140178306
+  },
+  {
+    "event": 73,
+    "pid": 25,
+    "algebraic_error": 0.005691503588358293,
+    "robust_error": -0.00019476536157425617,
+    "robust_rms_m": 0.0001884576213333467
+  },
+  {
+    "event": 73,
+    "pid": 22,
+    "algebraic_error": 0.022169338481130785,
+    "robust_error": 0.022051068294457243,
+    "robust_rms_m": 7.622733354635354e-05
+  },
+  {
+    "event": 73,
+    "pid": 23,
+    "algebraic_error": -0.008334628202263383,
+    "robust_error": -0.008814594213290505,
+    "robust_rms_m": 0.00012991342978802865
+  },
+  {
+    "event": 73,
+    "pid": 19,
+    "algebraic_error": -0.007640174600843375,
+    "robust_error": -0.00456915345127995,
+    "robust_rms_m": 0.0002110395985185978
+  },
+  {
+    "event": 73,
+    "pid": 15,
+    "algebraic_error": -0.01831350936248649,
+    "robust_error": -0.018428051750771446,
+    "robust_rms_m": 0.00017595468855533122
+  },
+  {
+    "event": 73,
+    "pid": 32,
+    "algebraic_error": 0.009240197078452916,
+    "robust_error": 0.004594140193240559,
+    "robust_rms_m": 0.0001688403554513148
+  },
+  {
+    "event": 73,
+    "pid": 1,
+    "algebraic_error": 0.006917787153441379,
+    "robust_error": 0.007129161516580662,
+    "robust_rms_m": 0.00018964230541886542
+  },
+  {
+    "event": 73,
+    "pid": 6,
+    "algebraic_error": -0.01006937096939342,
+    "robust_error": -0.009765783289106711,
+    "robust_rms_m": 0.00012842907612673333
+  },
+  {
+    "event": 73,
+    "pid": 18,
+    "algebraic_error": 0.0016891032027994135,
+    "robust_error": 0.00013573614811382417,
+    "robust_rms_m": 0.00021449983093228283
+  },
+  {
+    "event": 73,
+    "pid": 27,
+    "algebraic_error": -0.0007359931359358085,
+    "robust_error": 0.0005584993268712146,
+    "robust_rms_m": 0.000214280504331785
+  },
+  {
+    "event": 73,
+    "pid": 2,
+    "algebraic_error": -0.002709461134262514,
+    "robust_error": -0.0014479527544202786,
+    "robust_rms_m": 0.00010873104831035646
+  },
+  {
+    "event": 73,
+    "pid": 31,
+    "algebraic_error": -0.04905491277313545,
+    "robust_error": -0.039153518965729606,
+    "robust_rms_m": 0.00013944266398768668
+  },
+  {
+    "event": 73,
+    "pid": 16,
+    "algebraic_error": 0.010808297303809722,
+    "robust_error": 0.012814319138885755,
+    "robust_rms_m": 0.00026998635541877194
+  },
+  {
+    "event": 73,
+    "pid": 21,
+    "algebraic_error": -0.012147016747317663,
+    "robust_error": -0.01507027421963325,
+    "robust_rms_m": 0.00014530739851295667
+  },
+  {
+    "event": 73,
+    "pid": 9,
+    "algebraic_error": 0.02071207931146124,
+    "robust_error": 0.022143560013625718,
+    "robust_rms_m": 0.0001419455050095249
+  },
+  {
+    "event": 73,
+    "pid": 17,
+    "algebraic_error": 0.010631379900853666,
+    "robust_error": 0.009797959320693883,
+    "robust_rms_m": 0.00018846952672371166
+  },
+  {
+    "event": 73,
+    "pid": 13,
+    "algebraic_error": -0.011572030481688644,
+    "robust_error": -0.011924696650512767,
+    "robust_rms_m": 0.00014305764034520328
+  },
+  {
+    "event": 73,
+    "pid": 7,
+    "algebraic_error": 0.007315050635226583,
+    "robust_error": 0.004602405216559358,
+    "robust_rms_m": 0.00015563833562022724
+  },
+  {
+    "event": 73,
+    "pid": 12,
+    "algebraic_error": -0.005392278014367313,
+    "robust_error": -0.004937408898963547,
+    "robust_rms_m": 8.481800997542133e-05
+  },
+  {
+    "event": 73,
+    "pid": 4,
+    "algebraic_error": 0.00161692987647577,
+    "robust_error": 0.0019660568612724916,
+    "robust_rms_m": 0.00019045756499557734
+  },
+  {
+    "event": 73,
+    "pid": 5,
+    "algebraic_error": 0.00039454940109451275,
+    "robust_error": 8.994704205356197e-05,
+    "robust_rms_m": 0.00018761950708768042
+  },
+  {
+    "event": 73,
+    "pid": 11,
+    "algebraic_error": 0.0003268239234003323,
+    "robust_error": 0.0002688894600501035,
+    "robust_rms_m": 9.250018121231597e-05
+  },
+  {
+    "event": 73,
+    "pid": 14,
+    "algebraic_error": 0.01623439093834178,
+    "robust_error": 0.012492707710926643,
+    "robust_rms_m": 0.00015515037339399972
+  },
+  {
+    "event": 73,
+    "pid": 8,
+    "algebraic_error": 0.005252524619735299,
+    "robust_error": 0.006786069204978484,
+    "robust_rms_m": 0.00019712207619484957
+  },
+  {
+    "event": 74,
+    "pid": 22,
+    "algebraic_error": 0.003166509546574159,
+    "robust_error": 0.00468250526933589,
+    "robust_rms_m": 0.0001064478403550711
+  },
+  {
+    "event": 74,
+    "pid": 12,
+    "algebraic_error": -0.00689214788845266,
+    "robust_error": -0.006013247296487945,
+    "robust_rms_m": 0.00010891857033732997
+  },
+  {
+    "event": 74,
+    "pid": 29,
+    "algebraic_error": 0.016180864418795404,
+    "robust_error": 0.015084294611991456,
+    "robust_rms_m": 0.00015899629114607747
+  },
+  {
+    "event": 74,
+    "pid": 3,
+    "algebraic_error": -0.005313715337677938,
+    "robust_error": -0.004809277013197943,
+    "robust_rms_m": 0.00013533481688135057
+  },
+  {
+    "event": 74,
+    "pid": 15,
+    "algebraic_error": 0.018247280952370437,
+    "robust_error": 0.015649030242532336,
+    "robust_rms_m": 0.00015574583257343803
+  },
+  {
+    "event": 74,
+    "pid": 7,
+    "algebraic_error": 0.023219788440222766,
+    "robust_error": 0.023377203510654754,
+    "robust_rms_m": 0.00014237260580152687
+  },
+  {
+    "event": 74,
+    "pid": 20,
+    "algebraic_error": 0.015667055477596947,
+    "robust_error": 0.016724984456534253,
+    "robust_rms_m": 0.00018730105848455852
+  },
+  {
+    "event": 74,
+    "pid": 17,
+    "algebraic_error": 0.0049915042577896584,
+    "robust_error": -0.0016318494199329958,
+    "robust_rms_m": 0.00021394315773955907
+  },
+  {
+    "event": 74,
+    "pid": 28,
+    "algebraic_error": 0.0013021153771261007,
+    "robust_error": 0.007125362616050013,
+    "robust_rms_m": 0.00016821661047183698
+  },
+  {
+    "event": 74,
+    "pid": 16,
+    "algebraic_error": -0.006652514929992304,
+    "robust_error": -0.0071315138815132295,
+    "robust_rms_m": 0.00019394689744152714
+  },
+  {
+    "event": 74,
+    "pid": 14,
+    "algebraic_error": 0.006743696201844507,
+    "robust_error": 0.00547888044802225,
+    "robust_rms_m": 0.00014322236519935525
+  },
+  {
+    "event": 74,
+    "pid": 1,
+    "algebraic_error": 0.015062534182645804,
+    "robust_error": 0.010433856358324556,
+    "robust_rms_m": 0.00023124993304058384
+  },
+  {
+    "event": 74,
+    "pid": 13,
+    "algebraic_error": 0.005605718754965183,
+    "robust_error": 0.006719541185635558,
+    "robust_rms_m": 0.00012858203734369267
+  },
+  {
+    "event": 74,
+    "pid": 10,
+    "algebraic_error": 0.015591553064001118,
+    "robust_error": 0.013294216230178346,
+    "robust_rms_m": 0.00016565605251996434
+  },
+  {
+    "event": 74,
+    "pid": 8,
+    "algebraic_error": 0.0238161070176921,
+    "robust_error": 0.021314408389695394,
+    "robust_rms_m": 0.0001077717374337768
+  },
+  {
+    "event": 74,
+    "pid": 31,
+    "algebraic_error": -0.005432779293464474,
+    "robust_error": -0.0007888104779946725,
+    "robust_rms_m": 0.00018068477106556024
+  },
+  {
+    "event": 74,
+    "pid": 2,
+    "algebraic_error": 0.023866012584861318,
+    "robust_error": 0.018535562109841974,
+    "robust_rms_m": 0.00017438195661324812
+  },
+  {
+    "event": 74,
+    "pid": 9,
+    "algebraic_error": 0.005902462696856958,
+    "robust_error": 0.0077800917861900465,
+    "robust_rms_m": 0.00023234715333454302
+  },
+  {
+    "event": 74,
+    "pid": 4,
+    "algebraic_error": 0.023663107482095658,
+    "robust_error": 0.027402462213186984,
+    "robust_rms_m": 0.00015511662480444018
+  },
+  {
+    "event": 74,
+    "pid": 32,
+    "algebraic_error": 0.0185772026729365,
+    "robust_error": 0.019617582572165948,
+    "robust_rms_m": 0.00010593396425133141
+  },
+  {
+    "event": 74,
+    "pid": 19,
+    "algebraic_error": -0.010771081810190819,
+    "robust_error": -0.008123083415038035,
+    "robust_rms_m": 0.00012166292060302566
+  },
+  {
+    "event": 74,
+    "pid": 18,
+    "algebraic_error": -0.026930006415546548,
+    "robust_error": -0.01852763566559612,
+    "robust_rms_m": 0.00018411160482770624
+  },
+  {
+    "event": 74,
+    "pid": 30,
+    "algebraic_error": -0.008296898511065132,
+    "robust_error": -0.008246999808999622,
+    "robust_rms_m": 0.0001693452395176266
+  },
+  {
+    "event": 74,
+    "pid": 24,
+    "algebraic_error": 0.01371991721570609,
+    "robust_error": 0.019003717910987095,
+    "robust_rms_m": 0.00018583583561108903
+  },
+  {
+    "event": 74,
+    "pid": 5,
+    "algebraic_error": -0.00624371057188311,
+    "robust_error": -0.011204924951741801,
+    "robust_rms_m": 0.0002693726757092538
+  },
+  {
+    "event": 74,
+    "pid": 11,
+    "algebraic_error": -0.0009397824550343437,
+    "robust_error": 0.003942529713103271,
+    "robust_rms_m": 0.00019579485849914778
+  },
+  {
+    "event": 74,
+    "pid": 23,
+    "algebraic_error": 0.0034262317534095033,
+    "robust_error": 0.0027441599801090177,
+    "robust_rms_m": 8.032760293617003e-05
+  },
+  {
+    "event": 74,
+    "pid": 25,
+    "algebraic_error": -0.009164703042037203,
+    "robust_error": -0.009140095639031842,
+    "robust_rms_m": 0.00014279145318223232
+  },
+  {
+    "event": 74,
+    "pid": 6,
+    "algebraic_error": -0.005748326534834369,
+    "robust_error": -0.0048430169735143025,
+    "robust_rms_m": 0.00010301011372237694
+  },
+  {
+    "event": 74,
+    "pid": 21,
+    "algebraic_error": 0.010018980321024884,
+    "robust_error": 0.011739707840968228,
+    "robust_rms_m": 0.00017100543590548034
+  },
+  {
+    "event": 74,
+    "pid": 27,
+    "algebraic_error": 0.0055261993813497945,
+    "robust_error": 0.006014697233079236,
+    "robust_rms_m": 0.00012848168174775103
+  },
+  {
+    "event": 74,
+    "pid": 26,
+    "algebraic_error": -0.0023180601422251312,
+    "robust_error": -0.00414403891337356,
+    "robust_rms_m": 0.00017455296773492826
+  },
+  {
+    "event": 75,
+    "pid": 29,
+    "algebraic_error": -0.010973797627648496,
+    "robust_error": -0.016165152851105313,
+    "robust_rms_m": 0.00025378441178341017
+  },
+  {
+    "event": 75,
+    "pid": 21,
+    "algebraic_error": 0.003940556987668042,
+    "robust_error": 0.009134025403615409,
+    "robust_rms_m": 0.0001835305472461872
+  },
+  {
+    "event": 75,
+    "pid": 17,
+    "algebraic_error": -0.015158667770277301,
+    "robust_error": -0.015268734252765315,
+    "robust_rms_m": 0.00012231876577044448
+  },
+  {
+    "event": 75,
+    "pid": 10,
+    "algebraic_error": 0.02170162984299795,
+    "robust_error": 0.02302808661085537,
+    "robust_rms_m": 0.00014941775689967157
+  },
+  {
+    "event": 75,
+    "pid": 32,
+    "algebraic_error": -0.011089833097934654,
+    "robust_error": -0.010511352858054213,
+    "robust_rms_m": 0.0003694496856353836
+  },
+  {
+    "event": 75,
+    "pid": 24,
+    "algebraic_error": -0.0032375319021514803,
+    "robust_error": 0.0016857928162086755,
+    "robust_rms_m": 0.0002082120489199354
+  },
+  {
+    "event": 75,
+    "pid": 8,
+    "algebraic_error": -0.01482867612947869,
+    "robust_error": -0.015987460183444213,
+    "robust_rms_m": 0.00019432405550173462
+  },
+  {
+    "event": 75,
+    "pid": 14,
+    "algebraic_error": -0.01323122907497104,
+    "robust_error": -0.014997725139020424,
+    "robust_rms_m": 0.0002022936267391394
+  },
+  {
+    "event": 75,
+    "pid": 7,
+    "algebraic_error": -0.007978371244118154,
+    "robust_error": -0.005457552054346948,
+    "robust_rms_m": 0.00016091519832098732
+  },
+  {
+    "event": 75,
+    "pid": 4,
+    "algebraic_error": 0.013042897491268302,
+    "robust_error": 0.008631750777859715,
+    "robust_rms_m": 0.00015401640001094286
+  },
+  {
+    "event": 75,
+    "pid": 11,
+    "algebraic_error": 0.01281900042799372,
+    "robust_error": 0.012492852813361766,
+    "robust_rms_m": 0.00014702605910689082
+  },
+  {
+    "event": 75,
+    "pid": 12,
+    "algebraic_error": -0.01420868191418384,
+    "robust_error": -0.015370663585808297,
+    "robust_rms_m": 0.00013975977342876907
+  },
+  {
+    "event": 75,
+    "pid": 27,
+    "algebraic_error": 0.0073457265941978545,
+    "robust_error": 0.010015834805748414,
+    "robust_rms_m": 0.0001338140566436822
+  },
+  {
+    "event": 75,
+    "pid": 18,
+    "algebraic_error": -0.0027197725358989455,
+    "robust_error": -0.0020293159356714607,
+    "robust_rms_m": 0.0002077547891958568
+  },
+  {
+    "event": 75,
+    "pid": 23,
+    "algebraic_error": -0.009260770139444874,
+    "robust_error": -0.009434354819983726,
+    "robust_rms_m": 4.152384726879917e-05
+  },
+  {
+    "event": 75,
+    "pid": 2,
+    "algebraic_error": 0.011023322025472515,
+    "robust_error": 0.005959647076006602,
+    "robust_rms_m": 0.00018798170331429443
+  },
+  {
+    "event": 75,
+    "pid": 1,
+    "algebraic_error": -0.009384017711957238,
+    "robust_error": 0.0012333999373336235,
+    "robust_rms_m": 0.0002719072887712987
+  },
+  {
+    "event": 75,
+    "pid": 19,
+    "algebraic_error": -0.0015595062583939057,
+    "robust_error": 0.0002609751708507746,
+    "robust_rms_m": 0.00014402359007505524
+  },
+  {
+    "event": 75,
+    "pid": 31,
+    "algebraic_error": 0.010034712267731283,
+    "robust_error": 0.00402776606443217,
+    "robust_rms_m": 0.00019430246974442227
+  },
+  {
+    "event": 75,
+    "pid": 30,
+    "algebraic_error": 0.017357600636710158,
+    "robust_error": 0.016365517035705324,
+    "robust_rms_m": 0.00017768978468249923
+  },
+  {
+    "event": 75,
+    "pid": 9,
+    "algebraic_error": 0.004262727205261663,
+    "robust_error": -0.002090311379238541,
+    "robust_rms_m": 0.00029684432862904286
+  },
+  {
+    "event": 75,
+    "pid": 25,
+    "algebraic_error": 0.007742038885423241,
+    "robust_error": 0.011209561210968055,
+    "robust_rms_m": 0.00017533650583834498
+  },
+  {
+    "event": 75,
+    "pid": 6,
+    "algebraic_error": -0.007072661705344485,
+    "robust_error": -0.007179076778121463,
+    "robust_rms_m": 0.00022124484521193627
+  },
+  {
+    "event": 75,
+    "pid": 20,
+    "algebraic_error": 0.0181416548287614,
+    "robust_error": 0.018321441349292256,
+    "robust_rms_m": 0.00010891093666163615
+  },
+  {
+    "event": 75,
+    "pid": 28,
+    "algebraic_error": -0.007832786180221596,
+    "robust_error": -0.007092287311567469,
+    "robust_rms_m": 0.00010402587933125682
+  },
+  {
+    "event": 75,
+    "pid": 26,
+    "algebraic_error": 0.013269354979601689,
+    "robust_error": 0.007561694477925207,
+    "robust_rms_m": 0.00017700812091005853
+  },
+  {
+    "event": 75,
+    "pid": 3,
+    "algebraic_error": 0.002250516584769824,
+    "robust_error": 0.0018009893650750564,
+    "robust_rms_m": 0.0001604976072235946
+  },
+  {
+    "event": 75,
+    "pid": 13,
+    "algebraic_error": 0.01746006566947289,
+    "robust_error": 0.021324473620959683,
+    "robust_rms_m": 0.00022141562527684582
+  },
+  {
+    "event": 75,
+    "pid": 15,
+    "algebraic_error": -0.0010264651513892664,
+    "robust_error": 0.0013845751349618185,
+    "robust_rms_m": 0.0001474243285897161
+  },
+  {
+    "event": 75,
+    "pid": 22,
+    "algebraic_error": 0.016772651282797202,
+    "robust_error": 0.016705022453013862,
+    "robust_rms_m": 0.00012179504346550297
+  },
+  {
+    "event": 75,
+    "pid": 16,
+    "algebraic_error": 0.011606937566081887,
+    "robust_error": 0.01714953896045668,
+    "robust_rms_m": 0.00013604408072200003
+  },
+  {
+    "event": 75,
+    "pid": 5,
+    "algebraic_error": 0.01165659647897821,
+    "robust_error": 0.020274092636639263,
+    "robust_rms_m": 0.00019851634973408252
+  },
+  {
+    "event": 76,
+    "pid": 18,
+    "algebraic_error": 0.00792959325652165,
+    "robust_error": 0.0025878327716303273,
+    "robust_rms_m": 0.00019872472918962278
+  },
+  {
+    "event": 76,
+    "pid": 3,
+    "algebraic_error": -0.000725576765419178,
+    "robust_error": -0.00047803464745577173,
+    "robust_rms_m": 0.0001279348362101301
+  },
+  {
+    "event": 76,
+    "pid": 16,
+    "algebraic_error": 0.00036099065102690453,
+    "robust_error": 0.0015067581418950482,
+    "robust_rms_m": 0.00016072586392212632
+  },
+  {
+    "event": 76,
+    "pid": 32,
+    "algebraic_error": 0.00490935865986436,
+    "robust_error": 0.010759306535319202,
+    "robust_rms_m": 0.00023370571008477276
+  },
+  {
+    "event": 76,
+    "pid": 25,
+    "algebraic_error": -0.0035962333870563357,
+    "robust_error": -0.012253698065473273,
+    "robust_rms_m": 0.00024995068178652625
+  },
+  {
+    "event": 76,
+    "pid": 9,
+    "algebraic_error": 0.007958508279035215,
+    "robust_error": 0.010930466375283832,
+    "robust_rms_m": 6.052945537534734e-05
+  },
+  {
+    "event": 76,
+    "pid": 23,
+    "algebraic_error": 0.0002347224074057963,
+    "robust_error": 0.0010019441238852678,
+    "robust_rms_m": 0.00011813606540062198
+  },
+  {
+    "event": 76,
+    "pid": 4,
+    "algebraic_error": 0.005932380292487216,
+    "robust_error": 0.0011405157945748035,
+    "robust_rms_m": 0.00012372015528559454
+  },
+  {
+    "event": 76,
+    "pid": 24,
+    "algebraic_error": -0.002771741643792902,
+    "robust_error": -0.00045490586351726314,
+    "robust_rms_m": 0.00015236365349677555
+  },
+  {
+    "event": 76,
+    "pid": 21,
+    "algebraic_error": -0.003423682975572717,
+    "robust_error": -0.0039186706244114244,
+    "robust_rms_m": 0.0001620574429615109
+  },
+  {
+    "event": 76,
+    "pid": 5,
+    "algebraic_error": 0.006216862779575061,
+    "robust_error": 0.008794693491485595,
+    "robust_rms_m": 0.00013048489486398006
+  },
+  {
+    "event": 76,
+    "pid": 8,
+    "algebraic_error": -0.007746278040129229,
+    "robust_error": -0.002667565059463528,
+    "robust_rms_m": 0.0001638317446863334
+  },
+  {
+    "event": 76,
+    "pid": 13,
+    "algebraic_error": 0.004753065891391628,
+    "robust_error": 0.007933133085847921,
+    "robust_rms_m": 0.0001590176518156355
+  },
+  {
+    "event": 76,
+    "pid": 28,
+    "algebraic_error": 0.002286809730074446,
+    "robust_error": -0.0006359507357481808,
+    "robust_rms_m": 0.00020255396422351685
+  },
+  {
+    "event": 76,
+    "pid": 19,
+    "algebraic_error": -0.15472546232619183,
+    "robust_error": -0.03097765319529261,
+    "robust_rms_m": 0.00023578103663796478
+  },
+  {
+    "event": 76,
+    "pid": 14,
+    "algebraic_error": 0.002873134219330248,
+    "robust_error": 0.010249653564650019,
+    "robust_rms_m": 0.00017508872768317958
+  },
+  {
+    "event": 76,
+    "pid": 30,
+    "algebraic_error": -0.006627932608190168,
+    "robust_error": -0.006969655802010699,
+    "robust_rms_m": 0.00017514980446463714
+  },
+  {
+    "event": 76,
+    "pid": 15,
+    "algebraic_error": -0.01487463600781569,
+    "robust_error": -0.013955938679081903,
+    "robust_rms_m": 0.00017749027429262898
+  },
+  {
+    "event": 76,
+    "pid": 6,
+    "algebraic_error": -0.010976370861310702,
+    "robust_error": -0.012007154275302245,
+    "robust_rms_m": 9.931149887850441e-05
+  },
+  {
+    "event": 76,
+    "pid": 10,
+    "algebraic_error": -0.0027648135521952666,
+    "robust_error": -0.002913611249221182,
+    "robust_rms_m": 0.00014148515124515673
+  },
+  {
+    "event": 76,
+    "pid": 31,
+    "algebraic_error": 0.02805208613009147,
+    "robust_error": 0.028129400654477,
+    "robust_rms_m": 0.00014970747353384813
+  },
+  {
+    "event": 76,
+    "pid": 22,
+    "algebraic_error": -0.001123167173285755,
+    "robust_error": -0.003222295751912796,
+    "robust_rms_m": 0.00018559344909956026
+  },
+  {
+    "event": 76,
+    "pid": 12,
+    "algebraic_error": -0.005305183644885636,
+    "robust_error": -0.006535766652621788,
+    "robust_rms_m": 0.00014280193468879494
+  },
+  {
+    "event": 76,
+    "pid": 26,
+    "algebraic_error": 0.0025887240947261025,
+    "robust_error": -0.0012961562864877152,
+    "robust_rms_m": 0.0002180819030719449
+  },
+  {
+    "event": 76,
+    "pid": 17,
+    "algebraic_error": -0.0008195630358296402,
+    "robust_error": -0.0008958323500893872,
+    "robust_rms_m": 0.00022485759464506295
+  },
+  {
+    "event": 76,
+    "pid": 11,
+    "algebraic_error": 0.008421150938556554,
+    "robust_error": 0.0086956970936376,
+    "robust_rms_m": 0.0001713248514902629
+  },
+  {
+    "event": 76,
+    "pid": 29,
+    "algebraic_error": 0.0019537912110892397,
+    "robust_error": 0.0028412483590156135,
+    "robust_rms_m": 0.00015175907484257854
+  },
+  {
+    "event": 76,
+    "pid": 1,
+    "algebraic_error": 0.004712739705643787,
+    "robust_error": 0.005455226706790883,
+    "robust_rms_m": 0.00013747457932126978
+  },
+  {
+    "event": 76,
+    "pid": 2,
+    "algebraic_error": 0.01810688716808584,
+    "robust_error": 0.018157923468327786,
+    "robust_rms_m": 7.321035723763583e-05
+  },
+  {
+    "event": 76,
+    "pid": 27,
+    "algebraic_error": 0.0023043543319217763,
+    "robust_error": 0.001019644574757228,
+    "robust_rms_m": 0.00018546362061483027
+  },
+  {
+    "event": 76,
+    "pid": 7,
+    "algebraic_error": -0.012632759518419912,
+    "robust_error": -0.010534333290626141,
+    "robust_rms_m": 0.00020754135491327262
+  },
+  {
+    "event": 76,
+    "pid": 20,
+    "algebraic_error": -0.028481370988498123,
+    "robust_error": -0.028538721901419595,
+    "robust_rms_m": 8.204124347009774e-05
+  },
+  {
+    "event": 77,
+    "pid": 26,
+    "algebraic_error": -0.012185443208257207,
+    "robust_error": -0.012011217152224196,
+    "robust_rms_m": 0.00014112638211452106
+  },
+  {
+    "event": 77,
+    "pid": 15,
+    "algebraic_error": 0.0017899427609986973,
+    "robust_error": 0.0036847164910902563,
+    "robust_rms_m": 0.00016474896738167183
+  },
+  {
+    "event": 77,
+    "pid": 6,
+    "algebraic_error": 0.00981772495201172,
+    "robust_error": 0.007822390011353653,
+    "robust_rms_m": 0.00014774400633999252
+  },
+  {
+    "event": 77,
+    "pid": 19,
+    "algebraic_error": -0.0016295481329687833,
+    "robust_error": -6.708152225920472e-05,
+    "robust_rms_m": 0.00018814004663975182
+  },
+  {
+    "event": 77,
+    "pid": 13,
+    "algebraic_error": -0.008287979251046185,
+    "robust_error": -0.009219010362020552,
+    "robust_rms_m": 0.00016173992629011256
+  },
+  {
+    "event": 77,
+    "pid": 8,
+    "algebraic_error": 0.021153496178670184,
+    "robust_error": 0.017016349323566604,
+    "robust_rms_m": 0.0001909029827271956
+  },
+  {
+    "event": 77,
+    "pid": 27,
+    "algebraic_error": -0.019281825440815636,
+    "robust_error": -0.018899981918758746,
+    "robust_rms_m": 0.00018062130253281822
+  },
+  {
+    "event": 77,
+    "pid": 14,
+    "algebraic_error": -0.004053680364981382,
+    "robust_error": -0.006472438298993188,
+    "robust_rms_m": 0.0001530384035610633
+  },
+  {
+    "event": 77,
+    "pid": 21,
+    "algebraic_error": -0.011416377674475509,
+    "robust_error": -0.0006091669671092204,
+    "robust_rms_m": 0.00017369754604532023
+  },
+  {
+    "event": 77,
+    "pid": 18,
+    "algebraic_error": 0.020952718327511555,
+    "robust_error": 0.025012004153046885,
+    "robust_rms_m": 0.00012590727975089253
+  },
+  {
+    "event": 77,
+    "pid": 11,
+    "algebraic_error": 0.0038631390403135457,
+    "robust_error": 0.009521723271735838,
+    "robust_rms_m": 0.00016511167644912706
+  },
+  {
+    "event": 77,
+    "pid": 25,
+    "algebraic_error": -0.00658211104860873,
+    "robust_error": -0.008985268697802362,
+    "robust_rms_m": 0.0002671431201579243
+  },
+  {
+    "event": 77,
+    "pid": 4,
+    "algebraic_error": -0.00027047390461909515,
+    "robust_error": 0.0012333390379236087,
+    "robust_rms_m": 0.0001624991641565797
+  },
+  {
+    "event": 77,
+    "pid": 23,
+    "algebraic_error": -0.01063648987025656,
+    "robust_error": -0.01177761245116915,
+    "robust_rms_m": 0.00017279567800040056
+  },
+  {
+    "event": 77,
+    "pid": 17,
+    "algebraic_error": 0.008686763987897028,
+    "robust_error": 0.00919889224074788,
+    "robust_rms_m": 0.00017613036766970507
+  },
+  {
+    "event": 77,
+    "pid": 20,
+    "algebraic_error": -0.007840276414903258,
+    "robust_error": -0.007338871221575283,
+    "robust_rms_m": 0.00015531077102904058
+  },
+  {
+    "event": 77,
+    "pid": 30,
+    "algebraic_error": 0.017020840175918872,
+    "robust_error": 0.012641068771659603,
+    "robust_rms_m": 0.00014091887095235624
+  },
+  {
+    "event": 77,
+    "pid": 7,
+    "algebraic_error": 0.0030908780204585984,
+    "robust_error": 0.0030790218669807246,
+    "robust_rms_m": 0.0001255899862031147
+  },
+  {
+    "event": 77,
+    "pid": 22,
+    "algebraic_error": 0.01604486019894852,
+    "robust_error": 0.016169400785864707,
+    "robust_rms_m": 0.0001288937559495887
+  },
+  {
+    "event": 77,
+    "pid": 24,
+    "algebraic_error": 0.003202536631458086,
+    "robust_error": 0.003123944041052207,
+    "robust_rms_m": 0.00014317845292139694
+  },
+  {
+    "event": 77,
+    "pid": 5,
+    "algebraic_error": 0.014407108051857798,
+    "robust_error": 0.01247395839785953,
+    "robust_rms_m": 0.00017051002672311232
+  },
+  {
+    "event": 77,
+    "pid": 28,
+    "algebraic_error": -0.012013213132007705,
+    "robust_error": -0.013038234663915571,
+    "robust_rms_m": 0.00018927110664270888
+  },
+  {
+    "event": 77,
+    "pid": 12,
+    "algebraic_error": -0.003989812898472278,
+    "robust_error": -0.003217734106096548,
+    "robust_rms_m": 6.712089647197385e-05
+  },
+  {
+    "event": 77,
+    "pid": 32,
+    "algebraic_error": 0.01031598579501336,
+    "robust_error": 0.010564542084017914,
+    "robust_rms_m": 0.00010097975179681797
+  },
+  {
+    "event": 77,
+    "pid": 3,
+    "algebraic_error": 0.0023436197565994132,
+    "robust_error": 0.0021534604744221086,
+    "robust_rms_m": 0.00016268486142981506
+  },
+  {
+    "event": 77,
+    "pid": 16,
+    "algebraic_error": 0.008906666270581842,
+    "robust_error": 0.009258695645804338,
+    "robust_rms_m": 0.00013290118729502234
+  },
+  {
+    "event": 77,
+    "pid": 31,
+    "algebraic_error": 0.003048991225157116,
+    "robust_error": 0.004535204386062919,
+    "robust_rms_m": 0.000176648784661585
+  },
+  {
+    "event": 77,
+    "pid": 9,
+    "algebraic_error": -0.014553666801971787,
+    "robust_error": -0.011363921370469376,
+    "robust_rms_m": 0.00019421957837011813
+  },
+  {
+    "event": 77,
+    "pid": 29,
+    "algebraic_error": 0.0024620821347804966,
+    "robust_error": -0.002335302336169409,
+    "robust_rms_m": 0.00020547786956545434
+  },
+  {
+    "event": 77,
+    "pid": 2,
+    "algebraic_error": 0.020146101815042172,
+    "robust_error": 0.020383874550852832,
+    "robust_rms_m": 0.00013925684940377188
+  },
+  {
+    "event": 77,
+    "pid": 10,
+    "algebraic_error": -0.015454170047414839,
+    "robust_error": -0.014446192742099573,
+    "robust_rms_m": 0.00011514954369338127
+  },
+  {
+    "event": 77,
+    "pid": 1,
+    "algebraic_error": -0.004780025758055306,
+    "robust_error": -0.0069139363961967515,
+    "robust_rms_m": 0.00016615268213163094
+  },
+  {
+    "event": 78,
+    "pid": 3,
+    "algebraic_error": -0.012245277741021798,
+    "robust_error": -0.010192603158657443,
+    "robust_rms_m": 0.00020437042629526354
+  },
+  {
+    "event": 78,
+    "pid": 4,
+    "algebraic_error": 0.013164910236392824,
+    "robust_error": 0.014835772548811577,
+    "robust_rms_m": 0.0001328182229743291
+  },
+  {
+    "event": 78,
+    "pid": 29,
+    "algebraic_error": 0.009690737536230953,
+    "robust_error": 0.0035548843942892483,
+    "robust_rms_m": 0.00021404802619310557
+  },
+  {
+    "event": 78,
+    "pid": 17,
+    "algebraic_error": 0.001500100016945255,
+    "robust_error": -0.0006657993489546099,
+    "robust_rms_m": 0.00017867824571993318
+  },
+  {
+    "event": 78,
+    "pid": 6,
+    "algebraic_error": 0.0018749262254472154,
+    "robust_error": 0.0025390349265821954,
+    "robust_rms_m": 0.00019733499914566458
+  },
+  {
+    "event": 78,
+    "pid": 28,
+    "algebraic_error": -0.008029303513499064,
+    "robust_error": -0.0072760760344294795,
+    "robust_rms_m": 0.00013264218896663328
+  },
+  {
+    "event": 78,
+    "pid": 1,
+    "algebraic_error": -0.0037478224537920157,
+    "robust_error": 0.0033382387021246296,
+    "robust_rms_m": 0.00018168604530124542
+  },
+  {
+    "event": 78,
+    "pid": 16,
+    "algebraic_error": 0.003778484442140684,
+    "robust_error": 0.0037628817147103977,
+    "robust_rms_m": 0.00017236310514181382
+  },
+  {
+    "event": 78,
+    "pid": 31,
+    "algebraic_error": -0.013755005246659624,
+    "robust_error": -0.00325933492521413,
+    "robust_rms_m": 0.00023152291660985216
+  },
+  {
+    "event": 78,
+    "pid": 24,
+    "algebraic_error": 0.017779643559192426,
+    "robust_error": 0.02201594504046389,
+    "robust_rms_m": 0.00017099122202092126
+  },
+  {
+    "event": 78,
+    "pid": 18,
+    "algebraic_error": -0.01608123078443785,
+    "robust_error": -0.011639100189591689,
+    "robust_rms_m": 0.0001632324960486253
+  },
+  {
+    "event": 78,
+    "pid": 5,
+    "algebraic_error": 0.011361270054433992,
+    "robust_error": 0.014187262348317464,
+    "robust_rms_m": 0.0001577172287225826
+  },
+  {
+    "event": 78,
+    "pid": 9,
+    "algebraic_error": 0.012355487067861937,
+    "robust_error": 0.008957386479751195,
+    "robust_rms_m": 0.00013994026875530972
+  },
+  {
+    "event": 78,
+    "pid": 11,
+    "algebraic_error": -0.596554147741974,
+    "robust_error": -0.05381853153470462,
+    "robust_rms_m": 0.0024153146903456504
+  },
+  {
+    "event": 78,
+    "pid": 2,
+    "algebraic_error": -0.004634159668772342,
+    "robust_error": -0.004731835050730826,
+    "robust_rms_m": 9.592038437357509e-05
+  },
+  {
+    "event": 78,
+    "pid": 15,
+    "algebraic_error": 0.008230963109630784,
+    "robust_error": 0.0072271181426810105,
+    "robust_rms_m": 0.0001375581715289586
+  },
+  {
+    "event": 78,
+    "pid": 30,
+    "algebraic_error": -0.0013751927563787625,
+    "robust_error": 0.007204444856480641,
+    "robust_rms_m": 0.00016665675123298708
+  },
+  {
+    "event": 78,
+    "pid": 23,
+    "algebraic_error": -0.006449772561020195,
+    "robust_error": -0.00663754021467633,
+    "robust_rms_m": 0.000221174290030414
+  },
+  {
+    "event": 78,
+    "pid": 21,
+    "algebraic_error": -0.004239625390829116,
+    "robust_error": -0.0022044635434533832,
+    "robust_rms_m": 0.0002174096988412806
+  },
+  {
+    "event": 78,
+    "pid": 14,
+    "algebraic_error": 0.9215177795434747,
+    "robust_error": 0.7848754622422617,
+    "robust_rms_m": 0.0013261733428033091
+  },
+  {
+    "event": 78,
+    "pid": 20,
+    "algebraic_error": -0.0034177606397279847,
+    "robust_error": -0.0038305659418010896,
+    "robust_rms_m": 0.00018312012591731295
+  },
+  {
+    "event": 78,
+    "pid": 19,
+    "algebraic_error": -0.010933688686370624,
+    "robust_error": -0.012341054532567342,
+    "robust_rms_m": 0.00010921416432538647
+  },
+  {
+    "event": 78,
+    "pid": 25,
+    "algebraic_error": 0.015661821232606066,
+    "robust_error": 0.017445987932675933,
+    "robust_rms_m": 0.00023098069896338605
+  },
+  {
+    "event": 78,
+    "pid": 8,
+    "algebraic_error": -0.016002700155542282,
+    "robust_error": -0.014347320374712869,
+    "robust_rms_m": 0.00022374762225070924
+  },
+  {
+    "event": 78,
+    "pid": 22,
+    "algebraic_error": -0.0036479490567910555,
+    "robust_error": -0.009705592912899741,
+    "robust_rms_m": 0.00015538188910523365
+  },
+  {
+    "event": 78,
+    "pid": 7,
+    "algebraic_error": 0.0006466706920298382,
+    "robust_error": -0.0033495615533123413,
+    "robust_rms_m": 0.00019425529681174925
+  },
+  {
+    "event": 78,
+    "pid": 32,
+    "algebraic_error": 0.0031913608657976322,
+    "robust_error": 0.0024720878083905884,
+    "robust_rms_m": 0.00016414934280348356
+  },
+  {
+    "event": 78,
+    "pid": 13,
+    "algebraic_error": -0.0025604315870279004,
+    "robust_error": -0.002772262122347602,
+    "robust_rms_m": 9.830512877823948e-05
+  },
+  {
+    "event": 78,
+    "pid": 26,
+    "algebraic_error": 0.011491949551675373,
+    "robust_error": 0.009944461781895786,
+    "robust_rms_m": 0.00018345945712278333
+  },
+  {
+    "event": 78,
+    "pid": 10,
+    "algebraic_error": 0.00791755372236036,
+    "robust_error": 0.007444445633486341,
+    "robust_rms_m": 0.0001982244910621467
+  },
+  {
+    "event": 78,
+    "pid": 12,
+    "algebraic_error": 0.014291234065456182,
+    "robust_error": 0.008977541381639642,
+    "robust_rms_m": 0.0002095054315462374
+  },
+  {
+    "event": 79,
+    "pid": 18,
+    "algebraic_error": 0.014622371036426829,
+    "robust_error": 0.013347753944217056,
+    "robust_rms_m": 0.00023795994228202708
+  },
+  {
+    "event": 79,
+    "pid": 25,
+    "algebraic_error": -0.011216805429296817,
+    "robust_error": -0.01033029924004436,
+    "robust_rms_m": 0.00019097909203490653
+  },
+  {
+    "event": 79,
+    "pid": 12,
+    "algebraic_error": 0.015691841664033646,
+    "robust_error": 0.01469642787762937,
+    "robust_rms_m": 0.00014478202633710845
+  },
+  {
+    "event": 79,
+    "pid": 20,
+    "algebraic_error": 0.007648815779579932,
+    "robust_error": 0.006620861593477356,
+    "robust_rms_m": 0.00012509852435087804
+  },
+  {
+    "event": 79,
+    "pid": 28,
+    "algebraic_error": -0.013321758877416157,
+    "robust_error": -0.013873131702186459,
+    "robust_rms_m": 8.449497845354222e-05
+  },
+  {
+    "event": 79,
+    "pid": 24,
+    "algebraic_error": -0.012239375226413884,
+    "robust_error": -0.001599399748957564,
+    "robust_rms_m": 0.00019067659419063848
+  },
+  {
+    "event": 79,
+    "pid": 32,
+    "algebraic_error": -0.009481584109997776,
+    "robust_error": -0.010262916354462914,
+    "robust_rms_m": 0.00010501806088749156
+  },
+  {
+    "event": 79,
+    "pid": 3,
+    "algebraic_error": 0.004497800328324475,
+    "robust_error": 0.004144711790031064,
+    "robust_rms_m": 0.00012019959670680439
+  },
+  {
+    "event": 79,
+    "pid": 21,
+    "algebraic_error": 0.014436363859493317,
+    "robust_error": 0.00532537191356669,
+    "robust_rms_m": 0.00023581658346324033
+  },
+  {
+    "event": 79,
+    "pid": 4,
+    "algebraic_error": -0.0035570981143089875,
+    "robust_error": -0.0066029435932504765,
+    "robust_rms_m": 0.00017169659143258261
+  },
+  {
+    "event": 79,
+    "pid": 11,
+    "algebraic_error": 0.011353439129238196,
+    "robust_error": 0.012687719063189495,
+    "robust_rms_m": 0.00017043524864190083
+  },
+  {
+    "event": 79,
+    "pid": 16,
+    "algebraic_error": -0.004286657852713871,
+    "robust_error": -0.0075403796642979914,
+    "robust_rms_m": 0.00012415268838459636
+  },
+  {
+    "event": 79,
+    "pid": 10,
+    "algebraic_error": 0.0023027714276978584,
+    "robust_error": -0.00011810050504651448,
+    "robust_rms_m": 0.0001535221176809149
+  },
+  {
+    "event": 79,
+    "pid": 9,
+    "algebraic_error": 0.015338285571832866,
+    "robust_error": 0.013841901649798705,
+    "robust_rms_m": 0.00011886217170966357
+  },
+  {
+    "event": 79,
+    "pid": 14,
+    "algebraic_error": 0.010918733260501357,
+    "robust_error": 0.011810479092482062,
+    "robust_rms_m": 0.00015295193520205674
+  },
+  {
+    "event": 79,
+    "pid": 26,
+    "algebraic_error": -0.00245285069842599,
+    "robust_error": -0.001712410986841828,
+    "robust_rms_m": 8.568788318282373e-05
+  },
+  {
+    "event": 79,
+    "pid": 29,
+    "algebraic_error": 0.011919122531292459,
+    "robust_error": 0.011687538128937636,
+    "robust_rms_m": 0.00012110264203950246
+  },
+  {
+    "event": 79,
+    "pid": 30,
+    "algebraic_error": -0.008991758347368428,
+    "robust_error": -0.005988720746014642,
+    "robust_rms_m": 0.00014054865665840744
+  },
+  {
+    "event": 79,
+    "pid": 23,
+    "algebraic_error": -0.016430650706759753,
+    "robust_error": -0.01613859395577122,
+    "robust_rms_m": 0.0002028254422915264
+  },
+  {
+    "event": 79,
+    "pid": 19,
+    "algebraic_error": 0.005622323255801143,
+    "robust_error": 0.0053399466751477,
+    "robust_rms_m": 0.0001696488829671518
+  },
+  {
+    "event": 79,
+    "pid": 5,
+    "algebraic_error": -0.01620679174878681,
+    "robust_error": -0.014226777868434959,
+    "robust_rms_m": 0.00018846264383669026
+  },
+  {
+    "event": 79,
+    "pid": 7,
+    "algebraic_error": -0.004535893686290926,
+    "robust_error": -0.005461576221177822,
+    "robust_rms_m": 0.00016749585445744692
+  },
+  {
+    "event": 79,
+    "pid": 17,
+    "algebraic_error": -0.01881617521806389,
+    "robust_error": -0.01877720291591911,
+    "robust_rms_m": 0.0001068793618302574
+  },
+  {
+    "event": 79,
+    "pid": 8,
+    "algebraic_error": 0.015285281681481022,
+    "robust_error": 0.01353692726679473,
+    "robust_rms_m": 0.00016917649004127318
+  },
+  {
+    "event": 79,
+    "pid": 2,
+    "algebraic_error": 0.01923370973397054,
+    "robust_error": 0.021691463302697667,
+    "robust_rms_m": 0.0001789401580569895
+  },
+  {
+    "event": 79,
+    "pid": 1,
+    "algebraic_error": 0.03831398035024014,
+    "robust_error": 0.036380629776400886,
+    "robust_rms_m": 0.00022116161684832222
+  },
+  {
+    "event": 79,
+    "pid": 22,
+    "algebraic_error": -0.01968889313878336,
+    "robust_error": -0.01885122831009034,
+    "robust_rms_m": 0.00012681408351306704
+  },
+  {
+    "event": 79,
+    "pid": 15,
+    "algebraic_error": 0.00923637168389152,
+    "robust_error": 0.007176077125834512,
+    "robust_rms_m": 0.00017243995114880732
+  },
+  {
+    "event": 79,
+    "pid": 6,
+    "algebraic_error": -0.031683310692289246,
+    "robust_error": -0.03386942041648566,
+    "robust_rms_m": 0.00021046811017792788
+  },
+  {
+    "event": 79,
+    "pid": 31,
+    "algebraic_error": 0.0076548468556689175,
+    "robust_error": 0.006821783684018257,
+    "robust_rms_m": 0.00019366202897817323
+  },
+  {
+    "event": 79,
+    "pid": 13,
+    "algebraic_error": -0.01508618513493415,
+    "robust_error": -0.01228488936568628,
+    "robust_rms_m": 0.00014985541966619652
+  },
+  {
+    "event": 79,
+    "pid": 27,
+    "algebraic_error": -0.005199805048314854,
+    "robust_error": -0.00483719753073919,
+    "robust_rms_m": 0.00023335054557022382
+  },
+  {
+    "event": 80,
+    "pid": 6,
+    "algebraic_error": -0.006004814096107314,
+    "robust_error": -0.004344721716469158,
+    "robust_rms_m": 0.00021025755373110038
+  },
+  {
+    "event": 80,
+    "pid": 9,
+    "algebraic_error": 2.958564016664056e-05,
+    "robust_error": 0.005712838885780502,
+    "robust_rms_m": 0.00022853710914705135
+  },
+  {
+    "event": 80,
+    "pid": 7,
+    "algebraic_error": 0.003234238887167118,
+    "robust_error": 0.00428594881057992,
+    "robust_rms_m": 0.0001825534075821291
+  },
+  {
+    "event": 80,
+    "pid": 28,
+    "algebraic_error": -0.0010031050922846285,
+    "robust_error": -0.0016215662593041524,
+    "robust_rms_m": 0.00017818878945496515
+  },
+  {
+    "event": 80,
+    "pid": 31,
+    "algebraic_error": -0.0053369326714292065,
+    "robust_error": -0.0066631648433144175,
+    "robust_rms_m": 0.00016894927446042967
+  },
+  {
+    "event": 80,
+    "pid": 2,
+    "algebraic_error": 0.008488514332935071,
+    "robust_error": 0.008542870976628203,
+    "robust_rms_m": 0.00012337029701048788
+  },
+  {
+    "event": 80,
+    "pid": 30,
+    "algebraic_error": -0.006739009524446449,
+    "robust_error": -0.004656149396808085,
+    "robust_rms_m": 0.00015667767945778269
+  },
+  {
+    "event": 80,
+    "pid": 14,
+    "algebraic_error": 0.0027630602265644733,
+    "robust_error": 0.0027441130489561094,
+    "robust_rms_m": 8.319989010644371e-05
+  },
+  {
+    "event": 80,
+    "pid": 22,
+    "algebraic_error": 0.00798243322224429,
+    "robust_error": 0.002912634657277424,
+    "robust_rms_m": 0.0002162390373439222
+  },
+  {
+    "event": 80,
+    "pid": 18,
+    "algebraic_error": -0.0044911394490361745,
+    "robust_error": -0.009298056875556238,
+    "robust_rms_m": 0.00017868926494092393
+  },
+  {
+    "event": 80,
+    "pid": 13,
+    "algebraic_error": -0.002498853014474056,
+    "robust_error": -0.00305976377076822,
+    "robust_rms_m": 9.428993379193469e-05
+  },
+  {
+    "event": 80,
+    "pid": 20,
+    "algebraic_error": -0.009987520857227428,
+    "robust_error": -0.006555771656470699,
+    "robust_rms_m": 0.00011690062392980213
+  },
+  {
+    "event": 80,
+    "pid": 27,
+    "algebraic_error": -0.0024602445787573757,
+    "robust_error": 0.00283295285923435,
+    "robust_rms_m": 0.00018307936925728772
+  },
+  {
+    "event": 80,
+    "pid": 12,
+    "algebraic_error": 0.022805390681830406,
+    "robust_error": 0.020757829829202712,
+    "robust_rms_m": 0.0002202920274740387
+  },
+  {
+    "event": 80,
+    "pid": 15,
+    "algebraic_error": -0.0024662581224057234,
+    "robust_error": -0.004823936600912765,
+    "robust_rms_m": 0.0001480162546292578
+  },
+  {
+    "event": 80,
+    "pid": 29,
+    "algebraic_error": 0.024241856085649605,
+    "robust_error": 0.02462382326377366,
+    "robust_rms_m": 0.0001964942325845532
+  },
+  {
+    "event": 80,
+    "pid": 23,
+    "algebraic_error": -0.0009436786395732311,
+    "robust_error": -0.0016093340726118788,
+    "robust_rms_m": 0.0001825275285074737
+  },
+  {
+    "event": 80,
+    "pid": 1,
+    "algebraic_error": 0.006587602814806193,
+    "robust_error": 0.00558615104460608,
+    "robust_rms_m": 0.00012035250615737857
+  },
+  {
+    "event": 80,
+    "pid": 4,
+    "algebraic_error": -0.0014934604496826265,
+    "robust_error": 0.003040112611131851,
+    "robust_rms_m": 0.00010555040685840241
+  },
+  {
+    "event": 80,
+    "pid": 10,
+    "algebraic_error": -0.0051467377528433556,
+    "robust_error": -0.005046766959245275,
+    "robust_rms_m": 9.669208604450543e-05
+  },
+  {
+    "event": 80,
+    "pid": 32,
+    "algebraic_error": 0.025906975323647496,
+    "robust_error": 0.026124263645632917,
+    "robust_rms_m": 0.00016584988136832777
+  },
+  {
+    "event": 80,
+    "pid": 19,
+    "algebraic_error": 0.003391288662694447,
+    "robust_error": 0.0010088721208193485,
+    "robust_rms_m": 0.00019910883439683099
+  },
+  {
+    "event": 80,
+    "pid": 16,
+    "algebraic_error": -0.0007854682394678458,
+    "robust_error": -0.0005506128772646557,
+    "robust_rms_m": 0.00014981870611437733
+  },
+  {
+    "event": 80,
+    "pid": 25,
+    "algebraic_error": 0.00138333962955689,
+    "robust_error": 0.0055621950622225524,
+    "robust_rms_m": 0.00020886837612301166
+  },
+  {
+    "event": 80,
+    "pid": 21,
+    "algebraic_error": -0.02230440010528234,
+    "robust_error": -0.01953093153427843,
+    "robust_rms_m": 0.0001923554562747201
+  },
+  {
+    "event": 80,
+    "pid": 8,
+    "algebraic_error": 0.00036357684872545537,
+    "robust_error": -0.0007971775819368698,
+    "robust_rms_m": 0.00011828012675823797
+  },
+  {
+    "event": 80,
+    "pid": 24,
+    "algebraic_error": 0.006826219446416926,
+    "robust_error": 0.006534629125947489,
+    "robust_rms_m": 0.00018192002023731935
+  },
+  {
+    "event": 80,
+    "pid": 26,
+    "algebraic_error": -0.00282062993620269,
+    "robust_error": -0.006049898645987706,
+    "robust_rms_m": 0.0001688331934942455
+  },
+  {
+    "event": 80,
+    "pid": 11,
+    "algebraic_error": 0.008784402149863979,
+    "robust_error": 0.01059536817698703,
+    "robust_rms_m": 0.00020190282847147464
+  },
+  {
+    "event": 80,
+    "pid": 3,
+    "algebraic_error": 0.011053969745320247,
+    "robust_error": 0.008464401784844755,
+    "robust_rms_m": 0.0001520819734506107
+  },
+  {
+    "event": 80,
+    "pid": 17,
+    "algebraic_error": -0.006536142356791064,
+    "robust_error": -0.005303499372625531,
+    "robust_rms_m": 0.0001730072869040046
+  },
+  {
+    "event": 80,
+    "pid": 5,
+    "algebraic_error": -0.01157900915695087,
+    "robust_error": -0.004899286150055415,
+    "robust_rms_m": 0.0002628509338535988
+  },
+  {
+    "event": 81,
+    "pid": 10,
+    "algebraic_error": 0.003725990636396448,
+    "robust_error": 0.0034159690657824537,
+    "robust_rms_m": 0.00014634413729092176
+  },
+  {
+    "event": 81,
+    "pid": 23,
+    "algebraic_error": 0.01186452594889953,
+    "robust_error": -0.0035810563409992557,
+    "robust_rms_m": 0.00022718554734033435
+  },
+  {
+    "event": 81,
+    "pid": 17,
+    "algebraic_error": 0.003664042266916967,
+    "robust_error": 0.0029614828752272393,
+    "robust_rms_m": 0.00016204027496831232
+  },
+  {
+    "event": 81,
+    "pid": 31,
+    "algebraic_error": 0.01858894285263818,
+    "robust_error": 0.011720744647902015,
+    "robust_rms_m": 0.00012450381585327343
+  },
+  {
+    "event": 81,
+    "pid": 27,
+    "algebraic_error": -0.011599526462091059,
+    "robust_error": -0.00679349980978361,
+    "robust_rms_m": 0.00016971022422306148
+  },
+  {
+    "event": 81,
+    "pid": 22,
+    "algebraic_error": 0.010902797277464904,
+    "robust_error": 0.012208186726346604,
+    "robust_rms_m": 0.00014896634822534013
+  },
+  {
+    "event": 81,
+    "pid": 18,
+    "algebraic_error": 0.027524140496126004,
+    "robust_error": 0.026251186980984276,
+    "robust_rms_m": 0.00017584171680501442
+  },
+  {
+    "event": 81,
+    "pid": 8,
+    "algebraic_error": 0.016466839137715072,
+    "robust_error": 0.01743708527465393,
+    "robust_rms_m": 0.0002103233110744457
+  },
+  {
+    "event": 81,
+    "pid": 26,
+    "algebraic_error": -0.0017459521300589587,
+    "robust_error": -0.0015059055536217336,
+    "robust_rms_m": 0.00013616867708965468
+  },
+  {
+    "event": 81,
+    "pid": 15,
+    "algebraic_error": 0.009137569318771077,
+    "robust_error": 0.014492950390273429,
+    "robust_rms_m": 0.0001647197565668311
+  },
+  {
+    "event": 81,
+    "pid": 20,
+    "algebraic_error": 0.005890228507123951,
+    "robust_error": 0.008940590672826931,
+    "robust_rms_m": 0.00016732767615822188
+  },
+  {
+    "event": 81,
+    "pid": 5,
+    "algebraic_error": -0.0073142494081614995,
+    "robust_error": -0.005944800018982788,
+    "robust_rms_m": 0.00013607782388152612
+  },
+  {
+    "event": 81,
+    "pid": 14,
+    "algebraic_error": -0.007587147665644833,
+    "robust_error": -0.006857353856595139,
+    "robust_rms_m": 0.0001533507277041451
+  },
+  {
+    "event": 81,
+    "pid": 4,
+    "algebraic_error": 0.012331915540970906,
+    "robust_error": 0.012124476615204438,
+    "robust_rms_m": 0.00011532050225007682
+  },
+  {
+    "event": 81,
+    "pid": 2,
+    "algebraic_error": -0.0010148727961012405,
+    "robust_error": 0.00014423967242316316,
+    "robust_rms_m": 0.000160068265134987
+  },
+  {
+    "event": 81,
+    "pid": 21,
+    "algebraic_error": -0.007201613562536513,
+    "robust_error": -0.00879781444074848,
+    "robust_rms_m": 0.00017902786033977528
+  },
+  {
+    "event": 81,
+    "pid": 13,
+    "algebraic_error": 0.0008300794981113135,
+    "robust_error": 0.00143458487114545,
+    "robust_rms_m": 0.00015120683544706323
+  },
+  {
+    "event": 81,
+    "pid": 1,
+    "algebraic_error": 0.00683572127945109,
+    "robust_error": 0.006532383756015114,
+    "robust_rms_m": 0.00013352601092487125
+  },
+  {
+    "event": 81,
+    "pid": 12,
+    "algebraic_error": 0.023962745059783463,
+    "robust_error": 0.022137239566125233,
+    "robust_rms_m": 0.00017113073614591403
+  },
+  {
+    "event": 81,
+    "pid": 9,
+    "algebraic_error": 0.013969781384857105,
+    "robust_error": 0.016798968300221928,
+    "robust_rms_m": 0.00012054883299657932
+  },
+  {
+    "event": 81,
+    "pid": 19,
+    "algebraic_error": -0.005921430659414084,
+    "robust_error": -0.005817398754997427,
+    "robust_rms_m": 0.00010443751483555448
+  },
+  {
+    "event": 81,
+    "pid": 7,
+    "algebraic_error": 0.0156851512875103,
+    "robust_error": 0.030969049306931312,
+    "robust_rms_m": 0.0001596687320242203
+  },
+  {
+    "event": 81,
+    "pid": 6,
+    "algebraic_error": -0.011477967605721007,
+    "robust_error": -0.011727599597225746,
+    "robust_rms_m": 9.270267612723392e-05
+  },
+  {
+    "event": 81,
+    "pid": 25,
+    "algebraic_error": 0.003278866910076006,
+    "robust_error": -0.0015761194800927303,
+    "robust_rms_m": 0.00022347082006145686
+  },
+  {
+    "event": 81,
+    "pid": 3,
+    "algebraic_error": 0.00315747381222381,
+    "robust_error": 0.003747314123837775,
+    "robust_rms_m": 0.00013868743788948628
+  },
+  {
+    "event": 81,
+    "pid": 32,
+    "algebraic_error": 0.013939474517524253,
+    "robust_error": 0.014293271653510464,
+    "robust_rms_m": 0.00013461431531206625
+  },
+  {
+    "event": 81,
+    "pid": 16,
+    "algebraic_error": 0.002550368897973665,
+    "robust_error": 0.0005250082814682866,
+    "robust_rms_m": 0.00018833315095005232
+  },
+  {
+    "event": 81,
+    "pid": 29,
+    "algebraic_error": -0.03183534239032493,
+    "robust_error": -0.03432136560203891,
+    "robust_rms_m": 0.00019543264632765095
+  },
+  {
+    "event": 81,
+    "pid": 24,
+    "algebraic_error": -0.015802352525396746,
+    "robust_error": -0.021004963798111564,
+    "robust_rms_m": 0.00023263823277487066
+  },
+  {
+    "event": 81,
+    "pid": 30,
+    "algebraic_error": -0.009071583527772487,
+    "robust_error": -0.006038241146670842,
+    "robust_rms_m": 0.0001780958506164913
+  },
+  {
+    "event": 81,
+    "pid": 28,
+    "algebraic_error": -0.004406759204706345,
+    "robust_error": -0.003904590550532383,
+    "robust_rms_m": 0.00015528224906089031
+  },
+  {
+    "event": 81,
+    "pid": 11,
+    "algebraic_error": 0.00041895113234247106,
+    "robust_error": 0.0010404215015877571,
+    "robust_rms_m": 0.00016289506748040755
+  },
+  {
+    "event": 82,
+    "pid": 2,
+    "algebraic_error": 0.003979207641883975,
+    "robust_error": 0.004902531912728603,
+    "robust_rms_m": 0.00015381400746215413
+  },
+  {
+    "event": 82,
+    "pid": 13,
+    "algebraic_error": -0.015135736799746446,
+    "robust_error": -0.015127318429676073,
+    "robust_rms_m": 0.0001387616953765088
+  },
+  {
+    "event": 82,
+    "pid": 17,
+    "algebraic_error": 0.043812235769381924,
+    "robust_error": 0.04146645510662511,
+    "robust_rms_m": 0.00022419543407183423
+  },
+  {
+    "event": 82,
+    "pid": 9,
+    "algebraic_error": -0.01320746840236775,
+    "robust_error": -0.01286632164610274,
+    "robust_rms_m": 0.00013713617495404056
+  },
+  {
+    "event": 82,
+    "pid": 28,
+    "algebraic_error": 0.013117341690474849,
+    "robust_error": 0.017062283035836567,
+    "robust_rms_m": 0.000160298952870914
+  },
+  {
+    "event": 82,
+    "pid": 24,
+    "algebraic_error": 0.002242701058553065,
+    "robust_error": 0.004743569008757942,
+    "robust_rms_m": 0.00011183216391491733
+  },
+  {
+    "event": 82,
+    "pid": 32,
+    "algebraic_error": -0.006343364851115085,
+    "robust_error": -0.005913244836375453,
+    "robust_rms_m": 0.00018411434895623186
+  },
+  {
+    "event": 82,
+    "pid": 18,
+    "algebraic_error": -0.019844257649850428,
+    "robust_error": -0.013571094356555236,
+    "robust_rms_m": 0.0002137246428386441
+  },
+  {
+    "event": 82,
+    "pid": 12,
+    "algebraic_error": -0.0008996745136261586,
+    "robust_error": 0.001005958195761325,
+    "robust_rms_m": 0.0001819184425562981
+  },
+  {
+    "event": 82,
+    "pid": 16,
+    "algebraic_error": 0.0068936720652256755,
+    "robust_error": 0.0026152799365670165,
+    "robust_rms_m": 0.0001563923461578094
+  },
+  {
+    "event": 82,
+    "pid": 23,
+    "algebraic_error": 0.013628889297863322,
+    "robust_error": 0.0051909103157113945,
+    "robust_rms_m": 0.00020478975564130165
+  },
+  {
+    "event": 82,
+    "pid": 27,
+    "algebraic_error": -0.00673531218371759,
+    "robust_error": -0.0073470180803805185,
+    "robust_rms_m": 0.00021111631596525143
+  },
+  {
+    "event": 82,
+    "pid": 20,
+    "algebraic_error": -0.012035836309324865,
+    "robust_error": -0.00981725802669936,
+    "robust_rms_m": 0.0001596865976696841
+  },
+  {
+    "event": 82,
+    "pid": 21,
+    "algebraic_error": -0.004177567559642437,
+    "robust_error": -0.0033746653417645045,
+    "robust_rms_m": 0.00015227187785522516
+  },
+  {
+    "event": 82,
+    "pid": 7,
+    "algebraic_error": 0.001238349951262513,
+    "robust_error": 0.0037587029827738094,
+    "robust_rms_m": 0.0001890096222152017
+  },
+  {
+    "event": 82,
+    "pid": 29,
+    "algebraic_error": -0.023859704373387025,
+    "robust_error": -0.021006967791757702,
+    "robust_rms_m": 0.00014304815864431763
+  },
+  {
+    "event": 82,
+    "pid": 19,
+    "algebraic_error": 0.04619284310948779,
+    "robust_error": 0.043105492041026316,
+    "robust_rms_m": 9.272086220840544e-05
+  },
+  {
+    "event": 82,
+    "pid": 15,
+    "algebraic_error": -0.007973932393068539,
+    "robust_error": -0.011264605558598428,
+    "robust_rms_m": 0.00021135160417231908
+  },
+  {
+    "event": 82,
+    "pid": 4,
+    "algebraic_error": -0.013103148712788615,
+    "robust_error": -0.011456825307965879,
+    "robust_rms_m": 0.00021341879018074456
+  },
+  {
+    "event": 82,
+    "pid": 10,
+    "algebraic_error": 0.010455222771304395,
+    "robust_error": 0.01235468661981165,
+    "robust_rms_m": 0.0004746603355136808
+  },
+  {
+    "event": 82,
+    "pid": 26,
+    "algebraic_error": -0.0015391087191077846,
+    "robust_error": -0.0005089966843572213,
+    "robust_rms_m": 0.00013332867314345091
+  },
+  {
+    "event": 82,
+    "pid": 22,
+    "algebraic_error": -0.010559113412671517,
+    "robust_error": -0.012090427688409427,
+    "robust_rms_m": 0.0001502493790024815
+  },
+  {
+    "event": 82,
+    "pid": 3,
+    "algebraic_error": 0.010964629757643563,
+    "robust_error": 0.007999645927936783,
+    "robust_rms_m": 0.00015144505173859962
+  },
+  {
+    "event": 82,
+    "pid": 31,
+    "algebraic_error": 0.0218230771845912,
+    "robust_error": 0.015342498051105435,
+    "robust_rms_m": 0.000529832049035586
+  },
+  {
+    "event": 82,
+    "pid": 14,
+    "algebraic_error": -0.009214837649333618,
+    "robust_error": 0.002339901169621239,
+    "robust_rms_m": 0.0002133802275273292
+  },
+  {
+    "event": 82,
+    "pid": 8,
+    "algebraic_error": -0.004823001633485147,
+    "robust_error": -0.002961139784382727,
+    "robust_rms_m": 0.00021293527661058479
+  },
+  {
+    "event": 82,
+    "pid": 30,
+    "algebraic_error": 0.011263969318827893,
+    "robust_error": 0.009603587262271951,
+    "robust_rms_m": 0.00018475705562622172
+  },
+  {
+    "event": 82,
+    "pid": 5,
+    "algebraic_error": -0.03129309587545537,
+    "robust_error": -0.030317921483112464,
+    "robust_rms_m": 2.8232605814767472e-05
+  },
+  {
+    "event": 82,
+    "pid": 6,
+    "algebraic_error": -0.01108337266028725,
+    "robust_error": -0.010090479732419722,
+    "robust_rms_m": 0.0001361513259228237
+  },
+  {
+    "event": 82,
+    "pid": 11,
+    "algebraic_error": 0.01975530676584164,
+    "robust_error": 0.017743508068344183,
+    "robust_rms_m": 0.00013168850510320184
+  },
+  {
+    "event": 82,
+    "pid": 1,
+    "algebraic_error": -0.009642819057372298,
+    "robust_error": -0.009184649786045385,
+    "robust_rms_m": 0.00012223703891354803
+  },
+  {
+    "event": 82,
+    "pid": 25,
+    "algebraic_error": -0.0022425546867620716,
+    "robust_error": -0.002632870183529895,
+    "robust_rms_m": 0.0001507254455219398
+  },
+  {
+    "event": 83,
+    "pid": 1,
+    "algebraic_error": 0.02275913315676542,
+    "robust_error": 0.021338189738662694,
+    "robust_rms_m": 0.00012577069290495
+  },
+  {
+    "event": 83,
+    "pid": 29,
+    "algebraic_error": -0.019190436471079708,
+    "robust_error": -0.01826197459320883,
+    "robust_rms_m": 0.00015207967748015662
+  },
+  {
+    "event": 83,
+    "pid": 19,
+    "algebraic_error": 0.00020905730313591775,
+    "robust_error": -0.0014692680635999267,
+    "robust_rms_m": 0.00015015333437777247
+  },
+  {
+    "event": 83,
+    "pid": 27,
+    "algebraic_error": -0.005547295077041214,
+    "robust_error": -0.0036610427712504556,
+    "robust_rms_m": 0.00017929351880146597
+  },
+  {
+    "event": 83,
+    "pid": 25,
+    "algebraic_error": -0.0006015154211069795,
+    "robust_error": -0.0009282595465728849,
+    "robust_rms_m": 0.00011256582544812838
+  },
+  {
+    "event": 83,
+    "pid": 28,
+    "algebraic_error": 0.0034442410169284177,
+    "robust_error": 0.0033471022643321025,
+    "robust_rms_m": 8.332450558224666e-05
+  },
+  {
+    "event": 83,
+    "pid": 3,
+    "algebraic_error": 0.010205178855979713,
+    "robust_error": 0.009701078409757424,
+    "robust_rms_m": 0.00021260408569371647
+  },
+  {
+    "event": 83,
+    "pid": 12,
+    "algebraic_error": -0.0014864006976978983,
+    "robust_error": -0.002829038488355917,
+    "robust_rms_m": 0.00025043146770225574
+  },
+  {
+    "event": 83,
+    "pid": 26,
+    "algebraic_error": -0.013716552024620299,
+    "robust_error": -0.01805337190042222,
+    "robust_rms_m": 0.0002139381792168319
+  },
+  {
+    "event": 83,
+    "pid": 30,
+    "algebraic_error": -0.004302522156617944,
+    "robust_error": -0.003935154050988349,
+    "robust_rms_m": 0.00011028164399081095
+  },
+  {
+    "event": 83,
+    "pid": 9,
+    "algebraic_error": 0.00909212049879693,
+    "robust_error": 0.00819310815721741,
+    "robust_rms_m": 0.00017121236001215473
+  },
+  {
+    "event": 83,
+    "pid": 5,
+    "algebraic_error": -0.0030289563791414675,
+    "robust_error": -0.001915505454666011,
+    "robust_rms_m": 0.00013515695730909763
+  },
+  {
+    "event": 83,
+    "pid": 20,
+    "algebraic_error": 5.283349308538021e-05,
+    "robust_error": -0.001483068975497881,
+    "robust_rms_m": 0.00021756215653494053
+  },
+  {
+    "event": 83,
+    "pid": 15,
+    "algebraic_error": 0.0006397053969350863,
+    "robust_error": 0.0020976453618143376,
+    "robust_rms_m": 0.00013416746470655064
+  },
+  {
+    "event": 83,
+    "pid": 4,
+    "algebraic_error": -0.026021218482510378,
+    "robust_error": -0.022478389944811883,
+    "robust_rms_m": 0.00019820127631205365
+  },
+  {
+    "event": 83,
+    "pid": 32,
+    "algebraic_error": 0.0016821186888453243,
+    "robust_error": 0.0026568017002448485,
+    "robust_rms_m": 0.00015549472564285708
+  },
+  {
+    "event": 83,
+    "pid": 31,
+    "algebraic_error": -0.02130715003420719,
+    "robust_error": -0.023260859200197714,
+    "robust_rms_m": 7.314504892545343e-05
+  },
+  {
+    "event": 83,
+    "pid": 13,
+    "algebraic_error": -0.014555879481420453,
+    "robust_error": -0.016399394747106832,
+    "robust_rms_m": 0.00015972628611930144
+  },
+  {
+    "event": 83,
+    "pid": 24,
+    "algebraic_error": -0.005663596523999448,
+    "robust_error": -0.002685489832542909,
+    "robust_rms_m": 0.000136762965072645
+  },
+  {
+    "event": 83,
+    "pid": 11,
+    "algebraic_error": -0.013045883801301117,
+    "robust_error": -0.013171669496347627,
+    "robust_rms_m": 0.000162365690410121
+  },
+  {
+    "event": 83,
+    "pid": 21,
+    "algebraic_error": 0.00789516556322678,
+    "robust_error": 0.005784681350762821,
+    "robust_rms_m": 0.00016333047340351465
+  },
+  {
+    "event": 83,
+    "pid": 2,
+    "algebraic_error": 0.007947991397240894,
+    "robust_error": 0.0053657382299016065,
+    "robust_rms_m": 0.00017381459598527928
+  },
+  {
+    "event": 83,
+    "pid": 16,
+    "algebraic_error": 0.013643089944277126,
+    "robust_error": 0.013856032009533586,
+    "robust_rms_m": 0.00016699329755729702
+  },
+  {
+    "event": 83,
+    "pid": 22,
+    "algebraic_error": 0.021427676652972072,
+    "robust_error": 0.016094935171234892,
+    "robust_rms_m": 0.00021122894252605006
+  },
+  {
+    "event": 83,
+    "pid": 10,
+    "algebraic_error": -0.006561278490562317,
+    "robust_error": -0.005312414518456654,
+    "robust_rms_m": 0.00012710513961056207
+  },
+  {
+    "event": 83,
+    "pid": 8,
+    "algebraic_error": 0.006968805346610263,
+    "robust_error": -0.005782993577468087,
+    "robust_rms_m": 0.00023437042033717687
+  },
+  {
+    "event": 83,
+    "pid": 7,
+    "algebraic_error": -0.003075732843299095,
+    "robust_error": -0.0030571439350399743,
+    "robust_rms_m": 0.0001865422239346438
+  },
+  {
+    "event": 83,
+    "pid": 17,
+    "algebraic_error": -0.005030083810226904,
+    "robust_error": -0.0020802715958003204,
+    "robust_rms_m": 0.00025293978150633576
+  },
+  {
+    "event": 83,
+    "pid": 23,
+    "algebraic_error": -0.006938337938453221,
+    "robust_error": -0.01190347498530353,
+    "robust_rms_m": 0.00022917169401236436
+  },
+  {
+    "event": 83,
+    "pid": 14,
+    "algebraic_error": -0.015081920827295425,
+    "robust_error": -0.016865957669822573,
+    "robust_rms_m": 0.00015844234555433622
+  },
+  {
+    "event": 83,
+    "pid": 6,
+    "algebraic_error": -0.0013991263344033111,
+    "robust_error": -0.0017526331304356102,
+    "robust_rms_m": 0.00015498128284767228
+  },
+  {
+    "event": 83,
+    "pid": 18,
+    "algebraic_error": -0.02206918461061863,
+    "robust_error": -0.027041612020495764,
+    "robust_rms_m": 0.000196932502288029
+  },
+  {
+    "event": 84,
+    "pid": 2,
+    "algebraic_error": 0.00815028500406334,
+    "robust_error": 0.0029189104350644257,
+    "robust_rms_m": 0.00020753452552425337
+  },
+  {
+    "event": 84,
+    "pid": 17,
+    "algebraic_error": -0.015187915682212172,
+    "robust_error": -0.013948576673760149,
+    "robust_rms_m": 0.0001502081705524284
+  },
+  {
+    "event": 84,
+    "pid": 31,
+    "algebraic_error": -0.010135630770399695,
+    "robust_error": -0.008185152889454983,
+    "robust_rms_m": 0.0001594570832263132
+  },
+  {
+    "event": 84,
+    "pid": 26,
+    "algebraic_error": 0.01932458559052036,
+    "robust_error": 0.019119844757101878,
+    "robust_rms_m": 0.00015941215967770083
+  },
+  {
+    "event": 84,
+    "pid": 14,
+    "algebraic_error": -0.005045984188855102,
+    "robust_error": -0.003924844374731951,
+    "robust_rms_m": 0.0002079118037772478
+  },
+  {
+    "event": 84,
+    "pid": 22,
+    "algebraic_error": 0.0028333154170238073,
+    "robust_error": 0.002227757454702828,
+    "robust_rms_m": 0.00015091812728725677
+  },
+  {
+    "event": 84,
+    "pid": 24,
+    "algebraic_error": -0.09436501157078153,
+    "robust_error": -0.0913006456641064,
+    "robust_rms_m": 6.868183288085416e-05
+  },
+  {
+    "event": 84,
+    "pid": 4,
+    "algebraic_error": 0.017488630736576083,
+    "robust_error": 0.016982517140580577,
+    "robust_rms_m": 0.000194349402726919
+  },
+  {
+    "event": 84,
+    "pid": 27,
+    "algebraic_error": -0.001308884117789344,
+    "robust_error": -0.0015203443628505897,
+    "robust_rms_m": 0.00013777234317812655
+  },
+  {
+    "event": 84,
+    "pid": 18,
+    "algebraic_error": -0.004707762414942085,
+    "robust_error": -0.004609590000406838,
+    "robust_rms_m": 0.00020589242860290306
+  },
+  {
+    "event": 84,
+    "pid": 30,
+    "algebraic_error": -0.0017765511153016167,
+    "robust_error": -3.4068306215107036e-05,
+    "robust_rms_m": 0.0002089710104479906
+  },
+  {
+    "event": 84,
+    "pid": 13,
+    "algebraic_error": 0.010912854149794093,
+    "robust_error": 0.011204459276183965,
+    "robust_rms_m": 0.0001950317586667974
+  },
+  {
+    "event": 84,
+    "pid": 16,
+    "algebraic_error": 0.01763660823438895,
+    "robust_error": 0.01758906944421801,
+    "robust_rms_m": 7.066127228930136e-05
+  },
+  {
+    "event": 84,
+    "pid": 7,
+    "algebraic_error": -0.020576663707506992,
+    "robust_error": -0.02608449999716267,
+    "robust_rms_m": 0.00017241054357179075
+  },
+  {
+    "event": 84,
+    "pid": 21,
+    "algebraic_error": -0.015778560825211563,
+    "robust_error": -0.016142276248967302,
+    "robust_rms_m": 0.00016654439538216486
+  },
+  {
+    "event": 84,
+    "pid": 9,
+    "algebraic_error": -0.009315486394335493,
+    "robust_error": -0.008315310535669751,
+    "robust_rms_m": 0.00014462895690874807
+  },
+  {
+    "event": 84,
+    "pid": 8,
+    "algebraic_error": -0.013529432511665163,
+    "robust_error": -0.0112213152979726,
+    "robust_rms_m": 0.0001628399032555789
+  },
+  {
+    "event": 84,
+    "pid": 29,
+    "algebraic_error": -0.007755575381518831,
+    "robust_error": -0.007922820377930462,
+    "robust_rms_m": 0.00014934841470387727
+  },
+  {
+    "event": 84,
+    "pid": 28,
+    "algebraic_error": 0.0031971232592314935,
+    "robust_error": 0.003060955706938706,
+    "robust_rms_m": 8.698240661479514e-05
+  },
+  {
+    "event": 84,
+    "pid": 20,
+    "algebraic_error": 0.016590823589106962,
+    "robust_error": 0.015389475545613707,
+    "robust_rms_m": 0.00011007437898315872
+  },
+  {
+    "event": 84,
+    "pid": 11,
+    "algebraic_error": -0.0037623839177660656,
+    "robust_error": -0.006235357795500773,
+    "robust_rms_m": 0.00023199012466170035
+  },
+  {
+    "event": 84,
+    "pid": 15,
+    "algebraic_error": -0.0031710316700804264,
+    "robust_error": -0.008847848678034398,
+    "robust_rms_m": 0.0002748961552061047
+  },
+  {
+    "event": 84,
+    "pid": 10,
+    "algebraic_error": -0.0024400864997120575,
+    "robust_error": -0.003969216531322317,
+    "robust_rms_m": 0.0001613025640772327
+  },
+  {
+    "event": 84,
+    "pid": 23,
+    "algebraic_error": -0.017825960172844324,
+    "robust_error": 0.002306034557001513,
+    "robust_rms_m": 0.00012200656073339027
+  },
+  {
+    "event": 84,
+    "pid": 6,
+    "algebraic_error": -0.004449267771082621,
+    "robust_error": -0.008466005253435882,
+    "robust_rms_m": 0.00018147872870176375
+  },
+  {
+    "event": 84,
+    "pid": 1,
+    "algebraic_error": -0.03423665580599056,
+    "robust_error": -0.034633200317515156,
+    "robust_rms_m": 0.0001425425259237161
+  },
+  {
+    "event": 84,
+    "pid": 19,
+    "algebraic_error": -0.02457326737568105,
+    "robust_error": -0.04043571500032844,
+    "robust_rms_m": 0.0002741241809868093
+  },
+  {
+    "event": 84,
+    "pid": 32,
+    "algebraic_error": -0.00021591390538516775,
+    "robust_error": -0.0022146236805409836,
+    "robust_rms_m": 0.00013329964863316874
+  },
+  {
+    "event": 84,
+    "pid": 12,
+    "algebraic_error": -0.0006693369164228469,
+    "robust_error": -0.006746956037673668,
+    "robust_rms_m": 0.0001832429290605325
+  },
+  {
+    "event": 84,
+    "pid": 3,
+    "algebraic_error": -0.009277774883515999,
+    "robust_error": -0.00770510428780935,
+    "robust_rms_m": 0.000147563778308709
+  },
+  {
+    "event": 84,
+    "pid": 25,
+    "algebraic_error": -0.011092215186855325,
+    "robust_error": -0.011893629215700474,
+    "robust_rms_m": 0.0001287396537606469
+  },
+  {
+    "event": 84,
+    "pid": 5,
+    "algebraic_error": -0.004954276965249471,
+    "robust_error": -0.002812484998724607,
+    "robust_rms_m": 0.00013041229224476316
+  }
+]

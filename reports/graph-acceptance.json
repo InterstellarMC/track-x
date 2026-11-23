@@ -1,0 +1,65 @@
+[
+  {
+    "scenario": "nominal",
+    "seed": 1729,
+    "allowed_true_pairs": 5122,
+    "retained_true_pairs": 5122,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "nominal",
+    "seed": 1730,
+    "allowed_true_pairs": 5105,
+    "retained_true_pairs": 5105,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "nominal",
+    "seed": 1731,
+    "allowed_true_pairs": 5110,
+    "retained_true_pairs": 5110,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "stress",
+    "seed": 1729,
+    "allowed_true_pairs": 5907,
+    "retained_true_pairs": 5907,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "stress",
+    "seed": 1730,
+    "allowed_true_pairs": 6165,
+    "retained_true_pairs": 6165,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "stress",
+    "seed": 1731,
+    "allowed_true_pairs": 5952,
+    "retained_true_pairs": 5952,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "pileup",
+    "seed": 1729,
+    "allowed_true_pairs": 8672,
+    "retained_true_pairs": 8672,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "pileup",
+    "seed": 1730,
+    "allowed_true_pairs": 8560,
+    "retained_true_pairs": 8560,
+    "acceptance": 1.0
+  },
+  {
+    "scenario": "pileup",
+    "seed": 1731,
+    "allowed_true_pairs": 8443,
+    "retained_true_pairs": 8443,
+    "acceptance": 1.0
+  }
+]
