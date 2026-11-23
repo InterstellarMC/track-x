@@ -1,0 +1,741 @@
+{
+  "event": "event000001010",
+  "stage": "confirmation",
+  "loading_s": 0.24677054099993256,
+  "index_s": 0.017652375001489418,
+  "supported_weight": 0.5753000526819202,
+  "methods": {
+    "extended": {
+      "score": 0.2192576428932489,
+      "efficiency": 0.264172335600907,
+      "fake": 0.5084348641049672,
+      "duplicate": 0.00023430178069353328,
+      "purity": 0.9615542990364163,
+      "completeness": 0.734664194211059,
+      "mixed": 0.41799437675726336,
+      "coverage": 0.27973559817070826,
+      "added": 13843,
+      "wrong_outer": 1068,
+      "assessable_outer": 10918,
+      "candidate_recall": 0.9579894278030233,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2767
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2307
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1836
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1457
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 1128
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 835
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.35148645093396474,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3966852716710331,
+          "paths_with_two_hits": 3222
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4656948982156321,
+          "paths_with_two_hits": 1013
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.12616820800030837,
+      "total_s": 0.9639269999970566,
+      "timing": {
+        "fit": 0.041522377003275324,
+        "search": 0.0494359180011088,
+        "ownership": 0.03223745800096367
+      }
+    },
+    "simple_fit": {
+      "score": 0.20971457696217327,
+      "efficiency": 0.25787351977828166,
+      "fake": 0.5201499531396439,
+      "duplicate": 0.00023430178069353328,
+      "purity": 0.9421491768829335,
+      "completeness": 0.7111211815506479,
+      "mixed": 0.45009372071227743,
+      "coverage": 0.27646900580300526,
+      "added": 13503,
+      "wrong_outer": 1482,
+      "assessable_outer": 10556,
+      "candidate_recall": 0.9002132987109339,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2770
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2307
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1809
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1338
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 908
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 575
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3443830570902394,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3769222007062308,
+          "paths_with_two_hits": 3229
+        },
+        "17": {
+          "matched_hit_efficiency": 0.33098768534807743,
+          "paths_with_two_hits": 787
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.10462408399871492,
+      "total_s": 0.9423828759954631,
+      "timing": {
+        "fit": 0.023277291002159473,
+        "search": 0.047677957998530474,
+        "ownership": 0.03083145800155762
+      }
+    },
+    "seed_order": {
+      "score": 0.21781151405399365,
+      "efficiency": 0.2616528092718569,
+      "fake": 0.5133552014995314,
+      "duplicate": 0.0,
+      "purity": 0.9586598497527723,
+      "completeness": 0.7345528920530672,
+      "mixed": 0.43252108716026244,
+      "coverage": 0.2802640175243073,
+      "added": 13898,
+      "wrong_outer": 1206,
+      "assessable_outer": 10944,
+      "candidate_recall": 0.9530742835945469,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2767
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2296
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1826
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1438
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 1122
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 828
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.34933789353678857,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3922428522610776,
+          "paths_with_two_hits": 3231
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4659462176426238,
+          "paths_with_two_hits": 1019
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.1282478329994774,
+      "total_s": 0.9660066249962256,
+      "timing": {
+        "fit": 0.04401058499752253,
+        "search": 0.04988712500380643,
+        "ownership": 0.031296874998588464
+      }
+    },
+    "middle_only": {
+      "score": 0.19207603513928662,
+      "efficiency": 0.2635424540186445,
+      "fake": 0.5098406747891284,
+      "duplicate": 0.0,
+      "purity": 0.9685605025949194,
+      "completeness": 0.6648268451327725,
+      "mixed": 0.4074507966260544,
+      "coverage": 0.25244994427577727,
+      "added": 11003,
+      "wrong_outer": 720,
+      "assessable_outer": 8722,
+      "candidate_recall": 0.9712130005803831,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2767
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2307
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1836
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1457
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3514426028238183,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.39178721950108214,
+          "paths_with_two_hits": 3222
+        },
+        "17": {
+          "matched_hit_efficiency": 0.0,
+          "paths_with_two_hits": 0
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.09450020900112577,
+      "total_s": 0.932259000997874,
+      "timing": {
+        "fit": 0.027745958999730647,
+        "search": 0.03656945700095093,
+        "ownership": 0.02727420799783431
+      }
+    },
+    "no_gaps": {
+      "score": 0.21964393896572118,
+      "efficiency": 0.26631393298059963,
+      "fake": 0.5046860356138707,
+      "duplicate": 0.0,
+      "purity": 0.9669341577690679,
+      "completeness": 0.7354460886366164,
+      "mixed": 0.398078725398313,
+      "coverage": 0.2591560662541793,
+      "added": 11701,
+      "wrong_outer": 678,
+      "assessable_outer": 10459,
+      "candidate_recall": 0.9396271909487156,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2767
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2262
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1786
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1417
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 1095
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 805
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3536788564412874,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.39588791434104115,
+          "paths_with_two_hits": 2621
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4624277456647399,
+          "paths_with_two_hits": 870
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.1033426670001063,
+      "total_s": 0.9411014589968545,
+      "timing": {
+        "fit": 0.041918332999557606,
+        "search": 0.032182791001105215,
+        "ownership": 0.026453042000866844
+      }
+    },
+    "strict_bridge": {
+      "score": 0.21947635351464864,
+      "efficiency": 0.26467624086671704,
+      "fake": 0.5072633552014996,
+      "duplicate": 0.00046860356138706655,
+      "purity": 0.962309897781102,
+      "completeness": 0.7348151243057361,
+      "mixed": 0.4177600749765698,
+      "coverage": 0.2774201606394835,
+      "added": 13602,
+      "wrong_outer": 1014,
+      "assessable_outer": 10862,
+      "candidate_recall": 0.956783826393397,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 2767
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 2307
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 1836
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 1457
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 1120
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 830
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.352188020696308,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3966852716710331,
+          "paths_with_two_hits": 3222
+        },
+        "17": {
+          "matched_hit_efficiency": 0.46494093993465696,
+          "paths_with_two_hits": 956
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.12275187500017637,
+      "total_s": 0.9605106669969246,
+      "timing": {
+        "fit": 0.04149520700048015,
+        "search": 0.046114582000882365,
+        "ownership": 0.03217929099810135
+      }
+    },
+    "straight": {
+      "score": 0.04542990334075138,
+      "efficiency": 0.052658100277147894,
+      "fake": 0.9020618556701031,
+      "duplicate": 0.0,
+      "purity": 0.79124895572264,
+      "completeness": 0.6390722116798672,
+      "mixed": 0.8409090909090909,
+      "coverage": 0.25242112140194456,
+      "added": 11000,
+      "wrong_outer": 6714,
+      "assessable_outer": 7788,
+      "candidate_recall": 0.1886302513215246,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2790,
+          "offered": 1339
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2374,
+          "offered": 469
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1906,
+          "offered": 147
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1545,
+          "offered": 48
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1238,
+          "offered": 19
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 930,
+          "offered": 12
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.06967464702271332,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.030242624444697573,
+          "paths_with_two_hits": 2950
+        },
+        "17": {
+          "matched_hit_efficiency": 0.005026388539834129,
+          "paths_with_two_hits": 437
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.12563795800087973,
+      "total_s": 0.9633967499976279,
+      "timing": {
+        "fit": 0.04325283300204319,
+        "search": 0.05120120899664471,
+        "ownership": 0.028234581999640795
+      }
+    },
+    "one_pass": {
+      "score": 0.181037818048642,
+      "efficiency": 0.21000251952632906,
+      "fake": 0.6129930394431554,
+      "duplicate": 0.0002320185614849188,
+      "purity": 0.9541674998333667,
+      "completeness": 0.7276073974333859,
+      "mixed": 0.5626450116009281,
+      "coverage": 0.2729430075708082,
+      "added": 13464,
+      "wrong_outer": 948,
+      "assessable_outer": 8791,
+      "candidate_recall": 0.9443934877321715,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2243,
+          "offered": 2215
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 1924,
+          "offered": 1852
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1543,
+          "offered": 1460
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1248,
+          "offered": 1149
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1007,
+          "offered": 897
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 757,
+          "offered": 664
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.2694904849600982,
+          "paths_with_two_hits": 4310
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3155826403918442,
+          "paths_with_two_hits": 3252
+        },
+        "17": {
+          "matched_hit_efficiency": 0.37521990449861775,
+          "paths_with_two_hits": 913
+        }
+      },
+      "graph_s": 0.07073204199696193,
+      "seed_s": 0.3524280420042487,
+      "extension_s": 0.12549637500160316,
+      "total_s": 0.5663088340043032,
+      "timing": {
+        "fit": 0.041020542003025184,
+        "search": 0.049191791000339435,
+        "ownership": 0.03238721000343503
+      }
+    },
+    "baseline": {
+      "score": 0.017212603220160657,
+      "efficiency": 0.03073822121441169,
+      "fake": 0.9428303655107779,
+      "duplicate": 0.0,
+      "purity": 0.9784836065573771,
+      "completeness": 0.696623731459797,
+      "mixed": 0.33598875351452673,
+      "coverage": 0.14673725068214136,
+      "added": 0,
+      "wrong_outer": 0,
+      "assessable_outer": 0,
+      "candidate_recall": null,
+      "transition_counts": [],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.03867403314917127,
+          "paths_with_two_hits": 4268
+        },
+        "13": {
+          "matched_hit_efficiency": 0.0,
+          "paths_with_two_hits": 0
+        },
+        "17": {
+          "matched_hit_efficiency": 0.0,
+          "paths_with_two_hits": 0
+        }
+      },
+      "graph_s": 0.14310004199433024,
+      "seed_s": 0.6770063750009285,
+      "extension_s": 0.0006275830000959104,
+      "total_s": 0.8207339999953547,
+      "timing": {}
+    },
+    "original_one": {
+      "score": 0.013141283394104211,
+      "efficiency": 0.023305618543713782,
+      "fake": 0.95707656612529,
+      "duplicate": 0.0,
+      "purity": 0.972972972972973,
+      "completeness": 0.6893436293436294,
+      "mixed": 0.49466357308584685,
+      "coverage": 0.14358594980976902,
+      "added": 0,
+      "wrong_outer": 0,
+      "assessable_outer": 0,
+      "candidate_recall": null,
+      "transition_counts": [],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.028588967815487153,
+          "paths_with_two_hits": 4310
+        },
+        "13": {
+          "matched_hit_efficiency": 0.0,
+          "paths_with_two_hits": 0
+        },
+        "17": {
+          "matched_hit_efficiency": 0.0,
+          "paths_with_two_hits": 0
+        }
+      },
+      "graph_s": 0.07073204199696193,
+      "seed_s": 0.3524280420042487,
+      "extension_s": 4.1700150177348405e-07,
+      "total_s": 0.4231605010027124,
+      "timing": {}
+    },
+    "gnn_extended": {
+      "score": 0.2194830453646915,
+      "efficiency": 0.264172335600907,
+      "fake": 0.5094692541501052,
+      "duplicate": 0.00023380874444704232,
+      "purity": 0.961508504212367,
+      "completeness": 0.7349609468146786,
+      "mixed": 0.4194528875379939,
+      "coverage": 0.27998539641059145,
+      "added": 13850,
+      "wrong_outer": 1054,
+      "assessable_outer": 10897,
+      "candidate_recall": 0.959084991631021,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 2784,
+          "offered": 2762
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2367,
+          "offered": 2303
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 1901,
+          "offered": 1833
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1541,
+          "offered": 1457
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1235,
+          "offered": 1126
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 926,
+          "offered": 833
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3517933877049899,
+          "paths_with_two_hits": 4277
+        },
+        "13": {
+          "matched_hit_efficiency": 0.39611573072103884,
+          "paths_with_two_hits": 3220
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4636843427996984,
+          "paths_with_two_hits": 1012
+        }
+      },
+      "graph_s": 0.1675073300011718,
+      "seed_s": 1.6781288290058,
+      "extension_s": 0.1777817080001114,
+      "total_s": 2.0410702420085727,
+      "timing": {
+        "fit": 0.062353166000320925,
+        "search": 0.06792216800204187,
+        "ownership": 0.04358758200032753
+      }
+    }
+  },
+  "peak_rss_bytes": 376569856
+}

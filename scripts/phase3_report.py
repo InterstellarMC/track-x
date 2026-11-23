@@ -156,10 +156,24 @@ def main():
         table(performance),
         "Process high-water RSS includes earlier event work in the process. Reconstruction time includes indexing, pixel graph, pixel assembly and extension. Loading, official scoring and diagnostic work are timed separately or excluded. Timings are single-run measurements. All seed construction uses one torch CPU thread; layer queries use one worker. At most eight cross-surface proposals per active seed enter ranking on each layer.",
     )
+    fits = pd.DataFrame(read("fit-quality.json"))
+    fits = fits[fits.stage == "confirmation"]
     fails = read("confirmation-failures.json")
     doc(
         "FAILURE_ANALYSIS",
         "Tracking failure diagnostics",
+        table(
+            fits[
+                [
+                    "event",
+                    "method",
+                    "two_particle_merge_fraction",
+                    "any_contamination_fraction",
+                    "fraction_rms_over_5mm",
+                ]
+            ]
+        ),
+        "A substantial two-particle merge requires at least two hits from each of at least two distinct nonzero particles. Any contamination requires just one hit from a second particle. The fit flag uses an empirical 5 mm RMS threshold on tangential and longitudinal residuals from the final prompt fit. It is a diagnostic, not a calibrated rejection cut. Full residual quantiles are in fit-quality.json.",
         table(
             pd.DataFrame(
                 [
@@ -197,6 +211,40 @@ def main():
         barmode="group",
     )
     fig.write_html(OUT / "confirmation.html", include_plotlyjs="../plotly.min.js")
+    trade = go.Figure()
+    for row in means.itertuples():
+        trade.add_scatter(
+            x=[row.total_s],
+            y=[row.score],
+            name=row.method,
+            mode="markers",
+            marker={"size": 10},
+            customdata=[[row.mixed, row.fake]],
+            hovertemplate="Time %{x:.2f} s<br>Score %{y:.4f}<br>Mixed %{customdata[0]:.3f}<br>Fake %{customdata[1]:.3f}",
+        )
+    trade.update_layout(
+        title="Matched confirmation methods · means over three events",
+        xaxis_title="Reconstruction time per event (s)",
+        yaxis_title="Official complete-event score",
+    )
+    trade.write_html(OUT / "tradeoffs.html", include_plotlyjs="../plotly.min.js")
+    surface = go.Figure()
+    for r in test[test.method == "extended"].itertuples():
+        surface.add_scatter(
+            x=[f"{x['volume']}/{x['layer']}" for x in r.transition_counts],
+            y=[
+                x["offered"] / x["eligible"] if x["eligible"] else None
+                for x in r.transition_counts
+            ],
+            name=r.event,
+            mode="lines+markers",
+        )
+    surface.update_layout(
+        title="Outward extension from majority-signal pixel seeds",
+        xaxis_title="Target volume / layer",
+        yaxis_title="Fraction of seed–surface opportunities offered a correct hit",
+    )
+    surface.write_html(OUT / "surface-recall.html", include_plotlyjs="../plotly.min.js")
     doc(
         "FINAL_REPORT",
         "TRACK-X Phase III | Extending pixel seeds across the barrel",
@@ -206,8 +254,31 @@ def main():
         table(means[means.method.isin(["baseline", "extended", "gnn_extended"])]),
         "Hit coverage and full-event majority matching benefit from longer paths. The mixed fraction tracks contamination independently of the fake rate. A path can contain contamination and still pass majority matching. The rates above describe different failure modes.",
         "## Methods and limitations",
-        "[Protocol](EXPERIMENT_PROTOCOL.md) · [Trajectory model](TRACK_EXTENSION.md) · [Ablations](ABLATION_RESULTS.md) · [Failure analysis](FAILURE_ANALYSIS.md) · [Reproducibility](REPRODUCIBILITY.md). Seeds still require ≥3 pixel layers. Forward particles, displaced vertices, curling returns, material transport and module-level covariances are incompletely modeled. A next experiment should compare endcap propagation with a frozen barrel reference, measuring mixed-hit contamination and gain in covered truth weight on fresh events. ACTS motivates surface navigation and compatible-measurement selection. No matched ACTS run was performed. [ACTS tracking](https://acts.readthedocs.io/en/latest/tracking.html) · [TrackML accuracy challenge](https://arxiv.org/abs/1904.06778)",
+        "[Protocol](EXPERIMENT_PROTOCOL.md) · [Trajectory model](TRACK_EXTENSION.md) · [Ablations](ABLATION_RESULTS.md) · [Runtime and score](tradeoffs.html) · [Candidate recall by layer](surface-recall.html) · [Failure analysis](FAILURE_ANALYSIS.md) · [Reproducibility](REPRODUCIBILITY.md). Seeds still require ≥3 pixel layers. Forward particles, displaced vertices, curling returns, material transport and module-level covariances are incompletely modeled. A next experiment should compare endcap propagation with a frozen barrel reference, measuring mixed-hit contamination and gain in covered truth weight on fresh events. ACTS motivates surface navigation and compatible-measurement selection. No matched ACTS run was performed. [ACTS tracking](https://acts.readthedocs.io/en/latest/tracking.html) · [TrackML accuracy challenge](https://arxiv.org/abs/1904.06778)",
     )
+
+    by = means.set_index("method")
+    final_events = [e for e in events if e["stage"] == "confirmation"]
+    weight = np.mean([e["supported_weight"] for e in final_events])
+    paper = [
+        "# TRACK-X: Physics-Constrained Graph Neural Networks for Charged-Particle Track Reconstruction",
+        "## Abstract",
+        f"We studied which parts of a laptop-scale reconstruction pipeline improve complete-event TrackML score. A synthetic study compared graph classification with geometry gates. An official-event study tested whole-track ranking and sector boundaries. A prospective outward-extension study on three further events raised mean official score from {by.loc['baseline', 'score']:.5f} to {by.loc['extended', 'score']:.5f}. The increase coincided with more mixed-particle candidates.",
+        "## From simulated cylinders to official detector geometry",
+        "The Phase I generator produced independent truth associations for supervised learning and post-reconstruction evaluation. The original three-seed stress study found a trade-off between fake suppression and reconstruction efficiency under a triplet gate. Phase II introduced the official detector metadata, full-event scoring and a frozen pixel-barrel benchmark. Three prespecified confirmation events supported a second shifted tiling, while learned seed ranking gave little additional benefit. [Synthetic study](TECHNICAL_REPORT.md) · [Phase II study](phase2/FINAL_RESEARCH_REPORT.md)",
+        "## Multi-layer experiment",
+        "The third study fixed the two-pass pixel tracker and propagated its paths into volumes 13 and 17. Fits use wrapped transverse azimuth, prompt-circle radial intersections and longitudinal arc length. Geometry proposes hits independently of truth. Competing paths claim hits under a deterministic residual ranking. The comparison uses a fixed set of methods on the same complete events and calls the TrackML reference scorer.",
+        table(
+            means[
+                means.method.isin(["baseline", "extended", "gnn_extended", "no_gaps"])
+            ][["method", "score", "efficiency", "mixed", "total_s"]]
+        ),
+        f"The supported barrel region held {weight:.1%} of event truth weight on average. Curvature-aware propagation mattered: the zero-bend control scored {by.loc['straight', 'score']:.5f}. Stopping after the first missed surface scored {by.loc['no_gaps', 'score']:.5f}, slightly above the prespecified primary extension; both remained in the report. Allowing gaps also increased the mixed fraction relative to stopping. A GNN trained for pixel edge scoring was applied only at seed ranking. Its measured end-to-end score provides no evidence of an advantage here.",
+        "## Limits and next test",
+        "The confirmation consists of three consecutive simulated events, a single frozen set of classifier weights, and fixed field and beam-line assumptions. Track finding still depends on successful pixel seeds. Extrapolation windows lack material-aware covariance calibration. Before extending this method to the endcaps, compare an ambiguity or rejection rule calibrated on development events against the no-gap baseline. Freeze it and measure both correctly recovered hit weight and new contaminating hits on fresh events. ACTS provided conceptual guidance on propagation and compatible measurement selection. A matched ACTS reconstruction benchmark remains unrun.",
+        "[Phase III findings and figures](phase3/FINAL_REPORT.md) · [Event-level results](phase3/CONFIRMATION_RESULTS.md) · [Run instructions](phase3/REPRODUCIBILITY.md) · [Protocol](phase3/EXPERIMENT_PROTOCOL.md) · [TrackML accuracy phase](https://arxiv.org/abs/1904.06778) · [ACTS tracking](https://acts.readthedocs.io/en/latest/tracking.html)",
+    ]
+    Path("reports/TRACK_X.md").write_text("\n\n".join(paper) + "\n")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,212 @@
+[
+  {
+    "event": "event000001002",
+    "stage": "development",
+    "method": "seed",
+    "paths": 5261,
+    "two_particle_merge_fraction": 0.0007603117278084015,
+    "any_contamination_fraction": 0.35848697966166126,
+    "rms_mm_quantiles": [
+      0.10329302109083965,
+      1.0680891683384113,
+      2.0959686205588572
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001002",
+    "stage": "development",
+    "method": "paths",
+    "paths": 5261,
+    "two_particle_merge_fraction": 0.0034214027751378064,
+    "any_contamination_fraction": 0.44459228283596275,
+    "rms_mm_quantiles": [
+      1.2881954807508698,
+      6.045152685071526,
+      9.322040422166198
+    ],
+    "fraction_rms_over_5mm": 0.1581448393841475,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001003",
+    "stage": "development",
+    "method": "seed",
+    "paths": 4324,
+    "two_particle_merge_fraction": 0.00023126734505087883,
+    "any_contamination_fraction": 0.32261794634597596,
+    "rms_mm_quantiles": [
+      0.10602268311614148,
+      1.0716943976606734,
+      2.19404823970904
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001003",
+    "stage": "development",
+    "method": "paths",
+    "paths": 4324,
+    "two_particle_merge_fraction": 0.0030064754856614245,
+    "any_contamination_fraction": 0.40864939870490286,
+    "rms_mm_quantiles": [
+      1.221711463007885,
+      5.938831412947932,
+      9.358911036749817
+    ],
+    "fraction_rms_over_5mm": 0.1399167437557817,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001004",
+    "stage": "development",
+    "method": "seed",
+    "paths": 5828,
+    "two_particle_merge_fraction": 0.00017158544955387783,
+    "any_contamination_fraction": 0.38503774879890185,
+    "rms_mm_quantiles": [
+      0.11385120923241185,
+      1.1267659391527145,
+      2.2904759261962346
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001004",
+    "stage": "development",
+    "method": "paths",
+    "paths": 5828,
+    "two_particle_merge_fraction": 0.0034317089910775567,
+    "any_contamination_fraction": 0.4627659574468085,
+    "rms_mm_quantiles": [
+      1.3736610359357178,
+      6.167088284575499,
+      9.675109210437187
+    ],
+    "fraction_rms_over_5mm": 0.16060398078242966,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001005",
+    "stage": "development",
+    "method": "seed",
+    "paths": 4504,
+    "two_particle_merge_fraction": 0.0008880994671403197,
+    "any_contamination_fraction": 0.33436944937833035,
+    "rms_mm_quantiles": [
+      0.10655821331598395,
+      1.1316159568758104,
+      2.228954508198878
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001005",
+    "stage": "development",
+    "method": "paths",
+    "paths": 4504,
+    "two_particle_merge_fraction": 0.004662522202486678,
+    "any_contamination_fraction": 0.4202930728241563,
+    "rms_mm_quantiles": [
+      1.2429310314056665,
+      5.929772262382809,
+      9.626535942844807
+    ],
+    "fraction_rms_over_5mm": 0.14564831261101244,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001009",
+    "stage": "confirmation",
+    "method": "seed",
+    "paths": 4500,
+    "two_particle_merge_fraction": 0.0,
+    "any_contamination_fraction": 0.33111111111111113,
+    "rms_mm_quantiles": [
+      0.10489768981205146,
+      1.0735610739397996,
+      2.273087258828822
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001009",
+    "stage": "confirmation",
+    "method": "paths",
+    "paths": 4500,
+    "two_particle_merge_fraction": 0.0028888888888888888,
+    "any_contamination_fraction": 0.414,
+    "rms_mm_quantiles": [
+      1.1866593981269151,
+      5.871182828665512,
+      9.66450059613586
+    ],
+    "fraction_rms_over_5mm": 0.14044444444444446,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001010",
+    "stage": "confirmation",
+    "method": "seed",
+    "paths": 4268,
+    "two_particle_merge_fraction": 0.0,
+    "any_contamination_fraction": 0.33598875351452673,
+    "rms_mm_quantiles": [
+      0.10657050166373633,
+      1.077942432433145,
+      2.2080678671436416
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001010",
+    "stage": "confirmation",
+    "method": "paths",
+    "paths": 4268,
+    "two_particle_merge_fraction": 0.002577319587628866,
+    "any_contamination_fraction": 0.41799437675726336,
+    "rms_mm_quantiles": [
+      1.240933999725487,
+      5.889872139860523,
+      9.45523566041642
+    ],
+    "fraction_rms_over_5mm": 0.14315838800374883,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001011",
+    "stage": "confirmation",
+    "method": "seed",
+    "paths": 4863,
+    "two_particle_merge_fraction": 0.0,
+    "any_contamination_fraction": 0.3382685585029817,
+    "rms_mm_quantiles": [
+      0.10633716853484931,
+      1.054712046498579,
+      2.092123889296641
+    ],
+    "fraction_rms_over_5mm": 0.0,
+    "reachable_fit_fraction": 1.0
+  },
+  {
+    "event": "event000001011",
+    "stage": "confirmation",
+    "method": "paths",
+    "paths": 4863,
+    "two_particle_merge_fraction": 0.0030845157310302285,
+    "any_contamination_fraction": 0.418877236273905,
+    "rms_mm_quantiles": [
+      1.2569213581405279,
+      6.063366766458769,
+      9.48191654211644
+    ],
+    "fraction_rms_over_5mm": 0.14846802385358832,
+    "reachable_fit_fraction": 1.0
+  }
+]

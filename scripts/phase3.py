@@ -159,7 +159,7 @@ def main():
     net.eval()
     for eid in events:
         dest = OUT / (eid + ".json")
-        if dest.exists():
+        if dest.exists() and (Path("experiments/phase3") / (eid + ".json")).exists():
             continue
         t = time.perf_counter()
         ev = load(root, doc, eid)
@@ -173,7 +173,9 @@ def main():
             "stage": args.stage,
             "loading_s": loading,
             "index_s": indexing,
-            "supported_weight": float(ev.truth.weight[mask].sum() / ev.truth.weight.sum()),
+            "supported_weight": float(
+                ev.truth.weight[mask].sum() / ev.truth.weight.sum()
+            ),
             "methods": {},
         }
         for tag, network in [("geometry", None), ("gnn", net)]:

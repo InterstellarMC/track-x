@@ -1,0 +1,85 @@
+{
+  "archive": "train_sample.zip",
+  "events": {
+    "event000001009": {
+      "cells": {
+        "path": "event000001009-cells.csv",
+        "bytes": 12362231,
+        "sha256": "1a7ba835afbc36d99181ee34beca3a1a41412865d5a87b3659748f049787a172"
+      },
+      "hits": {
+        "path": "event000001009-hits.csv",
+        "bytes": 4115095,
+        "sha256": "48b051a966ef487b76675a135bb2e6b0cf9fed067a9ba69740b377f46c12f398"
+      },
+      "particles": {
+        "path": "event000001009-particles.csv",
+        "bytes": 868309,
+        "sha256": "b843b8b3ee898a49aa83c4c2307791dbf58910362757175ed7e0fde8ed7fc42f"
+      },
+      "truth": {
+        "path": "event000001009-truth.csv",
+        "bytes": 9238767,
+        "sha256": "10c7da6acf8d41786a3a5d79a0ab7336768f0e1ca1326a9020444b07d235f649"
+      }
+    },
+    "event000001010": {
+      "cells": {
+        "path": "event000001010-cells.csv",
+        "bytes": 11961296,
+        "sha256": "40c042ed978b732a73379a5be58dccba6fcd09e1d0a533104c27ac44433fbbfe"
+      },
+      "hits": {
+        "path": "event000001010-hits.csv",
+        "bytes": 3934598,
+        "sha256": "f2cb5c60f8cf42902edc7cb245a7eb0b77cd581438aebeb5c9e74f704bc61f9a"
+      },
+      "particles": {
+        "path": "event000001010-particles.csv",
+        "bytes": 818648,
+        "sha256": "edca1b2c1de98cbd97a71ae79c025a316bc181fd0ad5be1d8965e65775a86206"
+      },
+      "truth": {
+        "path": "event000001010-truth.csv",
+        "bytes": 8810095,
+        "sha256": "ed20cb3dac458c27319c5aff8e64831ac98ea98fad80060b73912dfe49940b1f"
+      }
+    },
+    "event000001011": {
+      "cells": {
+        "path": "event000001011-cells.csv",
+        "bytes": 13507353,
+        "sha256": "c19b5aee3eefffbcf2ffeaa9127f135d633cd5deea3b8955de77c96175366c70"
+      },
+      "hits": {
+        "path": "event000001011-hits.csv",
+        "bytes": 4456634,
+        "sha256": "127569b86e594ee4e048642599bfd2e7d313a3409ee65b353208805a277e5e5a"
+      },
+      "particles": {
+        "path": "event000001011-particles.csv",
+        "bytes": 939359,
+        "sha256": "e6a65efd1a77d538ebd7bde6ce2771deb3d6d1299227382c694c65abc4d6e038"
+      },
+      "truth": {
+        "path": "event000001011-truth.csv",
+        "bytes": 10028334,
+        "sha256": "2dfd8662a9b9e3e7862f630bc7d1d8291b72fe095fce45fd5cd7c28f3970da67"
+      }
+    }
+  },
+  "geometry": {
+    "bytes": 1942066,
+    "path": "detectors.csv",
+    "sha256": "e01684d65c088794618b916655f989dae6f099de4ecc7a462987e97b4037639a"
+  },
+  "source": "https://www.kaggle.com/competitions/trackml-particle-identification/data",
+  "split": {
+    "confirmation": [
+      "event000001009",
+      "event000001010",
+      "event000001011"
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,5 @@
+# Trajectory propagation and ownership
+
+For a prompt outward helix, φ(r) = φ₀ + asin(hr) and z(r) = z₀ + tanλ r/sinc(asin(hr)/π), where h is half the signed transverse curvature in inverse metres. Regress unwrapped azimuth on radius, then use three bounded Gauss–Newton updates with tangential residual downweighting above 1 mm. Fit longitudinal slope and offset by least squares on arc length. Reject unreachable projections. The straight-track limit uses normalized sinc. simple_fit retains curvature but skips nonlinear azimuth refinement.
+
+Query eight nearest positions in (R cosφ, R sinφ, z) at nominal module radius R. Recompute residuals at each actual measured radius. Tangential and longitudinal scales are 1.8 mm + 0.025Δr and 3 mm + 0.04Δr in consistent metre units. Keep normalized distance below three. These tolerances approximate increasing extrapolation uncertainty and lack a calibrated probability interpretation. Sort competing proposals globally by residual, then break ties by seed and hit index. Claim at most one hit per seed and one seed per hit on each surface. Retain seeds with unsuccessful extensions. Two missed surfaces may precede recovery.

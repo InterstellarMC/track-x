@@ -1,0 +1,50 @@
+{
+  "frozen_revision": "238f624ef2a17faac3af17e04c78959efca552ad",
+  "phase2_revision": "8b5e985",
+  "source_sha256_at_freeze": {
+    "src/trackx/extension.py": "2ad9f8ca66f5bcbb29821ec5b39997ecc5435609217e8388858ee8b29b11b7b4",
+    "scripts/phase3.py": "ea061afc96c64c35c231315935cabc69d9ac6956afe0ba04d890a9d303f4ef43",
+    "scripts/phase2_boundaries.py": "9f6d9fb30b3e7cf0931feb06fb14bb8173c234578c9c7dd7938a0eca8999a8db",
+    "src/trackx/triplets.py": "69c0dbb9a549611bb3412ebb7e2b71ea24e2ca068b60c49461bdf00293c3a1f8",
+    "src/trackx/barrel.py": "9806389ca6d31fc2a1264b9b30b430f3ab806ad2b7965d495383a24781c6c4ac",
+    "reports/phase2/manifest.json": "7d4f09367b502c9588dfb1187712e8e879828044ed2e616cc43e012a98185a82",
+    "reports/phase2/confirmation-manifest.json": "17dd731ace10c3dddd891838932288f6aeff2139938e1588fac6921d6aaa642d",
+    "reports/phase3/EXPERIMENT_PROTOCOL.md": "32292f15dd89782d23715b68fe7e6efadcdc8d6fee085ef453bd1d4efc77f06d"
+  },
+  "model_sha256": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+  "training_seed": 1729,
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "torch": "2.15.0",
+    "trackml": "3",
+    "pandas": "3.1.1",
+    "streamlit": "1.67.0",
+    "pytest": "9.2.0",
+    "ruff": "0.17.6"
+  },
+  "train": [
+    1000,
+    1001
+  ],
+  "validation": [
+    1002
+  ],
+  "development_test": [
+    1003,
+    1004,
+    1005
+  ],
+  "phase2_replay": [
+    1006,
+    1007,
+    1008
+  ],
+  "prospective": [
+    1009,
+    1010,
+    1011
+  ]
+}

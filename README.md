@@ -6,7 +6,11 @@
 
 TRACK-X links detector hits into trajectories using sparse candidate graphs, compact graph neural networks and geometric constraints. The project includes an offline synthetic benchmark, a held-out evaluation on official TrackML simulated events and an interactive detector lab.
 
-[Research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
+[Research paper](reports/TRACK_X.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
+
+## Multi-layer barrel reconstruction
+
+Phase III extends the confirmed pixel seeds to six additional detector layers in volumes 13 and 17. A protocol frozen before data acquisition compares the pixel baseline, geometry-only extension and learned pixel-seed weighting on three new complete TrackML events. The score improved on each event, alongside increased mixed-particle contamination. [Phase III results](reports/phase3/FINAL_REPORT.md) · [Confirmation scores](reports/phase3/CONFIRMATION_RESULTS.md) · [Run the detector lab](reports/phase3/REPRODUCIBILITY.md)
 
 ## Sector boundaries on official TrackML
 
