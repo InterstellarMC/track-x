@@ -1,0 +1,82 @@
+[
+  {
+    "event": "event000001002",
+    "seed_counts": {
+      "extendible_majority_seeds": 3368,
+      "no_correct_extension": 146,
+      "incorrect_assignment_seed": 588,
+      "missing_nominal_surface": 2230,
+      "missed_and_missing_surface": 115,
+      "seeds_pt_below_0.5": 1184,
+      "missed_pt_below_0.5": 81,
+      "pixel_seed_spans_original_seam": 1055,
+      "no_signal_seed_majority": 1634
+    },
+    "volume_opportunities": {
+      "available_13": 3368,
+      "missed_13": 148,
+      "available_17": 1553,
+      "missed_17": 150
+    }
+  },
+  {
+    "event": "event000001003",
+    "seed_counts": {
+      "extendible_majority_seeds": 2834,
+      "no_correct_extension": 81,
+      "incorrect_assignment_seed": 424,
+      "missing_nominal_surface": 1930,
+      "missed_and_missing_surface": 68,
+      "seeds_pt_below_0.5": 1176,
+      "missed_pt_below_0.5": 42,
+      "pixel_seed_spans_original_seam": 973,
+      "no_signal_seed_majority": 1273
+    },
+    "volume_opportunities": {
+      "available_13": 2834,
+      "missed_13": 81,
+      "available_17": 1274,
+      "missed_17": 122
+    }
+  },
+  {
+    "event": "event000001004",
+    "seed_counts": {
+      "extendible_majority_seeds": 3594,
+      "no_correct_extension": 130,
+      "incorrect_assignment_seed": 572,
+      "missing_nominal_surface": 2335,
+      "missed_and_missing_surface": 97,
+      "seeds_pt_below_0.5": 1238,
+      "missed_pt_below_0.5": 73,
+      "pixel_seed_spans_original_seam": 1131,
+      "no_signal_seed_majority": 1946
+    },
+    "volume_opportunities": {
+      "available_13": 3594,
+      "missed_13": 130,
+      "available_17": 1640,
+      "missed_17": 163
+    }
+  },
+  {
+    "event": "event000001005",
+    "seed_counts": {
+      "extendible_majority_seeds": 2937,
+      "no_correct_extension": 118,
+      "incorrect_assignment_seed": 489,
+      "missing_nominal_surface": 1987,
+      "missed_and_missing_surface": 93,
+      "seeds_pt_below_0.5": 1154,
+      "missed_pt_below_0.5": 61,
+      "pixel_seed_spans_original_seam": 974,
+      "no_signal_seed_majority": 1357
+    },
+    "volume_opportunities": {
+      "available_13": 2937,
+      "missed_13": 118,
+      "available_17": 1302,
+      "missed_17": 133
+    }
+  }
+]

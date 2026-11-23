@@ -71,9 +71,17 @@ def main():
         action="store_true",
         help="only events 1006–1008, in data/trackml-confirmation",
     )
+    parser.add_argument(
+        "--phase3", action="store_true", help="only frozen Phase III events 1009–1011"
+    )
     args = parser.parse_args()
     dest_root = Path("data/trackml-confirmation") if args.confirmation else DEST
     selection = slice(6, 9) if args.confirmation else slice(0, 6)
+    if args.phase3:
+        if args.confirmation:
+            parser.error("choose one sample")
+        dest_root = Path("data/trackml-phase3")
+        selection = slice(9, 12)
     dest_root.mkdir(parents=True, exist_ok=True)
     settings = json.loads(
         (

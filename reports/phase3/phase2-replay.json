@@ -1,0 +1,10 @@
+{
+  "matched": [
+    "manifest.json",
+    "training.json",
+    "event000001003.json",
+    "event000001004.json",
+    "event000001005.json"
+  ],
+  "scope": "frozen weights and event-level evaluation"
+}
