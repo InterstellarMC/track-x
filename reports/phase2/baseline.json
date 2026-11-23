@@ -1,0 +1,47 @@
+[
+  {
+    "sample": "nominal-1729",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "nominal-1730",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "nominal-1731",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "pileup-1729",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "pileup-1730",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "pileup-1731",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "stress-1729",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "stress-1730",
+    "rows": 60,
+    "identical": true
+  },
+  {
+    "sample": "stress-1731",
+    "rows": 60,
+    "identical": true
+  }
+]

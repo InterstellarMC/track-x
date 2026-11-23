@@ -1,0 +1,56 @@
+[
+  {
+    "device": "cpu",
+    "sectors": 16,
+    "nodes": 1811,
+    "edges": 16464,
+    "median_ms": 14.33500000030108,
+    "peak_rss_bytes": 409010176,
+    "max_score_delta": 0.0
+  },
+  {
+    "device": "cpu",
+    "sectors": 32,
+    "nodes": 924,
+    "edges": 8484,
+    "median_ms": 16.64708350017463,
+    "peak_rss_bytes": 374407168,
+    "max_score_delta": 0.0
+  },
+  {
+    "device": "cpu",
+    "sectors": 64,
+    "nodes": 528,
+    "edges": 4860,
+    "median_ms": 8.523603999947227,
+    "peak_rss_bytes": 375783424,
+    "max_score_delta": 0.0
+  },
+  {
+    "device": "mps",
+    "sectors": 16,
+    "nodes": 1811,
+    "edges": 16464,
+    "median_ms": 31.33972950035968,
+    "peak_rss_bytes": 504676352,
+    "max_score_delta": 8.940696716308594e-08
+  },
+  {
+    "device": "mps",
+    "sectors": 32,
+    "nodes": 924,
+    "edges": 8484,
+    "median_ms": 8.319062500049768,
+    "peak_rss_bytes": 501153792,
+    "max_score_delta": 8.940696716308594e-08
+  },
+  {
+    "device": "mps",
+    "sectors": 64,
+    "nodes": 528,
+    "edges": 4860,
+    "median_ms": 6.017770499965991,
+    "peak_rss_bytes": 559382528,
+    "max_score_delta": 8.940696716308594e-08
+  }
+]

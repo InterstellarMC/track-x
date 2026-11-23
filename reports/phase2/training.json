@@ -1,0 +1,52 @@
+{
+  "validation_bce": {
+    "local_mlp": [
+      0.49905257765203714,
+      0.6528700478374958,
+      0.6862729694694281
+    ],
+    "local_small": [
+      0.9415700640529394,
+      0.7899740915745497,
+      0.5489054229110479
+    ],
+    "local_gnn": [
+      0.8501157015562057,
+      0.5674483552575111,
+      0.3689093994908035
+    ],
+    "local_layer": [
+      0.8628427442163229,
+      0.5363938547670841,
+      0.3971382351592183
+    ]
+  },
+  "elapsed_s": 33.57531074999952,
+  "model_sha256": {
+    "mlp": "91df6f3f72aa54fc6ae2e027b9e47ddaf909d03a33a32c3187ec6c387249c62a",
+    "gnn": "93b9d1b18bb51a8b2d4760937f36aa1145ac7cd75f7b0b239c1b7f614c73e624",
+    "local_mlp": "fe33e92cba3254f0d21af265567123cc1c7f5ffa52ef8457c11fa9369d9fa71b",
+    "local_small": "f796b6851b15aa58c5922e1d4bdc0e16281c990446f1c4fafb90f4fa3d70176b",
+    "local_gnn": "a3105d9fc34c74a3f6b2c27c2553ad68fdc1cf1dd948f0f3aac70f36890d1cbe",
+    "local_layer": "82f1c0495c546d17adf3897c8ae5ada16757d5ac1a3769434b2fb5a81267a080"
+  },
+  "config": {
+    "seed": 1729,
+    "sectors": 32,
+    "epochs": 3,
+    "threshold": 0.5,
+    "width": 32,
+    "depth": 2,
+    "source_model": "configs/mac_m1.yaml",
+    "pt_bins": [
+      0,
+      0.5,
+      1,
+      2,
+      5
+    ]
+  },
+  "config_id": "3bcc0e660f314bd6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "torch_version": "2.15.0"
+}

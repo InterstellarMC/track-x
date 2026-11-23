@@ -5,7 +5,16 @@ build-backend = "setuptools.build_meta"
 name = "track-x"
 version = "0.1.0"
 requires-python = ">=3.11,<3.14"
-dependencies = ["numpy", "scipy", "torch", "pyyaml", "plotly", "scikit-learn"]
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+    "pyyaml",
+    "plotly",
+    "scikit-learn",
+    "pandas>=3.1.1",
+    "trackml",
+]
 
 [project.optional-dependencies]
 demo = [
@@ -13,3 +22,6 @@ demo = [
 ]
 [dependency-groups]
 dev = ["pytest", "ruff"]
+
+[tool.uv.sources]
+trackml = { git = "https://github.com/LAL/trackml-library", rev = "53a165e15a2c885f54c2bef1bd1ed53db6ed9648" }

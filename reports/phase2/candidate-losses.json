@@ -1,0 +1,146 @@
+[
+  {
+    "event": "event000001003",
+    "builder": "original",
+    "counts": {
+      "neighbor_cap": 2764,
+      "boundary": 8605,
+      "longitudinal": 6124,
+      "kept": 12352
+    },
+    "by_source_sector_occupancy": {
+      "500": {
+        "neighbor_cap": 815,
+        "boundary": 3231,
+        "longitudinal": 1926,
+        "kept": 4306
+      },
+      "750": {
+        "boundary": 5374,
+        "kept": 8046,
+        "neighbor_cap": 1949,
+        "longitudinal": 4198
+      }
+    }
+  },
+  {
+    "event": "event000001003",
+    "builder": "directional",
+    "counts": {
+      "direction_window": 383,
+      "boundary": 8605,
+      "kept": 16542,
+      "neighbor_cap": 4315
+    },
+    "by_source_sector_occupancy": {
+      "500": {
+        "direction_window": 136,
+        "boundary": 3231,
+        "kept": 5593,
+        "neighbor_cap": 1318
+      },
+      "750": {
+        "boundary": 5374,
+        "neighbor_cap": 2997,
+        "direction_window": 247,
+        "kept": 10949
+      }
+    }
+  },
+  {
+    "event": "event000001004",
+    "builder": "original",
+    "counts": {
+      "neighbor_cap": 5013,
+      "boundary": 11846,
+      "longitudinal": 8880,
+      "kept": 15662
+    },
+    "by_source_sector_occupancy": {
+      "1000": {
+        "neighbor_cap": 4133,
+        "boundary": 9496,
+        "longitudinal": 7154,
+        "kept": 12561
+      },
+      "750": {
+        "boundary": 2350,
+        "neighbor_cap": 880,
+        "longitudinal": 1726,
+        "kept": 3101
+      }
+    }
+  },
+  {
+    "event": "event000001004",
+    "builder": "directional",
+    "counts": {
+      "direction_window": 549,
+      "boundary": 11846,
+      "kept": 21159,
+      "neighbor_cap": 7847
+    },
+    "by_source_sector_occupancy": {
+      "1000": {
+        "direction_window": 415,
+        "boundary": 9496,
+        "kept": 16880,
+        "neighbor_cap": 6553
+      },
+      "750": {
+        "boundary": 2350,
+        "direction_window": 134,
+        "kept": 4279,
+        "neighbor_cap": 1294
+      }
+    }
+  },
+  {
+    "event": "event000001005",
+    "builder": "original",
+    "counts": {
+      "neighbor_cap": 2831,
+      "boundary": 9269,
+      "longitudinal": 6536,
+      "kept": 12772
+    },
+    "by_source_sector_occupancy": {
+      "750": {
+        "neighbor_cap": 2589,
+        "boundary": 8155,
+        "longitudinal": 5864,
+        "kept": 11343
+      },
+      "500": {
+        "boundary": 1114,
+        "neighbor_cap": 242,
+        "longitudinal": 672,
+        "kept": 1429
+      }
+    }
+  },
+  {
+    "event": "event000001005",
+    "builder": "directional",
+    "counts": {
+      "direction_window": 405,
+      "boundary": 9269,
+      "kept": 17162,
+      "neighbor_cap": 4572
+    },
+    "by_source_sector_occupancy": {
+      "750": {
+        "direction_window": 349,
+        "boundary": 8155,
+        "kept": 15269,
+        "neighbor_cap": 4178
+      },
+      "500": {
+        "boundary": 1114,
+        "direction_window": 56,
+        "neighbor_cap": 394,
+        "kept": 1893
+      }
+    }
+  }
+]

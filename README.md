@@ -2,7 +2,11 @@
 
 TRACK-X reconstructs prompt charged-particle trajectories in a simulated cylindrical detector on a laptop. It compares a geometric follower, an edge MLP, a message-passing GNN and a hybrid that adds a three-hit direction constraint. Truth labels enter training and evaluation through a separate interface.
 
-**Measured finding.** With increased occupancy, clutter, hit loss and curvature, adding the direction constraint reduced the GNN fake-track rate from 9.2% to 6.6%. Efficiency moved from 75.0% to 74.6%. The classical tracker achieved 71.4% efficiency and a 7.0% fake rate in that sample. These are three-seed means on synthetic events. Official TrackML performance remains unmeasured. [Technical report](reports/TECHNICAL_REPORT.md) · [All benchmark rows](reports/RESULTS.md)
+**Measured finding.** With increased occupancy, clutter, hit loss and curvature, adding the direction constraint reduced the GNN fake-track rate from 9.2% to 6.6%. Efficiency moved from 75.0% to 74.6%. The classical tracker achieved 71.4% efficiency and a 7.0% fake rate in that sample. These are three-seed means on synthetic events. The historical Phase I study used synthetic events only. [Technical report](reports/TECHNICAL_REPORT.md) · [All benchmark rows](reports/RESULTS.md)
+
+## Official TrackML validation
+
+Phase II evaluated six official TrackML simulated events with a frozen two-event training, one-event validation and three-event test split. Reconstruction covers the four pixel-barrel layers of volume 8. The official scorer evaluates every hit in each complete event. Geometry-aware candidates improved acceptance, and whole-path assembly provided the largest reconstruction gain. The classical triplet ranker and its GNN-weighted variant performed similarly on this small test sample. [Phase II research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [M1 setup, data and reproduction](reports/phase2/REPRODUCIBILITY.md) · [Figures](reports/phase2/measurements.html)
 
 ## Reproduce locally
 

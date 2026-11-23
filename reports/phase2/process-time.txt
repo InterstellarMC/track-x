@@ -1,0 +1,21 @@
+evaluated event000001003
+evaluated event000001004
+evaluated event000001005
+      130.04 real       107.00 user         4.32 sys
+           388628480  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              270935  page reclaims
+                3347  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                2432  voluntary context switches
+              218135  involuntary context switches
+        578587336947  instructions retired
+        165341324854  cycles elapsed
+           519243024  peak memory footprint

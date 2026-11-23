@@ -1327,12 +1327,14 @@ source = { editable = "." }
 dependencies = [
     { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "numpy", version = "2.5.5", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "pandas" },
     { name = "plotly" },
     { name = "pyyaml" },
     { name = "scikit-learn" },
     { name = "scipy", version = "1.17.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
     { name = "scipy", version = "1.18.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
     { name = "torch" },
+    { name = "trackml" },
 ]
 
 [package.optional-dependencies]
@@ -1349,12 +1351,14 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "numpy" },
+    { name = "pandas", specifier = ">=3.1.1" },
     { name = "plotly" },
     { name = "pyyaml" },
     { name = "scikit-learn" },
     { name = "scipy" },
     { name = "streamlit", marker = "extra == 'demo'", specifier = ">=1.67.0" },
     { name = "torch" },
+    { name = "trackml", git = "https://github.com/LAL/trackml-library?rev=53a165e15a2c885f54c2bef1bd1ed53db6ed9648" },
 ]
 provides-extras = ["demo"]
 
@@ -1362,6 +1366,16 @@ provides-extras = ["demo"]
 dev = [
     { name = "pytest" },
     { name = "ruff" },
+]
+
+[[package]]
+name = "trackml"
+version = "3"
+source = { git = "https://github.com/LAL/trackml-library?rev=53a165e15a2c885f54c2bef1bd1ed53db6ed9648#53a165e15a2c885f54c2bef1bd1ed53db6ed9648" }
+dependencies = [
+    { name = "numpy", version = "2.4.6", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.12'" },
+    { name = "numpy", version = "2.5.5", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.12'" },
+    { name = "pandas" },
 ]
 
 [[package]]

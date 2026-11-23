@@ -1,0 +1,2529 @@
+{
+  "modules": 18728,
+  "layers": [
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -1502.5,
+      "z_max_mm": -1497.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -1302.5,
+      "z_max_mm": -1297.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -1102.5,
+      "z_max_mm": -1097.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -962.5,
+      "z_max_mm": -957.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -822.5,
+      "z_max_mm": -817.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -702.5,
+      "z_max_mm": -697.5
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": -602.5,
+      "z_max_mm": -597.5
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "modules": 224,
+      "r_min_mm": 31.749968418636264,
+      "r_max_mm": 32.24998192898719,
+      "z_min_mm": -455.0,
+      "z_max_mm": 455.0
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "modules": 448,
+      "r_min_mm": 71.7499884706611,
+      "r_max_mm": 72.25000363901444,
+      "z_min_mm": -455.0,
+      "z_max_mm": 455.0
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "modules": 728,
+      "r_min_mm": 115.7496359911771,
+      "r_max_mm": 116.25017409518146,
+      "z_min_mm": -455.0,
+      "z_max_mm": 455.0
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "modules": 1092,
+      "r_min_mm": 171.74937649959605,
+      "r_max_mm": 172.2504257222315,
+      "z_min_mm": -455.0,
+      "z_max_mm": 455.0
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 597.5,
+      "z_max_mm": 602.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 697.5,
+      "z_max_mm": 702.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 817.5,
+      "z_max_mm": 822.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 957.5,
+      "z_max_mm": 962.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 1097.5,
+      "z_max_mm": 1102.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 1297.5,
+      "z_max_mm": 1302.5
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "modules": 108,
+      "r_min_mm": 65.99995209399776,
+      "r_max_mm": 140.0003829239849,
+      "z_min_mm": 1497.5,
+      "z_max_mm": 1502.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -2954.5,
+      "z_max_mm": -2945.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -2554.5,
+      "z_max_mm": -2545.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -2154.5,
+      "z_max_mm": -2145.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -1804.5,
+      "z_max_mm": -1795.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -1504.5,
+      "z_max_mm": -1495.5
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": -1224.5,
+      "z_max_mm": -1215.5
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "modules": 840,
+      "r_min_mm": 258.4996518469609,
+      "r_max_mm": 261.5002671910681,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "modules": 1176,
+      "r_min_mm": 358.499989341269,
+      "r_max_mm": 361.5003626000948,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "modules": 1638,
+      "r_min_mm": 498.49946684926357,
+      "r_max_mm": 501.5004905549046,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "modules": 2142,
+      "r_min_mm": 658.49967285717,
+      "r_max_mm": 661.5004667700545,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 1215.5,
+      "z_max_mm": 1224.5
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 1495.5,
+      "z_max_mm": 1504.5
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 1795.5,
+      "z_max_mm": 1804.5
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 2145.5,
+      "z_max_mm": 2154.5
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 2545.5,
+      "z_max_mm": 2554.5
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "modules": 170,
+      "r_min_mm": 317.9996013220771,
+      "r_max_mm": 622.0004306373107,
+      "z_min_mm": 2945.5,
+      "z_max_mm": 2954.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -2955.5,
+      "z_max_mm": -2944.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -2555.5,
+      "z_max_mm": -2544.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -2155.5,
+      "z_max_mm": -2144.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -1805.5,
+      "z_max_mm": -1794.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -1505.5,
+      "z_max_mm": -1494.5
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": -1225.5,
+      "z_max_mm": -1214.5
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "modules": 2520,
+      "r_min_mm": 818.4994838733865,
+      "r_max_mm": 821.50065779645,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "modules": 3192,
+      "r_min_mm": 1018.4972611152374,
+      "r_max_mm": 1021.5030153774828,
+      "z_min_mm": -1030.0,
+      "z_max_mm": 1030.0
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 1214.5,
+      "z_max_mm": 1225.5
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 1494.5,
+      "z_max_mm": 1505.5
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 1794.5,
+      "z_max_mm": 1805.5
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 2144.5,
+      "z_max_mm": 2155.5
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 2544.5,
+      "z_max_mm": 2555.5
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "modules": 98,
+      "r_min_mm": 827.999508075337,
+      "r_max_mm": 942.0003653895259,
+      "z_min_mm": 2944.5,
+      "z_max_mm": 2955.5
+    }
+  ],
+  "occupancy": [
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1449,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1767,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 2165,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2553,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 2887,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 3028,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 3024,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 8892,
+      "active_modules": 213,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 7484,
+      "active_modules": 448,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 6672,
+      "active_modules": 728,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 6124,
+      "active_modules": 1080,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 3013,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 3052,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 2980,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 2558,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 2184,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 1845,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1554,
+      "active_modules": 108,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 1185,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1207,
+      "active_modules": 169,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1292,
+      "active_modules": 169,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1279,
+      "active_modules": 167,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1434,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1534,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 7171,
+      "active_modules": 837,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 6800,
+      "active_modules": 1170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 6303,
+      "active_modules": 1602,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 5716,
+      "active_modules": 1972,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1414,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1368,
+      "active_modules": 169,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1285,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1195,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 1175,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 1148,
+      "active_modules": 170,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 457,
+      "active_modules": 96,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 489,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 476,
+      "active_modules": 98,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 446,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 488,
+      "active_modules": 96,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 559,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 5237,
+      "active_modules": 2178,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 5119,
+      "active_modules": 2531,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 635,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 482,
+      "active_modules": 98,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 418,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 415,
+      "active_modules": 98,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 480,
+      "active_modules": 97,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 501,
+      "active_modules": 98,
+      "event": "event000001000"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1258,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1437,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 1775,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2057,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 2442,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 2444,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 2486,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 6737,
+      "active_modules": 217,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 5673,
+      "active_modules": 447,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 4987,
+      "active_modules": 725,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 4544,
+      "active_modules": 1064,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 2257,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 2152,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 2039,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 1772,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 1553,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 1282,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1111,
+      "active_modules": 108,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 993,
+      "active_modules": 166,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1040,
+      "active_modules": 170,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1041,
+      "active_modules": 170,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1129,
+      "active_modules": 170,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1149,
+      "active_modules": 169,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1173,
+      "active_modules": 169,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 5273,
+      "active_modules": 837,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 5097,
+      "active_modules": 1151,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 4928,
+      "active_modules": 1546,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 4597,
+      "active_modules": 1883,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1128,
+      "active_modules": 170,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1085,
+      "active_modules": 170,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1005,
+      "active_modules": 168,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1003,
+      "active_modules": 169,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 913,
+      "active_modules": 169,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 885,
+      "active_modules": 166,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 413,
+      "active_modules": 95,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 369,
+      "active_modules": 95,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 345,
+      "active_modules": 95,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 361,
+      "active_modules": 96,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 458,
+      "active_modules": 98,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 450,
+      "active_modules": 98,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 4277,
+      "active_modules": 2060,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 4411,
+      "active_modules": 2403,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 410,
+      "active_modules": 98,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 319,
+      "active_modules": 95,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 347,
+      "active_modules": 93,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 345,
+      "active_modules": 93,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 346,
+      "active_modules": 96,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 384,
+      "active_modules": 95,
+      "event": "event000001001"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1594,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1876,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 2293,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2594,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 3099,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 3205,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 3237,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 9326,
+      "active_modules": 222,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 7890,
+      "active_modules": 448,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 6860,
+      "active_modules": 728,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 6383,
+      "active_modules": 1086,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 3095,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 3069,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 2949,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 2516,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 2136,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 1791,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1511,
+      "active_modules": 108,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 1214,
+      "active_modules": 168,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1277,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1309,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1382,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1478,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1592,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 7497,
+      "active_modules": 836,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 7063,
+      "active_modules": 1166,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 6766,
+      "active_modules": 1604,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 5952,
+      "active_modules": 1996,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1454,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1388,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1323,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1227,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 1227,
+      "active_modules": 169,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 1155,
+      "active_modules": 170,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 491,
+      "active_modules": 98,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 504,
+      "active_modules": 96,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 429,
+      "active_modules": 94,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 453,
+      "active_modules": 97,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 512,
+      "active_modules": 97,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 570,
+      "active_modules": 98,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 5495,
+      "active_modules": 2211,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 5302,
+      "active_modules": 2569,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 620,
+      "active_modules": 98,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 507,
+      "active_modules": 98,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 496,
+      "active_modules": 97,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 448,
+      "active_modules": 97,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 443,
+      "active_modules": 97,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 506,
+      "active_modules": 98,
+      "event": "event000001002"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1342,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1556,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 1876,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2151,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 2443,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 2538,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 2598,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 7543,
+      "active_modules": 217,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 6369,
+      "active_modules": 448,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 5747,
+      "active_modules": 720,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 5320,
+      "active_modules": 1075,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 2557,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 2538,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 2437,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 2094,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 1801,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 1480,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1268,
+      "active_modules": 108,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 988,
+      "active_modules": 167,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1059,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1090,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1129,
+      "active_modules": 168,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1194,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1332,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 6218,
+      "active_modules": 835,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 5893,
+      "active_modules": 1152,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 5502,
+      "active_modules": 1569,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 5111,
+      "active_modules": 1918,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1260,
+      "active_modules": 169,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1189,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1070,
+      "active_modules": 169,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1046,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 1023,
+      "active_modules": 170,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 982,
+      "active_modules": 169,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 429,
+      "active_modules": 97,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 405,
+      "active_modules": 95,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 398,
+      "active_modules": 96,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 387,
+      "active_modules": 93,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 418,
+      "active_modules": 97,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 482,
+      "active_modules": 98,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 4765,
+      "active_modules": 2139,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 4788,
+      "active_modules": 2480,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 513,
+      "active_modules": 97,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 459,
+      "active_modules": 98,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 457,
+      "active_modules": 95,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 406,
+      "active_modules": 98,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 408,
+      "active_modules": 98,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 392,
+      "active_modules": 93,
+      "event": "event000001003"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1647,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1971,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 2417,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2823,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 3290,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 3347,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 3426,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 10467,
+      "active_modules": 220,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 8700,
+      "active_modules": 448,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 7647,
+      "active_modules": 726,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 6985,
+      "active_modules": 1088,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 3696,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 3626,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 3577,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 3029,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 2597,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 2154,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1786,
+      "active_modules": 108,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 1326,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1312,
+      "active_modules": 169,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1393,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1506,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1526,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1634,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 8313,
+      "active_modules": 839,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 7782,
+      "active_modules": 1165,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 7211,
+      "active_modules": 1598,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 6296,
+      "active_modules": 2023,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1661,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1644,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1550,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1498,
+      "active_modules": 169,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 1450,
+      "active_modules": 169,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 1379,
+      "active_modules": 170,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 570,
+      "active_modules": 98,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 530,
+      "active_modules": 97,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 520,
+      "active_modules": 96,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 507,
+      "active_modules": 97,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 539,
+      "active_modules": 96,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 616,
+      "active_modules": 97,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 5709,
+      "active_modules": 2213,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 5569,
+      "active_modules": 2658,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 623,
+      "active_modules": 97,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 587,
+      "active_modules": 97,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 486,
+      "active_modules": 96,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 535,
+      "active_modules": 98,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 580,
+      "active_modules": 98,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 531,
+      "active_modules": 98,
+      "event": "event000001004"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 2,
+      "hits": 1322,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 4,
+      "hits": 1581,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 6,
+      "hits": 1918,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 8,
+      "hits": 2258,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 10,
+      "hits": 2642,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 12,
+      "hits": 2723,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 7,
+      "layer_id": 14,
+      "hits": 2769,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 2,
+      "hits": 8003,
+      "active_modules": 215,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 4,
+      "hits": 6791,
+      "active_modules": 448,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 6,
+      "hits": 5934,
+      "active_modules": 728,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 8,
+      "layer_id": 8,
+      "hits": 5513,
+      "active_modules": 1080,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 2,
+      "hits": 2773,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 4,
+      "hits": 2609,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 6,
+      "hits": 2509,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 8,
+      "hits": 2177,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 10,
+      "hits": 1874,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 12,
+      "hits": 1565,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 9,
+      "layer_id": 14,
+      "hits": 1329,
+      "active_modules": 108,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 2,
+      "hits": 1045,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 4,
+      "hits": 1077,
+      "active_modules": 169,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 6,
+      "hits": 1132,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 8,
+      "hits": 1218,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 10,
+      "hits": 1293,
+      "active_modules": 169,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 12,
+      "layer_id": 12,
+      "hits": 1385,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 2,
+      "hits": 6519,
+      "active_modules": 835,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 4,
+      "hits": 6147,
+      "active_modules": 1160,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 6,
+      "hits": 5918,
+      "active_modules": 1585,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 13,
+      "layer_id": 8,
+      "hits": 5382,
+      "active_modules": 1983,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 2,
+      "hits": 1386,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 4,
+      "hits": 1308,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 6,
+      "hits": 1231,
+      "active_modules": 168,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 8,
+      "hits": 1179,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 10,
+      "hits": 1132,
+      "active_modules": 169,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 14,
+      "layer_id": 12,
+      "hits": 1119,
+      "active_modules": 170,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 2,
+      "hits": 470,
+      "active_modules": 98,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 4,
+      "hits": 436,
+      "active_modules": 98,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 6,
+      "hits": 421,
+      "active_modules": 94,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 8,
+      "hits": 410,
+      "active_modules": 95,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 10,
+      "hits": 462,
+      "active_modules": 96,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 16,
+      "layer_id": 12,
+      "hits": 502,
+      "active_modules": 98,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 2,
+      "hits": 4881,
+      "active_modules": 2149,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 17,
+      "layer_id": 4,
+      "hits": 4931,
+      "active_modules": 2547,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 2,
+      "hits": 557,
+      "active_modules": 97,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 4,
+      "hits": 463,
+      "active_modules": 97,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 6,
+      "hits": 443,
+      "active_modules": 97,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 8,
+      "hits": 421,
+      "active_modules": 97,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 10,
+      "hits": 422,
+      "active_modules": 98,
+      "event": "event000001005"
+    },
+    {
+      "volume_id": 18,
+      "layer_id": 12,
+      "hits": 443,
+      "active_modules": 97,
+      "event": "event000001005"
+    }
+  ],
+  "events": [
+    {
+      "event": "event000001000",
+      "hits": 120939,
+      "cells": 664996,
+      "particles": 12263,
+      "weight_sum": 0.9999999515099999,
+      "volume8_hits": 29172,
+      "noise_hits": 2217,
+      "barrel_particles": 7185,
+      "repeated_layer_particles": 3701,
+      "particles_lt3_distinct_layers": 2334
+    },
+    {
+      "event": "event000001001",
+      "hits": 93680,
+      "cells": 516424,
+      "particles": 8915,
+      "weight_sum": 1.00000000966,
+      "volume8_hits": 21941,
+      "noise_hits": 2171,
+      "barrel_particles": 5296,
+      "repeated_layer_particles": 2749,
+      "particles_lt3_distinct_layers": 1805
+    },
+    {
+      "event": "event000001002",
+      "hits": 125504,
+      "cells": 689199,
+      "particles": 12763,
+      "weight_sum": 1.0000001970099999,
+      "volume8_hits": 30459,
+      "noise_hits": 2173,
+      "barrel_particles": 7576,
+      "repeated_layer_particles": 3876,
+      "particles_lt3_distinct_layers": 2548
+    },
+    {
+      "event": "event000001003",
+      "hits": 104451,
+      "cells": 575561,
+      "particles": 10261,
+      "weight_sum": 0.9999999265200001,
+      "volume8_hits": 24979,
+      "noise_hits": 2179,
+      "barrel_particles": 6056,
+      "repeated_layer_particles": 3101,
+      "particles_lt3_distinct_layers": 1934
+    },
+    {
+      "event": "event000001004",
+      "hits": 138568,
+      "cells": 761134,
+      "particles": 14159,
+      "weight_sum": 0.99999993387,
+      "volume8_hits": 33799,
+      "noise_hits": 2221,
+      "barrel_particles": 8370,
+      "repeated_layer_particles": 4383,
+      "particles_lt3_distinct_layers": 2759
+    },
+    {
+      "event": "event000001005",
+      "hits": 110023,
+      "cells": 608716,
+      "particles": 10945,
+      "weight_sum": 0.99999998362,
+      "volume8_hits": 26241,
+      "noise_hits": 2151,
+      "barrel_particles": 6482,
+      "repeated_layer_particles": 3267,
+      "particles_lt3_distinct_layers": 2199
+    }
+  ]
+}

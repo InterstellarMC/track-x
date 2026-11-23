@@ -1,0 +1,19 @@
+{
+  "training_event": 1000,
+  "pilot": {
+    "graph": {
+      "seconds": 2.806694917000641,
+      "edges": 315370,
+      "positive": 13891
+    },
+    "directional_graph": {
+      "seconds": 0.41415820800011716,
+      "edges": 268153,
+      "positive": 19178
+    }
+  },
+  "fits": 500,
+  "pandas_s": 0.16832820800027548,
+  "array_s": 0.04157575000044744,
+  "identical": true
+}

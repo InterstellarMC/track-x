@@ -1,0 +1,7562 @@
+[
+  {
+    "eligible": 5576,
+    "matched": 134,
+    "tracks": 769,
+    "efficiency": 0.024031563845050216,
+    "fake": 0.8244473342002601,
+    "official_score": 0.0006504280918591618,
+    "event": "event000001002",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "edge",
+    "graph_s": 0.26811808300135453,
+    "assembly_s": 0.14711991800231772,
+    "occupancy": [
+      {
+        "nodes": 924,
+        "edges": 8484,
+        "noise_fraction": 0.08008658008658008,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 887,
+        "edges": 7912,
+        "noise_fraction": 0.0935738444193912,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 862,
+        "edges": 7712,
+        "noise_fraction": 0.08700696055684455,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 891,
+        "edges": 8002,
+        "noise_fraction": 0.07968574635241302,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 960,
+        "edges": 8785,
+        "noise_fraction": 0.0625,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 918,
+        "edges": 8356,
+        "noise_fraction": 0.0784313725490196,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 991,
+        "edges": 8950,
+        "noise_fraction": 0.05348133198789102,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1002,
+        "edges": 9225,
+        "noise_fraction": 0.07385229540918163,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 991,
+        "edges": 9200,
+        "noise_fraction": 0.054490413723511606,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 949,
+        "edges": 8753,
+        "noise_fraction": 0.07586933614330875,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 955,
+        "edges": 9019,
+        "noise_fraction": 0.07539267015706806,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 988,
+        "edges": 8848,
+        "noise_fraction": 0.06882591093117409,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1044,
+        "edges": 9912,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 903,
+        "edges": 7983,
+        "noise_fraction": 0.08527131782945736,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1017,
+        "edges": 9462,
+        "noise_fraction": 0.07177974434611603,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 986,
+        "edges": 9086,
+        "noise_fraction": 0.07099391480730223,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 916,
+        "edges": 8300,
+        "noise_fraction": 0.08187772925764192,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 898,
+        "edges": 8273,
+        "noise_fraction": 0.06347438752783964,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 899,
+        "edges": 8642,
+        "noise_fraction": 0.067853170189099,
+        "tracks": 13,
+        "sector_fakes": 11
+      },
+      {
+        "nodes": 963,
+        "edges": 8398,
+        "noise_fraction": 0.06853582554517133,
+        "tracks": 87,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 938,
+        "edges": 8575,
+        "noise_fraction": 0.05863539445628998,
+        "tracks": 121,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1034,
+        "edges": 9880,
+        "noise_fraction": 0.06479690522243714,
+        "tracks": 159,
+        "sector_fakes": 113
+      },
+      {
+        "nodes": 1109,
+        "edges": 9950,
+        "noise_fraction": 0.0703336339044184,
+        "tracks": 167,
+        "sector_fakes": 127
+      },
+      {
+        "nodes": 860,
+        "edges": 7974,
+        "noise_fraction": 0.06395348837209303,
+        "tracks": 110,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 929,
+        "edges": 8584,
+        "noise_fraction": 0.06996770721205597,
+        "tracks": 99,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 963,
+        "edges": 9066,
+        "noise_fraction": 0.07580477673935618,
+        "tracks": 13,
+        "sector_fakes": 12
+      },
+      {
+        "nodes": 921,
+        "edges": 8375,
+        "noise_fraction": 0.06188925081433225,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 956,
+        "edges": 8440,
+        "noise_fraction": 0.07426778242677824,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 932,
+        "edges": 8547,
+        "noise_fraction": 0.08261802575107297,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 935,
+        "edges": 8649,
+        "noise_fraction": 0.06631016042780749,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1039,
+        "edges": 9660,
+        "noise_fraction": 0.0741097208854668,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 899,
+        "edges": 8324,
+        "noise_fraction": 0.07897664071190211,
+        "tracks": 0,
+        "sector_fakes": 0
+      }
+    ],
+    "fragmented": 24,
+    "spans_sector": {
+      "eligible": 2558,
+      "matched": 26
+    },
+    "crowded": {
+      "eligible": 3962,
+      "matched": 88
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 23
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 2785,
+    "tracks": 5261,
+    "efficiency": 0.4994619799139168,
+    "fake": 0.4702528036494963,
+    "official_score": 0.01865953242388552,
+    "event": "event000001002",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet",
+    "graph_s": 0.1539629579992834,
+    "assembly_s": 0.5795357090009929,
+    "occupancy": [
+      {
+        "nodes": 924,
+        "edges": 8484,
+        "noise_fraction": 0.08008658008658008,
+        "tracks": 145,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 887,
+        "edges": 7912,
+        "noise_fraction": 0.0935738444193912,
+        "tracks": 155,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 862,
+        "edges": 7712,
+        "noise_fraction": 0.08700696055684455,
+        "tracks": 155,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 891,
+        "edges": 8002,
+        "noise_fraction": 0.07968574635241302,
+        "tracks": 156,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 960,
+        "edges": 8785,
+        "noise_fraction": 0.0625,
+        "tracks": 163,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 918,
+        "edges": 8356,
+        "noise_fraction": 0.0784313725490196,
+        "tracks": 155,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 991,
+        "edges": 8950,
+        "noise_fraction": 0.05348133198789102,
+        "tracks": 179,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 1002,
+        "edges": 9225,
+        "noise_fraction": 0.07385229540918163,
+        "tracks": 172,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 991,
+        "edges": 9200,
+        "noise_fraction": 0.054490413723511606,
+        "tracks": 169,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 949,
+        "edges": 8753,
+        "noise_fraction": 0.07586933614330875,
+        "tracks": 158,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 955,
+        "edges": 9019,
+        "noise_fraction": 0.07539267015706806,
+        "tracks": 158,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 988,
+        "edges": 8848,
+        "noise_fraction": 0.06882591093117409,
+        "tracks": 174,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1044,
+        "edges": 9912,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 182,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 903,
+        "edges": 7983,
+        "noise_fraction": 0.08527131782945736,
+        "tracks": 166,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 1017,
+        "edges": 9462,
+        "noise_fraction": 0.07177974434611603,
+        "tracks": 183,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 986,
+        "edges": 9086,
+        "noise_fraction": 0.07099391480730223,
+        "tracks": 173,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 916,
+        "edges": 8300,
+        "noise_fraction": 0.08187772925764192,
+        "tracks": 163,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 898,
+        "edges": 8273,
+        "noise_fraction": 0.06347438752783964,
+        "tracks": 156,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 899,
+        "edges": 8642,
+        "noise_fraction": 0.067853170189099,
+        "tracks": 160,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 963,
+        "edges": 8398,
+        "noise_fraction": 0.06853582554517133,
+        "tracks": 163,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 938,
+        "edges": 8575,
+        "noise_fraction": 0.05863539445628998,
+        "tracks": 160,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 1034,
+        "edges": 9880,
+        "noise_fraction": 0.06479690522243714,
+        "tracks": 190,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 1109,
+        "edges": 9950,
+        "noise_fraction": 0.0703336339044184,
+        "tracks": 183,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 860,
+        "edges": 7974,
+        "noise_fraction": 0.06395348837209303,
+        "tracks": 144,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 929,
+        "edges": 8584,
+        "noise_fraction": 0.06996770721205597,
+        "tracks": 162,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 963,
+        "edges": 9066,
+        "noise_fraction": 0.07580477673935618,
+        "tracks": 167,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 921,
+        "edges": 8375,
+        "noise_fraction": 0.06188925081433225,
+        "tracks": 168,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 956,
+        "edges": 8440,
+        "noise_fraction": 0.07426778242677824,
+        "tracks": 155,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 932,
+        "edges": 8547,
+        "noise_fraction": 0.08261802575107297,
+        "tracks": 147,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 935,
+        "edges": 8649,
+        "noise_fraction": 0.06631016042780749,
+        "tracks": 154,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 1039,
+        "edges": 9660,
+        "noise_fraction": 0.0741097208854668,
+        "tracks": 176,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 899,
+        "edges": 8324,
+        "noise_fraction": 0.07897664071190211,
+        "tracks": 170,
+        "sector_fakes": 73
+      }
+    ],
+    "fragmented": 49,
+    "spans_sector": {
+      "eligible": 2558,
+      "matched": 448
+    },
+    "crowded": {
+      "eligible": 3962,
+      "matched": 2095
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 294
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 2790,
+    "tracks": 5254,
+    "efficiency": 0.5003586800573888,
+    "fake": 0.46859535591929957,
+    "official_score": 0.01855016351543229,
+    "event": "event000001002",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.14422562499839842,
+    "assembly_s": 0.5487113289973422,
+    "occupancy": [
+      {
+        "nodes": 924,
+        "edges": 8484,
+        "noise_fraction": 0.08008658008658008,
+        "tracks": 145,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 887,
+        "edges": 7912,
+        "noise_fraction": 0.0935738444193912,
+        "tracks": 155,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 862,
+        "edges": 7712,
+        "noise_fraction": 0.08700696055684455,
+        "tracks": 155,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 891,
+        "edges": 8002,
+        "noise_fraction": 0.07968574635241302,
+        "tracks": 154,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 960,
+        "edges": 8785,
+        "noise_fraction": 0.0625,
+        "tracks": 164,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 918,
+        "edges": 8356,
+        "noise_fraction": 0.0784313725490196,
+        "tracks": 157,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 991,
+        "edges": 8950,
+        "noise_fraction": 0.05348133198789102,
+        "tracks": 179,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 1002,
+        "edges": 9225,
+        "noise_fraction": 0.07385229540918163,
+        "tracks": 170,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 991,
+        "edges": 9200,
+        "noise_fraction": 0.054490413723511606,
+        "tracks": 169,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 949,
+        "edges": 8753,
+        "noise_fraction": 0.07586933614330875,
+        "tracks": 159,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 955,
+        "edges": 9019,
+        "noise_fraction": 0.07539267015706806,
+        "tracks": 158,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 988,
+        "edges": 8848,
+        "noise_fraction": 0.06882591093117409,
+        "tracks": 174,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1044,
+        "edges": 9912,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 181,
+        "sector_fakes": 83
+      },
+      {
+        "nodes": 903,
+        "edges": 7983,
+        "noise_fraction": 0.08527131782945736,
+        "tracks": 163,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 1017,
+        "edges": 9462,
+        "noise_fraction": 0.07177974434611603,
+        "tracks": 183,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 986,
+        "edges": 9086,
+        "noise_fraction": 0.07099391480730223,
+        "tracks": 172,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 916,
+        "edges": 8300,
+        "noise_fraction": 0.08187772925764192,
+        "tracks": 163,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 898,
+        "edges": 8273,
+        "noise_fraction": 0.06347438752783964,
+        "tracks": 156,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 899,
+        "edges": 8642,
+        "noise_fraction": 0.067853170189099,
+        "tracks": 159,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 963,
+        "edges": 8398,
+        "noise_fraction": 0.06853582554517133,
+        "tracks": 162,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 938,
+        "edges": 8575,
+        "noise_fraction": 0.05863539445628998,
+        "tracks": 161,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1034,
+        "edges": 9880,
+        "noise_fraction": 0.06479690522243714,
+        "tracks": 190,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 1109,
+        "edges": 9950,
+        "noise_fraction": 0.0703336339044184,
+        "tracks": 184,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 860,
+        "edges": 7974,
+        "noise_fraction": 0.06395348837209303,
+        "tracks": 143,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 929,
+        "edges": 8584,
+        "noise_fraction": 0.06996770721205597,
+        "tracks": 162,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 963,
+        "edges": 9066,
+        "noise_fraction": 0.07580477673935618,
+        "tracks": 167,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 921,
+        "edges": 8375,
+        "noise_fraction": 0.06188925081433225,
+        "tracks": 169,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 956,
+        "edges": 8440,
+        "noise_fraction": 0.07426778242677824,
+        "tracks": 155,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 932,
+        "edges": 8547,
+        "noise_fraction": 0.08261802575107297,
+        "tracks": 147,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 935,
+        "edges": 8649,
+        "noise_fraction": 0.06631016042780749,
+        "tracks": 154,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 1039,
+        "edges": 9660,
+        "noise_fraction": 0.0741097208854668,
+        "tracks": 175,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 899,
+        "edges": 8324,
+        "noise_fraction": 0.07897664071190211,
+        "tracks": 169,
+        "sector_fakes": 72
+      }
+    ],
+    "fragmented": 51,
+    "spans_sector": {
+      "eligible": 2558,
+      "matched": 449
+    },
+    "crowded": {
+      "eligible": 3962,
+      "matched": 2097
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 297
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 2303,
+    "tracks": 4740,
+    "efficiency": 0.4130200860832138,
+    "fake": 0.5137130801687764,
+    "official_score": 0.014204671231537722,
+    "event": "event000001002",
+    "sectors": 32,
+    "drop": 0.1,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.15298566599813057,
+    "assembly_s": 0.5411595830018996,
+    "occupancy": [
+      {
+        "nodes": 838,
+        "edges": 7574,
+        "noise_fraction": 0.07756563245823389,
+        "tracks": 133,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 810,
+        "edges": 7149,
+        "noise_fraction": 0.09382716049382717,
+        "tracks": 139,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 768,
+        "edges": 6800,
+        "noise_fraction": 0.08203125,
+        "tracks": 137,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 811,
+        "edges": 7231,
+        "noise_fraction": 0.07644882860665844,
+        "tracks": 143,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 859,
+        "edges": 7811,
+        "noise_fraction": 0.06169965075669383,
+        "tracks": 142,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 825,
+        "edges": 7591,
+        "noise_fraction": 0.0703030303030303,
+        "tracks": 135,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 893,
+        "edges": 7964,
+        "noise_fraction": 0.051511758118701005,
+        "tracks": 160,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 905,
+        "edges": 8244,
+        "noise_fraction": 0.07624309392265194,
+        "tracks": 154,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 887,
+        "edges": 8153,
+        "noise_fraction": 0.058624577226606536,
+        "tracks": 151,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 850,
+        "edges": 7819,
+        "noise_fraction": 0.07647058823529412,
+        "tracks": 140,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 878,
+        "edges": 8167,
+        "noise_fraction": 0.0774487471526196,
+        "tracks": 143,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 882,
+        "edges": 7859,
+        "noise_fraction": 0.07256235827664399,
+        "tracks": 153,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 948,
+        "edges": 9023,
+        "noise_fraction": 0.05590717299578059,
+        "tracks": 169,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 811,
+        "edges": 7060,
+        "noise_fraction": 0.08508014796547472,
+        "tracks": 147,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 912,
+        "edges": 8452,
+        "noise_fraction": 0.0712719298245614,
+        "tracks": 162,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 890,
+        "edges": 8250,
+        "noise_fraction": 0.07640449438202247,
+        "tracks": 152,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 821,
+        "edges": 7448,
+        "noise_fraction": 0.0828258221680877,
+        "tracks": 151,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 798,
+        "edges": 7286,
+        "noise_fraction": 0.06390977443609022,
+        "tracks": 134,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 803,
+        "edges": 7679,
+        "noise_fraction": 0.07098381070983811,
+        "tracks": 140,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 863,
+        "edges": 7525,
+        "noise_fraction": 0.06836616454229433,
+        "tracks": 142,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 838,
+        "edges": 7648,
+        "noise_fraction": 0.06205250596658711,
+        "tracks": 144,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 930,
+        "edges": 8850,
+        "noise_fraction": 0.060215053763440864,
+        "tracks": 176,
+        "sector_fakes": 94
+      },
+      {
+        "nodes": 998,
+        "edges": 8935,
+        "noise_fraction": 0.07214428857715431,
+        "tracks": 170,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 775,
+        "edges": 7071,
+        "noise_fraction": 0.0567741935483871,
+        "tracks": 137,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 847,
+        "edges": 7855,
+        "noise_fraction": 0.06257378984651712,
+        "tracks": 151,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 864,
+        "edges": 8017,
+        "noise_fraction": 0.07523148148148148,
+        "tracks": 147,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 833,
+        "edges": 7508,
+        "noise_fraction": 0.058823529411764705,
+        "tracks": 152,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 849,
+        "edges": 7550,
+        "noise_fraction": 0.0706713780918728,
+        "tracks": 137,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 844,
+        "edges": 7784,
+        "noise_fraction": 0.07701421800947868,
+        "tracks": 133,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 845,
+        "edges": 7819,
+        "noise_fraction": 0.06390532544378698,
+        "tracks": 149,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 935,
+        "edges": 8717,
+        "noise_fraction": 0.0748663101604278,
+        "tracks": 162,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 828,
+        "edges": 7570,
+        "noise_fraction": 0.0748792270531401,
+        "tracks": 155,
+        "sector_fakes": 73
+      }
+    ],
+    "fragmented": 25,
+    "spans_sector": {
+      "eligible": 2402,
+      "matched": 328
+    },
+    "crowded": {
+      "eligible": 3591,
+      "matched": 1580
+    },
+    "sparse": {
+      "eligible": 1398,
+      "matched": 381
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 3198,
+    "tracks": 5431,
+    "efficiency": 0.5735294117647058,
+    "fake": 0.4107899097772049,
+    "official_score": 0.02163970768676119,
+    "event": "event000001002",
+    "sectors": 16,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.15690179200191778,
+    "assembly_s": 0.6840984580003351,
+    "occupancy": [
+      {
+        "nodes": 1811,
+        "edges": 16464,
+        "noise_fraction": 0.08669243511871894,
+        "tracks": 312,
+        "sector_fakes": 122
+      },
+      {
+        "nodes": 1753,
+        "edges": 15800,
+        "noise_fraction": 0.08328579577866514,
+        "tracks": 320,
+        "sector_fakes": 140
+      },
+      {
+        "nodes": 1878,
+        "edges": 17229,
+        "noise_fraction": 0.07028753993610223,
+        "tracks": 334,
+        "sector_fakes": 134
+      },
+      {
+        "nodes": 1993,
+        "edges": 18252,
+        "noise_fraction": 0.06372303060712493,
+        "tracks": 357,
+        "sector_fakes": 147
+      },
+      {
+        "nodes": 1940,
+        "edges": 18046,
+        "noise_fraction": 0.06494845360824743,
+        "tracks": 348,
+        "sector_fakes": 132
+      },
+      {
+        "nodes": 1943,
+        "edges": 17960,
+        "noise_fraction": 0.07205352547606794,
+        "tracks": 349,
+        "sector_fakes": 142
+      },
+      {
+        "nodes": 1947,
+        "edges": 17983,
+        "noise_fraction": 0.06933744221879815,
+        "tracks": 357,
+        "sector_fakes": 145
+      },
+      {
+        "nodes": 2003,
+        "edges": 18613,
+        "noise_fraction": 0.07139291063404893,
+        "tracks": 359,
+        "sector_fakes": 141
+      },
+      {
+        "nodes": 1814,
+        "edges": 16663,
+        "noise_fraction": 0.07276736493936053,
+        "tracks": 326,
+        "sector_fakes": 120
+      },
+      {
+        "nodes": 1862,
+        "edges": 17152,
+        "noise_fraction": 0.0682062298603652,
+        "tracks": 329,
+        "sector_fakes": 138
+      },
+      {
+        "nodes": 1972,
+        "edges": 18529,
+        "noise_fraction": 0.061866125760649086,
+        "tracks": 364,
+        "sector_fakes": 152
+      },
+      {
+        "nodes": 1969,
+        "edges": 18082,
+        "noise_fraction": 0.0675469781615033,
+        "tracks": 335,
+        "sector_fakes": 121
+      },
+      {
+        "nodes": 1892,
+        "edges": 17801,
+        "noise_fraction": 0.07293868921775898,
+        "tracks": 345,
+        "sector_fakes": 126
+      },
+      {
+        "nodes": 1877,
+        "edges": 16896,
+        "noise_fraction": 0.06819392647842301,
+        "tracks": 325,
+        "sector_fakes": 128
+      },
+      {
+        "nodes": 1867,
+        "edges": 17278,
+        "noise_fraction": 0.07445099089448312,
+        "tracks": 310,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 1938,
+        "edges": 18072,
+        "noise_fraction": 0.07636738906088751,
+        "tracks": 361,
+        "sector_fakes": 143
+      }
+    ],
+    "fragmented": 64,
+    "spans_sector": {
+      "eligible": 1429,
+      "matched": 208
+    },
+    "crowded": {
+      "eligible": 4051,
+      "matched": 2455
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 319
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 1948,
+    "tracks": 5012,
+    "efficiency": 0.34935437589670015,
+    "fake": 0.6109337589784517,
+    "official_score": 0.012534665700545513,
+    "event": "event000001002",
+    "sectors": 64,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.21004937200086715,
+    "assembly_s": 0.5855910800055426,
+    "occupancy": [
+      {
+        "nodes": 528,
+        "edges": 4860,
+        "noise_fraction": 0.07765151515151515,
+        "tracks": 73,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 396,
+        "edges": 3446,
+        "noise_fraction": 0.08333333333333333,
+        "tracks": 62,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 431,
+        "edges": 3624,
+        "noise_fraction": 0.09280742459396751,
+        "tracks": 71,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 456,
+        "edges": 4141,
+        "noise_fraction": 0.09429824561403509,
+        "tracks": 80,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 474,
+        "edges": 4193,
+        "noise_fraction": 0.08649789029535865,
+        "tracks": 77,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 388,
+        "edges": 3276,
+        "noise_fraction": 0.08762886597938144,
+        "tracks": 67,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 439,
+        "edges": 3693,
+        "noise_fraction": 0.0979498861047836,
+        "tracks": 75,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 452,
+        "edges": 4146,
+        "noise_fraction": 0.061946902654867256,
+        "tracks": 75,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 545,
+        "edges": 4882,
+        "noise_fraction": 0.06605504587155964,
+        "tracks": 89,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 415,
+        "edges": 3700,
+        "noise_fraction": 0.05783132530120482,
+        "tracks": 66,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 412,
+        "edges": 3549,
+        "noise_fraction": 0.08737864077669903,
+        "tracks": 70,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 506,
+        "edges": 4665,
+        "noise_fraction": 0.07114624505928854,
+        "tracks": 80,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 512,
+        "edges": 4769,
+        "noise_fraction": 0.056640625,
+        "tracks": 88,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 479,
+        "edges": 4007,
+        "noise_fraction": 0.05010438413361169,
+        "tracks": 88,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 510,
+        "edges": 4455,
+        "noise_fraction": 0.060784313725490195,
+        "tracks": 85,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 492,
+        "edges": 4596,
+        "noise_fraction": 0.08739837398373984,
+        "tracks": 78,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 544,
+        "edges": 5365,
+        "noise_fraction": 0.06066176470588235,
+        "tracks": 91,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 447,
+        "edges": 3654,
+        "noise_fraction": 0.04697986577181208,
+        "tracks": 69,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 459,
+        "edges": 3971,
+        "noise_fraction": 0.09368191721132897,
+        "tracks": 69,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 490,
+        "edges": 4620,
+        "noise_fraction": 0.05918367346938776,
+        "tracks": 81,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 521,
+        "edges": 5121,
+        "noise_fraction": 0.0690978886756238,
+        "tracks": 84,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 434,
+        "edges": 3657,
+        "noise_fraction": 0.08294930875576037,
+        "tracks": 73,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 430,
+        "edges": 3503,
+        "noise_fraction": 0.07674418604651163,
+        "tracks": 65,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 558,
+        "edges": 5203,
+        "noise_fraction": 0.06272401433691756,
+        "tracks": 99,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 614,
+        "edges": 6101,
+        "noise_fraction": 0.04723127035830619,
+        "tracks": 102,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 430,
+        "edges": 3584,
+        "noise_fraction": 0.06744186046511629,
+        "tracks": 71,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 434,
+        "edges": 3716,
+        "noise_fraction": 0.06682027649769585,
+        "tracks": 79,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 469,
+        "edges": 4062,
+        "noise_fraction": 0.1023454157782516,
+        "tracks": 79,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 501,
+        "edges": 4607,
+        "noise_fraction": 0.09181636726546906,
+        "tracks": 82,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 516,
+        "edges": 4701,
+        "noise_fraction": 0.05232558139534884,
+        "tracks": 94,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 495,
+        "edges": 4573,
+        "noise_fraction": 0.06262626262626263,
+        "tracks": 88,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 491,
+        "edges": 4301,
+        "noise_fraction": 0.07942973523421588,
+        "tracks": 75,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 495,
+        "edges": 4610,
+        "noise_fraction": 0.08080808080808081,
+        "tracks": 81,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 421,
+        "edges": 3550,
+        "noise_fraction": 0.0831353919239905,
+        "tracks": 73,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 415,
+        "edges": 3320,
+        "noise_fraction": 0.060240963855421686,
+        "tracks": 66,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 483,
+        "edges": 4781,
+        "noise_fraction": 0.06625258799171843,
+        "tracks": 76,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 512,
+        "edges": 4770,
+        "noise_fraction": 0.072265625,
+        "tracks": 81,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 387,
+        "edges": 3644,
+        "noise_fraction": 0.06201550387596899,
+        "tracks": 66,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 491,
+        "edges": 4225,
+        "noise_fraction": 0.07739307535641547,
+        "tracks": 79,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 472,
+        "edges": 4033,
+        "noise_fraction": 0.059322033898305086,
+        "tracks": 69,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 486,
+        "edges": 4252,
+        "noise_fraction": 0.06584362139917696,
+        "tracks": 81,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 452,
+        "edges": 4142,
+        "noise_fraction": 0.05088495575221239,
+        "tracks": 80,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 506,
+        "edges": 4682,
+        "noise_fraction": 0.07509881422924901,
+        "tracks": 88,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 528,
+        "edges": 5006,
+        "noise_fraction": 0.054924242424242424,
+        "tracks": 91,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 581,
+        "edges": 5409,
+        "noise_fraction": 0.06712564543889846,
+        "tracks": 90,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 528,
+        "edges": 4272,
+        "noise_fraction": 0.07386363636363637,
+        "tracks": 86,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 419,
+        "edges": 3556,
+        "noise_fraction": 0.057279236276849645,
+        "tracks": 70,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 441,
+        "edges": 4158,
+        "noise_fraction": 0.07029478458049887,
+        "tracks": 70,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 524,
+        "edges": 4931,
+        "noise_fraction": 0.07061068702290077,
+        "tracks": 87,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 405,
+        "edges": 3466,
+        "noise_fraction": 0.0691358024691358,
+        "tracks": 65,
+        "sector_fakes": 33
+      },
+      {
+        "nodes": 497,
+        "edges": 4486,
+        "noise_fraction": 0.08249496981891348,
+        "tracks": 84,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 466,
+        "edges": 4327,
+        "noise_fraction": 0.06866952789699571,
+        "tracks": 76,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 483,
+        "edges": 4453,
+        "noise_fraction": 0.062111801242236024,
+        "tracks": 82,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 438,
+        "edges": 3700,
+        "noise_fraction": 0.06164383561643835,
+        "tracks": 74,
+        "sector_fakes": 36
+      },
+      {
+        "nodes": 448,
+        "edges": 3540,
+        "noise_fraction": 0.08258928571428571,
+        "tracks": 69,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 508,
+        "edges": 4739,
+        "noise_fraction": 0.06692913385826772,
+        "tracks": 73,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 495,
+        "edges": 4715,
+        "noise_fraction": 0.07272727272727272,
+        "tracks": 76,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 437,
+        "edges": 3589,
+        "noise_fraction": 0.09382151029748284,
+        "tracks": 71,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 433,
+        "edges": 3942,
+        "noise_fraction": 0.06697459584295612,
+        "tracks": 73,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 502,
+        "edges": 4534,
+        "noise_fraction": 0.06573705179282868,
+        "tracks": 77,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 560,
+        "edges": 5377,
+        "noise_fraction": 0.07142857142857142,
+        "tracks": 92,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 479,
+        "edges": 4148,
+        "noise_fraction": 0.07724425887265135,
+        "tracks": 77,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 430,
+        "edges": 3778,
+        "noise_fraction": 0.07209302325581396,
+        "tracks": 70,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 469,
+        "edges": 4334,
+        "noise_fraction": 0.08528784648187633,
+        "tracks": 94,
+        "sector_fakes": 50
+      }
+    ],
+    "fragmented": 34,
+    "spans_sector": {
+      "eligible": 3836,
+      "matched": 646
+    },
+    "crowded": {
+      "eligible": 3749,
+      "matched": 1359
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 185
+    }
+  },
+  {
+    "eligible": 5576,
+    "matched": 1811,
+    "tracks": 5426,
+    "efficiency": 0.3247847919655667,
+    "fake": 0.6660523405823812,
+    "official_score": 0.013387306462566757,
+    "event": "event000001002",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 0.0,
+    "method": "triplet_ml",
+    "graph_s": 0.1982338739990155,
+    "assembly_s": 0.5131881279994559,
+    "occupancy": [
+      {
+        "nodes": 924,
+        "edges": 7990,
+        "noise_fraction": 0.08008658008658008,
+        "tracks": 149,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 887,
+        "edges": 7458,
+        "noise_fraction": 0.0935738444193912,
+        "tracks": 158,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 862,
+        "edges": 7154,
+        "noise_fraction": 0.08700696055684455,
+        "tracks": 156,
+        "sector_fakes": 107
+      },
+      {
+        "nodes": 891,
+        "edges": 7494,
+        "noise_fraction": 0.07968574635241302,
+        "tracks": 154,
+        "sector_fakes": 99
+      },
+      {
+        "nodes": 960,
+        "edges": 8287,
+        "noise_fraction": 0.0625,
+        "tracks": 168,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 918,
+        "edges": 7877,
+        "noise_fraction": 0.0784313725490196,
+        "tracks": 171,
+        "sector_fakes": 113
+      },
+      {
+        "nodes": 991,
+        "edges": 8546,
+        "noise_fraction": 0.05348133198789102,
+        "tracks": 190,
+        "sector_fakes": 130
+      },
+      {
+        "nodes": 1002,
+        "edges": 8744,
+        "noise_fraction": 0.07385229540918163,
+        "tracks": 181,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 991,
+        "edges": 8751,
+        "noise_fraction": 0.054490413723511606,
+        "tracks": 178,
+        "sector_fakes": 110
+      },
+      {
+        "nodes": 949,
+        "edges": 8267,
+        "noise_fraction": 0.07586933614330875,
+        "tracks": 162,
+        "sector_fakes": 109
+      },
+      {
+        "nodes": 955,
+        "edges": 8396,
+        "noise_fraction": 0.07539267015706806,
+        "tracks": 163,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 988,
+        "edges": 8413,
+        "noise_fraction": 0.06882591093117409,
+        "tracks": 173,
+        "sector_fakes": 119
+      },
+      {
+        "nodes": 1044,
+        "edges": 9347,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 190,
+        "sector_fakes": 131
+      },
+      {
+        "nodes": 903,
+        "edges": 7520,
+        "noise_fraction": 0.08527131782945736,
+        "tracks": 165,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 1017,
+        "edges": 9012,
+        "noise_fraction": 0.07177974434611603,
+        "tracks": 181,
+        "sector_fakes": 120
+      },
+      {
+        "nodes": 986,
+        "edges": 8578,
+        "noise_fraction": 0.07099391480730223,
+        "tracks": 180,
+        "sector_fakes": 111
+      },
+      {
+        "nodes": 916,
+        "edges": 7863,
+        "noise_fraction": 0.08187772925764192,
+        "tracks": 164,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 898,
+        "edges": 7823,
+        "noise_fraction": 0.06347438752783964,
+        "tracks": 165,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 899,
+        "edges": 8032,
+        "noise_fraction": 0.067853170189099,
+        "tracks": 162,
+        "sector_fakes": 109
+      },
+      {
+        "nodes": 963,
+        "edges": 8010,
+        "noise_fraction": 0.06853582554517133,
+        "tracks": 169,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 938,
+        "edges": 8037,
+        "noise_fraction": 0.05863539445628998,
+        "tracks": 163,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 1034,
+        "edges": 9368,
+        "noise_fraction": 0.06479690522243714,
+        "tracks": 189,
+        "sector_fakes": 123
+      },
+      {
+        "nodes": 1109,
+        "edges": 9376,
+        "noise_fraction": 0.0703336339044184,
+        "tracks": 196,
+        "sector_fakes": 130
+      },
+      {
+        "nodes": 860,
+        "edges": 7404,
+        "noise_fraction": 0.06395348837209303,
+        "tracks": 153,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 929,
+        "edges": 8122,
+        "noise_fraction": 0.06996770721205597,
+        "tracks": 164,
+        "sector_fakes": 104
+      },
+      {
+        "nodes": 963,
+        "edges": 8448,
+        "noise_fraction": 0.07580477673935618,
+        "tracks": 175,
+        "sector_fakes": 109
+      },
+      {
+        "nodes": 921,
+        "edges": 7897,
+        "noise_fraction": 0.06188925081433225,
+        "tracks": 166,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 956,
+        "edges": 7963,
+        "noise_fraction": 0.07426778242677824,
+        "tracks": 162,
+        "sector_fakes": 118
+      },
+      {
+        "nodes": 932,
+        "edges": 7990,
+        "noise_fraction": 0.08261802575107297,
+        "tracks": 165,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 935,
+        "edges": 8126,
+        "noise_fraction": 0.06631016042780749,
+        "tracks": 160,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 1039,
+        "edges": 9231,
+        "noise_fraction": 0.0741097208854668,
+        "tracks": 181,
+        "sector_fakes": 116
+      },
+      {
+        "nodes": 899,
+        "edges": 7804,
+        "noise_fraction": 0.07897664071190211,
+        "tracks": 173,
+        "sector_fakes": 108
+      }
+    ],
+    "fragmented": 20,
+    "spans_sector": {
+      "eligible": 2558,
+      "matched": 166
+    },
+    "crowded": {
+      "eligible": 3962,
+      "matched": 1360
+    },
+    "sparse": {
+      "eligible": 983,
+      "matched": 202
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 116,
+    "tracks": 638,
+    "efficiency": 0.025658040256580403,
+    "fake": 0.8150470219435737,
+    "official_score": 0.0002783241204512563,
+    "event": "event000001003",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "edge",
+    "graph_s": 0.09289370500118821,
+    "assembly_s": 0.05456041499928688,
+    "occupancy": [
+      {
+        "nodes": 748,
+        "edges": 6693,
+        "noise_fraction": 0.08021390374331551,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 745,
+        "edges": 6861,
+        "noise_fraction": 0.08322147651006712,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 731,
+        "edges": 6455,
+        "noise_fraction": 0.07523939808481532,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 708,
+        "edges": 6272,
+        "noise_fraction": 0.09887005649717515,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 806,
+        "edges": 7129,
+        "noise_fraction": 0.06947890818858561,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 730,
+        "edges": 6518,
+        "noise_fraction": 0.09726027397260274,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 852,
+        "edges": 7646,
+        "noise_fraction": 0.09389671361502347,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 739,
+        "edges": 6980,
+        "noise_fraction": 0.09201623815967523,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 812,
+        "edges": 6981,
+        "noise_fraction": 0.09359605911330049,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 834,
+        "edges": 7783,
+        "noise_fraction": 0.08633093525179857,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 771,
+        "edges": 7070,
+        "noise_fraction": 0.08560311284046693,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 845,
+        "edges": 7639,
+        "noise_fraction": 0.09230769230769231,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 777,
+        "edges": 7123,
+        "noise_fraction": 0.08108108108108109,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 699,
+        "edges": 6208,
+        "noise_fraction": 0.09728183118741059,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 803,
+        "edges": 7405,
+        "noise_fraction": 0.08468244084682441,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 753,
+        "edges": 6761,
+        "noise_fraction": 0.0849933598937583,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 781,
+        "edges": 7158,
+        "noise_fraction": 0.07042253521126761,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 769,
+        "edges": 6975,
+        "noise_fraction": 0.09102730819245773,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 838,
+        "edges": 7426,
+        "noise_fraction": 0.09069212410501193,
+        "tracks": 15,
+        "sector_fakes": 14
+      },
+      {
+        "nodes": 707,
+        "edges": 6289,
+        "noise_fraction": 0.08628005657708628,
+        "tracks": 66,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 797,
+        "edges": 6952,
+        "noise_fraction": 0.09912170639899624,
+        "tracks": 106,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 803,
+        "edges": 7373,
+        "noise_fraction": 0.0784557907845579,
+        "tracks": 122,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 909,
+        "edges": 8129,
+        "noise_fraction": 0.08250825082508251,
+        "tracks": 133,
+        "sector_fakes": 92
+      },
+      {
+        "nodes": 846,
+        "edges": 7799,
+        "noise_fraction": 0.08865248226950355,
+        "tracks": 107,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 930,
+        "edges": 8514,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 80,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 876,
+        "edges": 8299,
+        "noise_fraction": 0.0684931506849315,
+        "tracks": 9,
+        "sector_fakes": 8
+      },
+      {
+        "nodes": 683,
+        "edges": 5989,
+        "noise_fraction": 0.10395314787701318,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 723,
+        "edges": 6286,
+        "noise_fraction": 0.11065006915629322,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 724,
+        "edges": 6674,
+        "noise_fraction": 0.08425414364640885,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 771,
+        "edges": 6570,
+        "noise_fraction": 0.11154345006485085,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 777,
+        "edges": 7245,
+        "noise_fraction": 0.09009009009009009,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 692,
+        "edges": 6201,
+        "noise_fraction": 0.0838150289017341,
+        "tracks": 0,
+        "sector_fakes": 0
+      }
+    ],
+    "fragmented": 28,
+    "spans_sector": {
+      "eligible": 2157,
+      "matched": 30
+    },
+    "crowded": {
+      "eligible": 2913,
+      "matched": 66
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 18
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 2265,
+    "tracks": 4276,
+    "efficiency": 0.5009953550099535,
+    "fake": 0.47029934518241345,
+    "official_score": 0.016187366449447682,
+    "event": "event000001003",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet",
+    "graph_s": 0.07203583699720184,
+    "assembly_s": 0.2349673749986323,
+    "occupancy": [
+      {
+        "nodes": 748,
+        "edges": 6693,
+        "noise_fraction": 0.08021390374331551,
+        "tracks": 137,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 745,
+        "edges": 6861,
+        "noise_fraction": 0.08322147651006712,
+        "tracks": 136,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 731,
+        "edges": 6455,
+        "noise_fraction": 0.07523939808481532,
+        "tracks": 121,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 708,
+        "edges": 6272,
+        "noise_fraction": 0.09887005649717515,
+        "tracks": 116,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 806,
+        "edges": 7129,
+        "noise_fraction": 0.06947890818858561,
+        "tracks": 132,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 730,
+        "edges": 6518,
+        "noise_fraction": 0.09726027397260274,
+        "tracks": 120,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 852,
+        "edges": 7646,
+        "noise_fraction": 0.09389671361502347,
+        "tracks": 147,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 739,
+        "edges": 6980,
+        "noise_fraction": 0.09201623815967523,
+        "tracks": 126,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 812,
+        "edges": 6981,
+        "noise_fraction": 0.09359605911330049,
+        "tracks": 145,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 834,
+        "edges": 7783,
+        "noise_fraction": 0.08633093525179857,
+        "tracks": 151,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 771,
+        "edges": 7070,
+        "noise_fraction": 0.08560311284046693,
+        "tracks": 135,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 845,
+        "edges": 7639,
+        "noise_fraction": 0.09230769230769231,
+        "tracks": 149,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 777,
+        "edges": 7123,
+        "noise_fraction": 0.08108108108108109,
+        "tracks": 130,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 699,
+        "edges": 6208,
+        "noise_fraction": 0.09728183118741059,
+        "tracks": 114,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 803,
+        "edges": 7405,
+        "noise_fraction": 0.08468244084682441,
+        "tracks": 140,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 753,
+        "edges": 6761,
+        "noise_fraction": 0.0849933598937583,
+        "tracks": 130,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 781,
+        "edges": 7158,
+        "noise_fraction": 0.07042253521126761,
+        "tracks": 143,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 769,
+        "edges": 6975,
+        "noise_fraction": 0.09102730819245773,
+        "tracks": 137,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 838,
+        "edges": 7426,
+        "noise_fraction": 0.09069212410501193,
+        "tracks": 136,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 707,
+        "edges": 6289,
+        "noise_fraction": 0.08628005657708628,
+        "tracks": 121,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 797,
+        "edges": 6952,
+        "noise_fraction": 0.09912170639899624,
+        "tracks": 141,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 803,
+        "edges": 7373,
+        "noise_fraction": 0.0784557907845579,
+        "tracks": 139,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 909,
+        "edges": 8129,
+        "noise_fraction": 0.08250825082508251,
+        "tracks": 153,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 846,
+        "edges": 7799,
+        "noise_fraction": 0.08865248226950355,
+        "tracks": 140,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 930,
+        "edges": 8514,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 162,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 876,
+        "edges": 8299,
+        "noise_fraction": 0.0684931506849315,
+        "tracks": 157,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 683,
+        "edges": 5989,
+        "noise_fraction": 0.10395314787701318,
+        "tracks": 113,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 723,
+        "edges": 6286,
+        "noise_fraction": 0.11065006915629322,
+        "tracks": 121,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 724,
+        "edges": 6674,
+        "noise_fraction": 0.08425414364640885,
+        "tracks": 120,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 771,
+        "edges": 6570,
+        "noise_fraction": 0.11154345006485085,
+        "tracks": 126,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 777,
+        "edges": 7245,
+        "noise_fraction": 0.09009009009009009,
+        "tracks": 131,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 692,
+        "edges": 6201,
+        "noise_fraction": 0.0838150289017341,
+        "tracks": 107,
+        "sector_fakes": 43
+      }
+    ],
+    "fragmented": 36,
+    "spans_sector": {
+      "eligible": 2157,
+      "matched": 398
+    },
+    "crowded": {
+      "eligible": 2913,
+      "matched": 1563
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 250
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 2265,
+    "tracks": 4280,
+    "efficiency": 0.5009953550099535,
+    "fake": 0.47079439252336447,
+    "official_score": 0.016187659069469184,
+    "event": "event000001003",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.07223141699614644,
+    "assembly_s": 0.24486829200122884,
+    "occupancy": [
+      {
+        "nodes": 748,
+        "edges": 6693,
+        "noise_fraction": 0.08021390374331551,
+        "tracks": 137,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 745,
+        "edges": 6861,
+        "noise_fraction": 0.08322147651006712,
+        "tracks": 136,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 731,
+        "edges": 6455,
+        "noise_fraction": 0.07523939808481532,
+        "tracks": 120,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 708,
+        "edges": 6272,
+        "noise_fraction": 0.09887005649717515,
+        "tracks": 118,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 806,
+        "edges": 7129,
+        "noise_fraction": 0.06947890818858561,
+        "tracks": 132,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 730,
+        "edges": 6518,
+        "noise_fraction": 0.09726027397260274,
+        "tracks": 119,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 852,
+        "edges": 7646,
+        "noise_fraction": 0.09389671361502347,
+        "tracks": 147,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 739,
+        "edges": 6980,
+        "noise_fraction": 0.09201623815967523,
+        "tracks": 127,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 812,
+        "edges": 6981,
+        "noise_fraction": 0.09359605911330049,
+        "tracks": 145,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 834,
+        "edges": 7783,
+        "noise_fraction": 0.08633093525179857,
+        "tracks": 151,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 771,
+        "edges": 7070,
+        "noise_fraction": 0.08560311284046693,
+        "tracks": 136,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 845,
+        "edges": 7639,
+        "noise_fraction": 0.09230769230769231,
+        "tracks": 149,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 777,
+        "edges": 7123,
+        "noise_fraction": 0.08108108108108109,
+        "tracks": 130,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 699,
+        "edges": 6208,
+        "noise_fraction": 0.09728183118741059,
+        "tracks": 114,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 803,
+        "edges": 7405,
+        "noise_fraction": 0.08468244084682441,
+        "tracks": 141,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 753,
+        "edges": 6761,
+        "noise_fraction": 0.0849933598937583,
+        "tracks": 131,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 781,
+        "edges": 7158,
+        "noise_fraction": 0.07042253521126761,
+        "tracks": 143,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 769,
+        "edges": 6975,
+        "noise_fraction": 0.09102730819245773,
+        "tracks": 136,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 838,
+        "edges": 7426,
+        "noise_fraction": 0.09069212410501193,
+        "tracks": 137,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 707,
+        "edges": 6289,
+        "noise_fraction": 0.08628005657708628,
+        "tracks": 120,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 797,
+        "edges": 6952,
+        "noise_fraction": 0.09912170639899624,
+        "tracks": 141,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 803,
+        "edges": 7373,
+        "noise_fraction": 0.0784557907845579,
+        "tracks": 139,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 909,
+        "edges": 8129,
+        "noise_fraction": 0.08250825082508251,
+        "tracks": 152,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 846,
+        "edges": 7799,
+        "noise_fraction": 0.08865248226950355,
+        "tracks": 140,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 930,
+        "edges": 8514,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 162,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 876,
+        "edges": 8299,
+        "noise_fraction": 0.0684931506849315,
+        "tracks": 157,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 683,
+        "edges": 5989,
+        "noise_fraction": 0.10395314787701318,
+        "tracks": 113,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 723,
+        "edges": 6286,
+        "noise_fraction": 0.11065006915629322,
+        "tracks": 121,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 724,
+        "edges": 6674,
+        "noise_fraction": 0.08425414364640885,
+        "tracks": 121,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 771,
+        "edges": 6570,
+        "noise_fraction": 0.11154345006485085,
+        "tracks": 126,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 777,
+        "edges": 7245,
+        "noise_fraction": 0.09009009009009009,
+        "tracks": 131,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 692,
+        "edges": 6201,
+        "noise_fraction": 0.0838150289017341,
+        "tracks": 108,
+        "sector_fakes": 44
+      }
+    ],
+    "fragmented": 35,
+    "spans_sector": {
+      "eligible": 2157,
+      "matched": 401
+    },
+    "crowded": {
+      "eligible": 2913,
+      "matched": 1563
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 250
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 1849,
+    "tracks": 3826,
+    "efficiency": 0.4089803140898031,
+    "fake": 0.5167276529012023,
+    "official_score": 0.013238358602754588,
+    "event": "event000001003",
+    "sectors": 32,
+    "drop": 0.1,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.07445820700013428,
+    "assembly_s": 0.24503479400027572,
+    "occupancy": [
+      {
+        "nodes": 659,
+        "edges": 5887,
+        "noise_fraction": 0.0819423368740516,
+        "tracks": 122,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 675,
+        "edges": 6246,
+        "noise_fraction": 0.08148148148148149,
+        "tracks": 122,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 658,
+        "edges": 5726,
+        "noise_fraction": 0.06990881458966565,
+        "tracks": 106,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 635,
+        "edges": 5574,
+        "noise_fraction": 0.10551181102362205,
+        "tracks": 106,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 732,
+        "edges": 6446,
+        "noise_fraction": 0.06557377049180328,
+        "tracks": 115,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 650,
+        "edges": 5730,
+        "noise_fraction": 0.09076923076923077,
+        "tracks": 106,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 775,
+        "edges": 6876,
+        "noise_fraction": 0.09419354838709677,
+        "tracks": 126,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 656,
+        "edges": 6120,
+        "noise_fraction": 0.09603658536585366,
+        "tracks": 109,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 730,
+        "edges": 6210,
+        "noise_fraction": 0.08767123287671233,
+        "tracks": 129,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 739,
+        "edges": 6863,
+        "noise_fraction": 0.09066305818673884,
+        "tracks": 136,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 681,
+        "edges": 6264,
+        "noise_fraction": 0.08516886930983847,
+        "tracks": 123,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 746,
+        "edges": 6761,
+        "noise_fraction": 0.08981233243967829,
+        "tracks": 124,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 694,
+        "edges": 6368,
+        "noise_fraction": 0.08213256484149856,
+        "tracks": 120,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 636,
+        "edges": 5572,
+        "noise_fraction": 0.09905660377358491,
+        "tracks": 106,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 721,
+        "edges": 6656,
+        "noise_fraction": 0.08460471567267684,
+        "tracks": 123,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 686,
+        "edges": 6145,
+        "noise_fraction": 0.08746355685131195,
+        "tracks": 115,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 694,
+        "edges": 6426,
+        "noise_fraction": 0.06340057636887608,
+        "tracks": 127,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 694,
+        "edges": 6353,
+        "noise_fraction": 0.09077809798270893,
+        "tracks": 121,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 740,
+        "edges": 6731,
+        "noise_fraction": 0.08378378378378379,
+        "tracks": 118,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 633,
+        "edges": 5617,
+        "noise_fraction": 0.08372827804107424,
+        "tracks": 104,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 713,
+        "edges": 6284,
+        "noise_fraction": 0.09817671809256662,
+        "tracks": 123,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 727,
+        "edges": 6757,
+        "noise_fraction": 0.08665749656121045,
+        "tracks": 132,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 811,
+        "edges": 7210,
+        "noise_fraction": 0.08384710234278668,
+        "tracks": 132,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 768,
+        "edges": 7070,
+        "noise_fraction": 0.08984375,
+        "tracks": 133,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 835,
+        "edges": 7617,
+        "noise_fraction": 0.06826347305389222,
+        "tracks": 149,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 800,
+        "edges": 7587,
+        "noise_fraction": 0.0675,
+        "tracks": 151,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 621,
+        "edges": 5466,
+        "noise_fraction": 0.10144927536231885,
+        "tracks": 100,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 646,
+        "edges": 5632,
+        "noise_fraction": 0.10990712074303406,
+        "tracks": 106,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 650,
+        "edges": 5998,
+        "noise_fraction": 0.07846153846153846,
+        "tracks": 109,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 703,
+        "edges": 5899,
+        "noise_fraction": 0.11379800853485064,
+        "tracks": 115,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 686,
+        "edges": 6354,
+        "noise_fraction": 0.09037900874635568,
+        "tracks": 118,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 628,
+        "edges": 5628,
+        "noise_fraction": 0.08917197452229299,
+        "tracks": 100,
+        "sector_fakes": 48
+      }
+    ],
+    "fragmented": 27,
+    "spans_sector": {
+      "eligible": 2042,
+      "matched": 288
+    },
+    "crowded": {
+      "eligible": 2599,
+      "matched": 1190
+    },
+    "sparse": {
+      "eligible": 1145,
+      "matched": 313
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 2619,
+    "tracks": 4407,
+    "efficiency": 0.5792966157929662,
+    "fake": 0.40571817562968004,
+    "official_score": 0.019062831770736876,
+    "event": "event000001003",
+    "sectors": 16,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.10927454000102443,
+    "assembly_s": 0.3676982900024086,
+    "occupancy": [
+      {
+        "nodes": 1493,
+        "edges": 13621,
+        "noise_fraction": 0.08171466845277964,
+        "tracks": 282,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 1439,
+        "edges": 12829,
+        "noise_fraction": 0.08686587908269632,
+        "tracks": 247,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1536,
+        "edges": 13748,
+        "noise_fraction": 0.08268229166666667,
+        "tracks": 258,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 1591,
+        "edges": 14671,
+        "noise_fraction": 0.09302325581395349,
+        "tracks": 277,
+        "sector_fakes": 120
+      },
+      {
+        "nodes": 1646,
+        "edges": 14834,
+        "noise_fraction": 0.0899149453219927,
+        "tracks": 309,
+        "sector_fakes": 119
+      },
+      {
+        "nodes": 1616,
+        "edges": 14784,
+        "noise_fraction": 0.0891089108910891,
+        "tracks": 285,
+        "sector_fakes": 107
+      },
+      {
+        "nodes": 1476,
+        "edges": 13413,
+        "noise_fraction": 0.08875338753387534,
+        "tracks": 255,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 1556,
+        "edges": 14234,
+        "noise_fraction": 0.08483290488431877,
+        "tracks": 277,
+        "sector_fakes": 101
+      },
+      {
+        "nodes": 1550,
+        "edges": 14237,
+        "noise_fraction": 0.08064516129032258,
+        "tracks": 278,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 1545,
+        "edges": 13802,
+        "noise_fraction": 0.08867313915857605,
+        "tracks": 264,
+        "sector_fakes": 94
+      },
+      {
+        "nodes": 1600,
+        "edges": 14496,
+        "noise_fraction": 0.08875,
+        "tracks": 291,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 1755,
+        "edges": 16070,
+        "noise_fraction": 0.08547008547008547,
+        "tracks": 307,
+        "sector_fakes": 137
+      },
+      {
+        "nodes": 1806,
+        "edges": 16920,
+        "noise_fraction": 0.06755260243632337,
+        "tracks": 323,
+        "sector_fakes": 133
+      },
+      {
+        "nodes": 1406,
+        "edges": 12391,
+        "noise_fraction": 0.1073968705547653,
+        "tracks": 250,
+        "sector_fakes": 110
+      },
+      {
+        "nodes": 1495,
+        "edges": 13326,
+        "noise_fraction": 0.09832775919732442,
+        "tracks": 265,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 1469,
+        "edges": 13582,
+        "noise_fraction": 0.08713410483321987,
+        "tracks": 239,
+        "sector_fakes": 87
+      }
+    ],
+    "fragmented": 54,
+    "spans_sector": {
+      "eligible": 1206,
+      "matched": 190
+    },
+    "crowded": {
+      "eligible": 3020,
+      "matched": 1864
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 265
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 1526,
+    "tracks": 3990,
+    "efficiency": 0.3375359433753594,
+    "fake": 0.6175438596491228,
+    "official_score": 0.011624434324163432,
+    "event": "event000001003",
+    "sectors": 64,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.15283641300084128,
+    "assembly_s": 0.37411004699879413,
+    "occupancy": [
+      {
+        "nodes": 379,
+        "edges": 3433,
+        "noise_fraction": 0.08179419525065963,
+        "tracks": 64,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 369,
+        "edges": 3156,
+        "noise_fraction": 0.07859078590785908,
+        "tracks": 71,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 329,
+        "edges": 2915,
+        "noise_fraction": 0.10030395136778116,
+        "tracks": 54,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 416,
+        "edges": 3766,
+        "noise_fraction": 0.06971153846153846,
+        "tracks": 66,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 370,
+        "edges": 3160,
+        "noise_fraction": 0.07027027027027027,
+        "tracks": 55,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 361,
+        "edges": 3038,
+        "noise_fraction": 0.08033240997229917,
+        "tracks": 54,
+        "sector_fakes": 25
+      },
+      {
+        "nodes": 337,
+        "edges": 2796,
+        "noise_fraction": 0.10979228486646884,
+        "tracks": 56,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 371,
+        "edges": 3286,
+        "noise_fraction": 0.0889487870619946,
+        "tracks": 57,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 418,
+        "edges": 3697,
+        "noise_fraction": 0.05502392344497608,
+        "tracks": 64,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 388,
+        "edges": 3256,
+        "noise_fraction": 0.08505154639175258,
+        "tracks": 63,
+        "sector_fakes": 36
+      },
+      {
+        "nodes": 350,
+        "edges": 2957,
+        "noise_fraction": 0.09714285714285714,
+        "tracks": 59,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 380,
+        "edges": 3352,
+        "noise_fraction": 0.09736842105263158,
+        "tracks": 55,
+        "sector_fakes": 36
+      },
+      {
+        "nodes": 434,
+        "edges": 3924,
+        "noise_fraction": 0.10829493087557604,
+        "tracks": 60,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 418,
+        "edges": 3571,
+        "noise_fraction": 0.07894736842105263,
+        "tracks": 72,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 342,
+        "edges": 3069,
+        "noise_fraction": 0.09064327485380116,
+        "tracks": 50,
+        "sector_fakes": 34
+      },
+      {
+        "nodes": 397,
+        "edges": 3715,
+        "noise_fraction": 0.09319899244332494,
+        "tracks": 61,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 437,
+        "edges": 3932,
+        "noise_fraction": 0.08924485125858124,
+        "tracks": 81,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 375,
+        "edges": 2927,
+        "noise_fraction": 0.09866666666666667,
+        "tracks": 61,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 339,
+        "edges": 2885,
+        "noise_fraction": 0.10029498525073746,
+        "tracks": 57,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 495,
+        "edges": 4740,
+        "noise_fraction": 0.07676767676767676,
+        "tracks": 82,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 438,
+        "edges": 4095,
+        "noise_fraction": 0.0684931506849315,
+        "tracks": 68,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 333,
+        "edges": 2797,
+        "noise_fraction": 0.10810810810810811,
+        "tracks": 55,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 400,
+        "edges": 3369,
+        "noise_fraction": 0.0875,
+        "tracks": 67,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 445,
+        "edges": 4147,
+        "noise_fraction": 0.09662921348314607,
+        "tracks": 72,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 437,
+        "edges": 3998,
+        "noise_fraction": 0.07093821510297482,
+        "tracks": 67,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 340,
+        "edges": 2934,
+        "noise_fraction": 0.09411764705882353,
+        "tracks": 53,
+        "sector_fakes": 31
+      },
+      {
+        "nodes": 319,
+        "edges": 2600,
+        "noise_fraction": 0.09404388714733543,
+        "tracks": 47,
+        "sector_fakes": 30
+      },
+      {
+        "nodes": 380,
+        "edges": 3401,
+        "noise_fraction": 0.1,
+        "tracks": 56,
+        "sector_fakes": 33
+      },
+      {
+        "nodes": 433,
+        "edges": 4011,
+        "noise_fraction": 0.07852193995381063,
+        "tracks": 67,
+        "sector_fakes": 34
+      },
+      {
+        "nodes": 370,
+        "edges": 3165,
+        "noise_fraction": 0.0918918918918919,
+        "tracks": 66,
+        "sector_fakes": 31
+      },
+      {
+        "nodes": 342,
+        "edges": 2745,
+        "noise_fraction": 0.07602339181286549,
+        "tracks": 53,
+        "sector_fakes": 29
+      },
+      {
+        "nodes": 411,
+        "edges": 3846,
+        "noise_fraction": 0.09245742092457421,
+        "tracks": 69,
+        "sector_fakes": 33
+      },
+      {
+        "nodes": 419,
+        "edges": 3998,
+        "noise_fraction": 0.081145584725537,
+        "tracks": 73,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 362,
+        "edges": 2944,
+        "noise_fraction": 0.058011049723756904,
+        "tracks": 57,
+        "sector_fakes": 25
+      },
+      {
+        "nodes": 360,
+        "edges": 2899,
+        "noise_fraction": 0.10555555555555556,
+        "tracks": 58,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 409,
+        "edges": 3883,
+        "noise_fraction": 0.07823960880195599,
+        "tracks": 65,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 514,
+        "edges": 4563,
+        "noise_fraction": 0.0914396887159533,
+        "tracks": 78,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 324,
+        "edges": 2695,
+        "noise_fraction": 0.08950617283950617,
+        "tracks": 47,
+        "sector_fakes": 28
+      },
+      {
+        "nodes": 357,
+        "edges": 2915,
+        "noise_fraction": 0.07282913165266107,
+        "tracks": 58,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 350,
+        "edges": 3127,
+        "noise_fraction": 0.1,
+        "tracks": 51,
+        "sector_fakes": 28
+      },
+      {
+        "nodes": 421,
+        "edges": 3592,
+        "noise_fraction": 0.1021377672209026,
+        "tracks": 69,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 376,
+        "edges": 3110,
+        "noise_fraction": 0.09574468085106383,
+        "tracks": 61,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 395,
+        "edges": 3560,
+        "noise_fraction": 0.08354430379746836,
+        "tracks": 70,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 408,
+        "edges": 3596,
+        "noise_fraction": 0.07352941176470588,
+        "tracks": 61,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 461,
+        "edges": 4046,
+        "noise_fraction": 0.08026030368763558,
+        "tracks": 65,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 448,
+        "edges": 3929,
+        "noise_fraction": 0.08482142857142858,
+        "tracks": 78,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 413,
+        "edges": 3555,
+        "noise_fraction": 0.08716707021791767,
+        "tracks": 65,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 433,
+        "edges": 4064,
+        "noise_fraction": 0.09006928406466513,
+        "tracks": 64,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 512,
+        "edges": 4789,
+        "noise_fraction": 0.06640625,
+        "tracks": 73,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 418,
+        "edges": 3548,
+        "noise_fraction": 0.06698564593301436,
+        "tracks": 72,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 437,
+        "edges": 3819,
+        "noise_fraction": 0.08009153318077804,
+        "tracks": 81,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 439,
+        "edges": 4289,
+        "noise_fraction": 0.05694760820045558,
+        "tracks": 75,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 349,
+        "edges": 2928,
+        "noise_fraction": 0.11174785100286533,
+        "tracks": 54,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 334,
+        "edges": 2871,
+        "noise_fraction": 0.09580838323353294,
+        "tracks": 55,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 320,
+        "edges": 2664,
+        "noise_fraction": 0.109375,
+        "tracks": 52,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 403,
+        "edges": 3376,
+        "noise_fraction": 0.11166253101736973,
+        "tracks": 67,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 363,
+        "edges": 3311,
+        "noise_fraction": 0.07988980716253444,
+        "tracks": 56,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 361,
+        "edges": 3146,
+        "noise_fraction": 0.0886426592797784,
+        "tracks": 60,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 382,
+        "edges": 3145,
+        "noise_fraction": 0.1256544502617801,
+        "tracks": 59,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 389,
+        "edges": 3247,
+        "noise_fraction": 0.09768637532133675,
+        "tracks": 55,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 376,
+        "edges": 3387,
+        "noise_fraction": 0.09308510638297872,
+        "tracks": 52,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 401,
+        "edges": 3601,
+        "noise_fraction": 0.08728179551122195,
+        "tracks": 67,
+        "sector_fakes": 36
+      },
+      {
+        "nodes": 344,
+        "edges": 2874,
+        "noise_fraction": 0.09011627906976744,
+        "tracks": 54,
+        "sector_fakes": 30
+      },
+      {
+        "nodes": 348,
+        "edges": 3130,
+        "noise_fraction": 0.07758620689655173,
+        "tracks": 56,
+        "sector_fakes": 33
+      }
+    ],
+    "fragmented": 34,
+    "spans_sector": {
+      "eligible": 3200,
+      "matched": 546
+    },
+    "crowded": {
+      "eligible": 2743,
+      "matched": 1016
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 153
+    }
+  },
+  {
+    "eligible": 4521,
+    "matched": 1488,
+    "tracks": 4384,
+    "efficiency": 0.3291307232913072,
+    "fake": 0.6605839416058394,
+    "official_score": 0.01334727998075813,
+    "event": "event000001003",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 0.0,
+    "method": "triplet_ml",
+    "graph_s": 0.13432945999829826,
+    "assembly_s": 0.3740802049987906,
+    "occupancy": [
+      {
+        "nodes": 748,
+        "edges": 6324,
+        "noise_fraction": 0.08021390374331551,
+        "tracks": 135,
+        "sector_fakes": 83
+      },
+      {
+        "nodes": 745,
+        "edges": 6390,
+        "noise_fraction": 0.08322147651006712,
+        "tracks": 127,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 731,
+        "edges": 5918,
+        "noise_fraction": 0.07523939808481532,
+        "tracks": 117,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 708,
+        "edges": 5734,
+        "noise_fraction": 0.09887005649717515,
+        "tracks": 124,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 806,
+        "edges": 6523,
+        "noise_fraction": 0.06947890818858561,
+        "tracks": 136,
+        "sector_fakes": 93
+      },
+      {
+        "nodes": 730,
+        "edges": 5987,
+        "noise_fraction": 0.09726027397260274,
+        "tracks": 129,
+        "sector_fakes": 89
+      },
+      {
+        "nodes": 852,
+        "edges": 7194,
+        "noise_fraction": 0.09389671361502347,
+        "tracks": 145,
+        "sector_fakes": 94
+      },
+      {
+        "nodes": 739,
+        "edges": 6469,
+        "noise_fraction": 0.09201623815967523,
+        "tracks": 128,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 812,
+        "edges": 6578,
+        "noise_fraction": 0.09359605911330049,
+        "tracks": 150,
+        "sector_fakes": 93
+      },
+      {
+        "nodes": 834,
+        "edges": 7282,
+        "noise_fraction": 0.08633093525179857,
+        "tracks": 166,
+        "sector_fakes": 108
+      },
+      {
+        "nodes": 771,
+        "edges": 6619,
+        "noise_fraction": 0.08560311284046693,
+        "tracks": 137,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 845,
+        "edges": 7260,
+        "noise_fraction": 0.09230769230769231,
+        "tracks": 147,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 777,
+        "edges": 6524,
+        "noise_fraction": 0.08108108108108109,
+        "tracks": 137,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 699,
+        "edges": 5687,
+        "noise_fraction": 0.09728183118741059,
+        "tracks": 117,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 803,
+        "edges": 6907,
+        "noise_fraction": 0.08468244084682441,
+        "tracks": 144,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 753,
+        "edges": 6273,
+        "noise_fraction": 0.0849933598937583,
+        "tracks": 128,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 781,
+        "edges": 6622,
+        "noise_fraction": 0.07042253521126761,
+        "tracks": 141,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 769,
+        "edges": 6396,
+        "noise_fraction": 0.09102730819245773,
+        "tracks": 137,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 838,
+        "edges": 6939,
+        "noise_fraction": 0.09069212410501193,
+        "tracks": 145,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 707,
+        "edges": 5690,
+        "noise_fraction": 0.08628005657708628,
+        "tracks": 125,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 797,
+        "edges": 6376,
+        "noise_fraction": 0.09912170639899624,
+        "tracks": 136,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 803,
+        "edges": 6826,
+        "noise_fraction": 0.0784557907845579,
+        "tracks": 140,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 909,
+        "edges": 7733,
+        "noise_fraction": 0.08250825082508251,
+        "tracks": 160,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 846,
+        "edges": 7260,
+        "noise_fraction": 0.08865248226950355,
+        "tracks": 158,
+        "sector_fakes": 113
+      },
+      {
+        "nodes": 930,
+        "edges": 8076,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 163,
+        "sector_fakes": 107
+      },
+      {
+        "nodes": 876,
+        "edges": 7834,
+        "noise_fraction": 0.0684931506849315,
+        "tracks": 165,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 683,
+        "edges": 5449,
+        "noise_fraction": 0.10395314787701318,
+        "tracks": 116,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 723,
+        "edges": 5713,
+        "noise_fraction": 0.11065006915629322,
+        "tracks": 128,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 724,
+        "edges": 6175,
+        "noise_fraction": 0.08425414364640885,
+        "tracks": 125,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 771,
+        "edges": 6117,
+        "noise_fraction": 0.11154345006485085,
+        "tracks": 126,
+        "sector_fakes": 89
+      },
+      {
+        "nodes": 777,
+        "edges": 6643,
+        "noise_fraction": 0.09009009009009009,
+        "tracks": 136,
+        "sector_fakes": 94
+      },
+      {
+        "nodes": 692,
+        "edges": 5663,
+        "noise_fraction": 0.0838150289017341,
+        "tracks": 116,
+        "sector_fakes": 68
+      }
+    ],
+    "fragmented": 16,
+    "spans_sector": {
+      "eligible": 2157,
+      "matched": 140
+    },
+    "crowded": {
+      "eligible": 2913,
+      "matched": 1034
+    },
+    "sparse": {
+      "eligible": 780,
+      "matched": 172
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 133,
+    "tracks": 808,
+    "efficiency": 0.0213448884609212,
+    "fake": 0.8341584158415841,
+    "official_score": 0.0002846593088245201,
+    "event": "event000001004",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "edge",
+    "graph_s": 0.09804658699704305,
+    "assembly_s": 0.06091712399665994,
+    "occupancy": [
+      {
+        "nodes": 1160,
+        "edges": 10822,
+        "noise_fraction": 0.06982758620689655,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1119,
+        "edges": 10568,
+        "noise_fraction": 0.050044682752457555,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1099,
+        "edges": 10322,
+        "noise_fraction": 0.05732484076433121,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1078,
+        "edges": 9925,
+        "noise_fraction": 0.06029684601113173,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1121,
+        "edges": 10586,
+        "noise_fraction": 0.06333630686886708,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1019,
+        "edges": 9800,
+        "noise_fraction": 0.0549558390578999,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1054,
+        "edges": 9666,
+        "noise_fraction": 0.07020872865275142,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 986,
+        "edges": 9312,
+        "noise_fraction": 0.06896551724137931,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 966,
+        "edges": 8320,
+        "noise_fraction": 0.07971014492753623,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 991,
+        "edges": 8853,
+        "noise_fraction": 0.08274470232088799,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1042,
+        "edges": 9979,
+        "noise_fraction": 0.08061420345489444,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 964,
+        "edges": 8735,
+        "noise_fraction": 0.06742738589211618,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 911,
+        "edges": 8674,
+        "noise_fraction": 0.05817782656421515,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1086,
+        "edges": 9621,
+        "noise_fraction": 0.06077348066298342,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1133,
+        "edges": 10988,
+        "noise_fraction": 0.06354810238305383,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1059,
+        "edges": 9694,
+        "noise_fraction": 0.06987724268177525,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1122,
+        "edges": 10322,
+        "noise_fraction": 0.062388591800356503,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1053,
+        "edges": 9898,
+        "noise_fraction": 0.06742640075973409,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1057,
+        "edges": 9834,
+        "noise_fraction": 0.065279091769158,
+        "tracks": 14,
+        "sector_fakes": 11
+      },
+      {
+        "nodes": 1160,
+        "edges": 10633,
+        "noise_fraction": 0.06206896551724138,
+        "tracks": 114,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 978,
+        "edges": 8943,
+        "noise_fraction": 0.07975460122699386,
+        "tracks": 126,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 1039,
+        "edges": 10099,
+        "noise_fraction": 0.06352261790182868,
+        "tracks": 159,
+        "sector_fakes": 119
+      },
+      {
+        "nodes": 1018,
+        "edges": 9292,
+        "noise_fraction": 0.07269155206286837,
+        "tracks": 159,
+        "sector_fakes": 123
+      },
+      {
+        "nodes": 960,
+        "edges": 8729,
+        "noise_fraction": 0.06354166666666666,
+        "tracks": 106,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 1068,
+        "edges": 10065,
+        "noise_fraction": 0.054307116104868915,
+        "tracks": 115,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 1032,
+        "edges": 9105,
+        "noise_fraction": 0.07848837209302326,
+        "tracks": 15,
+        "sector_fakes": 14
+      },
+      {
+        "nodes": 1057,
+        "edges": 9842,
+        "noise_fraction": 0.07473982970671712,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1132,
+        "edges": 10375,
+        "noise_fraction": 0.06007067137809187,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1072,
+        "edges": 10042,
+        "noise_fraction": 0.054104477611940295,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1112,
+        "edges": 10607,
+        "noise_fraction": 0.06654676258992806,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1058,
+        "edges": 9588,
+        "noise_fraction": 0.0661625708884688,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 1093,
+        "edges": 10430,
+        "noise_fraction": 0.059469350411710885,
+        "tracks": 0,
+        "sector_fakes": 0
+      }
+    ],
+    "fragmented": 25,
+    "spans_sector": {
+      "eligible": 2959,
+      "matched": 27
+    },
+    "crowded": {
+      "eligible": 4549,
+      "matched": 92
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 24
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 2888,
+    "tracks": 5883,
+    "efficiency": 0.4634890065800032,
+    "fake": 0.5085840557538671,
+    "official_score": 0.013457186309923732,
+    "event": "event000001004",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet",
+    "graph_s": 0.11855879099857702,
+    "assembly_s": 0.46960295399912866,
+    "occupancy": [
+      {
+        "nodes": 1160,
+        "edges": 10822,
+        "noise_fraction": 0.06982758620689655,
+        "tracks": 202,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 1119,
+        "edges": 10568,
+        "noise_fraction": 0.050044682752457555,
+        "tracks": 205,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 1099,
+        "edges": 10322,
+        "noise_fraction": 0.05732484076433121,
+        "tracks": 189,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1078,
+        "edges": 9925,
+        "noise_fraction": 0.06029684601113173,
+        "tracks": 182,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1121,
+        "edges": 10586,
+        "noise_fraction": 0.06333630686886708,
+        "tracks": 200,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 1019,
+        "edges": 9800,
+        "noise_fraction": 0.0549558390578999,
+        "tracks": 178,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 1054,
+        "edges": 9666,
+        "noise_fraction": 0.07020872865275142,
+        "tracks": 189,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 986,
+        "edges": 9312,
+        "noise_fraction": 0.06896551724137931,
+        "tracks": 173,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 966,
+        "edges": 8320,
+        "noise_fraction": 0.07971014492753623,
+        "tracks": 152,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 991,
+        "edges": 8853,
+        "noise_fraction": 0.08274470232088799,
+        "tracks": 170,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1042,
+        "edges": 9979,
+        "noise_fraction": 0.08061420345489444,
+        "tracks": 184,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 964,
+        "edges": 8735,
+        "noise_fraction": 0.06742738589211618,
+        "tracks": 158,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 911,
+        "edges": 8674,
+        "noise_fraction": 0.05817782656421515,
+        "tracks": 158,
+        "sector_fakes": 76
+      },
+      {
+        "nodes": 1086,
+        "edges": 9621,
+        "noise_fraction": 0.06077348066298342,
+        "tracks": 188,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 1133,
+        "edges": 10988,
+        "noise_fraction": 0.06354810238305383,
+        "tracks": 196,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1059,
+        "edges": 9694,
+        "noise_fraction": 0.06987724268177525,
+        "tracks": 192,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 1122,
+        "edges": 10322,
+        "noise_fraction": 0.062388591800356503,
+        "tracks": 183,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 1053,
+        "edges": 9898,
+        "noise_fraction": 0.06742640075973409,
+        "tracks": 178,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 1057,
+        "edges": 9834,
+        "noise_fraction": 0.065279091769158,
+        "tracks": 185,
+        "sector_fakes": 99
+      },
+      {
+        "nodes": 1160,
+        "edges": 10633,
+        "noise_fraction": 0.06206896551724138,
+        "tracks": 195,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 978,
+        "edges": 8943,
+        "noise_fraction": 0.07975460122699386,
+        "tracks": 156,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1039,
+        "edges": 10099,
+        "noise_fraction": 0.06352261790182868,
+        "tracks": 181,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 1018,
+        "edges": 9292,
+        "noise_fraction": 0.07269155206286837,
+        "tracks": 179,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 960,
+        "edges": 8729,
+        "noise_fraction": 0.06354166666666666,
+        "tracks": 165,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 1068,
+        "edges": 10065,
+        "noise_fraction": 0.054307116104868915,
+        "tracks": 200,
+        "sector_fakes": 99
+      },
+      {
+        "nodes": 1032,
+        "edges": 9105,
+        "noise_fraction": 0.07848837209302326,
+        "tracks": 172,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1057,
+        "edges": 9842,
+        "noise_fraction": 0.07473982970671712,
+        "tracks": 191,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 1132,
+        "edges": 10375,
+        "noise_fraction": 0.06007067137809187,
+        "tracks": 201,
+        "sector_fakes": 104
+      },
+      {
+        "nodes": 1072,
+        "edges": 10042,
+        "noise_fraction": 0.054104477611940295,
+        "tracks": 188,
+        "sector_fakes": 89
+      },
+      {
+        "nodes": 1112,
+        "edges": 10607,
+        "noise_fraction": 0.06654676258992806,
+        "tracks": 204,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 1058,
+        "edges": 9588,
+        "noise_fraction": 0.0661625708884688,
+        "tracks": 192,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 1093,
+        "edges": 10430,
+        "noise_fraction": 0.059469350411710885,
+        "tracks": 197,
+        "sector_fakes": 94
+      }
+    ],
+    "fragmented": 74,
+    "spans_sector": {
+      "eligible": 2959,
+      "matched": 430
+    },
+    "crowded": {
+      "eligible": 4549,
+      "matched": 2224
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 297
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 2893,
+    "tracks": 5888,
+    "efficiency": 0.46429144599582733,
+    "fake": 0.5081521739130435,
+    "official_score": 0.013256521536653769,
+    "event": "event000001004",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.11618266299956304,
+    "assembly_s": 0.4772105379997811,
+    "occupancy": [
+      {
+        "nodes": 1160,
+        "edges": 10822,
+        "noise_fraction": 0.06982758620689655,
+        "tracks": 201,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1119,
+        "edges": 10568,
+        "noise_fraction": 0.050044682752457555,
+        "tracks": 205,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 1099,
+        "edges": 10322,
+        "noise_fraction": 0.05732484076433121,
+        "tracks": 189,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 1078,
+        "edges": 9925,
+        "noise_fraction": 0.06029684601113173,
+        "tracks": 182,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1121,
+        "edges": 10586,
+        "noise_fraction": 0.06333630686886708,
+        "tracks": 203,
+        "sector_fakes": 109
+      },
+      {
+        "nodes": 1019,
+        "edges": 9800,
+        "noise_fraction": 0.0549558390578999,
+        "tracks": 179,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 1054,
+        "edges": 9666,
+        "noise_fraction": 0.07020872865275142,
+        "tracks": 190,
+        "sector_fakes": 105
+      },
+      {
+        "nodes": 986,
+        "edges": 9312,
+        "noise_fraction": 0.06896551724137931,
+        "tracks": 174,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 966,
+        "edges": 8320,
+        "noise_fraction": 0.07971014492753623,
+        "tracks": 150,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 991,
+        "edges": 8853,
+        "noise_fraction": 0.08274470232088799,
+        "tracks": 168,
+        "sector_fakes": 83
+      },
+      {
+        "nodes": 1042,
+        "edges": 9979,
+        "noise_fraction": 0.08061420345489444,
+        "tracks": 184,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 964,
+        "edges": 8735,
+        "noise_fraction": 0.06742738589211618,
+        "tracks": 157,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 911,
+        "edges": 8674,
+        "noise_fraction": 0.05817782656421515,
+        "tracks": 158,
+        "sector_fakes": 76
+      },
+      {
+        "nodes": 1086,
+        "edges": 9621,
+        "noise_fraction": 0.06077348066298342,
+        "tracks": 189,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 1133,
+        "edges": 10988,
+        "noise_fraction": 0.06354810238305383,
+        "tracks": 196,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1059,
+        "edges": 9694,
+        "noise_fraction": 0.06987724268177525,
+        "tracks": 192,
+        "sector_fakes": 98
+      },
+      {
+        "nodes": 1122,
+        "edges": 10322,
+        "noise_fraction": 0.062388591800356503,
+        "tracks": 183,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 1053,
+        "edges": 9898,
+        "noise_fraction": 0.06742640075973409,
+        "tracks": 180,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 1057,
+        "edges": 9834,
+        "noise_fraction": 0.065279091769158,
+        "tracks": 181,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 1160,
+        "edges": 10633,
+        "noise_fraction": 0.06206896551724138,
+        "tracks": 196,
+        "sector_fakes": 99
+      },
+      {
+        "nodes": 978,
+        "edges": 8943,
+        "noise_fraction": 0.07975460122699386,
+        "tracks": 157,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 1039,
+        "edges": 10099,
+        "noise_fraction": 0.06352261790182868,
+        "tracks": 181,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 1018,
+        "edges": 9292,
+        "noise_fraction": 0.07269155206286837,
+        "tracks": 180,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 960,
+        "edges": 8729,
+        "noise_fraction": 0.06354166666666666,
+        "tracks": 165,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 1068,
+        "edges": 10065,
+        "noise_fraction": 0.054307116104868915,
+        "tracks": 198,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 1032,
+        "edges": 9105,
+        "noise_fraction": 0.07848837209302326,
+        "tracks": 172,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1057,
+        "edges": 9842,
+        "noise_fraction": 0.07473982970671712,
+        "tracks": 191,
+        "sector_fakes": 92
+      },
+      {
+        "nodes": 1132,
+        "edges": 10375,
+        "noise_fraction": 0.06007067137809187,
+        "tracks": 203,
+        "sector_fakes": 104
+      },
+      {
+        "nodes": 1072,
+        "edges": 10042,
+        "noise_fraction": 0.054104477611940295,
+        "tracks": 188,
+        "sector_fakes": 89
+      },
+      {
+        "nodes": 1112,
+        "edges": 10607,
+        "noise_fraction": 0.06654676258992806,
+        "tracks": 208,
+        "sector_fakes": 100
+      },
+      {
+        "nodes": 1058,
+        "edges": 9588,
+        "noise_fraction": 0.0661625708884688,
+        "tracks": 192,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 1093,
+        "edges": 10430,
+        "noise_fraction": 0.059469350411710885,
+        "tracks": 196,
+        "sector_fakes": 93
+      }
+    ],
+    "fragmented": 71,
+    "spans_sector": {
+      "eligible": 2959,
+      "matched": 433
+    },
+    "crowded": {
+      "eligible": 4549,
+      "matched": 2227
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 297
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 2383,
+    "tracks": 5260,
+    "efficiency": 0.38244262558176856,
+    "fake": 0.5465779467680608,
+    "official_score": 0.010116638079013278,
+    "event": "event000001004",
+    "sectors": 32,
+    "drop": 0.1,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.10253486999954475,
+    "assembly_s": 0.37839029200404184,
+    "occupancy": [
+      {
+        "nodes": 1043,
+        "edges": 9730,
+        "noise_fraction": 0.0728667305848514,
+        "tracks": 178,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1003,
+        "edges": 9453,
+        "noise_fraction": 0.047856430707876374,
+        "tracks": 178,
+        "sector_fakes": 94
+      },
+      {
+        "nodes": 993,
+        "edges": 9357,
+        "noise_fraction": 0.06042296072507553,
+        "tracks": 172,
+        "sector_fakes": 93
+      },
+      {
+        "nodes": 964,
+        "edges": 8767,
+        "noise_fraction": 0.061203319502074686,
+        "tracks": 163,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 1011,
+        "edges": 9496,
+        "noise_fraction": 0.06528189910979229,
+        "tracks": 185,
+        "sector_fakes": 109
+      },
+      {
+        "nodes": 903,
+        "edges": 8574,
+        "noise_fraction": 0.05758582502768549,
+        "tracks": 150,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 955,
+        "edges": 8795,
+        "noise_fraction": 0.07015706806282722,
+        "tracks": 167,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 879,
+        "edges": 8259,
+        "noise_fraction": 0.06825938566552901,
+        "tracks": 152,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 868,
+        "edges": 7503,
+        "noise_fraction": 0.08410138248847926,
+        "tracks": 141,
+        "sector_fakes": 76
+      },
+      {
+        "nodes": 897,
+        "edges": 8038,
+        "noise_fraction": 0.08472686733556299,
+        "tracks": 154,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 937,
+        "edges": 8927,
+        "noise_fraction": 0.0832443970117396,
+        "tracks": 159,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 845,
+        "edges": 7645,
+        "noise_fraction": 0.06745562130177515,
+        "tracks": 144,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 814,
+        "edges": 7692,
+        "noise_fraction": 0.05896805896805897,
+        "tracks": 139,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 977,
+        "edges": 8652,
+        "noise_fraction": 0.06141248720573183,
+        "tracks": 175,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 1004,
+        "edges": 9792,
+        "noise_fraction": 0.05976095617529881,
+        "tracks": 177,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 963,
+        "edges": 8862,
+        "noise_fraction": 0.07372793354101766,
+        "tracks": 176,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 1025,
+        "edges": 9339,
+        "noise_fraction": 0.06439024390243903,
+        "tracks": 170,
+        "sector_fakes": 87
+      },
+      {
+        "nodes": 968,
+        "edges": 9108,
+        "noise_fraction": 0.06714876033057851,
+        "tracks": 162,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 954,
+        "edges": 8812,
+        "noise_fraction": 0.06184486373165619,
+        "tracks": 160,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 1054,
+        "edges": 9645,
+        "noise_fraction": 0.06641366223908918,
+        "tracks": 174,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 889,
+        "edges": 8204,
+        "noise_fraction": 0.07874015748031496,
+        "tracks": 142,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 935,
+        "edges": 9043,
+        "noise_fraction": 0.06417112299465241,
+        "tracks": 158,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 920,
+        "edges": 8372,
+        "noise_fraction": 0.06956521739130435,
+        "tracks": 164,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 870,
+        "edges": 7924,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 148,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 954,
+        "edges": 8980,
+        "noise_fraction": 0.057651991614255764,
+        "tracks": 176,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 935,
+        "edges": 8149,
+        "noise_fraction": 0.07914438502673797,
+        "tracks": 152,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 953,
+        "edges": 8811,
+        "noise_fraction": 0.07030430220356768,
+        "tracks": 166,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 1019,
+        "edges": 9237,
+        "noise_fraction": 0.05691854759568204,
+        "tracks": 174,
+        "sector_fakes": 93
+      },
+      {
+        "nodes": 966,
+        "edges": 9095,
+        "noise_fraction": 0.053830227743271224,
+        "tracks": 171,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 1017,
+        "edges": 9732,
+        "noise_fraction": 0.06588003933136677,
+        "tracks": 186,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 955,
+        "edges": 8776,
+        "noise_fraction": 0.06701570680628273,
+        "tracks": 170,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 980,
+        "edges": 9346,
+        "noise_fraction": 0.05510204081632653,
+        "tracks": 177,
+        "sector_fakes": 87
+      }
+    ],
+    "fragmented": 44,
+    "spans_sector": {
+      "eligible": 2817,
+      "matched": 332
+    },
+    "crowded": {
+      "eligible": 4162,
+      "matched": 1724
+    },
+    "sparse": {
+      "eligible": 1609,
+      "matched": 396
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 3324,
+    "tracks": 6025,
+    "efficiency": 0.5334617236398652,
+    "fake": 0.44780082987551867,
+    "official_score": 0.015172154923334605,
+    "event": "event000001004",
+    "sectors": 16,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.09355129200048395,
+    "assembly_s": 0.41189562499948806,
+    "occupancy": [
+      {
+        "nodes": 2279,
+        "edges": 21468,
+        "noise_fraction": 0.060114085125054846,
+        "tracks": 422,
+        "sector_fakes": 188
+      },
+      {
+        "nodes": 2177,
+        "edges": 20357,
+        "noise_fraction": 0.05879650895728066,
+        "tracks": 383,
+        "sector_fakes": 175
+      },
+      {
+        "nodes": 2140,
+        "edges": 20461,
+        "noise_fraction": 0.05934579439252336,
+        "tracks": 403,
+        "sector_fakes": 179
+      },
+      {
+        "nodes": 2040,
+        "edges": 19033,
+        "noise_fraction": 0.0696078431372549,
+        "tracks": 374,
+        "sector_fakes": 169
+      },
+      {
+        "nodes": 1957,
+        "edges": 17236,
+        "noise_fraction": 0.08124680633622892,
+        "tracks": 329,
+        "sector_fakes": 120
+      },
+      {
+        "nodes": 2006,
+        "edges": 18784,
+        "noise_fraction": 0.07427716849451645,
+        "tracks": 340,
+        "sector_fakes": 155
+      },
+      {
+        "nodes": 1997,
+        "edges": 18363,
+        "noise_fraction": 0.05958938407611417,
+        "tracks": 354,
+        "sector_fakes": 146
+      },
+      {
+        "nodes": 2192,
+        "edges": 20794,
+        "noise_fraction": 0.0666058394160584,
+        "tracks": 393,
+        "sector_fakes": 174
+      },
+      {
+        "nodes": 2175,
+        "edges": 20292,
+        "noise_fraction": 0.06482758620689655,
+        "tracks": 369,
+        "sector_fakes": 155
+      },
+      {
+        "nodes": 2217,
+        "edges": 20619,
+        "noise_fraction": 0.06359945872801083,
+        "tracks": 392,
+        "sector_fakes": 174
+      },
+      {
+        "nodes": 2017,
+        "edges": 19154,
+        "noise_fraction": 0.07139315815567675,
+        "tracks": 346,
+        "sector_fakes": 152
+      },
+      {
+        "nodes": 1978,
+        "edges": 18122,
+        "noise_fraction": 0.06825075834175935,
+        "tracks": 346,
+        "sector_fakes": 146
+      },
+      {
+        "nodes": 2100,
+        "edges": 19265,
+        "noise_fraction": 0.06619047619047619,
+        "tracks": 373,
+        "sector_fakes": 159
+      },
+      {
+        "nodes": 2189,
+        "edges": 20286,
+        "noise_fraction": 0.06715395157606213,
+        "tracks": 397,
+        "sector_fakes": 174
+      },
+      {
+        "nodes": 2184,
+        "edges": 20716,
+        "noise_fraction": 0.06043956043956044,
+        "tracks": 401,
+        "sector_fakes": 172
+      },
+      {
+        "nodes": 2151,
+        "edges": 20136,
+        "noise_fraction": 0.06276150627615062,
+        "tracks": 403,
+        "sector_fakes": 172
+      }
+    ],
+    "fragmented": 76,
+    "spans_sector": {
+      "eligible": 1710,
+      "matched": 196
+    },
+    "crowded": {
+      "eligible": 4658,
+      "matched": 2617
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 326
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 2035,
+    "tracks": 5597,
+    "efficiency": 0.32659284224041085,
+    "fake": 0.6360550294800786,
+    "official_score": 0.00995874019857149,
+    "event": "event000001004",
+    "sectors": 64,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.22145333700336778,
+    "assembly_s": 0.7004633329979697,
+    "occupancy": [
+      {
+        "nodes": 637,
+        "edges": 6215,
+        "noise_fraction": 0.07221350078492936,
+        "tracks": 107,
+        "sector_fakes": 69
+      },
+      {
+        "nodes": 523,
+        "edges": 4415,
+        "noise_fraction": 0.06692160611854685,
+        "tracks": 87,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 512,
+        "edges": 4483,
+        "noise_fraction": 0.0625,
+        "tracks": 86,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 607,
+        "edges": 5875,
+        "noise_fraction": 0.039538714991762765,
+        "tracks": 104,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 609,
+        "edges": 5709,
+        "noise_fraction": 0.052545155993431854,
+        "tracks": 94,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 490,
+        "edges": 4431,
+        "noise_fraction": 0.06326530612244897,
+        "tracks": 88,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 487,
+        "edges": 4061,
+        "noise_fraction": 0.06570841889117043,
+        "tracks": 78,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 591,
+        "edges": 5640,
+        "noise_fraction": 0.05583756345177665,
+        "tracks": 92,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 616,
+        "edges": 6302,
+        "noise_fraction": 0.060064935064935064,
+        "tracks": 114,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 505,
+        "edges": 4127,
+        "noise_fraction": 0.06732673267326733,
+        "tracks": 83,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 455,
+        "edges": 3941,
+        "noise_fraction": 0.054945054945054944,
+        "tracks": 70,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 564,
+        "edges": 5690,
+        "noise_fraction": 0.0549645390070922,
+        "tracks": 93,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 608,
+        "edges": 5903,
+        "noise_fraction": 0.06907894736842106,
+        "tracks": 107,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 446,
+        "edges": 3655,
+        "noise_fraction": 0.07174887892376682,
+        "tracks": 72,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 523,
+        "edges": 4757,
+        "noise_fraction": 0.06883365200764818,
+        "tracks": 95,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 463,
+        "edges": 4404,
+        "noise_fraction": 0.06911447084233262,
+        "tracks": 68,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 537,
+        "edges": 4363,
+        "noise_fraction": 0.0856610800744879,
+        "tracks": 79,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 429,
+        "edges": 3723,
+        "noise_fraction": 0.07226107226107226,
+        "tracks": 66,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 479,
+        "edges": 3869,
+        "noise_fraction": 0.081419624217119,
+        "tracks": 75,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 512,
+        "edges": 4880,
+        "noise_fraction": 0.083984375,
+        "tracks": 90,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 563,
+        "edges": 5663,
+        "noise_fraction": 0.07104795737122557,
+        "tracks": 84,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 479,
+        "edges": 4084,
+        "noise_fraction": 0.0918580375782881,
+        "tracks": 79,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 409,
+        "edges": 3390,
+        "noise_fraction": 0.08801955990220049,
+        "tracks": 66,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 555,
+        "edges": 5099,
+        "noise_fraction": 0.05225225225225225,
+        "tracks": 89,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 507,
+        "edges": 4864,
+        "noise_fraction": 0.05719921104536489,
+        "tracks": 83,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 404,
+        "edges": 3565,
+        "noise_fraction": 0.0594059405940594,
+        "tracks": 67,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 496,
+        "edges": 4123,
+        "noise_fraction": 0.06854838709677419,
+        "tracks": 80,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 590,
+        "edges": 5299,
+        "noise_fraction": 0.05423728813559322,
+        "tracks": 102,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 618,
+        "edges": 6189,
+        "noise_fraction": 0.05825242718446602,
+        "tracks": 99,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 515,
+        "edges": 4619,
+        "noise_fraction": 0.06990291262135923,
+        "tracks": 87,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 451,
+        "edges": 3587,
+        "noise_fraction": 0.09090909090909091,
+        "tracks": 66,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 608,
+        "edges": 5903,
+        "noise_fraction": 0.054276315789473686,
+        "tracks": 110,
+        "sector_fakes": 68
+      },
+      {
+        "nodes": 612,
+        "edges": 5938,
+        "noise_fraction": 0.05228758169934641,
+        "tracks": 100,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 510,
+        "edges": 4231,
+        "noise_fraction": 0.07450980392156863,
+        "tracks": 75,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 459,
+        "edges": 4119,
+        "noise_fraction": 0.08278867102396514,
+        "tracks": 72,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 594,
+        "edges": 5549,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 95,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 593,
+        "edges": 5637,
+        "noise_fraction": 0.05902192242833052,
+        "tracks": 93,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 464,
+        "edges": 3973,
+        "noise_fraction": 0.07327586206896551,
+        "tracks": 78,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 585,
+        "edges": 5386,
+        "noise_fraction": 0.05811965811965812,
+        "tracks": 101,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 575,
+        "edges": 5103,
+        "noise_fraction": 0.06608695652173913,
+        "tracks": 90,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 575,
+        "edges": 5477,
+        "noise_fraction": 0.07304347826086957,
+        "tracks": 85,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 403,
+        "edges": 3282,
+        "noise_fraction": 0.08933002481389578,
+        "tracks": 63,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 455,
+        "edges": 3908,
+        "noise_fraction": 0.06593406593406594,
+        "tracks": 78,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 584,
+        "edges": 5940,
+        "noise_fraction": 0.06164383561643835,
+        "tracks": 98,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 568,
+        "edges": 5315,
+        "noise_fraction": 0.05985915492957746,
+        "tracks": 92,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 450,
+        "edges": 3760,
+        "noise_fraction": 0.08888888888888889,
+        "tracks": 79,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 438,
+        "edges": 3753,
+        "noise_fraction": 0.0730593607305936,
+        "tracks": 67,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 522,
+        "edges": 4764,
+        "noise_fraction": 0.05555555555555555,
+        "tracks": 83,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 573,
+        "edges": 5402,
+        "noise_fraction": 0.04886561954624782,
+        "tracks": 93,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 495,
+        "edges": 4410,
+        "noise_fraction": 0.06060606060606061,
+        "tracks": 91,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 505,
+        "edges": 4283,
+        "noise_fraction": 0.09504950495049505,
+        "tracks": 88,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 527,
+        "edges": 4688,
+        "noise_fraction": 0.06261859582542695,
+        "tracks": 80,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 593,
+        "edges": 5686,
+        "noise_fraction": 0.0775716694772344,
+        "tracks": 101,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 464,
+        "edges": 3956,
+        "noise_fraction": 0.07112068965517242,
+        "tracks": 80,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 522,
+        "edges": 4524,
+        "noise_fraction": 0.06130268199233716,
+        "tracks": 90,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 610,
+        "edges": 5686,
+        "noise_fraction": 0.05901639344262295,
+        "tracks": 101,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 582,
+        "edges": 5465,
+        "noise_fraction": 0.0429553264604811,
+        "tracks": 96,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 490,
+        "edges": 4419,
+        "noise_fraction": 0.0673469387755102,
+        "tracks": 91,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 464,
+        "edges": 4099,
+        "noise_fraction": 0.07327586206896551,
+        "tracks": 86,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 648,
+        "edges": 6378,
+        "noise_fraction": 0.06172839506172839,
+        "tracks": 113,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 557,
+        "edges": 5047,
+        "noise_fraction": 0.06463195691202872,
+        "tracks": 91,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 501,
+        "edges": 4359,
+        "noise_fraction": 0.06786427145708583,
+        "tracks": 95,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 577,
+        "edges": 5449,
+        "noise_fraction": 0.04679376083188908,
+        "tracks": 102,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 516,
+        "edges": 4740,
+        "noise_fraction": 0.07364341085271318,
+        "tracks": 90,
+        "sector_fakes": 63
+      }
+    ],
+    "fragmented": 45,
+    "spans_sector": {
+      "eligible": 4354,
+      "matched": 636
+    },
+    "crowded": {
+      "eligible": 4331,
+      "matched": 1469
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 190
+    }
+  },
+  {
+    "eligible": 6231,
+    "matched": 1823,
+    "tracks": 6022,
+    "efficiency": 0.29256941100946876,
+    "fake": 0.6969445366987712,
+    "official_score": 0.009530974850283367,
+    "event": "event000001004",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 0.0,
+    "method": "triplet_ml",
+    "graph_s": 0.22711579200222332,
+    "assembly_s": 0.7547572899984516,
+    "occupancy": [
+      {
+        "nodes": 1160,
+        "edges": 10336,
+        "noise_fraction": 0.06982758620689655,
+        "tracks": 219,
+        "sector_fakes": 154
+      },
+      {
+        "nodes": 1119,
+        "edges": 10091,
+        "noise_fraction": 0.050044682752457555,
+        "tracks": 212,
+        "sector_fakes": 156
+      },
+      {
+        "nodes": 1099,
+        "edges": 9822,
+        "noise_fraction": 0.05732484076433121,
+        "tracks": 199,
+        "sector_fakes": 134
+      },
+      {
+        "nodes": 1078,
+        "edges": 9305,
+        "noise_fraction": 0.06029684601113173,
+        "tracks": 188,
+        "sector_fakes": 139
+      },
+      {
+        "nodes": 1121,
+        "edges": 10155,
+        "noise_fraction": 0.06333630686886708,
+        "tracks": 205,
+        "sector_fakes": 149
+      },
+      {
+        "nodes": 1019,
+        "edges": 9273,
+        "noise_fraction": 0.0549558390578999,
+        "tracks": 181,
+        "sector_fakes": 113
+      },
+      {
+        "nodes": 1054,
+        "edges": 9331,
+        "noise_fraction": 0.07020872865275142,
+        "tracks": 191,
+        "sector_fakes": 136
+      },
+      {
+        "nodes": 986,
+        "edges": 8738,
+        "noise_fraction": 0.06896551724137931,
+        "tracks": 177,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 966,
+        "edges": 7809,
+        "noise_fraction": 0.07971014492753623,
+        "tracks": 153,
+        "sector_fakes": 92
+      },
+      {
+        "nodes": 991,
+        "edges": 8515,
+        "noise_fraction": 0.08274470232088799,
+        "tracks": 179,
+        "sector_fakes": 121
+      },
+      {
+        "nodes": 1042,
+        "edges": 9377,
+        "noise_fraction": 0.08061420345489444,
+        "tracks": 176,
+        "sector_fakes": 122
+      },
+      {
+        "nodes": 964,
+        "edges": 8148,
+        "noise_fraction": 0.06742738589211618,
+        "tracks": 171,
+        "sector_fakes": 115
+      },
+      {
+        "nodes": 911,
+        "edges": 8067,
+        "noise_fraction": 0.05817782656421515,
+        "tracks": 159,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 1086,
+        "edges": 9099,
+        "noise_fraction": 0.06077348066298342,
+        "tracks": 197,
+        "sector_fakes": 120
+      },
+      {
+        "nodes": 1133,
+        "edges": 10455,
+        "noise_fraction": 0.06354810238305383,
+        "tracks": 202,
+        "sector_fakes": 133
+      },
+      {
+        "nodes": 1059,
+        "edges": 9133,
+        "noise_fraction": 0.06987724268177525,
+        "tracks": 196,
+        "sector_fakes": 142
+      },
+      {
+        "nodes": 1122,
+        "edges": 9831,
+        "noise_fraction": 0.062388591800356503,
+        "tracks": 190,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 1053,
+        "edges": 9254,
+        "noise_fraction": 0.06742640075973409,
+        "tracks": 191,
+        "sector_fakes": 123
+      },
+      {
+        "nodes": 1057,
+        "edges": 9310,
+        "noise_fraction": 0.065279091769158,
+        "tracks": 186,
+        "sector_fakes": 135
+      },
+      {
+        "nodes": 1160,
+        "edges": 10174,
+        "noise_fraction": 0.06206896551724138,
+        "tracks": 203,
+        "sector_fakes": 150
+      },
+      {
+        "nodes": 978,
+        "edges": 8436,
+        "noise_fraction": 0.07975460122699386,
+        "tracks": 163,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 1039,
+        "edges": 9568,
+        "noise_fraction": 0.06352261790182868,
+        "tracks": 180,
+        "sector_fakes": 121
+      },
+      {
+        "nodes": 1018,
+        "edges": 8813,
+        "noise_fraction": 0.07269155206286837,
+        "tracks": 182,
+        "sector_fakes": 125
+      },
+      {
+        "nodes": 960,
+        "edges": 8213,
+        "noise_fraction": 0.06354166666666666,
+        "tracks": 168,
+        "sector_fakes": 115
+      },
+      {
+        "nodes": 1068,
+        "edges": 9427,
+        "noise_fraction": 0.054307116104868915,
+        "tracks": 196,
+        "sector_fakes": 137
+      },
+      {
+        "nodes": 1032,
+        "edges": 8622,
+        "noise_fraction": 0.07848837209302326,
+        "tracks": 177,
+        "sector_fakes": 130
+      },
+      {
+        "nodes": 1057,
+        "edges": 9291,
+        "noise_fraction": 0.07473982970671712,
+        "tracks": 197,
+        "sector_fakes": 139
+      },
+      {
+        "nodes": 1132,
+        "edges": 9871,
+        "noise_fraction": 0.06007067137809187,
+        "tracks": 198,
+        "sector_fakes": 140
+      },
+      {
+        "nodes": 1072,
+        "edges": 9555,
+        "noise_fraction": 0.054104477611940295,
+        "tracks": 195,
+        "sector_fakes": 129
+      },
+      {
+        "nodes": 1112,
+        "edges": 10180,
+        "noise_fraction": 0.06654676258992806,
+        "tracks": 196,
+        "sector_fakes": 123
+      },
+      {
+        "nodes": 1058,
+        "edges": 9124,
+        "noise_fraction": 0.0661625708884688,
+        "tracks": 197,
+        "sector_fakes": 136
+      },
+      {
+        "nodes": 1093,
+        "edges": 9913,
+        "noise_fraction": 0.059469350411710885,
+        "tracks": 198,
+        "sector_fakes": 137
+      }
+    ],
+    "fragmented": 29,
+    "spans_sector": {
+      "eligible": 2959,
+      "matched": 148
+    },
+    "crowded": {
+      "eligible": 4549,
+      "matched": 1401
+    },
+    "sparse": {
+      "eligible": 1101,
+      "matched": 189
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 147,
+    "tracks": 631,
+    "efficiency": 0.03099304237824162,
+    "fake": 0.7654516640253566,
+    "official_score": 5.426600088887709e-05,
+    "event": "event000001005",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "edge",
+    "graph_s": 0.1570566249974945,
+    "assembly_s": 0.06602283099618944,
+    "occupancy": [
+      {
+        "nodes": 884,
+        "edges": 8148,
+        "noise_fraction": 0.08144796380090498,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 800,
+        "edges": 7467,
+        "noise_fraction": 0.07375,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 801,
+        "edges": 7200,
+        "noise_fraction": 0.08489388264669163,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 766,
+        "edges": 6900,
+        "noise_fraction": 0.07963446475195822,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 813,
+        "edges": 7251,
+        "noise_fraction": 0.07995079950799508,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 735,
+        "edges": 6492,
+        "noise_fraction": 0.10068027210884353,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 882,
+        "edges": 8254,
+        "noise_fraction": 0.07596371882086168,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 712,
+        "edges": 6149,
+        "noise_fraction": 0.06601123595505617,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 869,
+        "edges": 8103,
+        "noise_fraction": 0.06444188722669736,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 920,
+        "edges": 8171,
+        "noise_fraction": 0.07391304347826087,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 769,
+        "edges": 7091,
+        "noise_fraction": 0.08842652795838751,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 792,
+        "edges": 6992,
+        "noise_fraction": 0.09974747474747475,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 937,
+        "edges": 8856,
+        "noise_fraction": 0.0736392742796158,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 806,
+        "edges": 7148,
+        "noise_fraction": 0.0794044665012407,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 913,
+        "edges": 8313,
+        "noise_fraction": 0.0832420591456736,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 838,
+        "edges": 7655,
+        "noise_fraction": 0.08472553699284009,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 894,
+        "edges": 8483,
+        "noise_fraction": 0.06599552572706935,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 824,
+        "edges": 7235,
+        "noise_fraction": 0.1104368932038835,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 742,
+        "edges": 6548,
+        "noise_fraction": 0.09164420485175202,
+        "tracks": 14,
+        "sector_fakes": 11
+      },
+      {
+        "nodes": 751,
+        "edges": 7029,
+        "noise_fraction": 0.09320905459387484,
+        "tracks": 72,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 753,
+        "edges": 6912,
+        "noise_fraction": 0.08897742363877822,
+        "tracks": 112,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 784,
+        "edges": 7240,
+        "noise_fraction": 0.07653061224489796,
+        "tracks": 120,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 857,
+        "edges": 8035,
+        "noise_fraction": 0.08284714119019837,
+        "tracks": 137,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 732,
+        "edges": 6825,
+        "noise_fraction": 0.09153005464480875,
+        "tracks": 89,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 842,
+        "edges": 7850,
+        "noise_fraction": 0.07838479809976247,
+        "tracks": 82,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 794,
+        "edges": 6646,
+        "noise_fraction": 0.09193954659949623,
+        "tracks": 5,
+        "sector_fakes": 5
+      },
+      {
+        "nodes": 779,
+        "edges": 7662,
+        "noise_fraction": 0.06290115532734275,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 829,
+        "edges": 7416,
+        "noise_fraction": 0.08443908323281062,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 867,
+        "edges": 8249,
+        "noise_fraction": 0.07381776239907728,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 832,
+        "edges": 7707,
+        "noise_fraction": 0.09134615384615384,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 829,
+        "edges": 7603,
+        "noise_fraction": 0.0735826296743064,
+        "tracks": 0,
+        "sector_fakes": 0
+      },
+      {
+        "nodes": 895,
+        "edges": 8364,
+        "noise_fraction": 0.08379888268156424,
+        "tracks": 0,
+        "sector_fakes": 0
+      }
+    ],
+    "fragmented": 21,
+    "spans_sector": {
+      "eligible": 2296,
+      "matched": 33
+    },
+    "crowded": {
+      "eligible": 3099,
+      "matched": 86
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 26
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 2345,
+    "tracks": 4491,
+    "efficiency": 0.49441281889099725,
+    "fake": 0.47762191048764197,
+    "official_score": 0.016920705817161163,
+    "event": "event000001005",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet",
+    "graph_s": 0.14285783400009677,
+    "assembly_s": 0.41802121099772194,
+    "occupancy": [
+      {
+        "nodes": 884,
+        "edges": 8148,
+        "noise_fraction": 0.08144796380090498,
+        "tracks": 148,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 800,
+        "edges": 7467,
+        "noise_fraction": 0.07375,
+        "tracks": 145,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 801,
+        "edges": 7200,
+        "noise_fraction": 0.08489388264669163,
+        "tracks": 138,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 766,
+        "edges": 6900,
+        "noise_fraction": 0.07963446475195822,
+        "tracks": 130,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 813,
+        "edges": 7251,
+        "noise_fraction": 0.07995079950799508,
+        "tracks": 134,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 735,
+        "edges": 6492,
+        "noise_fraction": 0.10068027210884353,
+        "tracks": 115,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 882,
+        "edges": 8254,
+        "noise_fraction": 0.07596371882086168,
+        "tracks": 146,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 712,
+        "edges": 6149,
+        "noise_fraction": 0.06601123595505617,
+        "tracks": 108,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 869,
+        "edges": 8103,
+        "noise_fraction": 0.06444188722669736,
+        "tracks": 153,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 920,
+        "edges": 8171,
+        "noise_fraction": 0.07391304347826087,
+        "tracks": 157,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 769,
+        "edges": 7091,
+        "noise_fraction": 0.08842652795838751,
+        "tracks": 128,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 792,
+        "edges": 6992,
+        "noise_fraction": 0.09974747474747475,
+        "tracks": 131,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 937,
+        "edges": 8856,
+        "noise_fraction": 0.0736392742796158,
+        "tracks": 175,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 806,
+        "edges": 7148,
+        "noise_fraction": 0.0794044665012407,
+        "tracks": 134,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 913,
+        "edges": 8313,
+        "noise_fraction": 0.0832420591456736,
+        "tracks": 154,
+        "sector_fakes": 81
+      },
+      {
+        "nodes": 838,
+        "edges": 7655,
+        "noise_fraction": 0.08472553699284009,
+        "tracks": 145,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 894,
+        "edges": 8483,
+        "noise_fraction": 0.06599552572706935,
+        "tracks": 160,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 824,
+        "edges": 7235,
+        "noise_fraction": 0.1104368932038835,
+        "tracks": 131,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 742,
+        "edges": 6548,
+        "noise_fraction": 0.09164420485175202,
+        "tracks": 122,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 751,
+        "edges": 7029,
+        "noise_fraction": 0.09320905459387484,
+        "tracks": 129,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 753,
+        "edges": 6912,
+        "noise_fraction": 0.08897742363877822,
+        "tracks": 129,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 784,
+        "edges": 7240,
+        "noise_fraction": 0.07653061224489796,
+        "tracks": 132,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 857,
+        "edges": 8035,
+        "noise_fraction": 0.08284714119019837,
+        "tracks": 154,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 732,
+        "edges": 6825,
+        "noise_fraction": 0.09153005464480875,
+        "tracks": 125,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 842,
+        "edges": 7850,
+        "noise_fraction": 0.07838479809976247,
+        "tracks": 144,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 794,
+        "edges": 6646,
+        "noise_fraction": 0.09193954659949623,
+        "tracks": 140,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 779,
+        "edges": 7662,
+        "noise_fraction": 0.06290115532734275,
+        "tracks": 136,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 829,
+        "edges": 7416,
+        "noise_fraction": 0.08443908323281062,
+        "tracks": 150,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 867,
+        "edges": 8249,
+        "noise_fraction": 0.07381776239907728,
+        "tracks": 153,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 832,
+        "edges": 7707,
+        "noise_fraction": 0.09134615384615384,
+        "tracks": 146,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 829,
+        "edges": 7603,
+        "noise_fraction": 0.0735826296743064,
+        "tracks": 151,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 895,
+        "edges": 8364,
+        "noise_fraction": 0.08379888268156424,
+        "tracks": 148,
+        "sector_fakes": 73
+      }
+    ],
+    "fragmented": 54,
+    "spans_sector": {
+      "eligible": 2296,
+      "matched": 421
+    },
+    "crowded": {
+      "eligible": 3099,
+      "matched": 1631
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 250
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 2346,
+    "tracks": 4489,
+    "efficiency": 0.4946236559139785,
+    "fake": 0.4771664067721096,
+    "official_score": 0.016941974597509544,
+    "event": "event000001005",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.11618862399700447,
+    "assembly_s": 0.41881812600058765,
+    "occupancy": [
+      {
+        "nodes": 884,
+        "edges": 8148,
+        "noise_fraction": 0.08144796380090498,
+        "tracks": 148,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 800,
+        "edges": 7467,
+        "noise_fraction": 0.07375,
+        "tracks": 146,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 801,
+        "edges": 7200,
+        "noise_fraction": 0.08489388264669163,
+        "tracks": 138,
+        "sector_fakes": 64
+      },
+      {
+        "nodes": 766,
+        "edges": 6900,
+        "noise_fraction": 0.07963446475195822,
+        "tracks": 130,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 813,
+        "edges": 7251,
+        "noise_fraction": 0.07995079950799508,
+        "tracks": 133,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 735,
+        "edges": 6492,
+        "noise_fraction": 0.10068027210884353,
+        "tracks": 114,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 882,
+        "edges": 8254,
+        "noise_fraction": 0.07596371882086168,
+        "tracks": 146,
+        "sector_fakes": 72
+      },
+      {
+        "nodes": 712,
+        "edges": 6149,
+        "noise_fraction": 0.06601123595505617,
+        "tracks": 108,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 869,
+        "edges": 8103,
+        "noise_fraction": 0.06444188722669736,
+        "tracks": 152,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 920,
+        "edges": 8171,
+        "noise_fraction": 0.07391304347826087,
+        "tracks": 158,
+        "sector_fakes": 79
+      },
+      {
+        "nodes": 769,
+        "edges": 7091,
+        "noise_fraction": 0.08842652795838751,
+        "tracks": 129,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 792,
+        "edges": 6992,
+        "noise_fraction": 0.09974747474747475,
+        "tracks": 129,
+        "sector_fakes": 56
+      },
+      {
+        "nodes": 937,
+        "edges": 8856,
+        "noise_fraction": 0.0736392742796158,
+        "tracks": 173,
+        "sector_fakes": 88
+      },
+      {
+        "nodes": 806,
+        "edges": 7148,
+        "noise_fraction": 0.0794044665012407,
+        "tracks": 135,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 913,
+        "edges": 8313,
+        "noise_fraction": 0.0832420591456736,
+        "tracks": 152,
+        "sector_fakes": 78
+      },
+      {
+        "nodes": 838,
+        "edges": 7655,
+        "noise_fraction": 0.08472553699284009,
+        "tracks": 146,
+        "sector_fakes": 77
+      },
+      {
+        "nodes": 894,
+        "edges": 8483,
+        "noise_fraction": 0.06599552572706935,
+        "tracks": 159,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 824,
+        "edges": 7235,
+        "noise_fraction": 0.1104368932038835,
+        "tracks": 131,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 742,
+        "edges": 6548,
+        "noise_fraction": 0.09164420485175202,
+        "tracks": 122,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 751,
+        "edges": 7029,
+        "noise_fraction": 0.09320905459387484,
+        "tracks": 129,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 753,
+        "edges": 6912,
+        "noise_fraction": 0.08897742363877822,
+        "tracks": 131,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 784,
+        "edges": 7240,
+        "noise_fraction": 0.07653061224489796,
+        "tracks": 132,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 857,
+        "edges": 8035,
+        "noise_fraction": 0.08284714119019837,
+        "tracks": 154,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 732,
+        "edges": 6825,
+        "noise_fraction": 0.09153005464480875,
+        "tracks": 125,
+        "sector_fakes": 50
+      },
+      {
+        "nodes": 842,
+        "edges": 7850,
+        "noise_fraction": 0.07838479809976247,
+        "tracks": 144,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 794,
+        "edges": 6646,
+        "noise_fraction": 0.09193954659949623,
+        "tracks": 140,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 779,
+        "edges": 7662,
+        "noise_fraction": 0.06290115532734275,
+        "tracks": 136,
+        "sector_fakes": 58
+      },
+      {
+        "nodes": 829,
+        "edges": 7416,
+        "noise_fraction": 0.08443908323281062,
+        "tracks": 150,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 867,
+        "edges": 8249,
+        "noise_fraction": 0.07381776239907728,
+        "tracks": 153,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 832,
+        "edges": 7707,
+        "noise_fraction": 0.09134615384615384,
+        "tracks": 146,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 829,
+        "edges": 7603,
+        "noise_fraction": 0.0735826296743064,
+        "tracks": 151,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 895,
+        "edges": 8364,
+        "noise_fraction": 0.08379888268156424,
+        "tracks": 149,
+        "sector_fakes": 73
+      }
+    ],
+    "fragmented": 48,
+    "spans_sector": {
+      "eligible": 2296,
+      "matched": 422
+    },
+    "crowded": {
+      "eligible": 3099,
+      "matched": 1631
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 249
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 1973,
+    "tracks": 4024,
+    "efficiency": 0.41598144634197765,
+    "fake": 0.5096918489065606,
+    "official_score": 0.013142278225270518,
+    "event": "event000001005",
+    "sectors": 32,
+    "drop": 0.1,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.2571924149970073,
+    "assembly_s": 0.3780511249997289,
+    "occupancy": [
+      {
+        "nodes": 800,
+        "edges": 7294,
+        "noise_fraction": 0.0775,
+        "tracks": 136,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 720,
+        "edges": 6660,
+        "noise_fraction": 0.07222222222222222,
+        "tracks": 126,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 716,
+        "edges": 6407,
+        "noise_fraction": 0.0824022346368715,
+        "tracks": 118,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 695,
+        "edges": 6202,
+        "noise_fraction": 0.08057553956834532,
+        "tracks": 110,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 727,
+        "edges": 6502,
+        "noise_fraction": 0.07840440165061899,
+        "tracks": 120,
+        "sector_fakes": 57
+      },
+      {
+        "nodes": 664,
+        "edges": 5835,
+        "noise_fraction": 0.10240963855421686,
+        "tracks": 109,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 789,
+        "edges": 7342,
+        "noise_fraction": 0.07858048162230671,
+        "tracks": 130,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 654,
+        "edges": 5552,
+        "noise_fraction": 0.07033639143730887,
+        "tracks": 103,
+        "sector_fakes": 47
+      },
+      {
+        "nodes": 790,
+        "edges": 7438,
+        "noise_fraction": 0.0620253164556962,
+        "tracks": 141,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 834,
+        "edges": 7307,
+        "noise_fraction": 0.07314148681055156,
+        "tracks": 136,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 683,
+        "edges": 6209,
+        "noise_fraction": 0.08638360175695461,
+        "tracks": 113,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 714,
+        "edges": 6287,
+        "noise_fraction": 0.09943977591036414,
+        "tracks": 123,
+        "sector_fakes": 63
+      },
+      {
+        "nodes": 857,
+        "edges": 8114,
+        "noise_fraction": 0.07467911318553092,
+        "tracks": 151,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 721,
+        "edges": 6303,
+        "noise_fraction": 0.08321775312066575,
+        "tracks": 118,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 821,
+        "edges": 7519,
+        "noise_fraction": 0.08160779537149818,
+        "tracks": 140,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 741,
+        "edges": 6732,
+        "noise_fraction": 0.08367071524966262,
+        "tracks": 125,
+        "sector_fakes": 71
+      },
+      {
+        "nodes": 814,
+        "edges": 7644,
+        "noise_fraction": 0.06511056511056511,
+        "tracks": 143,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 756,
+        "edges": 6566,
+        "noise_fraction": 0.1164021164021164,
+        "tracks": 120,
+        "sector_fakes": 60
+      },
+      {
+        "nodes": 661,
+        "edges": 5942,
+        "noise_fraction": 0.08925869894099848,
+        "tracks": 112,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 685,
+        "edges": 6453,
+        "noise_fraction": 0.09197080291970802,
+        "tracks": 122,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 685,
+        "edges": 6331,
+        "noise_fraction": 0.08613138686131387,
+        "tracks": 121,
+        "sector_fakes": 61
+      },
+      {
+        "nodes": 694,
+        "edges": 6458,
+        "noise_fraction": 0.08213256484149856,
+        "tracks": 120,
+        "sector_fakes": 62
+      },
+      {
+        "nodes": 763,
+        "edges": 7183,
+        "noise_fraction": 0.07339449541284404,
+        "tracks": 129,
+        "sector_fakes": 65
+      },
+      {
+        "nodes": 662,
+        "edges": 6159,
+        "noise_fraction": 0.09667673716012085,
+        "tracks": 111,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 776,
+        "edges": 7278,
+        "noise_fraction": 0.08118556701030928,
+        "tracks": 128,
+        "sector_fakes": 54
+      },
+      {
+        "nodes": 709,
+        "edges": 5843,
+        "noise_fraction": 0.09732016925246827,
+        "tracks": 120,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 703,
+        "edges": 6910,
+        "noise_fraction": 0.06258890469416785,
+        "tracks": 124,
+        "sector_fakes": 59
+      },
+      {
+        "nodes": 764,
+        "edges": 6809,
+        "noise_fraction": 0.08507853403141362,
+        "tracks": 133,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 766,
+        "edges": 7197,
+        "noise_fraction": 0.07571801566579635,
+        "tracks": 131,
+        "sector_fakes": 76
+      },
+      {
+        "nodes": 755,
+        "edges": 6953,
+        "noise_fraction": 0.09668874172185431,
+        "tracks": 133,
+        "sector_fakes": 73
+      },
+      {
+        "nodes": 765,
+        "edges": 6975,
+        "noise_fraction": 0.07320261437908497,
+        "tracks": 142,
+        "sector_fakes": 67
+      },
+      {
+        "nodes": 791,
+        "edges": 7319,
+        "noise_fraction": 0.08596713021491782,
+        "tracks": 136,
+        "sector_fakes": 69
+      }
+    ],
+    "fragmented": 37,
+    "spans_sector": {
+      "eligible": 2164,
+      "matched": 321
+    },
+    "crowded": {
+      "eligible": 2776,
+      "matched": 1280
+    },
+    "sparse": {
+      "eligible": 1212,
+      "matched": 348
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 2737,
+    "tracks": 4639,
+    "efficiency": 0.5770609318996416,
+    "fake": 0.40978659193791767,
+    "official_score": 0.01918016919417117,
+    "event": "event000001005",
+    "sectors": 16,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.10232570799962559,
+    "assembly_s": 0.41739333599889505,
+    "occupancy": [
+      {
+        "nodes": 1684,
+        "edges": 15697,
+        "noise_fraction": 0.07779097387173396,
+        "tracks": 304,
+        "sector_fakes": 112
+      },
+      {
+        "nodes": 1567,
+        "edges": 14207,
+        "noise_fraction": 0.08232291001914487,
+        "tracks": 276,
+        "sector_fakes": 97
+      },
+      {
+        "nodes": 1548,
+        "edges": 13883,
+        "noise_fraction": 0.08979328165374677,
+        "tracks": 258,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 1594,
+        "edges": 14493,
+        "noise_fraction": 0.07151819322459223,
+        "tracks": 265,
+        "sector_fakes": 102
+      },
+      {
+        "nodes": 1789,
+        "edges": 16396,
+        "noise_fraction": 0.06931246506428172,
+        "tracks": 319,
+        "sector_fakes": 126
+      },
+      {
+        "nodes": 1561,
+        "edges": 14198,
+        "noise_fraction": 0.09417040358744394,
+        "tracks": 267,
+        "sector_fakes": 108
+      },
+      {
+        "nodes": 1743,
+        "edges": 16092,
+        "noise_fraction": 0.07630522088353414,
+        "tracks": 324,
+        "sector_fakes": 139
+      },
+      {
+        "nodes": 1751,
+        "edges": 16095,
+        "noise_fraction": 0.08395202741290692,
+        "tracks": 310,
+        "sector_fakes": 139
+      },
+      {
+        "nodes": 1718,
+        "edges": 15837,
+        "noise_fraction": 0.08731082654249127,
+        "tracks": 303,
+        "sector_fakes": 137
+      },
+      {
+        "nodes": 1493,
+        "edges": 13673,
+        "noise_fraction": 0.09243134628265237,
+        "tracks": 257,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 1537,
+        "edges": 14265,
+        "noise_fraction": 0.0826284970722186,
+        "tracks": 272,
+        "sector_fakes": 110
+      },
+      {
+        "nodes": 1589,
+        "edges": 14945,
+        "noise_fraction": 0.0868470736312146,
+        "tracks": 284,
+        "sector_fakes": 115
+      },
+      {
+        "nodes": 1636,
+        "edges": 14670,
+        "noise_fraction": 0.08496332518337409,
+        "tracks": 289,
+        "sector_fakes": 99
+      },
+      {
+        "nodes": 1608,
+        "edges": 15145,
+        "noise_fraction": 0.0740049751243781,
+        "tracks": 284,
+        "sector_fakes": 110
+      },
+      {
+        "nodes": 1699,
+        "edges": 16100,
+        "noise_fraction": 0.0824014125956445,
+        "tracks": 312,
+        "sector_fakes": 141
+      },
+      {
+        "nodes": 1724,
+        "edges": 16086,
+        "noise_fraction": 0.07888631090487239,
+        "tracks": 315,
+        "sector_fakes": 120
+      }
+    ],
+    "fragmented": 65,
+    "spans_sector": {
+      "eligible": 1275,
+      "matched": 191
+    },
+    "crowded": {
+      "eligible": 3193,
+      "matched": 1949
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 286
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 1605,
+    "tracks": 4201,
+    "efficiency": 0.338393421884883,
+    "fake": 0.6177100690311831,
+    "official_score": 0.012409018163259717,
+    "event": "event000001005",
+    "sectors": 64,
+    "drop": 0,
+    "curvature": 1.5,
+    "method": "triplet_ml",
+    "graph_s": 0.16725499800486432,
+    "assembly_s": 0.40527329400083545,
+    "occupancy": [
+      {
+        "nodes": 471,
+        "edges": 4297,
+        "noise_fraction": 0.07643312101910828,
+        "tracks": 70,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 413,
+        "edges": 3592,
+        "noise_fraction": 0.08716707021791767,
+        "tracks": 71,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 376,
+        "edges": 3323,
+        "noise_fraction": 0.07180851063829788,
+        "tracks": 63,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 424,
+        "edges": 3936,
+        "noise_fraction": 0.07547169811320754,
+        "tracks": 76,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 427,
+        "edges": 3782,
+        "noise_fraction": 0.09601873536299765,
+        "tracks": 68,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 374,
+        "edges": 3181,
+        "noise_fraction": 0.07219251336898395,
+        "tracks": 63,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 361,
+        "edges": 3009,
+        "noise_fraction": 0.08587257617728532,
+        "tracks": 58,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 405,
+        "edges": 3684,
+        "noise_fraction": 0.07407407407407407,
+        "tracks": 63,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 418,
+        "edges": 3599,
+        "noise_fraction": 0.08851674641148326,
+        "tracks": 66,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 395,
+        "edges": 3486,
+        "noise_fraction": 0.07088607594936709,
+        "tracks": 58,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 353,
+        "edges": 3102,
+        "noise_fraction": 0.08781869688385269,
+        "tracks": 54,
+        "sector_fakes": 29
+      },
+      {
+        "nodes": 382,
+        "edges": 3185,
+        "noise_fraction": 0.112565445026178,
+        "tracks": 56,
+        "sector_fakes": 31
+      },
+      {
+        "nodes": 459,
+        "edges": 4490,
+        "noise_fraction": 0.07625272331154684,
+        "tracks": 70,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 423,
+        "edges": 3606,
+        "noise_fraction": 0.07565011820330969,
+        "tracks": 76,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 354,
+        "edges": 2903,
+        "noise_fraction": 0.062146892655367235,
+        "tracks": 51,
+        "sector_fakes": 27
+      },
+      {
+        "nodes": 358,
+        "edges": 3082,
+        "noise_fraction": 0.06983240223463687,
+        "tracks": 56,
+        "sector_fakes": 28
+      },
+      {
+        "nodes": 416,
+        "edges": 4072,
+        "noise_fraction": 0.04807692307692308,
+        "tracks": 60,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 453,
+        "edges": 3814,
+        "noise_fraction": 0.07947019867549669,
+        "tracks": 78,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 441,
+        "edges": 3427,
+        "noise_fraction": 0.06349206349206349,
+        "tracks": 72,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 479,
+        "edges": 4575,
+        "noise_fraction": 0.08350730688935282,
+        "tracks": 87,
+        "sector_fakes": 55
+      },
+      {
+        "nodes": 447,
+        "edges": 4101,
+        "noise_fraction": 0.08053691275167785,
+        "tracks": 67,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 322,
+        "edges": 2762,
+        "noise_fraction": 0.09937888198757763,
+        "tracks": 45,
+        "sector_fakes": 29
+      },
+      {
+        "nodes": 360,
+        "edges": 2953,
+        "noise_fraction": 0.10555555555555556,
+        "tracks": 57,
+        "sector_fakes": 31
+      },
+      {
+        "nodes": 432,
+        "edges": 3895,
+        "noise_fraction": 0.09490740740740741,
+        "tracks": 64,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 523,
+        "edges": 4994,
+        "noise_fraction": 0.07265774378585087,
+        "tracks": 92,
+        "sector_fakes": 52
+      },
+      {
+        "nodes": 414,
+        "edges": 3727,
+        "noise_fraction": 0.0748792270531401,
+        "tracks": 76,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 424,
+        "edges": 3695,
+        "noise_fraction": 0.08018867924528301,
+        "tracks": 66,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 382,
+        "edges": 3235,
+        "noise_fraction": 0.07853403141361257,
+        "tracks": 54,
+        "sector_fakes": 33
+      },
+      {
+        "nodes": 472,
+        "edges": 4351,
+        "noise_fraction": 0.07415254237288135,
+        "tracks": 71,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 441,
+        "edges": 3767,
+        "noise_fraction": 0.09297052154195011,
+        "tracks": 74,
+        "sector_fakes": 45
+      },
+      {
+        "nodes": 404,
+        "edges": 3443,
+        "noise_fraction": 0.0891089108910891,
+        "tracks": 66,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 434,
+        "edges": 4015,
+        "noise_fraction": 0.08064516129032258,
+        "tracks": 67,
+        "sector_fakes": 46
+      },
+      {
+        "nodes": 508,
+        "edges": 4960,
+        "noise_fraction": 0.0688976377952756,
+        "tracks": 81,
+        "sector_fakes": 53
+      },
+      {
+        "nodes": 386,
+        "edges": 3268,
+        "noise_fraction": 0.06217616580310881,
+        "tracks": 61,
+        "sector_fakes": 32
+      },
+      {
+        "nodes": 367,
+        "edges": 2825,
+        "noise_fraction": 0.11716621253405994,
+        "tracks": 52,
+        "sector_fakes": 37
+      },
+      {
+        "nodes": 457,
+        "edges": 4169,
+        "noise_fraction": 0.1050328227571116,
+        "tracks": 70,
+        "sector_fakes": 49
+      },
+      {
+        "nodes": 414,
+        "edges": 3785,
+        "noise_fraction": 0.0748792270531401,
+        "tracks": 66,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 328,
+        "edges": 2585,
+        "noise_fraction": 0.11280487804878049,
+        "tracks": 50,
+        "sector_fakes": 27
+      },
+      {
+        "nodes": 344,
+        "edges": 3100,
+        "noise_fraction": 0.11627906976744186,
+        "tracks": 55,
+        "sector_fakes": 28
+      },
+      {
+        "nodes": 407,
+        "edges": 3667,
+        "noise_fraction": 0.07371007371007371,
+        "tracks": 66,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 411,
+        "edges": 3921,
+        "noise_fraction": 0.0851581508515815,
+        "tracks": 66,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 342,
+        "edges": 2784,
+        "noise_fraction": 0.0935672514619883,
+        "tracks": 58,
+        "sector_fakes": 29
+      },
+      {
+        "nodes": 353,
+        "edges": 3123,
+        "noise_fraction": 0.09348441926345609,
+        "tracks": 59,
+        "sector_fakes": 33
+      },
+      {
+        "nodes": 431,
+        "edges": 3969,
+        "noise_fraction": 0.06264501160092807,
+        "tracks": 67,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 469,
+        "edges": 4375,
+        "noise_fraction": 0.08315565031982942,
+        "tracks": 74,
+        "sector_fakes": 48
+      },
+      {
+        "nodes": 388,
+        "edges": 3457,
+        "noise_fraction": 0.08247422680412371,
+        "tracks": 66,
+        "sector_fakes": 41
+      },
+      {
+        "nodes": 332,
+        "edges": 2750,
+        "noise_fraction": 0.09939759036144578,
+        "tracks": 51,
+        "sector_fakes": 21
+      },
+      {
+        "nodes": 400,
+        "edges": 3902,
+        "noise_fraction": 0.085,
+        "tracks": 66,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 402,
+        "edges": 3782,
+        "noise_fraction": 0.06218905472636816,
+        "tracks": 61,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 440,
+        "edges": 3801,
+        "noise_fraction": 0.09318181818181819,
+        "tracks": 79,
+        "sector_fakes": 44
+      },
+      {
+        "nodes": 403,
+        "edges": 3245,
+        "noise_fraction": 0.09181141439205956,
+        "tracks": 60,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 391,
+        "edges": 3262,
+        "noise_fraction": 0.09207161125319693,
+        "tracks": 65,
+        "sector_fakes": 35
+      },
+      {
+        "nodes": 439,
+        "edges": 4454,
+        "noise_fraction": 0.06378132118451026,
+        "tracks": 68,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 340,
+        "edges": 2948,
+        "noise_fraction": 0.061764705882352944,
+        "tracks": 55,
+        "sector_fakes": 30
+      },
+      {
+        "nodes": 355,
+        "edges": 2971,
+        "noise_fraction": 0.09014084507042254,
+        "tracks": 61,
+        "sector_fakes": 39
+      },
+      {
+        "nodes": 474,
+        "edges": 4240,
+        "noise_fraction": 0.08016877637130802,
+        "tracks": 80,
+        "sector_fakes": 51
+      },
+      {
+        "nodes": 462,
+        "edges": 4575,
+        "noise_fraction": 0.08008658008658008,
+        "tracks": 76,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 405,
+        "edges": 3495,
+        "noise_fraction": 0.06666666666666667,
+        "tracks": 64,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 421,
+        "edges": 3744,
+        "noise_fraction": 0.0855106888361045,
+        "tracks": 71,
+        "sector_fakes": 42
+      },
+      {
+        "nodes": 411,
+        "edges": 3729,
+        "noise_fraction": 0.09732360097323602,
+        "tracks": 61,
+        "sector_fakes": 38
+      },
+      {
+        "nodes": 444,
+        "edges": 4103,
+        "noise_fraction": 0.08558558558558559,
+        "tracks": 68,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 385,
+        "edges": 3319,
+        "noise_fraction": 0.05974025974025974,
+        "tracks": 72,
+        "sector_fakes": 40
+      },
+      {
+        "nodes": 441,
+        "edges": 3703,
+        "noise_fraction": 0.09977324263038549,
+        "tracks": 72,
+        "sector_fakes": 43
+      },
+      {
+        "nodes": 454,
+        "edges": 4432,
+        "noise_fraction": 0.06828193832599119,
+        "tracks": 65,
+        "sector_fakes": 42
+      }
+    ],
+    "fragmented": 35,
+    "spans_sector": {
+      "eligible": 3346,
+      "matched": 542
+    },
+    "crowded": {
+      "eligible": 2910,
+      "matched": 1036
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 170
+    }
+  },
+  {
+    "eligible": 4743,
+    "matched": 1557,
+    "tracks": 4577,
+    "efficiency": 0.32827324478178366,
+    "fake": 0.659602359624208,
+    "official_score": 0.013076432614191967,
+    "event": "event000001005",
+    "sectors": 32,
+    "drop": 0,
+    "curvature": 0.0,
+    "method": "triplet_ml",
+    "graph_s": 0.11025508400325634,
+    "assembly_s": 0.32195654600036505,
+    "occupancy": [
+      {
+        "nodes": 884,
+        "edges": 7570,
+        "noise_fraction": 0.08144796380090498,
+        "tracks": 150,
+        "sector_fakes": 104
+      },
+      {
+        "nodes": 800,
+        "edges": 6951,
+        "noise_fraction": 0.07375,
+        "tracks": 148,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 801,
+        "edges": 6637,
+        "noise_fraction": 0.08489388264669163,
+        "tracks": 138,
+        "sector_fakes": 91
+      },
+      {
+        "nodes": 766,
+        "edges": 6371,
+        "noise_fraction": 0.07963446475195822,
+        "tracks": 134,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 813,
+        "edges": 6705,
+        "noise_fraction": 0.07995079950799508,
+        "tracks": 145,
+        "sector_fakes": 101
+      },
+      {
+        "nodes": 735,
+        "edges": 5919,
+        "noise_fraction": 0.10068027210884353,
+        "tracks": 126,
+        "sector_fakes": 75
+      },
+      {
+        "nodes": 882,
+        "edges": 7787,
+        "noise_fraction": 0.07596371882086168,
+        "tracks": 151,
+        "sector_fakes": 104
+      },
+      {
+        "nodes": 712,
+        "edges": 5743,
+        "noise_fraction": 0.06601123595505617,
+        "tracks": 117,
+        "sector_fakes": 66
+      },
+      {
+        "nodes": 869,
+        "edges": 7482,
+        "noise_fraction": 0.06444188722669736,
+        "tracks": 156,
+        "sector_fakes": 101
+      },
+      {
+        "nodes": 920,
+        "edges": 7746,
+        "noise_fraction": 0.07391304347826087,
+        "tracks": 162,
+        "sector_fakes": 113
+      },
+      {
+        "nodes": 769,
+        "edges": 6419,
+        "noise_fraction": 0.08842652795838751,
+        "tracks": 132,
+        "sector_fakes": 89
+      },
+      {
+        "nodes": 792,
+        "edges": 6549,
+        "noise_fraction": 0.09974747474747475,
+        "tracks": 133,
+        "sector_fakes": 85
+      },
+      {
+        "nodes": 937,
+        "edges": 8334,
+        "noise_fraction": 0.0736392742796158,
+        "tracks": 170,
+        "sector_fakes": 114
+      },
+      {
+        "nodes": 806,
+        "edges": 6528,
+        "noise_fraction": 0.0794044665012407,
+        "tracks": 135,
+        "sector_fakes": 80
+      },
+      {
+        "nodes": 913,
+        "edges": 7793,
+        "noise_fraction": 0.0832420591456736,
+        "tracks": 161,
+        "sector_fakes": 121
+      },
+      {
+        "nodes": 838,
+        "edges": 7054,
+        "noise_fraction": 0.08472553699284009,
+        "tracks": 140,
+        "sector_fakes": 105
+      },
+      {
+        "nodes": 894,
+        "edges": 7915,
+        "noise_fraction": 0.06599552572706935,
+        "tracks": 164,
+        "sector_fakes": 106
+      },
+      {
+        "nodes": 824,
+        "edges": 6678,
+        "noise_fraction": 0.1104368932038835,
+        "tracks": 133,
+        "sector_fakes": 90
+      },
+      {
+        "nodes": 742,
+        "edges": 5985,
+        "noise_fraction": 0.09164420485175202,
+        "tracks": 122,
+        "sector_fakes": 70
+      },
+      {
+        "nodes": 751,
+        "edges": 6371,
+        "noise_fraction": 0.09320905459387484,
+        "tracks": 130,
+        "sector_fakes": 74
+      },
+      {
+        "nodes": 753,
+        "edges": 6338,
+        "noise_fraction": 0.08897742363877822,
+        "tracks": 135,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 784,
+        "edges": 6724,
+        "noise_fraction": 0.07653061224489796,
+        "tracks": 136,
+        "sector_fakes": 84
+      },
+      {
+        "nodes": 857,
+        "edges": 7484,
+        "noise_fraction": 0.08284714119019837,
+        "tracks": 156,
+        "sector_fakes": 107
+      },
+      {
+        "nodes": 732,
+        "edges": 6253,
+        "noise_fraction": 0.09153005464480875,
+        "tracks": 133,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 842,
+        "edges": 7182,
+        "noise_fraction": 0.07838479809976247,
+        "tracks": 149,
+        "sector_fakes": 96
+      },
+      {
+        "nodes": 794,
+        "edges": 6236,
+        "noise_fraction": 0.09193954659949623,
+        "tracks": 138,
+        "sector_fakes": 86
+      },
+      {
+        "nodes": 779,
+        "edges": 7070,
+        "noise_fraction": 0.06290115532734275,
+        "tracks": 135,
+        "sector_fakes": 82
+      },
+      {
+        "nodes": 829,
+        "edges": 6867,
+        "noise_fraction": 0.08443908323281062,
+        "tracks": 147,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 867,
+        "edges": 7664,
+        "noise_fraction": 0.07381776239907728,
+        "tracks": 153,
+        "sector_fakes": 103
+      },
+      {
+        "nodes": 832,
+        "edges": 7078,
+        "noise_fraction": 0.09134615384615384,
+        "tracks": 143,
+        "sector_fakes": 95
+      },
+      {
+        "nodes": 829,
+        "edges": 7123,
+        "noise_fraction": 0.0735826296743064,
+        "tracks": 154,
+        "sector_fakes": 93
+      },
+      {
+        "nodes": 895,
+        "edges": 7735,
+        "noise_fraction": 0.08379888268156424,
+        "tracks": 151,
+        "sector_fakes": 103
+      }
+    ],
+    "fragmented": 20,
+    "spans_sector": {
+      "eligible": 2296,
+      "matched": 159
+    },
+    "crowded": {
+      "eligible": 3099,
+      "matched": 1073
+    },
+    "sparse": {
+      "eligible": 833,
+      "matched": 168
+    }
+  }
+]

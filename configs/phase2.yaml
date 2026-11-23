@@ -1,0 +1,9 @@
+seed: 1729
+sectors: 32
+epochs: 3
+threshold: 0.5
+width: 32
+depth: 2
+source_model: configs/mac_m1.yaml
+pt_bins: [0, 0.5, 1, 2, 5]
+
