@@ -1,0 +1,1361 @@
+{
+  "provenance": {
+    "event": "event000001004",
+    "stage": "development",
+    "configuration_hash": "e5b114d73118f877c70dd2ce1e7d1e77ba84e5dca5b87d4baa689589b6a42a43",
+    "input_hashes": {
+      "cells": "d09d91cd19791c02198a32d077f0e3151336ea9c307a4f8d6ccc34337c96ba17",
+      "hits": "7788a064e587572d0f97c1ac5694065f72475402b7fee4b9a7a9a7538599622f",
+      "particles": "14533b13ae3c196ae4ee3d24afa00ad4f80e4dca8a574a6c9fd0aae385ed9527",
+      "truth": "616135a3ebeb674666f635e83fe163f1dfa06b6778a87ff5d6e83c420b1f9fc1"
+    },
+    "geometry_sha256": "e01684d65c088794618b916655f989dae6f099de4ecc7a462987e97b4037639a",
+    "modes": [
+      "geometry",
+      "local",
+      "global",
+      "tight",
+      "strict",
+      "replace",
+      "beam",
+      "joint"
+    ]
+  },
+  "revision": "b89fe458375ce148d157582d7c4496e6331d2b67",
+  "python": "3.12.14",
+  "torch": "2.15.0",
+  "device": "cpu",
+  "rng_seed": 1729,
+  "model_checkpoint": null,
+  "hits": 138568,
+  "pixel_hits": 33799,
+  "load_s": 0.33825162499852013,
+  "graph_s": 0.225563001982664,
+  "seed_assembly_s": 1.1183737489918713,
+  "seed_common_s": 1.6806699160006247,
+  "pool_s": 0.257902916000603,
+  "peak_mib": 291.21875,
+  "region_weight": {
+    "7": 0.1366896625592874,
+    "8": 0.36775826751985424,
+    "9": 0.14809435890348,
+    "12": 0.04757556220617193,
+    "13": 0.15640573138311104,
+    "14": 0.05316830090601974,
+    "16": 0.02055515376931232,
+    "17": 0.047191779720792394,
+    "18": 0.022561183031971035
+  },
+  "rows": {
+    "geometry": {
+      "score": 0.21027419989543286,
+      "efficiency": 0.24647760115606937,
+      "fake": 0.5315717227179135,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9583065777917372,
+      "completeness": 0.7374145360395981,
+      "mixed": 0.4627659574468085,
+      "coverage": 0.28980717048669247,
+      "added": 19282,
+      "wrong_outer": 1405,
+      "assessable_outer": 14274,
+      "candidate_recall": 0.96649447553451,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3560,
+          "offered": 3546
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3018,
+          "offered": 2959
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2439,
+          "offered": 2364
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1989,
+          "offered": 1900
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1630,
+          "offered": 1521
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1302,
+          "offered": 1181
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.33000823358034076,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3697554961988905,
+          "paths_with_two_hits": 4488
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4527635528871623,
+          "paths_with_two_hits": 1459
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.38503774879890185,
+      "seed_purity": 0.7529741477922673,
+      "seed_completeness": 0.6075472590400524,
+      "seed_efficiency": 0.5891510190980581,
+      "retention": 1.0,
+      "correct_baseline": 3495,
+      "upstream_count": 2244,
+      "mixed_paths": 2697,
+      "severe": 0.0034317089910775567,
+      "first_change_layer": {
+        "8": 149,
+        "4": 1515,
+        "6": 580
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 836
+        },
+        "abs_half_curvature/0": {
+          "total": 1434,
+          "mixed": 823
+        },
+        "residual/0": {
+          "total": 3583,
+          "mixed": 268
+        },
+        "majority_pt/2": {
+          "total": 825,
+          "mixed": 166
+        },
+        "cross_sector/0": {
+          "total": 4133,
+          "mixed": 1636
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1602
+        },
+        "majority_pt/3": {
+          "total": 234,
+          "mixed": 49
+        },
+        "abs_half_curvature/1": {
+          "total": 4055,
+          "mixed": 1297
+        },
+        "majority_pt/1": {
+          "total": 1964,
+          "mixed": 415
+        },
+        "cross_sector/1": {
+          "total": 1695,
+          "mixed": 608
+        },
+        "majority_pt/0": {
+          "total": 2804,
+          "mixed": 1614
+        },
+        "abs_half_curvature/2": {
+          "total": 339,
+          "mixed": 124
+        },
+        "residual/1": {
+          "total": 573,
+          "mixed": 391
+        },
+        "residual/2": {
+          "total": 756,
+          "mixed": 700
+        },
+        "residual/3": {
+          "total": 916,
+          "mixed": 885
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1408
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 642
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 1.8692580819988507,
+      "extension_s": 0.18757841600017855,
+      "select_s": 0.0010097499980474822,
+      "evaluate_s": 0.5471844170024269,
+      "times": {
+        "fit": 0.06039979099659831,
+        "search": 0.07084866799777956,
+        "ownership": 0.05144820900022751
+      }
+    },
+    "local": {
+      "score": 0.21365162532878199,
+      "efficiency": 0.25090317919075145,
+      "fake": 0.5231640356897735,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9731438627766921,
+      "completeness": 0.741215093725099,
+      "mixed": 0.42896362388469456,
+      "coverage": 0.25809710755730036,
+      "added": 14888,
+      "wrong_outer": 563,
+      "assessable_outer": 13548,
+      "candidate_recall": 0.955589037164586,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3560,
+          "offered": 3535
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3018,
+          "offered": 2891
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2439,
+          "offered": 2303
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1989,
+          "offered": 1874
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1630,
+          "offered": 1518
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1302,
+          "offered": 1198
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.33437836468427384,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.37415245531128005,
+          "paths_with_two_hits": 3283
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4746600741656366,
+          "paths_with_two_hits": 1241
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.38503774879890185,
+      "seed_purity": 0.7529741477922673,
+      "seed_completeness": 0.6075472590400524,
+      "seed_efficiency": 0.5891510190980581,
+      "retention": 1.0,
+      "correct_baseline": 3495,
+      "upstream_count": 2244,
+      "mixed_paths": 2500,
+      "severe": 0.0018874399450926561,
+      "first_change_layer": {
+        "8": 149,
+        "4": 1515,
+        "6": 580
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 836
+        },
+        "abs_half_curvature/0": {
+          "total": 1434,
+          "mixed": 823
+        },
+        "residual/0": {
+          "total": 3583,
+          "mixed": 268
+        },
+        "majority_pt/2": {
+          "total": 825,
+          "mixed": 166
+        },
+        "cross_sector/0": {
+          "total": 4133,
+          "mixed": 1636
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1602
+        },
+        "majority_pt/3": {
+          "total": 234,
+          "mixed": 49
+        },
+        "abs_half_curvature/1": {
+          "total": 4055,
+          "mixed": 1297
+        },
+        "majority_pt/1": {
+          "total": 1964,
+          "mixed": 415
+        },
+        "cross_sector/1": {
+          "total": 1695,
+          "mixed": 608
+        },
+        "majority_pt/0": {
+          "total": 2804,
+          "mixed": 1614
+        },
+        "abs_half_curvature/2": {
+          "total": 339,
+          "mixed": 124
+        },
+        "residual/1": {
+          "total": 573,
+          "mixed": 391
+        },
+        "residual/2": {
+          "total": 756,
+          "mixed": 700
+        },
+        "residual/3": {
+          "total": 916,
+          "mixed": 885
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1408
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 642
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 2.0144595410019974,
+      "extension_s": 0.333789042000717,
+      "select_s": 5.830006557516754e-07,
+      "evaluate_s": 0.586031417002232,
+      "times": {
+        "search": 0.2470491660060361,
+        "update": 0.0342531250025786,
+        "ownership": 0.03918504199828021
+      }
+    },
+    "global": {
+      "score": 0.2134381258446633,
+      "efficiency": 0.2509934971098266,
+      "fake": 0.5229924502402197,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9752057666055507,
+      "completeness": 0.74047660420377,
+      "mixed": 0.4186684969114619,
+      "coverage": 0.2538176202297789,
+      "added": 14295,
+      "wrong_outer": 438,
+      "assessable_outer": 13369,
+      "candidate_recall": 0.9735256134309083,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3560,
+          "offered": 3535
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3018,
+          "offered": 2956
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2439,
+          "offered": 2364
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1989,
+          "offered": 1918
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1630,
+          "offered": 1560
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1302,
+          "offered": 1236
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.33456837038444487,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.37312512841586193,
+          "paths_with_two_hits": 3124
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4713049620342575,
+          "paths_with_two_hits": 1220
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.38503774879890185,
+      "seed_purity": 0.7529741477922673,
+      "seed_completeness": 0.6075472590400524,
+      "seed_efficiency": 0.5891510190980581,
+      "retention": 1.0,
+      "correct_baseline": 3495,
+      "upstream_count": 2244,
+      "mixed_paths": 2440,
+      "severe": 0.0015442690459849004,
+      "first_change_layer": {
+        "8": 149,
+        "4": 1515,
+        "6": 580
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 836
+        },
+        "abs_half_curvature/0": {
+          "total": 1434,
+          "mixed": 823
+        },
+        "residual/0": {
+          "total": 3583,
+          "mixed": 268
+        },
+        "majority_pt/2": {
+          "total": 825,
+          "mixed": 166
+        },
+        "cross_sector/0": {
+          "total": 4133,
+          "mixed": 1636
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1602
+        },
+        "majority_pt/3": {
+          "total": 234,
+          "mixed": 49
+        },
+        "abs_half_curvature/1": {
+          "total": 4055,
+          "mixed": 1297
+        },
+        "majority_pt/1": {
+          "total": 1964,
+          "mixed": 415
+        },
+        "cross_sector/1": {
+          "total": 1695,
+          "mixed": 608
+        },
+        "majority_pt/0": {
+          "total": 2804,
+          "mixed": 1614
+        },
+        "abs_half_curvature/2": {
+          "total": 339,
+          "mixed": 124
+        },
+        "residual/1": {
+          "total": 573,
+          "mixed": 391
+        },
+        "residual/2": {
+          "total": 756,
+          "mixed": 700
+        },
+        "residual/3": {
+          "total": 916,
+          "mixed": 885
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1408
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 642
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 1.9942805409991706,
+      "extension_s": 0.31361029199979384,
+      "select_s": 3.3299875212833285e-07,
+      "evaluate_s": 0.4962943329992413,
+      "times": {
+        "search": 0.20483654200143064,
+        "update": 0.02952762799759512,
+        "ownership": 0.0348515839978063,
+        "global": 0.03158779200020945
+      }
+    },
+    "tight": {
+      "score": 0.21184609456938225,
+      "efficiency": 0.24945809248554912,
+      "fake": 0.5259094028826355,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9783284771789478,
+      "completeness": 0.7406486679740822,
+      "mixed": 0.4166094715168154,
+      "coverage": 0.25080105074764736,
+      "added": 13877,
+      "wrong_outer": 375,
+      "assessable_outer": 13229,
+      "candidate_recall": 0.9405940594059405,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3560,
+          "offered": 3486
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3018,
+          "offered": 2845
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2439,
+          "offered": 2268
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1989,
+          "offered": 1851
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1630,
+          "offered": 1496
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1302,
+          "offered": 1164
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.33298498954968647,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.37024861310869117,
+          "paths_with_two_hits": 2990
+        },
+        "17": {
+          "matched_hit_efficiency": 0.46441815292247923,
+          "paths_with_two_hits": 1192
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.38503774879890185,
+      "seed_purity": 0.7529741477922673,
+      "seed_completeness": 0.6075472590400524,
+      "seed_efficiency": 0.5891510190980581,
+      "retention": 1.0,
+      "correct_baseline": 3495,
+      "upstream_count": 2244,
+      "mixed_paths": 2428,
+      "severe": 0.0015442690459849004,
+      "first_change_layer": {
+        "8": 149,
+        "4": 1515,
+        "6": 580
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 836
+        },
+        "abs_half_curvature/0": {
+          "total": 1434,
+          "mixed": 823
+        },
+        "residual/0": {
+          "total": 3583,
+          "mixed": 268
+        },
+        "majority_pt/2": {
+          "total": 825,
+          "mixed": 166
+        },
+        "cross_sector/0": {
+          "total": 4133,
+          "mixed": 1636
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1602
+        },
+        "majority_pt/3": {
+          "total": 234,
+          "mixed": 49
+        },
+        "abs_half_curvature/1": {
+          "total": 4055,
+          "mixed": 1297
+        },
+        "majority_pt/1": {
+          "total": 1964,
+          "mixed": 415
+        },
+        "cross_sector/1": {
+          "total": 1695,
+          "mixed": 608
+        },
+        "majority_pt/0": {
+          "total": 2804,
+          "mixed": 1614
+        },
+        "abs_half_curvature/2": {
+          "total": 339,
+          "mixed": 124
+        },
+        "residual/1": {
+          "total": 573,
+          "mixed": 391
+        },
+        "residual/2": {
+          "total": 756,
+          "mixed": 700
+        },
+        "residual/3": {
+          "total": 916,
+          "mixed": 885
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1408
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 642
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 1.9588023330034048,
+      "extension_s": 0.27813200000309735,
+      "select_s": 4.169996827840805e-07,
+      "evaluate_s": 0.506642374999501,
+      "times": {
+        "search": 0.20818841500295093,
+        "update": 0.02823283299949253,
+        "ownership": 0.02879075000237208
+      }
+    },
+    "strict": {
+      "score": 0.21035629345086168,
+      "efficiency": 0.2438583815028902,
+      "fake": 0.45012214983713356,
+      "duplicate": 0.00020358306188925082,
+      "purity": 0.9770614344503233,
+      "completeness": 0.7435552218599605,
+      "mixed": 0.32797231270358307,
+      "coverage": 0.22806131285722533,
+      "added": 14023,
+      "wrong_outer": 500,
+      "assessable_outer": 13146,
+      "candidate_recall": 0.9669136911445467,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3421,
+          "offered": 3411
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2887,
+          "offered": 2801
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2335,
+          "offered": 2236
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1903,
+          "offered": 1818
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1557,
+          "offered": 1473
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1256,
+          "offered": 1178
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3277281651782887,
+          "paths_with_two_hits": 4912
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3633449763714814,
+          "paths_with_two_hits": 3079
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4605332862440403,
+          "paths_with_two_hits": 1206
+        }
+      },
+      "seed_count": 4912,
+      "seed_mixed": 0.27666938110749184,
+      "seed_purity": 0.823239006514658,
+      "seed_completeness": 0.6596773267223185,
+      "seed_efficiency": 0.5698924731182796,
+      "retention": 0.997997138769671,
+      "correct_baseline": 3495,
+      "upstream_count": 1359,
+      "mixed_paths": 1611,
+      "severe": 0.002239413680781759,
+      "first_change_layer": {
+        "8": 102,
+        "4": 928,
+        "6": 329
+      },
+      "strata": {
+        "length/4": {
+          "total": 2843,
+          "mixed": 297
+        },
+        "abs_half_curvature/0": {
+          "total": 1122,
+          "mixed": 520
+        },
+        "residual/0": {
+          "total": 3583,
+          "mixed": 268
+        },
+        "majority_pt/2": {
+          "total": 751,
+          "mixed": 95
+        },
+        "cross_sector/0": {
+          "total": 3459,
+          "mixed": 985
+        },
+        "skipped_pixel_layer/0": {
+          "total": 4355,
+          "mixed": 864
+        },
+        "majority_pt/3": {
+          "total": 217,
+          "mixed": 32
+        },
+        "abs_half_curvature/1": {
+          "total": 3494,
+          "mixed": 755
+        },
+        "majority_pt/1": {
+          "total": 1794,
+          "mixed": 254
+        },
+        "cross_sector/1": {
+          "total": 1453,
+          "mixed": 374
+        },
+        "majority_pt/0": {
+          "total": 2149,
+          "mixed": 978
+        },
+        "abs_half_curvature/2": {
+          "total": 296,
+          "mixed": 84
+        },
+        "residual/1": {
+          "total": 573,
+          "mixed": 391
+        },
+        "residual/2": {
+          "total": 756,
+          "mixed": 700
+        },
+        "length/3": {
+          "total": 2069,
+          "mixed": 1062
+        },
+        "skipped_pixel_layer/1": {
+          "total": 557,
+          "mixed": 495
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 2.2746954150024976,
+      "extension_s": 0.33445154199944227,
+      "select_s": 0.0016710410018276889,
+      "evaluate_s": 1.0109768750007788,
+      "times": {
+        "search": 0.2488121679998585,
+        "update": 0.03616429199973936,
+        "ownership": 0.038945041997067165
+      }
+    },
+    "replace": {
+      "score": 0.21433855531420867,
+      "efficiency": 0.2520773121387283,
+      "fake": 0.5209334248455731,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9735302815739935,
+      "completeness": 0.7413577955580085,
+      "mixed": 0.42210020590253944,
+      "coverage": 0.25816205761792044,
+      "added": 14897,
+      "wrong_outer": 539,
+      "assessable_outer": 13526,
+      "candidate_recall": 0.9590601124405362,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3546,
+          "offered": 3527
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3004,
+          "offered": 2889
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2429,
+          "offered": 2303
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1979,
+          "offered": 1873
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1622,
+          "offered": 1518
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1294,
+          "offered": 1196
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.33627842168598393,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3755907129648654,
+          "paths_with_two_hits": 3281
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4758961681087763,
+          "paths_with_two_hits": 1241
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.37748798901853126,
+      "seed_purity": 0.7548043925875085,
+      "seed_completeness": 0.6083852360748381,
+      "seed_efficiency": 0.5893115069812229,
+      "retention": 0.9035765379113019,
+      "correct_baseline": 3495,
+      "upstream_count": 2200,
+      "mixed_paths": 2460,
+      "severe": 0.0024021962937542897,
+      "first_change_layer": {
+        "8": 137,
+        "4": 1481,
+        "6": 582
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 806
+        },
+        "abs_half_curvature/0": {
+          "total": 1432,
+          "mixed": 822
+        },
+        "residual/0": {
+          "total": 3653,
+          "mixed": 290
+        },
+        "majority_pt/2": {
+          "total": 820,
+          "mixed": 162
+        },
+        "cross_sector/0": {
+          "total": 4107,
+          "mixed": 1594
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1559
+        },
+        "majority_pt/3": {
+          "total": 233,
+          "mixed": 49
+        },
+        "abs_half_curvature/1": {
+          "total": 4046,
+          "mixed": 1255
+        },
+        "majority_pt/1": {
+          "total": 1972,
+          "mixed": 410
+        },
+        "cross_sector/1": {
+          "total": 1721,
+          "mixed": 606
+        },
+        "majority_pt/0": {
+          "total": 2802,
+          "mixed": 1579
+        },
+        "abs_half_curvature/2": {
+          "total": 350,
+          "mixed": 123
+        },
+        "residual/1": {
+          "total": 572,
+          "mixed": 388
+        },
+        "residual/2": {
+          "total": 742,
+          "mixed": 689
+        },
+        "residual/3": {
+          "total": 861,
+          "mixed": 833
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1394
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 641
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 2.3131199560011737,
+      "extension_s": 0.32748458300193306,
+      "select_s": 0.04706254099801299,
+      "evaluate_s": 0.4991450840025209,
+      "times": {
+        "search": 0.24127199899885454,
+        "update": 0.0311899580010504,
+        "ownership": 0.038400166002247715
+      }
+    },
+    "beam": {
+      "score": 0.21446493056256588,
+      "efficiency": 0.2522579479768786,
+      "fake": 0.5205902539464653,
+      "duplicate": 0.00017158544955387783,
+      "purity": 0.9736268107911502,
+      "completeness": 0.7412178835640326,
+      "mixed": 0.42192862045298557,
+      "coverage": 0.2583208244327695,
+      "added": 14919,
+      "wrong_outer": 541,
+      "assessable_outer": 13551,
+      "candidate_recall": 0.9583003810482421,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3555,
+          "offered": 3535
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 3013,
+          "offered": 2894
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2435,
+          "offered": 2306
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1984,
+          "offered": 1876
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1625,
+          "offered": 1520
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1297,
+          "offered": 1198
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3365000950028501,
+          "paths_with_two_hits": 5828
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3760838298746661,
+          "paths_with_two_hits": 3286
+        },
+        "17": {
+          "matched_hit_efficiency": 0.47624933780681616,
+          "paths_with_two_hits": 1242
+        }
+      },
+      "seed_count": 5828,
+      "seed_mixed": 0.37714481811942346,
+      "seed_purity": 0.7550617707618394,
+      "seed_completeness": 0.6085795634054042,
+      "seed_efficiency": 0.5901139463970471,
+      "retention": 0.9058655221745351,
+      "correct_baseline": 3495,
+      "upstream_count": 2198,
+      "mixed_paths": 2459,
+      "severe": 0.002230610844200412,
+      "first_change_layer": {
+        "8": 138,
+        "4": 1481,
+        "6": 579
+      },
+      "strata": {
+        "length/4": {
+          "total": 3392,
+          "mixed": 805
+        },
+        "abs_half_curvature/0": {
+          "total": 1434,
+          "mixed": 825
+        },
+        "residual/0": {
+          "total": 3651,
+          "mixed": 289
+        },
+        "majority_pt/2": {
+          "total": 818,
+          "mixed": 160
+        },
+        "cross_sector/0": {
+          "total": 4105,
+          "mixed": 1590
+        },
+        "skipped_pixel_layer/0": {
+          "total": 5116,
+          "mixed": 1556
+        },
+        "majority_pt/3": {
+          "total": 232,
+          "mixed": 48
+        },
+        "abs_half_curvature/1": {
+          "total": 4045,
+          "mixed": 1252
+        },
+        "majority_pt/1": {
+          "total": 1970,
+          "mixed": 408
+        },
+        "cross_sector/1": {
+          "total": 1723,
+          "mixed": 608
+        },
+        "majority_pt/0": {
+          "total": 2807,
+          "mixed": 1582
+        },
+        "abs_half_curvature/2": {
+          "total": 349,
+          "mixed": 121
+        },
+        "residual/1": {
+          "total": 569,
+          "mixed": 386
+        },
+        "residual/2": {
+          "total": 745,
+          "mixed": 690
+        },
+        "residual/3": {
+          "total": 863,
+          "mixed": 833
+        },
+        "length/3": {
+          "total": 2436,
+          "mixed": 1393
+        },
+        "skipped_pixel_layer/1": {
+          "total": 712,
+          "mixed": 642
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 2.314497832001507,
+      "extension_s": 0.2709155419979652,
+      "select_s": 0.1050094580023142,
+      "evaluate_s": 0.48584883299918147,
+      "times": {
+        "search": 0.19595258299887064,
+        "update": 0.029676790996745694,
+        "ownership": 0.034302041996852495
+      }
+    },
+    "joint": {
+      "score": 0.21494591936437363,
+      "efficiency": 0.252528901734104,
+      "fake": 0.5022238035936666,
+      "duplicate": 0.0003558085749866572,
+      "purity": 0.9749043418034835,
+      "completeness": 0.7419007870046118,
+      "mixed": 0.39476961394769616,
+      "coverage": 0.2518691184111772,
+      "added": 14770,
+      "wrong_outer": 489,
+      "assessable_outer": 13475,
+      "candidate_recall": 0.9689786362306116,
+      "transition_counts": [
+        {
+          "volume": 13,
+          "layer": 2,
+          "eligible": 3506,
+          "offered": 3488
+        },
+        {
+          "volume": 13,
+          "layer": 4,
+          "eligible": 2962,
+          "offered": 2875
+        },
+        {
+          "volume": 13,
+          "layer": 6,
+          "eligible": 2391,
+          "offered": 2296
+        },
+        {
+          "volume": 13,
+          "layer": 8,
+          "eligible": 1949,
+          "offered": 1873
+        },
+        {
+          "volume": 17,
+          "layer": 2,
+          "eligible": 1591,
+          "offered": 1517
+        },
+        {
+          "volume": 17,
+          "layer": 4,
+          "eligible": 1269,
+          "offered": 1195
+        }
+      ],
+      "regions": {
+        "8": {
+          "matched_hit_efficiency": 0.3373551206536196,
+          "paths_with_two_hits": 5621
+        },
+        "13": {
+          "matched_hit_efficiency": 0.3760427367988494,
+          "paths_with_two_hits": 3240
+        },
+        "17": {
+          "matched_hit_efficiency": 0.4755429984107364,
+          "paths_with_two_hits": 1240
+        }
+      },
+      "seed_count": 5621,
+      "seed_mixed": 0.3472691691869774,
+      "seed_purity": 0.7700883591294551,
+      "seed_completeness": 0.6222536571140022,
+      "seed_efficiency": 0.5886695554485636,
+      "retention": 0.7965665236051502,
+      "correct_baseline": 3495,
+      "upstream_count": 1952,
+      "mixed_paths": 2219,
+      "severe": 0.0016011385874399574,
+      "first_change_layer": {
+        "8": 127,
+        "4": 1295,
+        "6": 530
+      },
+      "strata": {
+        "length/4": {
+          "total": 3268,
+          "mixed": 672
+        },
+        "abs_half_curvature/0": {
+          "total": 1362,
+          "mixed": 752
+        },
+        "residual/0": {
+          "total": 3701,
+          "mixed": 296
+        },
+        "majority_pt/2": {
+          "total": 796,
+          "mixed": 137
+        },
+        "cross_sector/0": {
+          "total": 3964,
+          "mixed": 1439
+        },
+        "skipped_pixel_layer/0": {
+          "total": 4953,
+          "mixed": 1360
+        },
+        "majority_pt/3": {
+          "total": 226,
+          "mixed": 43
+        },
+        "abs_half_curvature/1": {
+          "total": 3914,
+          "mixed": 1095
+        },
+        "majority_pt/1": {
+          "total": 1918,
+          "mixed": 361
+        },
+        "cross_sector/1": {
+          "total": 1657,
+          "mixed": 513
+        },
+        "majority_pt/0": {
+          "total": 2680,
+          "mixed": 1411
+        },
+        "abs_half_curvature/2": {
+          "total": 345,
+          "mixed": 105
+        },
+        "residual/1": {
+          "total": 535,
+          "mixed": 353
+        },
+        "residual/2": {
+          "total": 658,
+          "mixed": 605
+        },
+        "residual/3": {
+          "total": 727,
+          "mixed": 698
+        },
+        "length/3": {
+          "total": 2353,
+          "mixed": 1280
+        },
+        "skipped_pixel_layer/1": {
+          "total": 668,
+          "mixed": 592
+        },
+        "majority_pt/noise": {
+          "total": 1,
+          "mixed": 0
+        }
+      },
+      "runtime": 2.3780075409995334,
+      "extension_s": 0.28176137499758624,
+      "select_s": 0.15767333400071948,
+      "evaluate_s": 0.4735808339974028,
+      "times": {
+        "search": 0.19678558400119073,
+        "update": 0.035152124997694045,
+        "ownership": 0.03924395900321542
+      }
+    }
+  },
+  "atlas": []
+}

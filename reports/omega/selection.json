@@ -1,0 +1,11 @@
+{
+  "baseline": "local",
+  "challenger": "beam",
+  "validation_choice": "beam",
+  "eligible": [
+    "replace",
+    "beam",
+    "joint"
+  ],
+  "event": 1002
+}
