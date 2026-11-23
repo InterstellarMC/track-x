@@ -1,12 +1,30 @@
 # TRACK-X
 
-TRACK-X reconstructs prompt charged-particle trajectories in a simulated cylindrical detector on a laptop. It compares a geometric follower, an edge MLP, a message-passing GNN and a hybrid that adds a three-hit direction constraint. Truth labels enter training and evaluation through a separate interface.
+**Physics-constrained charged-particle track reconstruction on an Apple M1.**
 
-**Measured finding.** With increased occupancy, clutter, hit loss and curvature, adding the direction constraint reduced the GNN fake-track rate from 9.2% to 6.6%. Efficiency moved from 75.0% to 74.6%. The classical tracker achieved 71.4% efficiency and a 7.0% fake rate in that sample. These are three-seed means on synthetic events. The historical Phase I study used synthetic events only. [Technical report](reports/TECHNICAL_REPORT.md) · [All benchmark rows](reports/RESULTS.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-1d7271.svg)](LICENSE) [![Python 3.12](https://img.shields.io/badge/Python-3.12-30486b.svg)](pyproject.toml)
 
-## Official TrackML validation
+TRACK-X links detector hits into trajectories using sparse candidate graphs, compact graph neural networks and geometric constraints. The project includes an offline synthetic benchmark, a held-out evaluation on official TrackML simulated events and an interactive detector lab.
 
-Phase II evaluated nine official TrackML simulated events. Two trained the networks, one selected checkpoints, three supported exploratory evaluation, and three independently tested a prespecified sector-boundary change. The main reconstruction covers the four pixel-barrel layers of volume 8. The official scorer evaluates every hit in each complete event. Geometry-aware candidates improved acceptance, and whole-path assembly provided the largest reconstruction gain. The classical triplet ranker and its GNN-weighted variant performed similarly on this small test sample. [Phase II research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [M1 setup, data and reproduction](reports/phase2/REPRODUCIBILITY.md) · [Figures](reports/phase2/measurements.html)
+[Research report](reports/phase2/FINAL_RESEARCH_REPORT.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
+
+## Sector boundaries on official TrackML
+
+![Grouped bar chart of pixel-barrel reconstruction efficiency and fake-track rate across three held-out TrackML events](docs/figures/trackml-confirmation.png)
+
+On three confirmation events, adding a half-sector-shifted pass improved pixel-barrel efficiency in every event. Geometry-only and GNN-weighted ranking produced nearly identical results with two passes.
+
+| Method | Barrel efficiency | Barrel fake-track rate | Official full-event score |
+| --- | ---: | ---: | ---: |
+| Geometry, one pass | 50.27% | 47.14% | 0.01633 |
+| Geometry, two passes | 63.42% | 32.91% | 0.01959 |
+| GNN-weighted, two passes | 63.42% | 32.89% | 0.01956 |
+
+The efficiency and fake rates use volume 8. The organizers’ scorer receives every event hit, including hits left unassigned beyond the barrel. The confirmation sample contains three consecutive simulated events and uses a single learned checkpoint. [Paired event results and denominators](reports/phase2/CONFIRMATION.md) · [Frozen event manifests](reports/phase2/confirmation-manifest.json)
+
+## Synthetic benchmark
+
+The separate three-seed synthetic stress study found a fake-track rate of 9.2% for the GNN and 6.6% for the hybrid GNN with the direction constraint. Track efficiency was 75.0% and 74.6%, respectively. [Phase I report](reports/TECHNICAL_REPORT.md) · [All synthetic results](reports/RESULTS.md)
 
 ## Reproduce locally
 
