@@ -1,0 +1,292 @@
+{
+  "archive": "train_1.zip",
+  "events": {
+    "event000001027": {
+      "cells": {
+        "path": "event000001027-cells.csv",
+        "bytes": 13344235,
+        "sha256": "a27b751765d05920b74f195bd3c78bf7d7b0d423fcc6372142872116aab884d6"
+      },
+      "hits": {
+        "path": "event000001027-hits.csv",
+        "bytes": 4399400,
+        "sha256": "0e91581efe46980bdb17b6d9e9de4da97ba5741875a22e9795ebe36cb1efb88e"
+      },
+      "particles": {
+        "path": "event000001027-particles.csv",
+        "bytes": 938967,
+        "sha256": "841f1b19df9b0e6491ba883b43511ffe5714fb67616d00a9099303e54f7ccb8a"
+      },
+      "truth": {
+        "path": "event000001027-truth.csv",
+        "bytes": 9896477,
+        "sha256": "a1889f4034125608f2576e90b3ef16a76f7b8942dd0dd9748c34a37c16be52c0"
+      }
+    },
+    "event000001185": {
+      "cells": {
+        "path": "event000001185-cells.csv",
+        "bytes": 12600844,
+        "sha256": "0ae266e0319410ffd676c0d3471929621bde06d856464c8a0ea11a5777b4a30c"
+      },
+      "hits": {
+        "path": "event000001185-hits.csv",
+        "bytes": 4131674,
+        "sha256": "4ca7ae6fc4c798f714836b68a4cbef6debefed5cc06a71085c017afb7d9ae7b9"
+      },
+      "particles": {
+        "path": "event000001185-particles.csv",
+        "bytes": 872336,
+        "sha256": "29910412de69cefd3f2df32cb876eedffa12ed25636655376d99ba2f9024e1ed"
+      },
+      "truth": {
+        "path": "event000001185-truth.csv",
+        "bytes": 9268128,
+        "sha256": "77c4be7779450ac907b6d978575c7afea5fad555cb435d9f3dfe668296293a07"
+      }
+    },
+    "event000001343": {
+      "cells": {
+        "path": "event000001343-cells.csv",
+        "bytes": 10967943,
+        "sha256": "9173c8f6930bf031c7b484116fe887c99b63b4042646d985002cc55b261f9b45"
+      },
+      "hits": {
+        "path": "event000001343-hits.csv",
+        "bytes": 3644265,
+        "sha256": "0cb50d23aa47071a23f225a7208f234ddf868b2f24ced7c13b319700c11bb890"
+      },
+      "particles": {
+        "path": "event000001343-particles.csv",
+        "bytes": 760125,
+        "sha256": "ac15c0cb2422aff8139a7bb1f20a05e354a6ca892dab95ce2090d00015a7aba0"
+      },
+      "truth": {
+        "path": "event000001343-truth.csv",
+        "bytes": 8130242,
+        "sha256": "ff4cfc8d4676b81b54ae0cb18dad63211ca6d2bb8cb8e867d954f8c08b7ece8b"
+      }
+    },
+    "event000001502": {
+      "cells": {
+        "path": "event000001502-cells.csv",
+        "bytes": 12851585,
+        "sha256": "b4153e2b30834b18642a4cf20820e9085684e80c563b665e0772f978b35731be"
+      },
+      "hits": {
+        "path": "event000001502-hits.csv",
+        "bytes": 4257637,
+        "sha256": "4deef2f9df17f417e5c41160edc3804dd601773488d59900f9b74cfe0fca2aa6"
+      },
+      "particles": {
+        "path": "event000001502-particles.csv",
+        "bytes": 893092,
+        "sha256": "0199be2aff80fa3dd0cab0fd98cf2bb279ba6c1acc91a80cb4d4f6031fc70a21"
+      },
+      "truth": {
+        "path": "event000001502-truth.csv",
+        "bytes": 9561127,
+        "sha256": "cb712d7453f72ec0ae1f36192af5a11b03c244fd3776da18e238f37ef0f14700"
+      }
+    },
+    "event000001660": {
+      "cells": {
+        "path": "event000001660-cells.csv",
+        "bytes": 11552720,
+        "sha256": "5f2224688829d8d43e3bcecc025663aa582a920dfdc71c3d2cc822b56cec5a54"
+      },
+      "hits": {
+        "path": "event000001660-hits.csv",
+        "bytes": 3774837,
+        "sha256": "b4e7ddccb79b537bf7055c73d24e3792ffd025f14b71622a72a229aa3600217f"
+      },
+      "particles": {
+        "path": "event000001660-particles.csv",
+        "bytes": 782960,
+        "sha256": "3191f3e19b9b33c151ebc209f46d9ca92f13501b58ff2e2f44957d8dc50cac98"
+      },
+      "truth": {
+        "path": "event000001660-truth.csv",
+        "bytes": 8441832,
+        "sha256": "24dc9c42c91323a4cb935c2aa44beb77a3486ca1564e3f59b68b4251eae5600f"
+      }
+    },
+    "event000001818": {
+      "cells": {
+        "path": "event000001818-cells.csv",
+        "bytes": 12917845,
+        "sha256": "ffa836176869f06f3b0da11a828e611c5ffbe3c1c4c7b9c6c8ac4dcb4319b8d3"
+      },
+      "hits": {
+        "path": "event000001818-hits.csv",
+        "bytes": 4259488,
+        "sha256": "413e783efa871ecebdd491c4eec11c608d1ee8d3196d81d93ef1774f67c4e82d"
+      },
+      "particles": {
+        "path": "event000001818-particles.csv",
+        "bytes": 906285,
+        "sha256": "394fe5ad9d04ca4bae1e41e0cabe00b66466bc8f8952b3e2c58e651f7f56ce9e"
+      },
+      "truth": {
+        "path": "event000001818-truth.csv",
+        "bytes": 9574911,
+        "sha256": "2e63210f51fa745ef725af8a9d5cc60aeeb40d54f5d8552c6d3c995a17a1045d"
+      }
+    },
+    "event000001977": {
+      "cells": {
+        "path": "event000001977-cells.csv",
+        "bytes": 11030670,
+        "sha256": "c9aab01c1ad07d0050f8784ffd3624a433adadf6bda03f4b9019201c24f7ea56"
+      },
+      "hits": {
+        "path": "event000001977-hits.csv",
+        "bytes": 3703280,
+        "sha256": "66ebd1772d84141d0c278dfe36648c20a3f1309e138d80d1a50ce859c3d3af13"
+      },
+      "particles": {
+        "path": "event000001977-particles.csv",
+        "bytes": 760824,
+        "sha256": "10dc4af983b76d8ee0586b8659c115dc3a9d92f1d427142bda366840ca48455a"
+      },
+      "truth": {
+        "path": "event000001977-truth.csv",
+        "bytes": 8277504,
+        "sha256": "e81b4fa739b0d31b96d137116084570ae50bb97441e0ead20e94b6ae6021bd6c"
+      }
+    },
+    "event000002135": {
+      "cells": {
+        "path": "event000002135-cells.csv",
+        "bytes": 13240798,
+        "sha256": "acf9ce451c826f4e3d06c4785bfd0ef1c891c48a1fadfe3eedc8cd19c6b594e0"
+      },
+      "hits": {
+        "path": "event000002135-hits.csv",
+        "bytes": 4354252,
+        "sha256": "9ea781a1f75e69b97241556c4a601846d4f023e534189e9fc10b3e69388b39a9"
+      },
+      "particles": {
+        "path": "event000002135-particles.csv",
+        "bytes": 926997,
+        "sha256": "11a9568e361be93e6907197f8b1e3b109fca282dcb804d6be7792d5abc7b95ab"
+      },
+      "truth": {
+        "path": "event000002135-truth.csv",
+        "bytes": 9787244,
+        "sha256": "f4a4ae219c8e61c8838404ada543cb5bb104ad6378e85fbf968cf78b1300e0d5"
+      }
+    },
+    "event000002293": {
+      "cells": {
+        "path": "event000002293-cells.csv",
+        "bytes": 14004382,
+        "sha256": "bbd385456f87123c6499913793d15dae5aefffa2f872e873544820fe45f1b72d"
+      },
+      "hits": {
+        "path": "event000002293-hits.csv",
+        "bytes": 4610701,
+        "sha256": "7d237cccd2678be9099b2eda592168ba14c0ce9707dca8b0f4d1ae0ee2bb3662"
+      },
+      "particles": {
+        "path": "event000002293-particles.csv",
+        "bytes": 987379,
+        "sha256": "65039997bec770ca33f3f3c7790eb876e099491f7f5bdadf987147e8b5bb22f8"
+      },
+      "truth": {
+        "path": "event000002293-truth.csv",
+        "bytes": 10380132,
+        "sha256": "02aa7610ad87eb6f7b3120569a90ac32cc2fbb58f6d9e816f975c281211d46ba"
+      }
+    },
+    "event000002502": {
+      "cells": {
+        "path": "event000002502-cells.csv",
+        "bytes": 13305334,
+        "sha256": "cb707cbf864d1a1927b58d8824893ba37e3e1578939a55e51d0b56834f63c076"
+      },
+      "hits": {
+        "path": "event000002502-hits.csv",
+        "bytes": 4415385,
+        "sha256": "952b6ed67fd35fbabdb51d52b31e560fae0cf65e5013b8b23c5b8932e1fe1487"
+      },
+      "particles": {
+        "path": "event000002502-particles.csv",
+        "bytes": 939900,
+        "sha256": "ce3df31727bf278b76f379d183f695af52ddcbaa7707fcdb8a4411ed6b377909"
+      },
+      "truth": {
+        "path": "event000002502-truth.csv",
+        "bytes": 9925812,
+        "sha256": "584945b6c9dd76e57173fe11a286759d041fb4902470a9b1e28e8c60071e6b60"
+      }
+    },
+    "event000002660": {
+      "cells": {
+        "path": "event000002660-cells.csv",
+        "bytes": 11119029,
+        "sha256": "e435861d2477b771de594783789389eebaa27b35c09ea9d842d0aef0059a1989"
+      },
+      "hits": {
+        "path": "event000002660-hits.csv",
+        "bytes": 3639942,
+        "sha256": "9ffea0feac1f379116c8a61019e786c2c51faeb0d196554687e3e253fbc682f8"
+      },
+      "particles": {
+        "path": "event000002660-particles.csv",
+        "bytes": 749316,
+        "sha256": "2a9f1bbafe911f5aeda76788ac66b17afbac2e28ee3a72cbecc5b163a89e9cb2"
+      },
+      "truth": {
+        "path": "event000002660-truth.csv",
+        "bytes": 8120154,
+        "sha256": "04915911fee038cdfafc27025aef3c3c10c5eab8f9dc6be3ce986560bf244904"
+      }
+    },
+    "event000002819": {
+      "cells": {
+        "path": "event000002819-cells.csv",
+        "bytes": 10409740,
+        "sha256": "b3db74c8ac836ad073899fe98d79bf159ff0eb6db6c5c7cd7d6083e03e271911"
+      },
+      "hits": {
+        "path": "event000002819-hits.csv",
+        "bytes": 3486879,
+        "sha256": "c2e202bac668bfc7279f4eb1cbd379d444c7accb000d7db3b26d8eb741392c37"
+      },
+      "particles": {
+        "path": "event000002819-particles.csv",
+        "bytes": 719728,
+        "sha256": "2495fbde7fe093da3d22735d200d57d4baa15eaf0b88e19835064bcad80f3483"
+      },
+      "truth": {
+        "path": "event000002819-truth.csv",
+        "bytes": 7757922,
+        "sha256": "cb1afb985e3dc385bb553583d510a591e6c38c5fd03e4adcdf759e4e6e1cf29c"
+      }
+    }
+  },
+  "geometry": {
+    "bytes": 1942066,
+    "path": "detectors.csv",
+    "sha256": "e01684d65c088794618b916655f989dae6f099de4ecc7a462987e97b4037639a"
+  },
+  "source": "https://www.kaggle.com/competitions/trackml-particle-identification/data",
+  "split": {
+    "confirmation": [
+      "event000001027",
+      "event000001185",
+      "event000001343",
+      "event000001502",
+      "event000001660",
+      "event000001818",
+      "event000001977",
+      "event000002135",
+      "event000002293",
+      "event000002502",
+      "event000002660",
+      "event000002819"
+    ]
+  },
+  "version": 1
+}

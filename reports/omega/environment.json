@@ -1,0 +1,26 @@
+{
+  "machine": "arm64",
+  "os": "27.0.1",
+  "cpu": "Apple M1",
+  "physical_memory_bytes": 8589934592,
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.15.0",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "trackml": "3",
+    "pytest": "9.2.0",
+    "ruff": "0.17.6",
+    "scikit-learn": "1.9.1",
+    "plotly": "7.1.0"
+  },
+  "uv_lock_sha256": "593f493bf39178907b51ee898d754118895026b764a9b4de3295b7edb0b5fbdd",
+  "protocol_commit": "b89fe45",
+  "algorithm_commit": "dbf9ba0",
+  "selection_commit": "0548c0f",
+  "manifest_sha256": "c9017179ee590592ea383f5e2ff4e9e9696461940327e914c1d56a0156d66890",
+  "checkpoint": null,
+  "bootstrap_seed": 1729,
+  "archive_bytes_extracted": 315382259
+}

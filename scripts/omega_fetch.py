@@ -83,7 +83,16 @@ def main():
     doc.update(archive=archive, events={}, split={"confirmation": list(groups)})
     geom = ROOT / "detectors.csv"
     if not geom.exists():
-        shutil.copyfile("data/trackml/detectors.csv", geom)
+        local = Path("data/trackml/detectors.csv")
+        if local.exists():
+            shutil.copyfile(local, geom)
+        else:
+            with ZipFile(RemoteZip("detectors.zip", auth)) as z:
+                if z.getinfo("detectors.csv").file_size != doc["geometry"]["bytes"]:
+                    raise ValueError("unexpected detector table size")
+                temp = geom.with_suffix(".partial")
+                temp.write_bytes(z.read("detectors.csv"))
+                temp.replace(geom)
     if digest(geom) != doc["geometry"]["sha256"]:
         raise ValueError("geometry mismatch")
     for start in range(0, 12, 4):
