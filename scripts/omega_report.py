@@ -322,8 +322,37 @@ def main():
                 for d in prof
             ],
         ),
-        "The batched same-length residual kernel exactly reproduced the ordered seed list in four alternating timed repetitions per event. Only the resolver was timed in that comparison. The confirmation used the frozen scalar baseline. End-to-end speedup for the vectorized variant remains unmeasured.",
+        "The batched same-length residual kernel exactly reproduced the ordered seed list in four alternating timed repetitions per event. Only the resolver was timed in that comparison. The confirmation used the frozen scalar baseline. The distinct end-to-end experiment below times geometry indexing, both sector passes, replacement and EKF extension. It omits an unused intermediate resolver pass and batches the final ranking.",
     )
+    fast_path = OUT / "fast-replay.json"
+    if fast_path.exists():
+        runs = json.loads(fast_path.read_text())
+        with (OUT / "SCALABILITY.md").open("a") as f:
+            print(
+                "\n"
+                + table(
+                    [
+                        "development event",
+                        "frozen median wall s",
+                        "batched median wall s",
+                        "ordered paths",
+                    ],
+                    [
+                        [
+                            r["event"],
+                            float(np.median(r["wall_s"]["frozen"])),
+                            float(np.median(r["wall_s"]["batched"])),
+                            r["paths"],
+                        ]
+                        for r in runs
+                    ],
+                ),
+                file=f,
+            )
+            print(
+                "\nThree alternating runs per implementation per event yielded exactly the same raw seeds, selected seeds, final hit sequences and official score. This is a historical development timing study. The twelve-event primary comparison retains its originally measured costs.",
+                file=f,
+            )
     archive = json.loads((OUT / "cohort.json").read_text())["archive"]
     s = stats["score"]
     write(

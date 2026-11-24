@@ -8,6 +8,12 @@ TRACK-X links detector hits into trajectories using sparse candidate graphs, com
 
 [Research paper](reports/TRACK_X.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
 
+## Pixel seed replacement on twelve new simulated events
+
+The Omega study improved the official full-event TrackML score on every event in its frozen confirmation cohort. Mean score rose from 0.227243 to 0.228094, and mixed-particle paths fell from 37.70% to 37.04%. Severe merges remained unresolved. The study compares rejection, same-layer measurement replacement, EKF corroboration and global hit ownership, and reports forward-disk and backward-smoothing experiments separately.
+
+[Manuscript (PDF)](reports/omega/manuscript.pdf) · [Event-level paired results](reports/omega/CONFIRMATION_RESULTS.md) · [Reproduction guide](reports/omega/REPRODUCIBILITY.md) · [Current project state](PROJECT_STATE.md)
+
 ## Precision tracking on five new simulated events
 
 A locally assigned extended Kalman filter improved the official full-event score on all five frozen confirmation events. Mean score rose from 0.221185 to 0.224457 and mixed-particle tracks fell from 43.24% to 39.46% against the matched Phase III tracker. Peak process RSS was 351 MiB. A whole-path ambiguity resolver reduced contamination further at a cost in score. GNN seed ranking added runtime without a resolved score benefit. The validation uncertainty study found conservative curvature errors on pure validation tracks. [Phase IV research report](reports/phase4/FINAL_RESEARCH_REPORT.md) · [Event-level results](reports/phase4/CONFIRMATION_RESULTS.md) · [Reproduce and inspect](reports/phase4/REPRODUCIBILITY.md)

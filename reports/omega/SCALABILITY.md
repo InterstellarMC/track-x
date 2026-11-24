@@ -23,4 +23,12 @@ Runtime in comparisons includes common two-pass seeding, geometry indexing, meth
 | event000001004 | 5828 | 0.273076 | 0.016057 |
 | event000001005 | 4504 | 0.306727 | 0.031084 |
 
-The batched same-length residual kernel exactly reproduced the ordered seed list in four alternating timed repetitions per event. Only the resolver was timed in that comparison. The confirmation used the frozen scalar baseline. End-to-end speedup for the vectorized variant remains unmeasured.
+The batched same-length residual kernel exactly reproduced the ordered seed list in four alternating timed repetitions per event. Only the resolver was timed in that comparison. The confirmation used the frozen scalar baseline. The distinct end-to-end experiment below times geometry indexing, both sector passes, replacement and EKF extension. It omits an unused intermediate resolver pass and batches the final ranking.
+
+| development event | frozen median wall s | batched median wall s | ordered paths |
+|---|---|---|---|
+| event000001003 | 1.856437 | 1.587415 | 4324 |
+| event000001004 | 2.860616 | 2.275097 | 5828 |
+| event000001005 | 1.607887 | 1.323349 | 4504 |
+
+Three alternating runs per implementation per event yielded exactly the same raw seeds, selected seeds, final hit sequences and official score. This is a historical development timing study. The twelve-event primary comparison retains its originally measured costs.

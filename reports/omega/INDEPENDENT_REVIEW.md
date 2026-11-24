@@ -15,3 +15,5 @@
 | Low | Upstream scorer maintenance | The pinned TrackML scorer emits pandas deprecation warnings. Regression tests currently agree with the published definition; any dependency upgrade requires another score check. |
 
 A separate investigator should reproduce the work, review seed replacement semantics on module overlaps and evaluate a different simulation production. The internal checks support a reproducible research prototype.
+
+An isolated environment reproduced every Omega scientific row using the same local input bytes. The three-event optional end-to-end timing check also verified row-for-row hit assignments before comparing runtime. [Clean-checkout evidence](clean-replay.json) · [Ranking costs](SCALABILITY.md)

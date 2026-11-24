@@ -9,8 +9,7 @@ source = (OUT / "FINAL_RESEARCH_REPORT.md").read_text().strip().split("\n\n")
 tex = [
     r"\documentclass[10pt]{article}",
     r"\usepackage[margin=23mm]{geometry}",
-    r"\usepackage{graphicx,hyperref,fontspec}",
-    r"\setmainfont{Times New Roman}",
+    r"\usepackage{graphicx,hyperref}",
     r"\begin{document}",
 ]
 css = """@page{size:A4;margin:17mm 17mm 16mm} body{font:10.5pt/1.4 Georgia,serif;color:#152d38}h1{font: bold 25pt/1.12 Georgia;color:#10445a}h2{font: bold 14pt/1.2 Georgia;color:#10445a;break-after:avoid;margin:14pt 0 4pt}p{margin:5pt 0 8pt}a{color:#075273;text-decoration:none}table{border-collapse:collapse;width:100%;font:8pt/1.38 Arial,sans-serif;margin:8pt 0 12pt}td,th{text-align:right;padding:3pt;border-bottom:1px solid #cfdbdf}td:first-child,th:first-child{text-align:left}th{background:#e9f1f4}img{width:100%;display:block}figure{margin:8pt 0;break-inside:avoid}figcaption{font:9pt Arial,sans-serif}"""
@@ -87,7 +86,9 @@ for block in source:
             page.append(
                 '<figure><img src="confirmation-pairs.svg"><figcaption>Paired event differences. Each row represents a complete simulated event.</figcaption></figure>'
             )
-            tex.append(r"\includegraphics[width=\linewidth]{confirmation-pairs.pdf}")
+            tex.append(
+                r"\noindent\includegraphics[width=\linewidth]{confirmation-pairs.pdf}"
+            )
     else:
         page.append("<p>" + render(block) + "</p>")
         tex.append(escape(block) + r"\par")

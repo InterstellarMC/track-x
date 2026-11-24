@@ -1,7 +1,6 @@
 \documentclass[10pt]{article}
 \usepackage[margin=23mm]{geometry}
-\usepackage{graphicx,hyperref,fontspec}
-\setmainfont{Times New Roman}
+\usepackage{graphicx,hyperref}
 \begin{document}
 \title{TRACK-X: Pixel seed replacement and uncertainty-aware barrel tracking on simulated TrackML events}
 \author{TRACK-X contributors}
@@ -36,7 +35,7 @@ event000002502 & 116539 & 0.227229 & 0.227927 & 0.000698 & 0.400041 & 0.393613 &
 event000002660 & 96423 & 0.228833 & 0.229958 & 0.001125 & 0.355845 & 0.348171 & 369.468750\\
 event000002819 & 92400 & 0.232299 & 0.233271 & 0.000972 & 0.343393 & 0.338771 & 369.468750\\
 \end{tabular}}\par
-\includegraphics[width=\linewidth]{confirmation-pairs.pdf}
+\noindent\includegraphics[width=\linewidth]{confirmation-pairs.pdf}
 \clearpage
 \section*{Seed contamination and ablations}
 The baseline had 33.10\% mixed seeds on the new events. The candidate had 32.34\% and retained 89.00\% of exactly pure original seeds. The mean paired change in final mixed fraction was -0.006614 and in severe fraction +0.000071. Strict rejection cost score on development data. The alternative-hit and global competition arms isolate retention and ownership costs. Ablation tables · Seed failure strata\par

@@ -1,0 +1,66 @@
+{
+  "checkout": "d3cc150",
+  "installation": "offline locked uv sync, independent virtual environment",
+  "raw_data": "locally provisioned SHA-256-verified CSVs",
+  "data_free_suite": "48 passed, 2 skipped (official files absent)",
+  "replays": {
+    "development": {
+      "scientific_fields": "exact match against release by scripts/omega_review.py",
+      "events": [
+        "event000001003",
+        "event000001004",
+        "event000001005"
+      ],
+      "max_process_mib": 330.609375,
+      "mean_wall_s": {
+        "geometry": 1.6703485423349775,
+        "local": 1.737337583663854,
+        "global": 1.8171283756625296,
+        "tight": 1.7377031666668092,
+        "strict": 1.938531917667812,
+        "replace": 2.048779333665152,
+        "beam": 2.0153487916638064,
+        "joint": 2.042808653333244
+      }
+    },
+    "validation": {
+      "scientific_fields": "exact match against release by scripts/omega_review.py",
+      "events": [
+        "event000001002"
+      ],
+      "max_process_mib": 365.3125,
+      "mean_wall_s": {
+        "geometry": 1.5099217090028105,
+        "local": 1.857685583003331,
+        "global": 1.6489342499917257,
+        "tight": 1.575764541994431,
+        "strict": 1.7620015420034179,
+        "replace": 1.8034126250058762,
+        "beam": 1.9241228320024675,
+        "joint": 1.913097500000731
+      }
+    },
+    "confirmation": {
+      "scientific_fields": "exact match against release by scripts/omega_review.py",
+      "events": [
+        "event000001027",
+        "event000001185",
+        "event000001343",
+        "event000001502",
+        "event000001660",
+        "event000001818",
+        "event000001977",
+        "event000002135",
+        "event000002293",
+        "event000002502",
+        "event000002660",
+        "event000002819"
+      ],
+      "max_process_mib": 391.96875,
+      "mean_wall_s": {
+        "local": 1.4441912882502947,
+        "beam": 1.6708817778338318
+      }
+    }
+  }
+}
