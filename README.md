@@ -6,23 +6,38 @@
 
 TRACK-X links detector hits into trajectories using sparse candidate graphs, compact graph neural networks and geometric constraints. The project includes an offline synthetic benchmark, a held-out evaluation on official TrackML simulated events and an interactive detector lab.
 
-[Research paper](reports/TRACK_X.md) · [Reproducibility guide](reports/phase2/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md) · [Benchmark data](reports/phase2/CONFIRMATION.md)
+[Omega manuscript (PDF)](reports/omega/manuscript.pdf) · [Event-level results](reports/omega/CONFIRMATION_RESULTS.md) · [Reproduce Omega](reports/omega/REPRODUCIBILITY.md) · [Architecture](docs/ARCHITECTURE.md)
 
-## Pixel seed replacement on twelve new simulated events
+## Latest result · TRACK-X Omega
 
-The Omega study improved the official full-event TrackML score on every event in its frozen confirmation cohort. Mean score rose from 0.227243 to 0.228094, and mixed-particle paths fell from 37.70% to 37.04%. Severe merges remained unresolved. The study compares rejection, same-layer measurement replacement, EKF corroboration and global hit ownership, and reports forward-disk and backward-smoothing experiments separately.
+Omega tests whether replacing one ambiguous pixel hit improves barrel track reconstruction with a fixed extended Kalman filter. The replacement method improved the official full-event score on **all 12 held-out TrackML simulated events** from the frozen confirmation cohort.
 
-[Manuscript (PDF)](reports/omega/manuscript.pdf) · [Event-level paired results](reports/omega/CONFIRMATION_RESULTS.md) · [Reproduction guide](reports/omega/REPRODUCIBILITY.md) · [Current project state](PROJECT_STATE.md)
+| Twelve-event mean | Frozen local EKF | Omega seed replacement |
+|---|---:|---:|
+| Official full-event score | 0.227243 | **0.228094** |
+| Track efficiency | 27.120% | **27.222%** |
+| Fake-track rate | 49.046% | **48.857%** |
+| Mixed-particle tracks | 37.698% | **37.036%** |
+| Severe merges | 0.1623% | 0.1694% |
+| Reconstruction time on Apple M1 | 1.742 s/event | 1.953 s/event |
 
-## Precision tracking on five new simulated events
+The paired score gain was **+0.000851** (95% event-bootstrap interval **+0.000663 to +0.001054**). The severe-merge interval crossed zero. The confirmation process peaked at **369.5 MiB RSS**. [Metric definitions and paired intervals](reports/omega/CONFIRMATION_RESULTS.md) · [Performance](reports/omega/SCALABILITY.md)
+
+![Paired score and mixed-track differences for the 12 held-out simulation events](reports/omega/confirmation-pairs.png)
+
+[Run the interactive seed viewer](reports/omega/REPRODUCIBILITY.md) · [Research brief](reports/omega/CERN_RESEARCH_SUMMARY.md) · [Technical review](reports/omega/INDEPENDENT_REVIEW.md) · [Project state](PROJECT_STATE.md)
+
+## Earlier results
+
+### Precision tracking on five new simulated events
 
 A locally assigned extended Kalman filter improved the official full-event score on all five frozen confirmation events. Mean score rose from 0.221185 to 0.224457 and mixed-particle tracks fell from 43.24% to 39.46% against the matched Phase III tracker. Peak process RSS was 351 MiB. A whole-path ambiguity resolver reduced contamination further at a cost in score. GNN seed ranking added runtime without a resolved score benefit. The validation uncertainty study found conservative curvature errors on pure validation tracks. [Phase IV research report](reports/phase4/FINAL_RESEARCH_REPORT.md) · [Event-level results](reports/phase4/CONFIRMATION_RESULTS.md) · [Reproduce and inspect](reports/phase4/REPRODUCIBILITY.md)
 
-## Multi-layer barrel reconstruction
+### Multi-layer barrel reconstruction
 
 Phase III extends the confirmed pixel seeds to six additional detector layers in volumes 13 and 17. A protocol frozen before data acquisition compares the pixel baseline, geometry-only extension and learned pixel-seed weighting on three new complete TrackML events. The score improved on each event, alongside increased mixed-particle contamination. [Phase III results](reports/phase3/FINAL_REPORT.md) · [Confirmation scores](reports/phase3/CONFIRMATION_RESULTS.md) · [Run the detector lab](reports/phase3/REPRODUCIBILITY.md)
 
-## Sector boundaries on official TrackML
+### Sector boundaries on official TrackML
 
 ![Grouped bar chart of pixel-barrel reconstruction efficiency and fake-track rate across three held-out TrackML events](docs/figures/trackml-confirmation.png)
 
@@ -36,7 +51,7 @@ On three confirmation events, adding a half-sector-shifted pass improved pixel-b
 
 The efficiency and fake rates use volume 8. The organizers’ scorer receives every event hit, including hits left unassigned beyond the barrel. The confirmation sample contains three consecutive simulated events and uses a single learned checkpoint. [Paired event results and denominators](reports/phase2/CONFIRMATION.md) · [Frozen event manifests](reports/phase2/confirmation-manifest.json)
 
-## Synthetic benchmark
+### Synthetic benchmark
 
 The separate three-seed synthetic stress study found a fake-track rate of 9.2% for the GNN and 6.6% for the hybrid GNN with the direction constraint. Track efficiency was 75.0% and 74.6%, respectively. [Phase I report](reports/TECHNICAL_REPORT.md) · [All synthetic results](reports/RESULTS.md)
 
